@@ -239,6 +239,10 @@ const CONFIG = Object.assign({
 const DATA = __DATA_JSON__;
 const BANNERS = ['__B1__','__B2__','__B3__','__B4__','__B5__'].map(b => 'data:image/jpeg;base64,' + b);
 const SLUGS = ['general-business','local-directory','financing','workforce','incentives'];
+/* banner photo and deep-link name follow the section's English title, not its position, so the print guide can reorder sections */
+const SEC_KEY = {'General Business Assistance':0, 'Local Business Directory':1, 'Financing & Capital':2, 'Workforce':3, 'Incentives':4};
+const keyOf = h1 => (h1.title in SEC_KEY ? SEC_KEY[h1.title] : 0);
+const slugOf = h1 => SLUGS[keyOf(h1)];
 
 const STR = {
   en: {
@@ -328,7 +332,7 @@ function readHash(){
   const p = new URLSearchParams(location.hash.replace(/^#/, ''));
   let touched = false;
   if(p.has('lang')){ state.lang = p.get('lang') === 'es' ? 'es' : 'en'; touched = true; }
-  if(p.has('sec')){ const i = SLUGS.indexOf(p.get('sec')); state.sec = i >= 0 ? String(i) : 'all'; touched = true; }
+  if(p.has('sec')){ const i = DATA.findIndex(h => slugOf(h) === p.get('sec')); state.sec = i >= 0 ? String(i) : 'all'; touched = true; }
   if(p.has('near')){ const c = NEAR.find(x => x.toLowerCase() === p.get('near').toLowerCase()); state.near = c || ''; touched = true; }
   if(p.has('q')){ state.q = p.get('q') || ''; touched = true; }
   return touched;
@@ -336,7 +340,7 @@ function readHash(){
 function writeHash(){
   const p = new URLSearchParams();
   if(state.lang !== 'en') p.set('lang', state.lang);
-  if(state.sec !== 'all') p.set('sec', SLUGS[+state.sec]);
+  if(state.sec !== 'all') p.set('sec', slugOf(DATA[+state.sec]));
   if(state.near) p.set('near', state.near.toLowerCase());
   if(state.q.trim()) p.set('q', state.q.trim());
   const h = p.toString();
@@ -454,8 +458,8 @@ function renderResults(animate){
     h1.subsections.forEach(h2 => { const f = h2.entries.filter(passes); if(f.length) subs.push({h2, f}); });
     if(!subs.length) return;
     const n = subs.reduce((a, s) => a + s.f.length, 0);
-    html += `<section class="mv-sec" id="mv-${SLUGS[h1i]}">
-      <div class="mv-sec-banner${reveal ? ' mv-reveal' : ''}"><img class="mv-par" src="${BANNERS[h1i % BANNERS.length]}" alt="" loading="lazy">
+    html += `<section class="mv-sec" id="mv-${slugOf(h1)}">
+      <div class="mv-sec-banner${reveal ? ' mv-reveal' : ''}"><img class="mv-par" src="${BANNERS[keyOf(h1)]}" alt="" loading="lazy">
         <div class="mv-sec-banner-text"><span class="mv-sec-badge">${String(h1i + 1).padStart(2, '0')}</span><h3 class="mv-sec-title">${esc(h1Title(h1))}</h3><span class="mv-sec-count">${n} ${esc(t.resources)}</span></div>
       </div>`;
     subs.forEach(({h2, f}) => {

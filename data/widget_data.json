@@ -1359,1783 +1359,6 @@
   "title_es": "Asistencia Empresarial General"
  },
  {
-  "title": "Local Business Directory",
-  "subsections": [
-   {
-    "title": "CONSTRUCTION & TRADES",
-    "entries": [
-     {
-      "name": "HB Construction",
-      "category": "",
-      "group": "GENERAL CONTRACTOR",
-      "url": "https://hbconstruction.com",
-      "desc": "",
-      "address": "141 Roadrunner Pkwy., Suite 141A, Las Cruces, NM 88011",
-      "phone": "(575) 526-4252",
-      "es": {
-       "name": "HB Construction",
-       "group": "CONTRATISTA GENERAL"
-      }
-     },
-     {
-      "name": "Jaynes Corporation",
-      "category": "",
-      "group": "GENERAL CONTRACTOR",
-      "url": "https://jaynescorp.com",
-      "desc": "",
-      "address": "3849 Foothills Rd., Suite B, Las Cruces, NM 88011",
-      "phone": "(575) 526-6400",
-      "es": {
-       "name": "Jaynes Corporation",
-       "group": "CONTRATISTA GENERAL"
-      }
-     },
-     {
-      "name": "McGinley Construction",
-      "category": "",
-      "group": "GENERAL CONTRACTOR",
-      "url": "https://mcginley-construction.com",
-      "desc": "",
-      "address": "PO Box 370, Mesilla, NM 88046",
-      "phone": "(575) 523-9140",
-      "es": {
-       "name": "McGinley Construction",
-       "group": "CONTRATISTA GENERAL"
-      }
-     },
-     {
-      "name": "Smith & Aguirre Construction",
-      "category": "",
-      "group": "GENERAL CONTRACTOR",
-      "url": "https://smithandaguirre.com",
-      "desc": "",
-      "address": "P.O. Drawer 2276, Las Cruces, NM 88004",
-      "phone": "(575) 527-2500",
-      "es": {
-       "name": "Smith & Aguirre Construction",
-       "group": "CONTRATISTA GENERAL"
-      }
-     },
-     {
-      "name": "ZTEX Construction",
-      "category": "HEAVY CIVIL & EARTHWORK CONTRACTOR",
-      "group": "",
-      "url": "https://ztexconstruction.com",
-      "desc": "",
-      "address": "1326 Henry Brennan Dr., El Paso, TX 79936",
-      "phone": "(915) 591-6900",
-      "es": {
-       "name": "ZTEX Construction",
-       "category": "CONTRATISTA DE OBRA CIVIL Y MOVIMIENTO DE TIERRAS"
-      }
-     },
-     {
-      "name": "RT Electric, Inc.",
-      "category": "ELECTRICAL CONTRACTOR",
-      "group": "",
-      "url": "https://rtelectricinc.com",
-      "desc": "",
-      "address": "480 N. 17th Street, Las Cruces, NM 88005",
-      "phone": "(575) 523-9252",
-      "es": {
-       "name": "RT Electric, Inc.",
-       "category": "CONTRATISTA ELÉCTRICO"
-      }
-     },
-     {
-      "name": "Sun City Plumbing & Heating",
-      "category": "SPECIALTY CONTRACTOR",
-      "group": "",
-      "url": "https://youknowsuncity.com",
-      "desc": "",
-      "address": "3479 W. Picacho Ave., Las Cruces, NM 88007",
-      "phone": "(575) 777-9758",
-      "es": {
-       "name": "Sun City Plumbing & Heating",
-       "category": "CONTRATISTA ESPECIALIZADO"
-      }
-     },
-     {
-      "name": "Yearout Service, LLC",
-      "category": "MECHANICAL SYSTEMS",
-      "group": "",
-      "url": "https://yearout.com",
-      "desc": "",
-      "address": "100 Wyatt, Suite D, Las Cruces, NM 88005",
-      "phone": "(505) 884-0994",
-      "es": {
-       "name": "Yearout Service, LLC",
-       "category": "SISTEMAS MECÁNICOS"
-      }
-     },
-     {
-      "name": "Associated Builders & Contractors NM",
-      "category": "INDUSTRY ASSOCIATION",
-      "group": "",
-      "url": "https://abcnm.org",
-      "desc": "",
-      "address": "2821 Broadway Blvd. NE, Albuquerque, NM 87107",
-      "phone": "(505) 830-4222",
-      "es": {
-       "name": "Associated Builders & Contractors NM",
-       "category": "ASOCIACIÓN DE LA INDUSTRIA"
-      }
-     }
-    ],
-    "title_es": "CONSTRUCCIÓN Y OFICIOS"
-   },
-   {
-    "title": "ENGINEERING & ARCHITECTURE",
-    "entries": [
-     {
-      "name": "Bohannan Huston, Inc.",
-      "category": "ENGINEERING",
-      "group": "",
-      "url": "https://bhinc.com",
-      "desc": "",
-      "address": "425 S. Telshor Blvd, Ste C-103, Las Cruces, NM 88011",
-      "phone": "(575) 532-8670",
-      "es": {
-       "name": "Bohannan Huston, Inc.",
-       "category": "INGENIERÍA"
-      }
-     },
-     {
-      "name": "Souder, Miller & Associates",
-      "category": "ENGINEERING & ENVIRONMENTAL",
-      "group": "",
-      "url": "https://soudermiller.com",
-      "desc": "",
-      "address": "3500 Sedona Hills Parkway, Las Cruces, NM 88011",
-      "phone": "(575) 647-0799",
-      "es": {
-       "name": "Souder, Miller & Associates",
-       "category": "INGENIERÍA Y MEDIO AMBIENTE"
-      }
-     },
-     {
-      "name": "Stubbs Engineering",
-      "category": "ENGINEERING",
-      "group": "",
-      "url": "https://stubbseng.com",
-      "desc": "",
-      "address": "277 E. Amador Ave., Suite 200, Las Cruces, NM 88001",
-      "phone": "(575) 993-5228",
-      "es": {
-       "name": "Stubbs Engineering",
-       "category": "INGENIERÍA"
-      }
-     },
-     {
-      "name": "WHA International",
-      "category": "FORENSIC ENGINEERING",
-      "group": "",
-      "url": "https://wha-international.com",
-      "desc": "",
-      "address": "5605 Dona Ana Road, Las Cruces, NM 88007",
-      "phone": "(575) 523-5623",
-      "es": {
-       "name": "WHA International",
-       "category": "INGENIERÍA FORENSE"
-      }
-     },
-     {
-      "name": "ASA Architects, PA",
-      "category": "",
-      "group": "ARCHITECTURE",
-      "url": "https://asa-architects.com",
-      "desc": "",
-      "address": "201 N. Alameda Blvd., Las Cruces, NM 88011",
-      "phone": "(575) 526-3111",
-      "es": {
-       "name": "ASA Architects, PA",
-       "group": "ARQUITECTURA"
-      }
-     },
-     {
-      "name": "Desert Peak Architects",
-      "category": "",
-      "group": "ARCHITECTURE",
-      "url": "https://desertpeakarchitects.com",
-      "desc": "",
-      "address": "311 N. Main Street, Las Cruces, NM 88001",
-      "phone": "(575) 528-0021",
-      "es": {
-       "name": "Desert Peak Architects",
-       "group": "ARQUITECTURA"
-      }
-     },
-     {
-      "name": "Dekker",
-      "category": "ARCHITECTURE & PLANNING",
-      "group": "",
-      "url": "https://dekkerdesign.org",
-      "desc": "",
-      "address": "7601 Jefferson St NE, Ste 100, Albuquerque, NM 87109",
-      "phone": "(505) 761-9700",
-      "es": {
-       "name": "Dekker",
-       "category": "ARQUITECTURA Y PLANIFICACIÓN"
-      }
-     },
-     {
-      "name": "LoyaWilke Architects",
-      "category": "",
-      "group": "ARCHITECTURE",
-      "url": "https://loyawilke.com",
-      "desc": "",
-      "address": "221 N. Kansas, Ste 820, El Paso, TX 79930",
-      "phone": "(915) 613-4576",
-      "es": {
-       "name": "LoyaWilke Architects",
-       "group": "ARQUITECTURA"
-      }
-     },
-     {
-      "name": "Vigil & Associates",
-      "category": "",
-      "group": "ARCHITECTURE",
-      "url": "https://va-architects.com",
-      "desc": "",
-      "address": "1765 Avenida de Mercado, Las Cruces, NM 88005",
-      "phone": "(575) 527-0400",
-      "es": {
-       "name": "Vigil & Associates",
-       "group": "ARQUITECTURA"
-      }
-     }
-    ],
-    "title_es": "INGENIERÍA Y ARQUITECTURA"
-   },
-   {
-    "title": "REAL ESTATE, DEVELOPMENT & TITLE",
-    "entries": [
-     {
-      "name": "NAI 1st Valley",
-      "category": "",
-      "group": "COMMERCIAL REAL ESTATE",
-      "url": "https://1stvalley.com",
-      "desc": "",
-      "address": "1155 S. Telshor, Suite B, Las Cruces, NM 88011",
-      "phone": "(575) 521-1535, ext. 108",
-      "es": {
-       "name": "NAI 1st Valley",
-       "group": "BIENES RAÍCES COMERCIALES"
-      }
-     },
-     {
-      "name": "Steinborn TCN Commercial Real Estate",
-      "category": "",
-      "group": "COMMERCIAL REAL ESTATE",
-      "url": "https://steinborn.com",
-      "desc": "",
-      "address": "141 Roadrunner Pkwy, Ste 141, Las Cruces, NM 88011",
-      "phone": "(575) 522-3698",
-      "es": {
-       "name": "Steinborn TCN Commercial Real Estate",
-       "group": "BIENES RAÍCES COMERCIALES"
-      }
-     },
-     {
-      "name": "CBRE",
-      "category": "",
-      "group": "COMMERCIAL REAL ESTATE",
-      "url": "https://cbre.com",
-      "desc": "",
-      "address": "6565 Americas Pkwy NE, Suite 825, Albuquerque, NM 87110",
-      "phone": "(505) 837-4999",
-      "es": {
-       "name": "CBRE",
-       "group": "BIENES RAÍCES COMERCIALES"
-      }
-     },
-     {
-      "name": "Colliers",
-      "category": "",
-      "group": "COMMERCIAL REAL ESTATE",
-      "url": "https://colliers.com",
-      "desc": "",
-      "address": "5051 Journal Center Blvd. NE, Suite 200, Albuquerque, NM 87109",
-      "phone": "",
-      "es": {
-       "name": "Colliers",
-       "group": "BIENES RAÍCES COMERCIALES"
-      }
-     },
-     {
-      "name": "Killam Development",
-      "category": "",
-      "group": "REAL ESTATE DEVELOPMENT",
-      "url": "https://killamdevelopment.com",
-      "desc": "",
-      "address": "4320 University Blvd., Laredo, TX 78041",
-      "phone": "(956) 724-7141, ext. 212",
-      "es": {
-       "name": "Killam Development",
-       "group": "DESARROLLO INMOBILIARIO"
-      }
-     },
-     {
-      "name": "Sierra Norte Development",
-      "category": "",
-      "group": "REAL ESTATE DEVELOPMENT",
-      "url": "https://metroverdenm.com",
-      "desc": "",
-      "address": "4935 Ocotillo Rd., Las Cruces, NM 88011",
-      "phone": "(575) 496-7115",
-      "es": {
-       "name": "Sierra Norte Development",
-       "group": "DESARROLLO INMOBILIARIO"
-      }
-     },
-     {
-      "name": "Alta Mesa Estates",
-      "category": "MASTER-PLANNED COMMUNITY · SANTA TERESA",
-      "group": "",
-      "url": "https://altamesaestates.com",
-      "desc": "",
-      "address": "5657 Caminito Genio, La Jolla, CA 92037",
-      "phone": "(972) 713-7569",
-      "es": {
-       "name": "Alta Mesa Estates",
-       "category": "COMUNIDAD PLANIFICADA · SANTA TERESA"
-      }
-     },
-     {
-      "name": "L&M Asset Management",
-      "category": "REAL ESTATE BROKERAGE & PROPERTY MANAGEMENT",
-      "group": "",
-      "url": "",
-      "desc": "",
-      "address": "PO Box 12007, El Paso, TX 79932",
-      "phone": "(915) 217-2271",
-      "es": {
-       "name": "L&M Asset Management",
-       "category": "CORRETAJE INMOBILIARIO Y ADMINISTRACIÓN DE PROPIEDADES"
-      }
-     },
-     {
-      "name": "Las Cruces Association of Realtors",
-      "category": "INDUSTRY ASSOCIATION",
-      "group": "",
-      "url": "https://lcarnm.com",
-      "desc": "",
-      "address": "150 E. Idaho Ave., Las Cruces, NM 88005",
-      "phone": "(575) 524-0658",
-      "es": {
-       "name": "Las Cruces Association of Realtors",
-       "category": "ASOCIACIÓN DE LA INDUSTRIA"
-      }
-     },
-     {
-      "name": "Doña Ana Title",
-      "category": "",
-      "group": "TITLE & ESCROW",
-      "url": "https://local.firstam.com/nm/offices/dona-ana-title-telshor",
-      "desc": "",
-      "address": "424 -B South Telshor, Las Cruces, NM 88011",
-      "phone": "",
-      "locations": [
-       {
-        "label": "Telshor",
-        "address": "425 S. Telshor Blvd., Ste B, Las Cruces, NM 88011",
-        "phone": "(575) 521-5800"
-       },
-       {
-        "label": "Roadrunner",
-        "address": "141 Roadrunner Pkwy., Ste 139, Las Cruces, NM 88011",
-        "phone": "(575) 532-2390"
-       }
-      ],
-      "es": {
-       "name": "Doña Ana Title",
-       "group": "TÍTULOS Y DEPÓSITO EN GARANTÍA"
-      }
-     },
-     {
-      "name": "Southwestern Abstract & Title",
-      "category": "",
-      "group": "TITLE & ESCROW",
-      "url": "https://swatlc.com",
-      "desc": "",
-      "address": "P.O. Box 695, Las Cruces, NM 88004",
-      "phone": "(575) 523-8561",
-      "locations": [
-       {
-        "label": "Main",
-        "address": "1125 S. Main St., Las Cruces, NM 88005",
-        "phone": "(575) 523-8561",
-        "label_es": "Principal"
-       },
-       {
-        "label": "Foothills",
-        "address": "3780 Foothills Rd., Ste B, Las Cruces, NM 88011"
-       }
-      ],
-      "es": {
-       "name": "Southwestern Abstract & Title",
-       "group": "TÍTULOS Y DEPÓSITO EN GARANTÍA"
-      }
-     }
-    ],
-    "title_es": "BIENES RAÍCES, DESARROLLO Y TÍTULOS"
-   },
-   {
-    "title": "BANKING & FINANCIAL SERVICES",
-    "entries": [
-     {
-      "name": "WestStar Bank",
-      "category": "",
-      "group": "BANK",
-      "url": "https://weststarbank.com",
-      "desc": "",
-      "address": "555 S. Telshor, Ste 100A, Las Cruces, NM 88011",
-      "phone": "(575) 323-6040",
-      "es": {
-       "name": "WestStar Bank",
-       "group": "BANCO"
-      }
-     },
-     {
-      "name": "Century Bank",
-      "category": "",
-      "group": "BANK",
-      "url": "https://mycenturybank.com",
-      "desc": "",
-      "address": "141 S. Roadrunner Parkway, Suite 101, Las Cruces, NM 88011",
-      "phone": "(575) 521-2400",
-      "es": {
-       "name": "Century Bank",
-       "group": "BANCO"
-      }
-     },
-     {
-      "name": "Citizens Bank of Las Cruces",
-      "category": "",
-      "group": "BANK",
-      "url": "https://citizenslc.com",
-      "desc": "",
-      "address": "505 S. Main St., Las Cruces, NM 88001 (Main Bank)",
-      "phone": "(575) 647-4100",
-      "locations": [
-       {
-        "label": "Main Bank",
-        "address": "505 S. Main St., Las Cruces, NM 88001 (Main Bank)",
-        "phone": "(575) 647-4100",
-        "label_es": "Sucursal principal"
-       },
-       {
-        "label": "Country Club",
-        "address": "2841 N. Main St., Las Cruces, NM 88001",
-        "phone": "(575) 647-4136"
-       },
-       {
-        "label": "Roadrunner",
-        "address": "3991 E. Lohman Ave., Las Cruces, NM 88011",
-        "phone": "(575) 528-6300"
-       },
-       {
-        "label": "Picacho",
-        "address": "3030 W. Picacho Ave., Las Cruces, NM 88007",
-        "phone": "(575) 528-6363"
-       },
-       {
-        "label": "University",
-        "address": "3065 E. University Ave., Las Cruces, NM 88011",
-        "phone": "(575) 647-6700"
-       },
-       {
-        "label": "Sonoma",
-        "address": "4785 N. Sonoma Ranch Blvd., Las Cruces, NM 88012",
-        "phone": "(575) 647-4180"
-       }
-      ],
-      "es": {
-       "name": "Citizens Bank of Las Cruces",
-       "group": "BANCO"
-      }
-     },
-     {
-      "name": "First American Bank",
-      "category": "",
-      "group": "BANK",
-      "url": "https://firstambank.com",
-      "desc": "",
-      "address": "1553 Avenida de Mesilla Ste 225, Las Cruces, NM 88005",
-      "phone": "(575) 524-8000",
-      "locations": [
-       {
-        "label": "Mesilla",
-        "address": "1553 Avenida de Mesilla Ste 225, Las Cruces, NM 88005",
-        "phone": "(575) 524-8000"
-       },
-       {
-        "label": "East Lohman",
-        "address": "2145 E. Lohman Ave., Las Cruces, NM 88001",
-        "phone": "(575) 525-4230"
-       }
-      ],
-      "es": {
-       "name": "First American Bank",
-       "group": "BANCO"
-      }
-     },
-     {
-      "name": "First New Mexico Bank of Las Cruces",
-      "category": "",
-      "group": "BANK",
-      "url": "https://firstnewmexicobanklc.com",
-      "desc": "",
-      "address": "3000 E. Lohman Ave., Las Cruces, NM 88011",
-      "phone": "(575) 556-3000",
-      "locations": [
-       {
-        "label": "Main Bank",
-        "address": "3000 E. Lohman Ave., Las Cruces, NM 88011",
-        "phone": "(575) 556-3000",
-        "label_es": "Sucursal principal"
-       },
-       {
-        "label": "Motel Blvd",
-        "address": "920 N. Motel Blvd., Las Cruces, NM 88007",
-        "phone": "(575) 556-3060"
-       },
-       {
-        "label": "Anthony",
-        "address": "455 Landers Rd., Anthony, NM 88021",
-        "phone": "(575) 882-5885"
-       }
-      ],
-      "es": {
-       "name": "First New Mexico Bank of Las Cruces",
-       "group": "BANCO"
-      }
-     },
-     {
-      "name": "Pioneer Bank",
-      "category": "",
-      "group": "BANK",
-      "url": "https://pioneerbnk.com",
-      "desc": "",
-      "address": "PO Box 609, Las Cruces, NM 88004",
-      "phone": "(575) 532-7520",
-      "locations": [
-       {
-        "label": "Lohman",
-        "address": "3831 E. Lohman Ave., Las Cruces, NM 88011",
-        "phone": "(800) 624-5200"
-       },
-       {
-        "label": "Roadrunner",
-        "address": "2900 Roadrunner Pkwy., Las Cruces, NM 88011",
-        "phone": "(800) 624-5200"
-       },
-       {
-        "label": "University",
-        "address": "705 E. University Ave., Las Cruces, NM 88005",
-        "phone": "(800) 624-5200"
-       }
-      ],
-      "es": {
-       "name": "Pioneer Bank",
-       "group": "BANCO"
-      }
-     },
-     {
-      "name": "U.S. Bank",
-      "category": "",
-      "group": "BANK",
-      "url": "https://usbank.com",
-      "desc": "",
-      "address": "277 E. Amador Avenue, Las Cruces, NM 88001",
-      "phone": "(575) 647-7310",
-      "locations": [
-       {
-        "label": "Amador",
-        "address": "277 E. Amador Avenue, Las Cruces, NM 88001",
-        "phone": "(575) 647-7310"
-       },
-       {
-        "label": "Foothills",
-        "address": "3790 E. Lohman Ave., Las Cruces, NM 88011",
-        "phone": "(575) 522-9660"
-       }
-      ],
-      "es": {
-       "name": "U.S. Bank",
-       "group": "BANCO"
-      }
-     },
-     {
-      "name": "WaFd Bank",
-      "category": "",
-      "group": "BANK",
-      "url": "https://wafdbank.com",
-      "desc": "",
-      "address": "301 W. Amador Ave., Las Cruces, NM 88005",
-      "phone": "(575) 647-0704",
-      "es": {
-       "name": "WaFd Bank",
-       "group": "BANCO"
-      }
-     },
-     {
-      "name": "FirstLight Federal Credit Union",
-      "category": "CREDIT UNION",
-      "group": "",
-      "url": "https://firstlightfcu.org",
-      "desc": "",
-      "address": "9983 Kenworthy St., El Paso, TX 79924",
-      "phone": "(575) 526-4401",
-      "locations": [
-       {
-        "label": "Idaho",
-        "address": "522 E. Idaho Ave., Las Cruces, NM 88001",
-        "phone": "(575) 526-4401"
-       },
-       {
-        "label": "Del Rey",
-        "address": "3105 Del Rey Blvd., Las Cruces, NM 88012",
-        "phone": "(575) 526-4401"
-       },
-       {
-        "label": "Lohman",
-        "address": "3791 E. Lohman Ave., Las Cruces, NM 88011",
-        "phone": "(575) 526-4401"
-       }
-      ],
-      "es": {
-       "name": "FirstLight Federal Credit Union",
-       "category": "COOPERATIVA DE CRÉDITO"
-      }
-     },
-     {
-      "name": "Axcess Financial Group",
-      "category": "EMPLOYEE BENEFITS & RETIREMENT PLANS",
-      "group": "",
-      "url": "https://axcessfinancialgroup.com",
-      "desc": "",
-      "address": "6605 Uptown Blvd. NE, Suite 280, Albuquerque, NM 87110",
-      "phone": "(505) 872-4900",
-      "es": {
-       "name": "Axcess Financial Group",
-       "category": "BENEFICIOS PARA EMPLEADOS Y PLANES DE RETIRO"
-      }
-     },
-     {
-      "name": "Edward Jones – Amy Daniels",
-      "category": "FINANCIAL ADVISOR",
-      "group": "",
-      "url": "https://edwardjones.com/us-en/financial-advisor/amy-daniels",
-      "desc": "",
-      "address": "4300 Sonoma Ranch Blvd Suite 5, Las Cruces, NM 88011",
-      "phone": "(575) 305-7901",
-      "es": {
-       "name": "Edward Jones – Amy Daniels",
-       "category": "ASESOR FINANCIERO"
-      }
-     },
-     {
-      "name": "Beasley Mitchell & Co., LLP",
-      "category": "",
-      "group": "ACCOUNTING",
-      "url": "https://bmc-cpa.com",
-      "desc": "",
-      "address": "509 S. Main St., Suite A, Las Cruces, NM 88001",
-      "phone": "(575) 528-6700",
-      "es": {
-       "name": "Beasley Mitchell & Co., LLP",
-       "group": "CONTABILIDAD"
-      }
-     },
-     {
-      "name": "CLA (formerly Axiom CPAs & Business Advisors)",
-      "category": "",
-      "group": "ACCOUNTING",
-      "url": "https://axiomnm.com",
-      "desc": "",
-      "address": "316 Osuna Rd. NE, Suite 401, Albuquerque, NM 87107",
-      "phone": "(505) 767-7620",
-      "es": {
-       "name": "CLA (formerly Axiom CPAs & Business Advisors)",
-       "group": "CONTABILIDAD"
-      }
-     },
-     {
-      "name": "Higginbotham",
-      "category": "INSURANCE",
-      "group": "",
-      "url": "https://higginbotham.com",
-      "desc": "",
-      "address": "141 Roadrunner Pkwy., Suite 109, Las Cruces, NM 88011",
-      "phone": "(575) 524-8642",
-      "es": {
-       "name": "Higginbotham",
-       "category": "SEGUROS"
-      }
-     },
-     {
-      "name": "Bank of America",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 647-3700",
-      "es": {
-       "name": "Bank of America",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "Bank of the Southwest",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 527-5498",
-      "locations": [
-       {
-        "label": "Las Cruces",
-        "address": "1043 N. Main St., Las Cruces, NM 88001",
-        "phone": "(575) 527-5498"
-       },
-       {
-        "label": "Hatch",
-        "address": "134 E. Hall St., Hatch, NM 87937",
-        "phone": "(575) 267-1095"
-       }
-      ],
-      "es": {
-       "name": "Bank of the Southwest",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "BMO Bank (formerly Bank of the West)",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 527-6200",
-      "locations": [
-       {
-        "label": "Church St",
-        "address": "201 N. Church St., Las Cruces, NM 88001",
-        "phone": "(575) 527-6200"
-       },
-       {
-        "label": "Telshor",
-        "address": "795 S. Telshor Blvd., Las Cruces, NM 88011",
-        "phone": "(575) 532-1889"
-       },
-       {
-        "label": "Anthony",
-        "address": "300 N. Anthony Dr., Anthony, NM 88021",
-        "phone": "(575) 882-2154"
-       }
-      ],
-      "es": {
-       "name": "BMO Bank (antes Bank of the West)",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "Southwest Heritage Bank",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 521-8100",
-      "es": {
-       "name": "Southwest Heritage Bank",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "PNC Bank",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 521-0000",
-      "locations": [
-       {
-        "label": "Lohman",
-        "address": "3800 E. Lohman Ave., Las Cruces, NM 88011",
-        "phone": "(575) 521-0000"
-       },
-       {
-        "label": "Idaho",
-        "address": "225 E. Idaho Ave., Las Cruces, NM 88005",
-        "phone": "(575) 523-5920"
-       }
-      ],
-      "es": {
-       "name": "PNC Bank",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "American AgCredit (formerly Farm Credit of New Mexico)",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 528-7100",
-      "es": {
-       "name": "American AgCredit (antes Farm Credit of New Mexico)",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "First Savings Bank",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 521-7931",
-      "es": {
-       "name": "First Savings Bank",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "One Source Federal Credit Union",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 523-5524",
-      "es": {
-       "name": "One Source Federal Credit Union",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "Wells Fargo Bank",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 521-6800",
-      "locations": [
-       {
-        "label": "Telshor",
-        "address": "425 S. Telshor Blvd., Las Cruces, NM 88011",
-        "phone": "(575) 521-6800"
-       },
-       {
-        "label": "North Main",
-        "address": "2400 N. Main St., Las Cruces, NM 88001",
-        "phone": "(575) 523-3942"
-       },
-       {
-        "label": "El Paseo",
-        "address": "2505 El Paseo Rd., Las Cruces, NM 88001",
-        "phone": "(575) 541-9502"
-       },
-       {
-        "label": "Anthony",
-        "address": "800 Hwy 478, Anthony, NM 88021",
-        "phone": "(575) 882-3571"
-       },
-       {
-        "label": "Hatch",
-        "address": "212 E. Hall St., Hatch, NM 87937",
-        "phone": "(575) 267-3071"
-       }
-      ],
-      "es": {
-       "name": "Wells Fargo Bank",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "White Sands Federal Credit Union",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 647-4500",
-      "locations": [
-       {
-        "label": "North Main",
-        "address": "2755 N. Main St., Las Cruces, NM 88001",
-        "phone": "(575) 647-4500"
-       },
-       {
-        "label": "Lohman",
-        "address": "2190 E. Lohman Ave., Las Cruces, NM 88001",
-        "phone": "(575) 647-4500"
-       }
-      ],
-      "es": {
-       "name": "White Sands Federal Credit Union",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "AgTrust Farm Credit",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 647-4430",
-      "es": {
-       "name": "AgTrust Farm Credit",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     },
-     {
-      "name": "Sunflower Bank (First National 1870)",
-      "category": "",
-      "group": "OTHER AREA BANKS & CREDIT UNIONS",
-      "url": "",
-      "desc": "",
-      "address": "",
-      "phone": "(575) 525-8900",
-      "locations": [
-       {
-        "label": "Water St",
-        "address": "421 N. Water St., Las Cruces, NM 88001",
-        "phone": "(575) 525-8907"
-       },
-       {
-        "label": "Telshor",
-        "address": "2535 S. Telshor Blvd., Las Cruces, NM 88011",
-        "phone": "(575) 525-8910"
-       }
-      ],
-      "es": {
-       "name": "Sunflower Bank (First National 1870)",
-       "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA"
-      }
-     }
-    ],
-    "title_es": "BANCA Y SERVICIOS FINANCIEROS"
-   },
-   {
-    "title": "LOGISTICS & MANUFACTURING",
-    "entries": [
-     {
-      "name": "Union Pacific",
-      "category": "RAIL",
-      "group": "",
-      "url": "https://up.com",
-      "desc": "",
-      "address": "211 N. Piedras, El Paso, TX 79905",
-      "phone": "",
-      "es": {
-       "name": "Union Pacific",
-       "category": "FERROCARRIL"
-      }
-     },
-     {
-      "name": "Ironhorse Resources",
-      "category": "SHORTLINE RAIL & RAIL PARK DEVELOPMENT",
-      "group": "",
-      "url": "https://ironhorseresources.com",
-      "desc": "",
-      "address": "5001 Avenida Creel, Santa Teresa, NM 88008",
-      "phone": "(575) 602-5112",
-      "es": {
-       "name": "Ironhorse Resources",
-       "category": "FERROCARRIL DE VÍA CORTA Y DESARROLLO DE PARQUE FERROVIARIO"
-      }
-     },
-     {
-      "name": "MVT Logistics",
-      "category": "THIRD-PARTY LOGISTICS",
-      "group": "",
-      "url": "https://mvt-logistics.com",
-      "desc": "",
-      "address": "4950 Avenida Creel, Santa Teresa, NM 88008",
-      "phone": "(800) 772-8314",
-      "es": {
-       "name": "MVT Logistics",
-       "category": "LOGÍSTICA DE TERCEROS"
-      }
-     },
-     {
-      "name": "Aries Worldwide Logistics",
-      "category": "CUSTOMS & FTZ WAREHOUSING",
-      "group": "",
-      "url": "https://ariesww.com",
-      "desc": "",
-      "address": "655 Industrial Avenue, Suite B, Santa Teresa, NM 88008",
-      "phone": "888-502-7437",
-      "es": {
-       "name": "Aries Worldwide Logistics",
-       "category": "ADUANAS Y ALMACENAJE EN FTZ"
-      }
-     },
-     {
-      "name": "Enterprise Truck Rental",
-      "category": "TRUCK RENTAL",
-      "group": "",
-      "url": "https://enterprisetrucks.com",
-      "desc": "",
-      "address": "1340 S Valley Dr., Las Cruces, NM 88005",
-      "phone": "(575) 463-8447",
-      "es": {
-       "name": "Enterprise Truck Rental",
-       "category": "RENTA DE CAMIONES"
-      }
-     },
-     {
-      "name": "Admiral Cable, Inc.",
-      "category": "MANUFACTURING",
-      "group": "",
-      "url": "https://admiralcable.com",
-      "desc": "",
-      "address": "4701 Avenida Divisadero, Santa Teresa, NM 88008",
-      "phone": "",
-      "es": {
-       "name": "Admiral Cable, Inc.",
-       "category": "MANUFACTURA"
-      }
-     },
-     {
-      "name": "Franklin Mountain Packaging",
-      "category": "PACKAGING MANUFACTURING",
-      "group": "",
-      "url": "https://franklinmountainpackaging.com",
-      "desc": "",
-      "address": "401 Avenida Ascención, Santa Teresa, NM 88008",
-      "phone": "(575) 997-7017",
-      "es": {
-       "name": "Franklin Mountain Packaging",
-       "category": "FABRICACIÓN DE EMPAQUES"
-      }
-     },
-     {
-      "name": "Las Cruces Machine & Manufacturing",
-      "category": "MANUFACTURING",
-      "group": "",
-      "url": "https://lascrucesmachine.com",
-      "desc": "",
-      "address": "6000 S. Main, Suite B, Mesilla Park, NM 88047",
-      "phone": "(575) 526-1411",
-      "es": {
-       "name": "Las Cruces Machine & Manufacturing",
-       "category": "MANUFACTURA"
-      }
-     },
-     {
-      "name": "Cymmetrik Technologies USA Southwest",
-      "category": "PRINTING & PACKAGING",
-      "group": "",
-      "url": "https://cymmetrik.com",
-      "desc": "",
-      "address": "150 Earhardt Way, Ste 200, Santa Teresa, NM 88008",
-      "phone": "(575) 502-4500",
-      "es": {
-       "name": "Cymmetrik Technologies USA Southwest",
-       "category": "IMPRESIÓN Y EMPAQUES"
-      }
-     },
-     {
-      "name": "W Silver Recycling",
-      "category": "METALS RECYCLING",
-      "group": "",
-      "url": "https://wsilver.com",
-      "desc": "",
-      "address": "1720 Magoffin Avenue, El Paso, TX 79901",
-      "phone": "(915) 532-5643",
-      "es": {
-       "name": "W Silver Recycling",
-       "category": "RECICLAJE DE METALES"
-      }
-     }
-    ],
-    "title_es": "LOGÍSTICA Y MANUFACTURA"
-   },
-   {
-    "title": "ENERGY & TECHNOLOGY",
-    "entries": [
-     {
-      "name": "Oracle",
-      "category": "TECHNOLOGY",
-      "group": "",
-      "url": "https://oracle.com",
-      "desc": "",
-      "address": "",
-      "phone": "",
-      "es": {
-       "name": "Oracle",
-       "category": "TECNOLOGÍA"
-      }
-     },
-     {
-      "name": "Stack Infrastructure",
-      "category": "DATA CENTERS",
-      "group": "",
-      "url": "https://stackinfra.com",
-      "desc": "",
-      "address": "",
-      "phone": "",
-      "es": {
-       "name": "Stack Infrastructure",
-       "category": "CENTROS DE DATOS"
-      }
-     },
-     {
-      "name": "Borderplex Digital Assets",
-      "category": "DATA CENTER DEVELOPMENT",
-      "group": "",
-      "url": "https://borderplexdigital.com",
-      "desc": "",
-      "address": "",
-      "phone": "",
-      "es": {
-       "name": "Borderplex Digital Assets",
-       "category": "DESARROLLO DE CENTROS DE DATOS"
-      }
-     },
-     {
-      "name": "Energy Transfer",
-      "category": "ENERGY",
-      "group": "",
-      "url": "https://energytransfer.com",
-      "desc": "",
-      "address": "",
-      "phone": "",
-      "es": {
-       "name": "Energy Transfer",
-       "category": "ENERGÍA"
-      }
-     },
-     {
-      "name": "Grid United",
-      "category": "TRANSMISSION DEVELOPMENT",
-      "group": "",
-      "url": "https://gridunited.com",
-      "desc": "",
-      "address": "712 Main Street, Suite 2500, Houston, TX 77002",
-      "phone": "(832) 405-6982",
-      "es": {
-       "name": "Grid United",
-       "category": "DESARROLLO DE TRANSMISIÓN ELÉCTRICA"
-      }
-     }
-    ],
-    "title_es": "ENERGÍA Y TECNOLOGÍA"
-   },
-   {
-    "title": "HEALTHCARE",
-    "entries": [
-     {
-      "name": "MountainView Regional Medical Center",
-      "category": "",
-      "group": "HOSPITAL",
-      "url": "https://mountainviewregional.com",
-      "desc": "",
-      "address": "4311 E. Lohman Avenue, Las Cruces, NM 88001",
-      "phone": "(575) 556-7600",
-      "locations": [
-       {
-        "label": "Hospital (Main Campus)",
-        "address": "4311 E. Lohman Avenue, Las Cruces, NM 88001",
-        "phone": "(575) 556-7600",
-        "note": "Emergency department open 24/7",
-        "note_es": "Sala de emergencias abierta 24/7",
-        "label_es": "Hospital (campus principal)"
-       },
-       {
-        "label": "Emergency Center - North Main",
-        "address": "2811 North Main Street, Las Cruces, NM 88001",
-        "phone": "(575) 526-0080",
-        "note": "Freestanding emergency center",
-        "note_es": "Centro de emergencias independiente",
-        "label_es": "Centro de Emergencias – North Main"
-       },
-       {
-        "label": "Urgent Care - Lohman",
-        "address": "4351 E. Lohman Avenue, Suite 100, Las Cruces, NM 88011",
-        "phone": "(575) 525-2700",
-        "note": "Daily 9 a.m.–8 p.m.",
-        "note_es": "Diario de 9 a.m. a 8 p.m.",
-        "label_es": "Atención Urgente – Lohman"
-       },
-       {
-        "label": "Urgent Care - Northrise",
-        "address": "3485 Northrise Drive, Suite 1, Las Cruces, NM 88011",
-        "phone": "(575) 382-2161",
-        "note": "Daily 9 a.m.–8 p.m.",
-        "note_es": "Diario de 9 a.m. a 8 p.m.",
-        "label_es": "Atención Urgente – Northrise"
-       },
-       {
-        "label": "Urgent Care - Valley",
-        "address": "1455 S. Valley Drive, Suite A, Las Cruces, NM 88005",
-        "phone": "(575) 526-7777",
-        "note": "Daily 9 a.m.–8 p.m.",
-        "note_es": "Diario de 9 a.m. a 8 p.m.",
-        "label_es": "Atención Urgente – Valley"
-       },
-       {
-        "label": "Primary Care - Lohman",
-        "address": "4401 E. Lohman Avenue, Building 5, Suite C, Las Cruces, NM 88011",
-        "phone": "(575) 522-7313",
-        "note": "MountainView Medical Group",
-        "note_es": "MountainView Medical Group",
-        "label_es": "Atención Primaria – Lohman"
-       },
-       {
-        "label": "Family Care - Valley",
-        "address": "1455 S. Valley Drive, Suite B, Las Cruces, NM 88005",
-        "phone": "(575) 526-6992",
-        "note": "MountainView Medical Group",
-        "note_es": "MountainView Medical Group",
-        "label_es": "Atención Familiar – Valley"
-       },
-       {
-        "label": "Family Care - Northrise",
-        "address": "3485 Northrise Drive, Suite 2, Las Cruces, NM 88011",
-        "phone": "(575) 382-2149",
-        "note": "MountainView Medical Group",
-        "note_es": "MountainView Medical Group",
-        "label_es": "Atención Familiar – Northrise"
-       },
-       {
-        "label": "Orthopedics",
-        "address": "4351 E. Lohman Avenue, Suites 301 and 310, Las Cruces, NM 88011",
-        "phone": "(575) 532-9755",
-        "note": "MountainView Medical Group",
-        "note_es": "MountainView Medical Group",
-        "label_es": "Ortopedia"
-       }
-      ],
-      "es": {
-       "name": "MountainView Regional Medical Center",
-       "group": "HOSPITAL"
-      }
-     },
-     {
-      "name": "Memorial Medical Center",
-      "category": "",
-      "group": "HOSPITAL",
-      "url": "https://mmclc.org",
-      "desc": "",
-      "address": "2450 S. Telshor Blvd., Las Cruces, NM 88011",
-      "phone": "(575) 522-8641",
-      "locations": [
-       {
-        "label": "Hospital (Main Campus)",
-        "address": "2450 S. Telshor Blvd., Las Cruces, NM 88011",
-        "phone": "(575) 522-8641",
-        "note": "Includes Emergency Room",
-        "note_es": "Incluye sala de emergencias",
-        "label_es": "Hospital (campus principal)"
-       },
-       {
-        "label": "Memorial Cancer Center",
-        "address": "2530 S. Telshor Blvd., Suite 107, Las Cruces, NM 88011",
-        "phone": "(575) 521-6727",
-        "label_es": "Centro Oncológico Memorial"
-       },
-       {
-        "label": "Family Medicine Center",
-        "address": "2605 Terrace Drive, Las Cruces, NM 88011",
-        "phone": "(575) 521-5370",
-        "label_es": "Centro de Medicina Familiar"
-       },
-       {
-        "label": "HealthPlex & Women's Imaging",
-        "address": "2735 E. Northrise Drive, Las Cruces, NM 88011",
-        "phone": "(575) 532-4300",
-        "label_es": "HealthPlex e Imágenes para la Mujer"
-       },
-       {
-        "label": "Wound Care Center",
-        "address": "2735 E. Northrise Drive, Las Cruces, NM 88011",
-        "phone": "(575) 532-4399",
-        "label_es": "Centro de Cuidado de Heridas"
-       },
-       {
-        "label": "Imaging Center of Las Cruces",
-        "address": "160 Roadrunner Parkway, Las Cruces, NM 88011",
-        "phone": "(575) 556-1800",
-        "label_es": "Centro de Imágenes de Las Cruces"
-       },
-       {
-        "label": "Sun View Imaging Center",
-        "address": "2525 S. Telshor Blvd., Las Cruces, NM 88011",
-        "phone": "(575) 522-6236",
-        "label_es": "Centro de Imágenes Sun View"
-       }
-      ],
-      "es": {
-       "name": "Memorial Medical Center",
-       "group": "HOSPITAL"
-      }
-     },
-     {
-      "name": "Rehabilitation Hospital of Southern NM",
-      "category": "",
-      "group": "HOSPITAL",
-      "url": "https://rhsnm.ernesthealth.com",
-      "desc": "",
-      "address": "4441 E. Lohman Avenue, Las Cruces, NM 88011",
-      "phone": "(575) 521-6400",
-      "es": {
-       "name": "Rehabilitation Hospital of Southern NM",
-       "group": "HOSPITAL"
-      }
-     },
-     {
-      "name": "Three Crosses Regional Hospital",
-      "category": "",
-      "group": "HOSPITAL",
-      "url": "https://threecrossesregional.com",
-      "desc": "",
-      "address": "2560 Samaritan Drive, Las Cruces, New Mexico 88001",
-      "phone": "(800) 421-8274",
-      "es": {
-       "name": "Three Crosses Regional Hospital",
-       "group": "HOSPITAL"
-      }
-     },
-     {
-      "name": "Matrix Home Care Services of NM",
-      "category": "HOME CARE",
-      "group": "",
-      "url": "https://matrixnm.com",
-      "desc": "",
-      "address": "1100 S. Main St. Suite A, Las Cruces, NM 88005",
-      "phone": "(575) 525-8755",
-      "es": {
-       "name": "Matrix Home Care Services of NM",
-       "category": "CUIDADO EN EL HOGAR"
-      }
-     },
-     {
-      "name": "Burrell College of Health Sciences",
-      "category": "HEALTH SCIENCES COLLEGE",
-      "group": "",
-      "url": "https://burrell.edu",
-      "desc": "",
-      "address": "3501 Arrowhead Dr., Las Cruces, NM 88001",
-      "phone": "(575) 674-2266",
-      "es": {
-       "name": "Burrell College of Health Sciences",
-       "category": "COLEGIO DE CIENCIAS DE LA SALUD"
-      }
-     }
-    ],
-    "title_es": "ATENCIÓN MÉDICA"
-   },
-   {
-    "title": "PROFESSIONAL & BUSINESS SERVICES",
-    "entries": [
-     {
-      "name": "Sutin, Thayer & Browne",
-      "category": "",
-      "group": "ATTORNEYS",
-      "url": "https://sutinfirm.com",
-      "desc": "",
-      "address": "6100 Uptown Blvd NE, Ste 400, Albuquerque, NM 87110",
-      "phone": "(505) 883-2500",
-      "es": {
-       "name": "Sutin, Thayer & Browne",
-       "group": "ABOGADOS"
-      }
-     },
-     {
-      "name": "Carrillo Law Firm, P.C.",
-      "category": "",
-      "group": "ATTORNEYS",
-      "url": "https://carrillolawpc.com",
-      "desc": "",
-      "address": "1001 East Lohman Ave., Las Cruces, New Mexico 88001",
-      "phone": "(575) 647-3200",
-      "es": {
-       "name": "Carrillo Law Firm, P.C.",
-       "group": "ABOGADOS"
-      }
-     },
-     {
-      "name": "Mynatt Springer P.C.",
-      "category": "",
-      "group": "ATTORNEYS",
-      "url": "https://mynattspringer.com",
-      "desc": "",
-      "address": "1660 Hickory Loop, Las Cruces, New Mexico 88005",
-      "phone": "",
-      "es": {
-       "name": "Mynatt Springer P.C.",
-       "group": "ABOGADOS"
-      }
-     },
-     {
-      "name": "KW Consulting",
-      "category": "BUSINESS CONSULTING",
-      "group": "",
-      "url": "https://kwconsultingnm.com",
-      "desc": "",
-      "address": "46 Kiva Place, Sandia Park, NM 87047",
-      "phone": "(505) 417-4001",
-      "es": {
-       "name": "KW Consulting",
-       "category": "CONSULTORÍA EMPRESARIAL"
-      }
-     },
-     {
-      "name": "NMCO Creative Studio",
-      "category": "ADVERTISING & MARKETING",
-      "group": "",
-      "url": "https://nmcostudio.com",
-      "desc": "",
-      "address": "1335 S. Solano Dr., Las Cruces, NM 88001",
-      "phone": "(575) 618-6626",
-      "es": {
-       "name": "NMCO Creative Studio",
-       "category": "PUBLICIDAD Y MERCADOTECNIA"
-      }
-     },
-     {
-      "name": "Art Schobey Interactive",
-      "category": "WEB DEVELOPMENT",
-      "group": "",
-      "url": "https://arteffects.com",
-      "desc": "",
-      "address": "Raleigh, NC area",
-      "phone": "(575) 496-6785",
-      "es": {
-       "name": "Art Schobey Interactive",
-       "category": "DESARROLLO WEB"
-      }
-     },
-     {
-      "name": "American Document Services",
-      "category": "DOCUMENT PROCESSING",
-      "group": "",
-      "url": "https://adslcnm.com",
-      "desc": "",
-      "address": "300 N. 17th Street, Ste A, Las Cruces, NM 88005",
-      "phone": "(575) 647-0060",
-      "es": {
-       "name": "American Document Services",
-       "category": "PROCESAMIENTO DE DOCUMENTOS"
-      }
-     },
-     {
-      "name": "Document Solutions Inc.",
-      "category": "DOCUMENT MANAGEMENT & IT",
-      "group": "",
-      "url": "https://dsinm.com",
-      "desc": "",
-      "address": "1705 N. Valley Dr., Ste 5, Las Cruces, NM 88007",
-      "phone": "(888) 386-7834",
-      "es": {
-       "name": "Document Solutions Inc.",
-       "category": "GESTIÓN DOCUMENTAL Y TI"
-      }
-     },
-     {
-      "name": "Master Imaging",
-      "category": "IMAGING & PRINTING",
-      "group": "",
-      "url": "",
-      "desc": "",
-      "address": "4150 Camino Coyote Suite 1, Las Cruces, NM 88011",
-      "phone": "(575) 496-3578",
-      "es": {
-       "name": "Master Imaging",
-       "category": "IMAGEN E IMPRESIÓN"
-      }
-     },
-     {
-      "name": "Security Concepts of Las Cruces",
-      "category": "",
-      "group": "SECURITY",
-      "url": "https://lcsecurityconcepts.com",
-      "desc": "",
-      "address": "130 North Solano Drive, Las Cruces, New Mexico 88001-2927",
-      "phone": "(575) 526-4151",
-      "es": {
-       "name": "Security Concepts of Las Cruces",
-       "group": "SEGURIDAD"
-      }
-     },
-     {
-      "name": "LCIS Advisors",
-      "category": "",
-      "group": "SECURITY",
-      "url": "https://lcisadvisors.com",
-      "desc": "",
-      "address": "2043 Reina Drive, Las Cruces, New Mexico 88007",
-      "phone": "(575) 640-7476",
-      "es": {
-       "name": "LCIS Advisors",
-       "group": "SEGURIDAD"
-      }
-     },
-     {
-      "name": "Night Eyes",
-      "category": "",
-      "group": "SECURITY",
-      "url": "https://night-eyes.com",
-      "desc": "",
-      "address": "3401 Hueco Ave, El Paso, Texas 79903",
-      "phone": "(915) 351-0831",
-      "es": {
-       "name": "Night Eyes",
-       "group": "SEGURIDAD"
-      }
-     },
-     {
-      "name": "Crystal Clear Cleaning Company",
-      "category": "JANITORIAL & INDUSTRIAL CLEANING",
-      "group": "",
-      "url": "https://cleaningservicelascrucesnm.com",
-      "desc": "",
-      "address": "16 Westdin, Las Cruces, NM 88011",
-      "phone": "(575) 201-8364",
-      "es": {
-       "name": "Crystal Clear Cleaning Company",
-       "category": "LIMPIEZA DE MANTENIMIENTO E INDUSTRIAL"
-      }
-     },
-     {
-      "name": "Clean Team",
-      "category": "COMMERCIAL CLEANING",
-      "group": "",
-      "url": "https://cleanteamclean.com",
-      "desc": "",
-      "address": "5015 Prospect Ave., Albuquerque, New Mexico 87110",
-      "phone": "(505) 888-5130",
-      "es": {
-       "name": "Clean Team",
-       "category": "LIMPIEZA COMERCIAL"
-      }
-     },
-     {
-      "name": "American Linen & Uniform Supply",
-      "category": "UNIFORM SERVICES",
-      "group": "",
-      "url": "https://yourlinencompany.com",
-      "desc": "",
-      "address": "550 N Church Street, Las Cruces, New Mexico 88001",
-      "phone": "(575) 526-6641",
-      "es": {
-       "name": "American Linen & Uniform Supply",
-       "category": "SERVICIOS DE UNIFORMES"
-      }
-     },
-     {
-      "name": "Chisholm’s LLC",
-      "category": "BUSINESS SERVICES",
-      "group": "",
-      "url": "",
-      "desc": "",
-      "address": "P.O. Box 397, Las Cruces, NM 88005",
-      "phone": "(575) 526-2281",
-      "es": {
-       "name": "Chisholm’s LLC",
-       "category": "SERVICIOS EMPRESARIALES"
-      }
-     }
-    ],
-    "title_es": "SERVICIOS PROFESIONALES Y EMPRESARIALES"
-   },
-   {
-    "title": "HOSPITALITY",
-    "entries": [
-     {
-      "name": "Hotel Encanto de Las Cruces",
-      "category": "",
-      "group": "HOTEL",
-      "url": "https://HotelEncanto.com",
-      "desc": "",
-      "address": "705 S. Telshor Boulevard, Las Cruces, NM 88011",
-      "phone": "(575) 522-4300",
-      "es": {
-       "name": "Hotel Encanto de Las Cruces",
-       "group": "HOTEL"
-      }
-     },
-     {
-      "name": "Courtyard Las Cruces",
-      "category": "",
-      "group": "HOTEL",
-      "url": "https://marriott.com/lrucy",
-      "desc": "",
-      "address": "456 E. University, Las Cruces, NM 88005",
-      "phone": "(575) 526-1722",
-      "es": {
-       "name": "Courtyard Las Cruces",
-       "group": "HOTEL"
-      }
-     },
-     {
-      "name": "Staybridge Suites",
-      "category": "",
-      "group": "HOTEL",
-      "url": "https://lascruces-hotel.com",
-      "desc": "",
-      "address": "2651 Northrise Dr., Las Cruces, NM 88011",
-      "phone": "(575) 521-7999",
-      "es": {
-       "name": "Staybridge Suites",
-       "group": "HOTEL"
-      }
-     },
-     {
-      "name": "Hacienda de Mesilla",
-      "category": "BOUTIQUE INN",
-      "group": "",
-      "url": "https://haciendademesilla.com",
-      "desc": "",
-      "address": "1891 Avenida de Mesilla, Mesilla, NM 88046",
-      "phone": "(575) 652-4953",
-      "es": {
-       "name": "Hacienda de Mesilla",
-       "category": "HOTEL BOUTIQUE"
-      }
-     },
-     {
-      "name": "La Posta de Mesilla",
-      "category": "RESTAURANT",
-      "group": "",
-      "url": "https://laposta-de-mesilla.com",
-      "desc": "",
-      "address": "2410 Calle de San Albino, Mesilla, NM 88046",
-      "phone": "(575) 524-3524",
-      "es": {
-       "name": "La Posta de Mesilla",
-       "category": "RESTAURANTE"
-      }
-     }
-    ],
-    "title_es": "HOSPITALIDAD"
-   },
-   {
-    "title": "COMMUNITY & NONPROFIT ORGANIZATIONS",
-    "entries": [
-     {
-      "name": "United Way of Southwest New Mexico",
-      "category": "NONPROFIT",
-      "group": "",
-      "url": "https://uwswnm.org",
-      "desc": "",
-      "address": "PO Box 1347, Las Cruces, NM 88004",
-      "phone": "(575) 524-7561",
-      "es": {
-       "name": "United Way of Southwest New Mexico",
-       "category": "SIN FINES DE LUCRO"
-      }
-     },
-     {
-      "name": "Tresco, Inc.",
-      "category": "DISABILITY SERVICES",
-      "group": "",
-      "url": "https://trescoinc.org",
-      "desc": "",
-      "address": "1800 Copper Loop, Las Cruces, NM 88005",
-      "phone": "(575) 528-2200",
-      "es": {
-       "name": "Tresco, Inc.",
-       "category": "SERVICIOS PARA PERSONAS CON DISCAPACIDAD"
-      }
-     },
-     {
-      "name": "Casa de Peregrinos",
-      "category": "FOOD BANK",
-      "group": "",
-      "url": "https://casadeperegrinos.org",
-      "desc": "",
-      "address": "999 W. Amador Ave. Suite F, Las Cruces, NM 88005",
-      "phone": "(575) 523-5542",
-      "locations": [
-       {
-        "label": "Las Cruces (Central Pantry)",
-        "address": "999 W. Amador Ave. Suite F, Las Cruces, NM 88005",
-        "phone": "(575) 523-5542",
-        "label_es": "Las Cruces (despensa central)"
-       },
-       {
-        "label": "Hatch Pantry",
-        "address": "321 N. Main St., Hatch, NM 87937",
-        "phone": "(575) 267-7805",
-        "note": "Wed & Fri 3–6 p.m.",
-        "note_es": "mié y vie de 3 a 6 p.m.",
-        "label_es": "Despensa de Hatch"
-       }
-      ],
-      "es": {
-       "name": "Casa de Peregrinos",
-       "category": "BANCO DE ALIMENTOS"
-      }
-     },
-     {
-      "name": "FYI+",
-      "category": "NONPROFIT",
-      "group": "",
-      "url": "https://fyiplusnm.org",
-      "desc": "",
-      "address": "1320 S. Solano Dr., Las Cruces, NM 88001",
-      "phone": "(575) 522-4004",
-      "locations": [
-       {
-        "label": "Main Office - Las Cruces",
-        "address": "1320 S. Solano Dr., Las Cruces, NM 88001",
-        "phone": "(575) 522-4004",
-        "label_es": "Oficina principal – Las Cruces"
-       },
-       {
-        "label": "La Vida Project (Youth Center)",
-        "address": "118 S. Main St., Las Cruces, NM 88001",
-        "phone": "(575) 522-4004",
-        "note": "Youth Success Center",
-        "note_es": "Centro de Éxito Juvenil",
-        "label_es": "Proyecto La Vida (Centro Juvenil)"
-       },
-       {
-        "label": "Juntos Project (Family Center)",
-        "address": "715 E. Amador Ave., Las Cruces, NM 88001",
-        "phone": "(575) 339-1055",
-        "note": "Family Success Center",
-        "note_es": "Centro de Éxito Familiar",
-        "label_es": "Proyecto Juntos (Centro Familiar)"
-       }
-      ],
-      "es": {
-       "name": "FYI+",
-       "category": "SIN FINES DE LUCRO"
-      }
-     },
-     {
-      "name": "Doña Ana County Farm & Livestock Bureau",
-      "category": "AGRICULTURE ASSOCIATION",
-      "group": "",
-      "url": "https://nmflb.org",
-      "desc": "",
-      "address": "PO Box 904, Las Cruces, NM 88004",
-      "phone": "(575) 524-8632",
-      "es": {
-       "name": "Doña Ana County Farm & Livestock Bureau",
-       "category": "ASOCIACIÓN AGRÍCOLA"
-      }
-     }
-    ],
-    "title_es": "ORGANIZACIONES COMUNITARIAS Y SIN FINES DE LUCRO"
-   }
-  ],
-  "title_es": "Directorio de Negocios Locales"
- },
- {
   "title": "Financing & Capital",
   "subsections": [
    {
@@ -4491,5 +2714,1254 @@
    }
   ],
   "title_es": "Incentivos"
+ },
+ {
+  "title": "Local Business Directory",
+  "subsections": [
+   {
+    "title": "CONSTRUCTION & TRADES",
+    "entries": [
+     {
+      "name": "HB Construction",
+      "category": "",
+      "group": "GENERAL CONTRACTOR",
+      "url": "https://hbconstruction.com",
+      "desc": "",
+      "address": "141 Roadrunner Pkwy., Suite 141A, Las Cruces, NM 88011",
+      "phone": "(575) 526-4252",
+      "es": {
+       "name": "HB Construction",
+       "group": "CONTRATISTA GENERAL"
+      }
+     },
+     {
+      "name": "Jaynes Corporation",
+      "category": "",
+      "group": "GENERAL CONTRACTOR",
+      "url": "https://jaynescorp.com",
+      "desc": "",
+      "address": "3849 Foothills Rd., Suite B, Las Cruces, NM 88011",
+      "phone": "(575) 526-6400",
+      "es": {
+       "name": "Jaynes Corporation",
+       "group": "CONTRATISTA GENERAL"
+      }
+     },
+     {
+      "name": "McGinley Construction",
+      "category": "",
+      "group": "GENERAL CONTRACTOR",
+      "url": "https://mcginley-construction.com",
+      "desc": "",
+      "address": "PO Box 370, Mesilla, NM 88046",
+      "phone": "(575) 523-9140",
+      "es": {
+       "name": "McGinley Construction",
+       "group": "CONTRATISTA GENERAL"
+      }
+     },
+     {
+      "name": "Smith & Aguirre Construction",
+      "category": "",
+      "group": "GENERAL CONTRACTOR",
+      "url": "https://smithandaguirre.com",
+      "desc": "",
+      "address": "P.O. Drawer 2276, Las Cruces, NM 88004",
+      "phone": "(575) 527-2500",
+      "es": {
+       "name": "Smith & Aguirre Construction",
+       "group": "CONTRATISTA GENERAL"
+      }
+     },
+     {
+      "name": "ZTEX Construction",
+      "category": "HEAVY CIVIL & EARTHWORK CONTRACTOR",
+      "group": "",
+      "url": "https://ztexconstruction.com",
+      "desc": "",
+      "address": "1326 Henry Brennan Dr., El Paso, TX 79936",
+      "phone": "(915) 591-6900",
+      "es": {
+       "name": "ZTEX Construction",
+       "category": "CONTRATISTA DE OBRA CIVIL Y MOVIMIENTO DE TIERRAS"
+      }
+     },
+     {
+      "name": "RT Electric, Inc.",
+      "category": "ELECTRICAL CONTRACTOR",
+      "group": "",
+      "url": "https://rtelectricinc.com",
+      "desc": "",
+      "address": "480 N. 17th Street, Las Cruces, NM 88005",
+      "phone": "(575) 523-9252",
+      "es": {
+       "name": "RT Electric, Inc.",
+       "category": "CONTRATISTA ELÉCTRICO"
+      }
+     },
+     {
+      "name": "Yearout Service, LLC",
+      "category": "MECHANICAL SYSTEMS",
+      "group": "",
+      "url": "https://yearout.com",
+      "desc": "",
+      "address": "100 Wyatt, Suite D, Las Cruces, NM 88005",
+      "phone": "(505) 884-0994",
+      "es": {
+       "name": "Yearout Service, LLC",
+       "category": "SISTEMAS MECÁNICOS"
+      }
+     },
+     {
+      "name": "Associated Builders & Contractors NM",
+      "category": "INDUSTRY ASSOCIATION",
+      "group": "",
+      "url": "https://abcnm.org",
+      "desc": "",
+      "address": "2821 Broadway Blvd. NE, Albuquerque, NM 87107",
+      "phone": "(505) 830-4222",
+      "es": {
+       "name": "Associated Builders & Contractors NM",
+       "category": "ASOCIACIÓN DE LA INDUSTRIA"
+      }
+     }
+    ],
+    "title_es": "CONSTRUCCIÓN Y OFICIOS"
+   },
+   {
+    "title": "ENGINEERING & ARCHITECTURE",
+    "entries": [
+     {
+      "name": "Bohannan Huston, Inc.",
+      "category": "ENGINEERING",
+      "group": "",
+      "url": "https://bhinc.com",
+      "desc": "",
+      "address": "425 S. Telshor Blvd, Ste C-103, Las Cruces, NM 88011",
+      "phone": "(575) 532-8670",
+      "es": {
+       "name": "Bohannan Huston, Inc.",
+       "category": "INGENIERÍA"
+      }
+     },
+     {
+      "name": "Souder, Miller & Associates",
+      "category": "ENGINEERING & ENVIRONMENTAL",
+      "group": "",
+      "url": "https://soudermiller.com",
+      "desc": "",
+      "address": "3500 Sedona Hills Parkway, Las Cruces, NM 88011",
+      "phone": "(575) 647-0799",
+      "es": {
+       "name": "Souder, Miller & Associates",
+       "category": "INGENIERÍA Y MEDIO AMBIENTE"
+      }
+     },
+     {
+      "name": "Stubbs Engineering",
+      "category": "ENGINEERING",
+      "group": "",
+      "url": "https://stubbseng.com",
+      "desc": "",
+      "address": "277 E. Amador Ave., Suite 200, Las Cruces, NM 88001",
+      "phone": "(575) 993-5228",
+      "es": {
+       "name": "Stubbs Engineering",
+       "category": "INGENIERÍA"
+      }
+     },
+     {
+      "name": "WHA International",
+      "category": "FORENSIC ENGINEERING",
+      "group": "",
+      "url": "https://wha-international.com",
+      "desc": "",
+      "address": "5605 Dona Ana Road, Las Cruces, NM 88007",
+      "phone": "(575) 523-5623",
+      "es": {
+       "name": "WHA International",
+       "category": "INGENIERÍA FORENSE"
+      }
+     },
+     {
+      "name": "ASA Architects, PA",
+      "category": "",
+      "group": "ARCHITECTURE",
+      "url": "https://asa-architects.com",
+      "desc": "",
+      "address": "201 N. Alameda Blvd., Las Cruces, NM 88011",
+      "phone": "(575) 526-3111",
+      "es": {
+       "name": "ASA Architects, PA",
+       "group": "ARQUITECTURA"
+      }
+     },
+     {
+      "name": "Desert Peak Architects",
+      "category": "",
+      "group": "ARCHITECTURE",
+      "url": "https://desertpeakarchitects.com",
+      "desc": "",
+      "address": "311 N. Main Street, Las Cruces, NM 88001",
+      "phone": "(575) 528-0021",
+      "es": {
+       "name": "Desert Peak Architects",
+       "group": "ARQUITECTURA"
+      }
+     },
+     {
+      "name": "Dekker",
+      "category": "ARCHITECTURE & PLANNING",
+      "group": "",
+      "url": "https://dekkerdesign.org",
+      "desc": "",
+      "address": "7601 Jefferson St NE, Ste 100, Albuquerque, NM 87109",
+      "phone": "(505) 761-9700",
+      "es": {
+       "name": "Dekker",
+       "category": "ARQUITECTURA Y PLANIFICACIÓN"
+      }
+     },
+     {
+      "name": "LoyaWilke Architects",
+      "category": "",
+      "group": "ARCHITECTURE",
+      "url": "https://loyawilke.com",
+      "desc": "",
+      "address": "221 N. Kansas, Ste 820, El Paso, TX 79930",
+      "phone": "(915) 613-4576",
+      "es": {
+       "name": "LoyaWilke Architects",
+       "group": "ARQUITECTURA"
+      }
+     },
+     {
+      "name": "Vigil & Associates",
+      "category": "",
+      "group": "ARCHITECTURE",
+      "url": "https://va-architects.com",
+      "desc": "",
+      "address": "1765 Avenida de Mercado, Las Cruces, NM 88005",
+      "phone": "(575) 527-0400",
+      "es": {
+       "name": "Vigil & Associates",
+       "group": "ARQUITECTURA"
+      }
+     }
+    ],
+    "title_es": "INGENIERÍA Y ARQUITECTURA"
+   },
+   {
+    "title": "REAL ESTATE, DEVELOPMENT & TITLE",
+    "entries": [
+     {
+      "name": "NAI 1st Valley",
+      "category": "",
+      "group": "COMMERCIAL REAL ESTATE",
+      "url": "https://1stvalley.com",
+      "desc": "",
+      "address": "1155 S. Telshor, Suite B, Las Cruces, NM 88011",
+      "phone": "(575) 521-1535, ext. 108",
+      "es": {
+       "name": "NAI 1st Valley",
+       "group": "BIENES RAÍCES COMERCIALES"
+      }
+     },
+     {
+      "name": "Steinborn TCN Commercial Real Estate",
+      "category": "",
+      "group": "COMMERCIAL REAL ESTATE",
+      "url": "https://steinborn.com",
+      "desc": "",
+      "address": "141 Roadrunner Pkwy, Ste 141, Las Cruces, NM 88011",
+      "phone": "(575) 522-3698",
+      "es": {
+       "name": "Steinborn TCN Commercial Real Estate",
+       "group": "BIENES RAÍCES COMERCIALES"
+      }
+     },
+     {
+      "name": "Colliers",
+      "category": "",
+      "group": "COMMERCIAL REAL ESTATE",
+      "url": "https://colliers.com",
+      "desc": "",
+      "address": "5051 Journal Center Blvd. NE, Suite 200, Albuquerque, NM 87109",
+      "phone": "",
+      "es": {
+       "name": "Colliers",
+       "group": "BIENES RAÍCES COMERCIALES"
+      }
+     },
+     {
+      "name": "Killam Development",
+      "category": "",
+      "group": "REAL ESTATE DEVELOPMENT",
+      "url": "https://killamdevelopment.com",
+      "desc": "",
+      "address": "4320 University Blvd., Laredo, TX 78041",
+      "phone": "(956) 724-7141, ext. 212",
+      "es": {
+       "name": "Killam Development",
+       "group": "DESARROLLO INMOBILIARIO"
+      }
+     },
+     {
+      "name": "Sierra Norte Development",
+      "category": "",
+      "group": "REAL ESTATE DEVELOPMENT",
+      "url": "https://metroverdenm.com",
+      "desc": "",
+      "address": "4935 Ocotillo Rd., Las Cruces, NM 88011",
+      "phone": "(575) 496-7115",
+      "es": {
+       "name": "Sierra Norte Development",
+       "group": "DESARROLLO INMOBILIARIO"
+      }
+     },
+     {
+      "name": "Alta Mesa Estates",
+      "category": "MASTER-PLANNED COMMUNITY · SANTA TERESA",
+      "group": "",
+      "url": "https://altamesaestates.com",
+      "desc": "",
+      "address": "5657 Caminito Genio, La Jolla, CA 92037",
+      "phone": "(972) 713-7569",
+      "es": {
+       "name": "Alta Mesa Estates",
+       "category": "COMUNIDAD PLANIFICADA · SANTA TERESA"
+      }
+     },
+     {
+      "name": "L&M Asset Management",
+      "category": "REAL ESTATE BROKERAGE & PROPERTY MANAGEMENT",
+      "group": "",
+      "url": "",
+      "desc": "",
+      "address": "PO Box 12007, El Paso, TX 79932",
+      "phone": "(915) 217-2271",
+      "es": {
+       "name": "L&M Asset Management",
+       "category": "CORRETAJE INMOBILIARIO Y ADMINISTRACIÓN DE PROPIEDADES"
+      }
+     },
+     {
+      "name": "Las Cruces Association of Realtors",
+      "category": "INDUSTRY ASSOCIATION",
+      "group": "",
+      "url": "https://lcarnm.com",
+      "desc": "",
+      "address": "150 E. Idaho Ave., Las Cruces, NM 88005",
+      "phone": "(575) 524-0658",
+      "es": {
+       "name": "Las Cruces Association of Realtors",
+       "category": "ASOCIACIÓN DE LA INDUSTRIA"
+      }
+     },
+     {
+      "name": "Doña Ana Title",
+      "category": "",
+      "group": "TITLE & ESCROW",
+      "url": "https://local.firstam.com/nm/offices/dona-ana-title-telshor",
+      "desc": "",
+      "address": "424 -B South Telshor, Las Cruces, NM 88011",
+      "phone": "",
+      "locations": [
+       {
+        "label": "Telshor",
+        "address": "425 S. Telshor Blvd., Ste B, Las Cruces, NM 88011",
+        "phone": "(575) 521-5800"
+       },
+       {
+        "label": "Roadrunner",
+        "address": "141 Roadrunner Pkwy., Ste 139, Las Cruces, NM 88011",
+        "phone": "(575) 532-2390"
+       }
+      ],
+      "es": {
+       "name": "Doña Ana Title",
+       "group": "TÍTULOS Y DEPÓSITO EN GARANTÍA"
+      }
+     },
+     {
+      "name": "Southwestern Abstract & Title",
+      "category": "",
+      "group": "TITLE & ESCROW",
+      "url": "https://swatlc.com",
+      "desc": "",
+      "address": "P.O. Box 695, Las Cruces, NM 88004",
+      "phone": "(575) 523-8561",
+      "locations": [
+       {
+        "label": "Main",
+        "address": "1125 S. Main St., Las Cruces, NM 88005",
+        "phone": "(575) 523-8561",
+        "label_es": "Principal"
+       },
+       {
+        "label": "Foothills",
+        "address": "3780 Foothills Rd., Ste B, Las Cruces, NM 88011"
+       }
+      ],
+      "es": {
+       "name": "Southwestern Abstract & Title",
+       "group": "TÍTULOS Y DEPÓSITO EN GARANTÍA"
+      }
+     }
+    ],
+    "title_es": "BIENES RAÍCES, DESARROLLO Y TÍTULOS"
+   },
+   {
+    "title": "BANKING & FINANCIAL SERVICES",
+    "entries": [
+     {
+      "name": "WestStar Bank",
+      "category": "",
+      "group": "BANK",
+      "url": "https://weststarbank.com",
+      "desc": "",
+      "address": "555 S. Telshor, Ste 100A, Las Cruces, NM 88011",
+      "phone": "(575) 323-6040",
+      "es": {
+       "name": "WestStar Bank",
+       "group": "BANCO"
+      }
+     },
+     {
+      "name": "Century Bank",
+      "category": "",
+      "group": "BANK",
+      "url": "https://mycenturybank.com",
+      "desc": "",
+      "address": "141 S. Roadrunner Parkway, Suite 101, Las Cruces, NM 88011",
+      "phone": "(575) 521-2400",
+      "es": {
+       "name": "Century Bank",
+       "group": "BANCO"
+      }
+     },
+     {
+      "name": "Citizens Bank of Las Cruces",
+      "category": "",
+      "group": "BANK",
+      "url": "https://citizenslc.com",
+      "desc": "",
+      "address": "505 S. Main St., Las Cruces, NM 88001 (Main Bank)",
+      "phone": "(575) 647-4100",
+      "locations": [
+       {
+        "label": "Main Bank",
+        "address": "505 S. Main St., Las Cruces, NM 88001 (Main Bank)",
+        "phone": "(575) 647-4100",
+        "label_es": "Sucursal principal"
+       },
+       {
+        "label": "Country Club",
+        "address": "2841 N. Main St., Las Cruces, NM 88001",
+        "phone": "(575) 647-4136"
+       },
+       {
+        "label": "Roadrunner",
+        "address": "3991 E. Lohman Ave., Las Cruces, NM 88011",
+        "phone": "(575) 528-6300"
+       },
+       {
+        "label": "Picacho",
+        "address": "3030 W. Picacho Ave., Las Cruces, NM 88007",
+        "phone": "(575) 528-6363"
+       },
+       {
+        "label": "University",
+        "address": "3065 E. University Ave., Las Cruces, NM 88011",
+        "phone": "(575) 647-6700"
+       },
+       {
+        "label": "Sonoma",
+        "address": "4785 N. Sonoma Ranch Blvd., Las Cruces, NM 88012",
+        "phone": "(575) 647-4180"
+       }
+      ],
+      "es": {
+       "name": "Citizens Bank of Las Cruces",
+       "group": "BANCO"
+      }
+     },
+     {
+      "name": "First American Bank",
+      "category": "",
+      "group": "BANK",
+      "url": "https://firstambank.com",
+      "desc": "",
+      "address": "1553 Avenida de Mesilla Ste 225, Las Cruces, NM 88005",
+      "phone": "(575) 524-8000",
+      "locations": [
+       {
+        "label": "Mesilla",
+        "address": "1553 Avenida de Mesilla Ste 225, Las Cruces, NM 88005",
+        "phone": "(575) 524-8000"
+       },
+       {
+        "label": "East Lohman",
+        "address": "2145 E. Lohman Ave., Las Cruces, NM 88001",
+        "phone": "(575) 525-4230"
+       }
+      ],
+      "es": {
+       "name": "First American Bank",
+       "group": "BANCO"
+      }
+     },
+     {
+      "name": "First New Mexico Bank of Las Cruces",
+      "category": "",
+      "group": "BANK",
+      "url": "https://firstnewmexicobanklc.com",
+      "desc": "",
+      "address": "3000 E. Lohman Ave., Las Cruces, NM 88011",
+      "phone": "(575) 556-3000",
+      "locations": [
+       {
+        "label": "Main Bank",
+        "address": "3000 E. Lohman Ave., Las Cruces, NM 88011",
+        "phone": "(575) 556-3000",
+        "label_es": "Sucursal principal"
+       },
+       {
+        "label": "Motel Blvd",
+        "address": "920 N. Motel Blvd., Las Cruces, NM 88007",
+        "phone": "(575) 556-3060"
+       },
+       {
+        "label": "Anthony",
+        "address": "455 Landers Rd., Anthony, NM 88021",
+        "phone": "(575) 882-5885"
+       }
+      ],
+      "es": {
+       "name": "First New Mexico Bank of Las Cruces",
+       "group": "BANCO"
+      }
+     },
+     {
+      "name": "Pioneer Bank",
+      "category": "",
+      "group": "BANK",
+      "url": "https://pioneerbnk.com",
+      "desc": "",
+      "address": "PO Box 609, Las Cruces, NM 88004",
+      "phone": "(575) 532-7520",
+      "locations": [
+       {
+        "label": "Lohman",
+        "address": "3831 E. Lohman Ave., Las Cruces, NM 88011",
+        "phone": "(800) 624-5200"
+       },
+       {
+        "label": "Roadrunner",
+        "address": "2900 Roadrunner Pkwy., Las Cruces, NM 88011",
+        "phone": "(800) 624-5200"
+       },
+       {
+        "label": "University",
+        "address": "705 E. University Ave., Las Cruces, NM 88005",
+        "phone": "(800) 624-5200"
+       }
+      ],
+      "es": {
+       "name": "Pioneer Bank",
+       "group": "BANCO"
+      }
+     },
+     {
+      "name": "U.S. Bank",
+      "category": "",
+      "group": "BANK",
+      "url": "https://usbank.com",
+      "desc": "",
+      "address": "277 E. Amador Avenue, Las Cruces, NM 88001",
+      "phone": "(575) 647-7310",
+      "locations": [
+       {
+        "label": "Amador",
+        "address": "277 E. Amador Avenue, Las Cruces, NM 88001",
+        "phone": "(575) 647-7310"
+       },
+       {
+        "label": "Foothills",
+        "address": "3790 E. Lohman Ave., Las Cruces, NM 88011",
+        "phone": "(575) 522-9660"
+       }
+      ],
+      "es": {
+       "name": "U.S. Bank",
+       "group": "BANCO"
+      }
+     },
+     {
+      "name": "WaFd Bank",
+      "category": "",
+      "group": "BANK",
+      "url": "https://wafdbank.com",
+      "desc": "",
+      "address": "301 W. Amador Ave., Las Cruces, NM 88005",
+      "phone": "(575) 647-0704",
+      "es": {
+       "name": "WaFd Bank",
+       "group": "BANCO"
+      }
+     },
+     {
+      "name": "FirstLight Federal Credit Union",
+      "category": "CREDIT UNION",
+      "group": "",
+      "url": "https://firstlightfcu.org",
+      "desc": "",
+      "address": "9983 Kenworthy St., El Paso, TX 79924",
+      "phone": "(575) 526-4401",
+      "locations": [
+       {
+        "label": "Idaho",
+        "address": "522 E. Idaho Ave., Las Cruces, NM 88001",
+        "phone": "(575) 526-4401"
+       },
+       {
+        "label": "Del Rey",
+        "address": "3105 Del Rey Blvd., Las Cruces, NM 88012",
+        "phone": "(575) 526-4401"
+       },
+       {
+        "label": "Lohman",
+        "address": "3791 E. Lohman Ave., Las Cruces, NM 88011",
+        "phone": "(575) 526-4401"
+       }
+      ],
+      "es": {
+       "name": "FirstLight Federal Credit Union",
+       "category": "COOPERATIVA DE CRÉDITO"
+      }
+     },
+     {
+      "name": "Axcess Financial Group",
+      "category": "EMPLOYEE BENEFITS & RETIREMENT PLANS",
+      "group": "",
+      "url": "https://axcessfinancialgroup.com",
+      "desc": "",
+      "address": "6605 Uptown Blvd. NE, Suite 280, Albuquerque, NM 87110",
+      "phone": "(505) 872-4900",
+      "es": {
+       "name": "Axcess Financial Group",
+       "category": "BENEFICIOS PARA EMPLEADOS Y PLANES DE RETIRO"
+      }
+     },
+     {
+      "name": "Edward Jones – Amy Daniels",
+      "category": "FINANCIAL ADVISOR",
+      "group": "",
+      "url": "https://edwardjones.com/us-en/financial-advisor/amy-daniels",
+      "desc": "",
+      "address": "4300 Sonoma Ranch Blvd Suite 5, Las Cruces, NM 88011",
+      "phone": "(575) 305-7901",
+      "es": {
+       "name": "Edward Jones – Amy Daniels",
+       "category": "ASESOR FINANCIERO"
+      }
+     },
+     {
+      "name": "Beasley Mitchell & Co., LLP",
+      "category": "ACCOUNTING",
+      "group": "",
+      "url": "https://bmc-cpa.com",
+      "desc": "",
+      "address": "509 S. Main St., Suite A, Las Cruces, NM 88001",
+      "phone": "(575) 528-6700",
+      "es": {
+       "name": "Beasley Mitchell & Co., LLP",
+       "category": "CONTABILIDAD"
+      }
+     },
+     {
+      "name": "Higginbotham",
+      "category": "INSURANCE",
+      "group": "",
+      "url": "https://higginbotham.com",
+      "desc": "",
+      "address": "141 Roadrunner Pkwy., Suite 109, Las Cruces, NM 88011",
+      "phone": "(575) 524-8642",
+      "es": {
+       "name": "Higginbotham",
+       "category": "SEGUROS"
+      }
+     }
+    ],
+    "title_es": "BANCA Y SERVICIOS FINANCIEROS"
+   },
+   {
+    "title": "LOGISTICS & MANUFACTURING",
+    "entries": [
+     {
+      "name": "Union Pacific",
+      "category": "RAIL",
+      "group": "",
+      "url": "https://up.com",
+      "desc": "",
+      "address": "211 N. Piedras, El Paso, TX 79905",
+      "phone": "",
+      "es": {
+       "name": "Union Pacific",
+       "category": "FERROCARRIL"
+      }
+     },
+     {
+      "name": "Ironhorse Resources",
+      "category": "SHORTLINE RAIL & RAIL PARK DEVELOPMENT",
+      "group": "",
+      "url": "https://ironhorseresources.com",
+      "desc": "",
+      "address": "5001 Avenida Creel, Santa Teresa, NM 88008",
+      "phone": "(575) 602-5112",
+      "es": {
+       "name": "Ironhorse Resources",
+       "category": "FERROCARRIL DE VÍA CORTA Y DESARROLLO DE PARQUE FERROVIARIO"
+      }
+     },
+     {
+      "name": "MVT Logistics",
+      "category": "THIRD-PARTY LOGISTICS",
+      "group": "",
+      "url": "https://mvt-logistics.com",
+      "desc": "",
+      "address": "4950 Avenida Creel, Santa Teresa, NM 88008",
+      "phone": "(800) 772-8314",
+      "es": {
+       "name": "MVT Logistics",
+       "category": "LOGÍSTICA DE TERCEROS"
+      }
+     },
+     {
+      "name": "Enterprise Truck Rental",
+      "category": "TRUCK RENTAL",
+      "group": "",
+      "url": "https://enterprisetrucks.com",
+      "desc": "",
+      "address": "1340 S Valley Dr., Las Cruces, NM 88005",
+      "phone": "(575) 463-8447",
+      "es": {
+       "name": "Enterprise Truck Rental",
+       "category": "RENTA DE CAMIONES"
+      }
+     },
+     {
+      "name": "Admiral Cable, Inc.",
+      "category": "MANUFACTURING",
+      "group": "",
+      "url": "https://admiralcable.com",
+      "desc": "",
+      "address": "4701 Avenida Divisadero, Santa Teresa, NM 88008",
+      "phone": "",
+      "es": {
+       "name": "Admiral Cable, Inc.",
+       "category": "MANUFACTURA"
+      }
+     },
+     {
+      "name": "Franklin Mountain Packaging",
+      "category": "PACKAGING MANUFACTURING",
+      "group": "",
+      "url": "https://franklinmountainpackaging.com",
+      "desc": "",
+      "address": "401 Avenida Ascención, Santa Teresa, NM 88008",
+      "phone": "(575) 997-7017",
+      "es": {
+       "name": "Franklin Mountain Packaging",
+       "category": "FABRICACIÓN DE EMPAQUES"
+      }
+     },
+     {
+      "name": "Las Cruces Machine & Manufacturing",
+      "category": "MANUFACTURING",
+      "group": "",
+      "url": "https://lascrucesmachine.com",
+      "desc": "",
+      "address": "6000 S. Main, Suite B, Mesilla Park, NM 88047",
+      "phone": "(575) 526-1411",
+      "es": {
+       "name": "Las Cruces Machine & Manufacturing",
+       "category": "MANUFACTURA"
+      }
+     },
+     {
+      "name": "Cymmetrik Technologies USA Southwest",
+      "category": "PRINTING & PACKAGING",
+      "group": "",
+      "url": "https://cymmetrik.com",
+      "desc": "",
+      "address": "150 Earhardt Way, Ste 200, Santa Teresa, NM 88008",
+      "phone": "(575) 502-4500",
+      "es": {
+       "name": "Cymmetrik Technologies USA Southwest",
+       "category": "IMPRESIÓN Y EMPAQUES"
+      }
+     },
+     {
+      "name": "W Silver Recycling",
+      "category": "METALS RECYCLING",
+      "group": "",
+      "url": "https://wsilver.com",
+      "desc": "",
+      "address": "1720 Magoffin Avenue, El Paso, TX 79901",
+      "phone": "(915) 532-5643",
+      "es": {
+       "name": "W Silver Recycling",
+       "category": "RECICLAJE DE METALES"
+      }
+     }
+    ],
+    "title_es": "LOGÍSTICA Y MANUFACTURA"
+   },
+   {
+    "title": "ENERGY & TECHNOLOGY",
+    "entries": [
+     {
+      "name": "Oracle",
+      "category": "TECHNOLOGY",
+      "group": "",
+      "url": "https://oracle.com",
+      "desc": "",
+      "address": "",
+      "phone": "",
+      "es": {
+       "name": "Oracle",
+       "category": "TECNOLOGÍA"
+      }
+     },
+     {
+      "name": "Stack Infrastructure",
+      "category": "DATA CENTERS",
+      "group": "",
+      "url": "https://stackinfra.com",
+      "desc": "",
+      "address": "",
+      "phone": "",
+      "es": {
+       "name": "Stack Infrastructure",
+       "category": "CENTROS DE DATOS"
+      }
+     },
+     {
+      "name": "Borderplex Digital Assets",
+      "category": "DATA CENTER DEVELOPMENT",
+      "group": "",
+      "url": "https://borderplexdigital.com",
+      "desc": "",
+      "address": "",
+      "phone": "",
+      "es": {
+       "name": "Borderplex Digital Assets",
+       "category": "DESARROLLO DE CENTROS DE DATOS"
+      }
+     },
+     {
+      "name": "Energy Transfer",
+      "category": "ENERGY",
+      "group": "",
+      "url": "https://energytransfer.com",
+      "desc": "",
+      "address": "",
+      "phone": "",
+      "es": {
+       "name": "Energy Transfer",
+       "category": "ENERGÍA"
+      }
+     },
+     {
+      "name": "Grid United",
+      "category": "TRANSMISSION DEVELOPMENT",
+      "group": "",
+      "url": "https://gridunited.com",
+      "desc": "",
+      "address": "712 Main Street, Suite 2500, Houston, TX 77002",
+      "phone": "(832) 405-6982",
+      "es": {
+       "name": "Grid United",
+       "category": "DESARROLLO DE TRANSMISIÓN ELÉCTRICA"
+      }
+     }
+    ],
+    "title_es": "ENERGÍA Y TECNOLOGÍA"
+   },
+   {
+    "title": "HEALTHCARE",
+    "entries": [
+     {
+      "name": "MountainView Regional Medical Center",
+      "category": "",
+      "group": "HOSPITAL",
+      "url": "https://mountainviewregional.com",
+      "desc": "",
+      "address": "4311 E. Lohman Avenue, Las Cruces, NM 88001",
+      "phone": "(575) 556-7600",
+      "locations": [
+       {
+        "label": "Hospital (Main Campus)",
+        "address": "4311 E. Lohman Avenue, Las Cruces, NM 88001",
+        "phone": "(575) 556-7600",
+        "note": "Emergency department open 24/7",
+        "note_es": "Sala de emergencias abierta 24/7",
+        "label_es": "Hospital (campus principal)"
+       },
+       {
+        "label": "Emergency Center - North Main",
+        "address": "2811 North Main Street, Las Cruces, NM 88001",
+        "phone": "(575) 526-0080",
+        "note": "Freestanding emergency center",
+        "note_es": "Centro de emergencias independiente",
+        "label_es": "Centro de Emergencias – North Main"
+       },
+       {
+        "label": "Urgent Care - Lohman",
+        "address": "4351 E. Lohman Avenue, Suite 100, Las Cruces, NM 88011",
+        "phone": "(575) 525-2700",
+        "note": "Daily 9 a.m.–8 p.m.",
+        "note_es": "Diario de 9 a.m. a 8 p.m.",
+        "label_es": "Atención Urgente – Lohman"
+       },
+       {
+        "label": "Urgent Care - Northrise",
+        "address": "3485 Northrise Drive, Suite 1, Las Cruces, NM 88011",
+        "phone": "(575) 382-2161",
+        "note": "Daily 9 a.m.–8 p.m.",
+        "note_es": "Diario de 9 a.m. a 8 p.m.",
+        "label_es": "Atención Urgente – Northrise"
+       },
+       {
+        "label": "Urgent Care - Valley",
+        "address": "1455 S. Valley Drive, Suite A, Las Cruces, NM 88005",
+        "phone": "(575) 526-7777",
+        "note": "Daily 9 a.m.–8 p.m.",
+        "note_es": "Diario de 9 a.m. a 8 p.m.",
+        "label_es": "Atención Urgente – Valley"
+       },
+       {
+        "label": "Primary Care - Lohman",
+        "address": "4401 E. Lohman Avenue, Building 5, Suite C, Las Cruces, NM 88011",
+        "phone": "(575) 522-7313",
+        "note": "MountainView Medical Group",
+        "note_es": "MountainView Medical Group",
+        "label_es": "Atención Primaria – Lohman"
+       },
+       {
+        "label": "Family Care - Valley",
+        "address": "1455 S. Valley Drive, Suite B, Las Cruces, NM 88005",
+        "phone": "(575) 526-6992",
+        "note": "MountainView Medical Group",
+        "note_es": "MountainView Medical Group",
+        "label_es": "Atención Familiar – Valley"
+       },
+       {
+        "label": "Family Care - Northrise",
+        "address": "3485 Northrise Drive, Suite 2, Las Cruces, NM 88011",
+        "phone": "(575) 382-2149",
+        "note": "MountainView Medical Group",
+        "note_es": "MountainView Medical Group",
+        "label_es": "Atención Familiar – Northrise"
+       },
+       {
+        "label": "Orthopedics",
+        "address": "4351 E. Lohman Avenue, Suites 301 and 310, Las Cruces, NM 88011",
+        "phone": "(575) 532-9755",
+        "note": "MountainView Medical Group",
+        "note_es": "MountainView Medical Group",
+        "label_es": "Ortopedia"
+       }
+      ],
+      "es": {
+       "name": "MountainView Regional Medical Center",
+       "group": "HOSPITAL"
+      }
+     },
+     {
+      "name": "Rehabilitation Hospital of Southern NM",
+      "category": "",
+      "group": "HOSPITAL",
+      "url": "https://rhsnm.ernesthealth.com",
+      "desc": "",
+      "address": "4441 E. Lohman Avenue, Las Cruces, NM 88011",
+      "phone": "(575) 521-6400",
+      "es": {
+       "name": "Rehabilitation Hospital of Southern NM",
+       "group": "HOSPITAL"
+      }
+     },
+     {
+      "name": "Matrix Home Care Services of NM",
+      "category": "HOME CARE",
+      "group": "",
+      "url": "https://matrixnm.com",
+      "desc": "",
+      "address": "1100 S. Main St. Suite A, Las Cruces, NM 88005",
+      "phone": "(575) 525-8755",
+      "es": {
+       "name": "Matrix Home Care Services of NM",
+       "category": "CUIDADO EN EL HOGAR"
+      }
+     },
+     {
+      "name": "Burrell College of Health Sciences",
+      "category": "HEALTH SCIENCES COLLEGE",
+      "group": "",
+      "url": "https://burrell.edu",
+      "desc": "",
+      "address": "3501 Arrowhead Dr., Las Cruces, NM 88001",
+      "phone": "(575) 674-2266",
+      "es": {
+       "name": "Burrell College of Health Sciences",
+       "category": "COLEGIO DE CIENCIAS DE LA SALUD"
+      }
+     }
+    ],
+    "title_es": "ATENCIÓN MÉDICA"
+   },
+   {
+    "title": "PROFESSIONAL & BUSINESS SERVICES",
+    "entries": [
+     {
+      "name": "KW Consulting",
+      "category": "BUSINESS CONSULTING",
+      "group": "",
+      "url": "https://kwconsultingnm.com",
+      "desc": "",
+      "address": "46 Kiva Place, Sandia Park, NM 87047",
+      "phone": "(505) 417-4001",
+      "es": {
+       "name": "KW Consulting",
+       "category": "CONSULTORÍA EMPRESARIAL"
+      }
+     },
+     {
+      "name": "American Document Services",
+      "category": "DOCUMENT PROCESSING",
+      "group": "",
+      "url": "https://adslcnm.com",
+      "desc": "",
+      "address": "300 N. 17th Street, Ste A, Las Cruces, NM 88005",
+      "phone": "(575) 647-0060",
+      "es": {
+       "name": "American Document Services",
+       "category": "PROCESAMIENTO DE DOCUMENTOS"
+      }
+     },
+     {
+      "name": "Master Imaging",
+      "category": "IMAGING & PRINTING",
+      "group": "",
+      "url": "",
+      "desc": "",
+      "address": "4150 Camino Coyote Suite 1, Las Cruces, NM 88011",
+      "phone": "(575) 496-3578",
+      "es": {
+       "name": "Master Imaging",
+       "category": "IMAGEN E IMPRESIÓN"
+      }
+     },
+     {
+      "name": "Chisholm’s LLC",
+      "category": "BUSINESS SERVICES",
+      "group": "",
+      "url": "",
+      "desc": "",
+      "address": "P.O. Box 397, Las Cruces, NM 88005",
+      "phone": "(575) 526-2281",
+      "es": {
+       "name": "Chisholm’s LLC",
+       "category": "SERVICIOS EMPRESARIALES"
+      }
+     }
+    ],
+    "title_es": "SERVICIOS PROFESIONALES Y EMPRESARIALES"
+   },
+   {
+    "title": "HOSPITALITY",
+    "entries": [
+     {
+      "name": "Hotel Encanto de Las Cruces",
+      "category": "",
+      "group": "HOTEL",
+      "url": "https://HotelEncanto.com",
+      "desc": "",
+      "address": "705 S. Telshor Boulevard, Las Cruces, NM 88011",
+      "phone": "(575) 522-4300",
+      "es": {
+       "name": "Hotel Encanto de Las Cruces",
+       "group": "HOTEL"
+      }
+     },
+     {
+      "name": "Courtyard Las Cruces",
+      "category": "",
+      "group": "HOTEL",
+      "url": "https://marriott.com/lrucy",
+      "desc": "",
+      "address": "456 E. University, Las Cruces, NM 88005",
+      "phone": "(575) 526-1722",
+      "es": {
+       "name": "Courtyard Las Cruces",
+       "group": "HOTEL"
+      }
+     },
+     {
+      "name": "Staybridge Suites",
+      "category": "",
+      "group": "HOTEL",
+      "url": "https://lascruces-hotel.com",
+      "desc": "",
+      "address": "2651 Northrise Dr., Las Cruces, NM 88011",
+      "phone": "(575) 521-7999",
+      "es": {
+       "name": "Staybridge Suites",
+       "group": "HOTEL"
+      }
+     },
+     {
+      "name": "Hacienda de Mesilla",
+      "category": "BOUTIQUE INN",
+      "group": "",
+      "url": "https://haciendademesilla.com",
+      "desc": "",
+      "address": "1891 Avenida de Mesilla, Mesilla, NM 88046",
+      "phone": "(575) 652-4953",
+      "es": {
+       "name": "Hacienda de Mesilla",
+       "category": "HOTEL BOUTIQUE"
+      }
+     },
+     {
+      "name": "La Posta de Mesilla",
+      "category": "RESTAURANT",
+      "group": "",
+      "url": "https://laposta-de-mesilla.com",
+      "desc": "",
+      "address": "2410 Calle de San Albino, Mesilla, NM 88046",
+      "phone": "(575) 524-3524",
+      "es": {
+       "name": "La Posta de Mesilla",
+       "category": "RESTAURANTE"
+      }
+     }
+    ],
+    "title_es": "HOSPITALIDAD"
+   },
+   {
+    "title": "COMMUNITY & NONPROFIT ORGANIZATIONS",
+    "entries": [
+     {
+      "name": "United Way of Southwest New Mexico",
+      "category": "NONPROFIT",
+      "group": "",
+      "url": "https://uwswnm.org",
+      "desc": "",
+      "address": "PO Box 1347, Las Cruces, NM 88004",
+      "phone": "(575) 524-7561",
+      "es": {
+       "name": "United Way of Southwest New Mexico",
+       "category": "SIN FINES DE LUCRO"
+      }
+     },
+     {
+      "name": "Tresco, Inc.",
+      "category": "DISABILITY SERVICES",
+      "group": "",
+      "url": "https://trescoinc.org",
+      "desc": "",
+      "address": "1800 Copper Loop, Las Cruces, NM 88005",
+      "phone": "(575) 528-2200",
+      "es": {
+       "name": "Tresco, Inc.",
+       "category": "SERVICIOS PARA PERSONAS CON DISCAPACIDAD"
+      }
+     },
+     {
+      "name": "Casa de Peregrinos",
+      "category": "FOOD BANK",
+      "group": "",
+      "url": "https://casadeperegrinos.org",
+      "desc": "",
+      "address": "999 W. Amador Ave. Suite F, Las Cruces, NM 88005",
+      "phone": "(575) 523-5542",
+      "locations": [
+       {
+        "label": "Las Cruces (Central Pantry)",
+        "address": "999 W. Amador Ave. Suite F, Las Cruces, NM 88005",
+        "phone": "(575) 523-5542",
+        "label_es": "Las Cruces (despensa central)"
+       },
+       {
+        "label": "Hatch Pantry",
+        "address": "321 N. Main St., Hatch, NM 87937",
+        "phone": "(575) 267-7805",
+        "note": "Wed & Fri 3–6 p.m.",
+        "note_es": "mié y vie de 3 a 6 p.m.",
+        "label_es": "Despensa de Hatch"
+       }
+      ],
+      "es": {
+       "name": "Casa de Peregrinos",
+       "category": "BANCO DE ALIMENTOS"
+      }
+     },
+     {
+      "name": "FYI+",
+      "category": "NONPROFIT",
+      "group": "",
+      "url": "https://fyiplusnm.org",
+      "desc": "",
+      "address": "1320 S. Solano Dr., Las Cruces, NM 88001",
+      "phone": "(575) 522-4004",
+      "locations": [
+       {
+        "label": "Main Office - Las Cruces",
+        "address": "1320 S. Solano Dr., Las Cruces, NM 88001",
+        "phone": "(575) 522-4004",
+        "label_es": "Oficina principal – Las Cruces"
+       },
+       {
+        "label": "La Vida Project (Youth Center)",
+        "address": "118 S. Main St., Las Cruces, NM 88001",
+        "phone": "(575) 522-4004",
+        "note": "Youth Success Center",
+        "note_es": "Centro de Éxito Juvenil",
+        "label_es": "Proyecto La Vida (Centro Juvenil)"
+       },
+       {
+        "label": "Juntos Project (Family Center)",
+        "address": "715 E. Amador Ave., Las Cruces, NM 88001",
+        "phone": "(575) 339-1055",
+        "note": "Family Success Center",
+        "note_es": "Centro de Éxito Familiar",
+        "label_es": "Proyecto Juntos (Centro Familiar)"
+       }
+      ],
+      "es": {
+       "name": "FYI+",
+       "category": "SIN FINES DE LUCRO"
+      }
+     },
+     {
+      "name": "Doña Ana County Farm & Livestock Bureau",
+      "category": "AGRICULTURE ASSOCIATION",
+      "group": "",
+      "url": "https://nmflb.org",
+      "desc": "",
+      "address": "PO Box 904, Las Cruces, NM 88004",
+      "phone": "(575) 524-8632",
+      "es": {
+       "name": "Doña Ana County Farm & Livestock Bureau",
+       "category": "ASOCIACIÓN AGRÍCOLA"
+      }
+     }
+    ],
+    "title_es": "ORGANIZACIONES COMUNITARIAS Y SIN FINES DE LUCRO"
+   }
+  ],
+  "title_es": "Directorio de Negocios Locales"
  }
 ]

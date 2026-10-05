@@ -47,10 +47,12 @@ def by_name(name, group_or_cat=None):
     for h1, h2, e in entries(PDF):
         if e['name'] == name and (group_or_cat is None or (e['group'] or e['category']) == group_or_cat):
             out.append(e)
-    assert len(out) == 1, (name, len(out))
-    return out[0]
+    assert len(out) <= 1, (name, len(out))
+    return out[0] if out else None   # entry may have been dropped from the print guide
 
 def fix(e, **f):
+    if e is None:
+        return
     for k, v in f.items():
         if e[k] != v:
             report.append(f"{e['name']} :: {k}: {e[k]!r} -> {v!r}")
@@ -64,12 +66,13 @@ fix(by_name('Killam Development'), url='https://killamdevelopment.com', phone='(
 fix(by_name('USDA Rural Development'), url='https://rd.usda.gov/nm', phone='(575) 522-8775, ext. 4')
 fix(by_name('Aries Worldwide Logistics'), url='https://ariesww.com')
 fix(by_name('WaFd Bank'), url='https://wafdbank.com')
-e = by_name('New Mexico Economic Development Department (EDD)')
-fix(e, address=re.sub(r'^(?:\S+@\S+\s+)+', '', e['address']))
-e = by_name('VA Veteran Readiness & Employment (VR&E)')
-fix(e, address=re.sub(r'\s+\S+@\S+$', '', e['address']))
+for nm, rx in [('New Mexico Economic Development Department (EDD)', r'^(?:\S+@\S+\s+)+'), ('VA Veteran Readiness & Employment (VR&E)', r'\s+\S+@\S+$')]:
+    e = by_name(nm)
+    if e:
+        fix(e, address=re.sub(rx, '', e['address']))
 e = by_name('Las Cruces Association of Realtors')
-fix(e, address=re.sub(r'\s+lascrucesassociationofrealtors\.co\s?m$', '', e['address']), url=e['url'] or 'https://lcarnm.com')
+if e:
+    fix(e, address=re.sub(r'\s+lascrucesassociationofrealtors\.co\s?m$', '', e['address']), url=e['url'] or 'https://lcarnm.com')
 
 # 4. Widget-only decision (user: "it could live in both for the ones that are specific to a city"):
 #    keep the city-specific utilities also under their municipality's Licensing group, values taken from the PDF's Utilities entries.
