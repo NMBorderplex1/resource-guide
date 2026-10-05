@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large source files live on SharePoint / the website, not in git
+inputs/
+*.pdf
+*.tif
+*.tiff
+*.zip
+*.psd
+
+# Regenerated intermediate
+data/widget_data_from_pdf.json

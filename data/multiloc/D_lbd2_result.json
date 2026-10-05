@@ -1,0 +1,603 @@
+[
+ {
+  "name": "Union Pacific",
+  "address": "211 N. Piedras, El Paso, TX 79905",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "El Paso (regional)",
+    "address": "211 N. Piedras, El Paso, TX 79905",
+    "phone": "",
+    "note": "Outside Dona Ana County; listed address is a TX office"
+   },
+   {
+    "label": "Santa Teresa Intermodal",
+    "address": "9050 Strauss Road, Santa Teresa, NM 88008",
+    "phone": "",
+    "note": "Rail intermodal ramp (customer/driver access), opened 2014; not a walk-in office"
+   }
+  ],
+  "source": "https://www.up.com/customers/announcements/intermodal/domesticterminals/IM2014-72.html ; https://www.up.com/shipping/connect-to-rail/premier/santa-teresa",
+  "confidence": "medium",
+  "notes": "Listed El Paso address is outside the county. UP has an intermodal ramp in Santa Teresa (Dona Ana County) but it is an industrial terminal, not a public office; include only if guide wants a county location. No phone verified."
+ },
+ {
+  "name": "Ironhorse Resources",
+  "address": "5001 Avenida Creel, Santa Teresa, NM 88008",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "MVT Logistics",
+  "address": "4950 Avenida Creel, Santa Teresa, NM 88008",
+  "status": "single_location",
+  "source": "https://mvt-logistics.com",
+  "confidence": "low",
+  "notes": "Website lists Fort Worth TX and Mexican offices and does not show the Santa Teresa address; website phone is (915) 581-7300. Santa Teresa remains the only county site."
+ },
+ {
+  "name": "Aries Worldwide Logistics",
+  "address": "655 Industrial Avenue, Suite B, Santa Teresa, NM 88008",
+  "status": "single_location",
+  "source": "https://ariesww.com",
+  "confidence": "low",
+  "notes": "Website shows Houston HQ (1501 E. Richey Rd.); no Doña Ana County location confirmed on the opened page."
+ },
+ {
+  "name": "Enterprise Truck Rental",
+  "address": "1340 S Valley Dr., Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "https://www.enterprisetrucks.com/truckrental/en_US/locations/us/e134z5-las-cruces.html (search result) ; https://www.enterprisetrucks.com/truckrental/en_US/locations.html",
+  "confidence": "high",
+  "notes": "Only one Enterprise Truck Rental branch in Las Cruces (1340 S Valley Dr, M-F 7:30-5, Sat 9-12). Enterprise Rent-A-Car car-rental branches are a separate line of business."
+ },
+ {
+  "name": "Admiral Cable, Inc.",
+  "address": "4701 Avenida Divisadero, Santa Teresa, NM 88008",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Franklin Mountain Packaging",
+  "address": "401 Avenida Ascención, Santa Teresa, NM 88008",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Las Cruces Machine & Manufacturing",
+  "address": "6000 S. Main, Suite B, Mesilla Park, NM 88047",
+  "status": "single_location",
+  "source": "https://lascrucesmachine.com",
+  "confidence": "medium",
+  "notes": "No other location found."
+ },
+ {
+  "name": "Cymmetrik Technologies USA Southwest",
+  "address": "150 Earhardt Way, Ste 200, Santa Teresa, NM 88008",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "W Silver Recycling",
+  "address": "1720 Magoffin Avenue, El Paso, TX 79901",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "El Paso (HQ)",
+    "address": "1720 Magoffin Avenue, El Paso, TX 79901",
+    "phone": "(915) 532-5643",
+    "note": "Outside Dona Ana County; company site now lists HQ as 601 N. Mesa St., Suite 1500, El Paso"
+   },
+   {
+    "label": "Santa Teresa",
+    "address": "5025 Avenida Creel, Santa Teresa, NM 88008",
+    "phone": "(505) 244-1508",
+    "note": "Recycling facility; phone/address from BBB profile"
+   }
+  ],
+  "source": "https://wsilverrecycling.com/ ; https://www.bbb.org/us/nm/santa-teresa/profile/recycling-center/w-silver-recycling-inc-0806-99135003/addressId/97705",
+  "confidence": "medium",
+  "notes": "Company website lists Santa Teresa, NM as a location but without a street address; address/phone from BBB. Listed El Paso address is outside the county and may be outdated (site shows 601 N. Mesa St., Ste 1500 as HQ)."
+ },
+ {
+  "name": "Grid United",
+  "address": "712 Main Street, Suite 2500, Houston, TX 77002",
+  "status": "single_location",
+  "source": "https://gridunited.com",
+  "confidence": "high",
+  "notes": "Houston office only; no NM office listed."
+ },
+ {
+  "name": "MountainView Regional Medical Center",
+  "address": "4311 E. Lohman Avenue, Las Cruces, NM 88001",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Hospital (Main Campus)",
+    "address": "4311 E. Lohman Avenue, Las Cruces, NM 88011",
+    "phone": "(575) 556-7600",
+    "note": "Main campus emergency department, 24/7"
+   },
+   {
+    "label": "Emergency Center - North Main",
+    "address": "2811 North Main Street, Las Cruces, NM 88001",
+    "phone": "(575) 526-0080",
+    "note": "Freestanding emergency center"
+   },
+   {
+    "label": "Urgent Care - Lohman",
+    "address": "4351 E. Lohman Avenue, Suite 100, Las Cruces, NM 88011",
+    "phone": "(575) 525-2700",
+    "note": "Daily 9 a.m.-8 p.m."
+   },
+   {
+    "label": "Urgent Care - Northrise",
+    "address": "3485 Northrise Drive, Suite 1, Las Cruces, NM 88011",
+    "phone": "(575) 382-2161",
+    "note": "Daily 9 a.m.-8 p.m."
+   },
+   {
+    "label": "Urgent Care - Valley",
+    "address": "1455 S. Valley Drive, Suite A, Las Cruces, NM 88005",
+    "phone": "(575) 526-7777",
+    "note": "Daily 9 a.m.-8 p.m."
+   },
+   {
+    "label": "Primary Care - Lohman",
+    "address": "4401 E. Lohman Avenue, Building 5, Suite C, Las Cruces, NM 88011",
+    "phone": "(575) 522-7313",
+    "note": "MountainView Medical Group (from mountainviewdocs.com listing)"
+   },
+   {
+    "label": "Family Care - Valley",
+    "address": "1455 S. Valley Drive, Suite B, Las Cruces, NM 88005",
+    "phone": "(575) 526-6992",
+    "note": "MountainView Medical Group"
+   },
+   {
+    "label": "Family Care - Northrise",
+    "address": "3485 Northrise Drive, Suite 2, Las Cruces, NM 88011",
+    "phone": "(575) 382-2149",
+    "note": "MountainView Medical Group"
+   },
+   {
+    "label": "Orthopedics",
+    "address": "4351 E. Lohman Avenue, Suites 301 and 310, Las Cruces, NM 88011",
+    "phone": "(575) 532-9755",
+    "note": "MountainView Medical Group"
+   }
+  ],
+  "source": "https://www.mountainviewregional.com/walk-in-or-urgent-care ; https://www.mountainviewregional.com/emergency-department ; web search of https://www.mountainviewdocs.com/our-locations (Medical Group clinics)",
+  "confidence": "high",
+  "notes": "Listed hospital address/phone are correct (ZIP 88011). All sites are in Las Cruces. Urgent care and ED addresses/phones confirmed on the org site; Medical Group clinic addresses came from mountainviewdocs.com search results (not individually opened), so medium confidence for those four."
+ },
+ {
+  "name": "Memorial Medical Center",
+  "address": "2450 S. Telshor Blvd., Las Cruces, NM 88011",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Hospital (Main Campus)",
+    "address": "2450 S. Telshor Blvd., Las Cruces, NM 88011",
+    "phone": "(575) 522-8641",
+    "note": "Includes Emergency Room"
+   },
+   {
+    "label": "Memorial Cancer Center",
+    "address": "2530 S. Telshor Blvd., Suite 107, Las Cruces, NM 88011",
+    "phone": "(575) 521-6727"
+   },
+   {
+    "label": "Family Medicine Center",
+    "address": "2605 Terrace Drive, Las Cruces, NM 88011",
+    "phone": "(575) 521-5370"
+   },
+   {
+    "label": "HealthPlex & Women's Imaging",
+    "address": "2735 E. Northrise Drive, Las Cruces, NM 88011",
+    "phone": "(575) 532-4300"
+   },
+   {
+    "label": "Wound Care Center",
+    "address": "2735 E. Northrise Drive, Las Cruces, NM 88011",
+    "phone": "(575) 532-4399"
+   },
+   {
+    "label": "Imaging Center of Las Cruces",
+    "address": "160 Roadrunner Parkway, Las Cruces, NM 88011",
+    "phone": "(575) 556-1800"
+   },
+   {
+    "label": "Sun View Imaging Center",
+    "address": "2525 S. Telshor Blvd., Las Cruces, NM 88011",
+    "phone": "(575) 522-6236"
+   },
+   {
+    "label": "Urgent Care - Sonoma",
+    "address": "4672 Sonoma Ranch Blvd., Suite A, Las Cruces, NM 88011",
+    "phone": "(575) 556-1879",
+    "note": "Memorial Physician Practices; from directory listings"
+   },
+   {
+    "label": "Urgent Care - Anthony",
+    "address": "1950 Chebo Murillo, Anthony, NM 88021",
+    "phone": "(575) 288-2601",
+    "note": "Opened June 2025; from Healthgrades/news listings"
+   },
+   {
+    "label": "Family HealthCare - Anthony",
+    "address": "600 Anthony Drive, Anthony, NM 88021",
+    "phone": "(575) 882-2118",
+    "note": "Memorial Physician Practices; from directory listings"
+   },
+   {
+    "label": "Family HealthCare - Solano",
+    "address": "1205 S. Solano Drive, Las Cruces, NM 88001",
+    "phone": "(575) 524-9119",
+    "note": "Memorial Physician Practices; from directory listings"
+   },
+   {
+    "label": "Family HealthCare - North Main",
+    "address": "2611 N. Main Street, Las Cruces, NM 88001",
+    "phone": "(575) 449-4424",
+    "note": "Memorial Physician Practices; from directory listings"
+   },
+   {
+    "label": "Family HealthCare - Picacho",
+    "address": "3030 W. Picacho Avenue, Suite D, Las Cruces, NM 88007",
+    "phone": "(575) 556-6470",
+    "note": "Memorial Physician Practices; from directory listings"
+   }
+  ],
+  "source": "https://www.mmclc.org/locations ; https://www.memorialphysicianpractices.com/locations (page is JS-rendered; details from Healthgrades/search listings)",
+  "confidence": "medium",
+  "notes": "First 7 locations confirmed on mmclc.org/locations. Urgent care and Family HealthCare clinics (Memorial Physician Practices) come from Healthgrades/WebMD/news listings; the practice site locations page did not render, so verify addresses/phones before print. A Family HealthCare - Sonoma clinic also exists (address not found). Listed hospital address/phone are correct."
+ },
+ {
+  "name": "Rehabilitation Hospital of Southern NM",
+  "address": "4441 E. Lohman Avenue, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://rhsnm.ernesthealth.com",
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Three Crosses Regional Hospital",
+  "address": "2560 Samaritan Drive, Las Cruces, New Mexico 88001",
+  "status": "single_location",
+  "source": "https://www.threecrossesregional.com/",
+  "confidence": "high",
+  "notes": "Single campus at 2560 Samaritan Dr; specialty clinics are on site. Listed (800) 421-8274 is the number shown on the hospital website."
+ },
+ {
+  "name": "Matrix Home Care Services of NM",
+  "address": "1100 S. Main St. Suite A, Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "https://matrixnm.com",
+  "confidence": "high",
+  "notes": "One office in Las Cruces; serves Anthony, Sunland Park, Santa Teresa, etc. by home visits only."
+ },
+ {
+  "name": "Burrell College of Health Sciences",
+  "address": "3501 Arrowhead Dr., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://burrell.edu",
+  "confidence": "high",
+  "notes": "One Las Cruces campus (second campus is in Melbourne, FL). Site also gives 575.674.2267."
+ },
+ {
+  "name": "Sutin, Thayer & Browne",
+  "address": "6100 Uptown Blvd NE, Ste 400, Albuquerque, NM 87110",
+  "status": "single_location",
+  "source": "https://sutinfirm.com",
+  "confidence": "high",
+  "notes": "Albuquerque office only; no Doña Ana County office."
+ },
+ {
+  "name": "Carrillo Law Firm, P.C.",
+  "address": "1001 East Lohman Ave., Las Cruces, New Mexico 88001",
+  "status": "single_location",
+  "source": "https://carrillolawpc.com",
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Mynatt Springer P.C.",
+  "address": "1660 Hickory Loop, Las Cruces, New Mexico 88005",
+  "status": "single_location",
+  "source": "https://mynattspringer.com",
+  "confidence": "medium",
+  "notes": "Single Las Cruces office; no phone shown on homepage."
+ },
+ {
+  "name": "KW Consulting",
+  "address": "46 Kiva Place, Sandia Park, NM 87047",
+  "status": "single_location",
+  "source": "https://kwconsultingnm.com",
+  "confidence": "medium",
+  "notes": "Remote/association management firm; no physical Doña Ana County office shown. Sandia Park listed ZIP 87047 is correct for Sandia Park."
+ },
+ {
+  "name": "NMCO Creative Studio",
+  "address": "1335 S. Solano Dr., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Art Schobey Interactive",
+  "address": "Raleigh, NC area",
+  "status": "single_location",
+  "source": "https://arteffects.com",
+  "confidence": "medium",
+  "notes": "Site shows Raleigh and Mount Airy, NC only; phone has 575 area code but no NM location was confirmed."
+ },
+ {
+  "name": "American Document Services",
+  "address": "300 N. 17th Street, Ste A, Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Document Solutions Inc.",
+  "address": "1705 N. Valley Dr., Ste 5, Las Cruces, NM 88007",
+  "status": "single_location",
+  "source": "https://dsinm.com",
+  "confidence": "high",
+  "notes": "Las Cruces (1705 N. Valley Dr., Ste 5) is the only Dona Ana County office; HQ is Albuquerque. Listed (888) 386-7834 is the company-wide toll-free number; ZIP on site/input differs (88007 on site)."
+ },
+ {
+  "name": "Master Imaging",
+  "address": "4150 Camino Coyote Suite 1, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://master-imaging.com/contact/",
+  "confidence": "high",
+  "notes": "Single Las Cruces imaging center. Website main phone is (575) 249-7900 (listed (575) 496-3578 does not match); website: https://master-imaging.com "
+ },
+ {
+  "name": "Security Concepts of Las Cruces",
+  "address": "130 North Solano Drive, Las Cruces, New Mexico 88001-2927",
+  "status": "single_location",
+  "source": "Search listings (Yelp/BBB/Security Concepts site contact page); org site cert expired",
+  "confidence": "medium",
+  "notes": "Single office at 130 N Solano Dr; PO Box 536 is mailing only."
+ },
+ {
+  "name": "LCIS Advisors",
+  "address": "2043 Reina Drive, Las Cruces, New Mexico 88007",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Night Eyes",
+  "address": "3401 Hueco Ave, El Paso, Texas 79903",
+  "status": "single_location",
+  "source": "https://night-eyes.com",
+  "confidence": "medium",
+  "notes": "El Paso-based; says it serves TX and NM but no NM office listed."
+ },
+ {
+  "name": "Crystal Clear Cleaning Company",
+  "address": "16 Westdin, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Clean Team",
+  "address": "5015 Prospect Ave., Albuquerque, New Mexico 87110",
+  "status": "single_location",
+  "source": "https://www.cleanteamclean.com/las-cruces-new-mexico ; https://cleanteamclean.com/directory",
+  "confidence": "medium",
+  "notes": "Listed address is the Albuquerque regional office (5015 Prospect Ave.). Clean Team serves Las Cruces via GM Gloria Sanchez (505-888-5130) but there is no physical Las Cruces office address on its site. No public-facing Dona Ana County location."
+ },
+ {
+  "name": "American Linen & Uniform Supply",
+  "address": "550 N Church Street, Las Cruces, New Mexico 88001",
+  "status": "single_location",
+  "source": "http://www.yourlinencompany.com/",
+  "confidence": "medium",
+  "notes": "Only the 550 N. Church St. plant/office is listed (hours M-F 8-5, also 1-800-448-2471). Site mentions serving other locations in Dona Ana County but gives no other addresses."
+ },
+ {
+  "name": "Chisholm’s LLC",
+  "address": "P.O. Box 397, Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "Business directory listings (Bloomberg/D&B/Chamber search results)",
+  "confidence": "low",
+  "notes": "Directory listings show a single location at 606 W Amador Ave, Las Cruces, NM 88005 (listed address is a PO Box)."
+ },
+ {
+  "name": "Hotel Encanto de Las Cruces",
+  "address": "705 S. Telshor Boulevard, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://HotelEncanto.com",
+  "confidence": "high",
+  "notes": "Sister properties are in Taos, Santa Fe, Albuquerque only. Reservations 1-866-383-0443."
+ },
+ {
+  "name": "Courtyard Las Cruces",
+  "address": "456 E. University, Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Staybridge Suites",
+  "address": "2651 Northrise Dr., Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Hacienda de Mesilla",
+  "address": "1891 Avenida de Mesilla, Mesilla, NM 88046",
+  "status": "single_location",
+  "source": "Quick check; clearly single-site business",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "La Posta de Mesilla",
+  "address": "2410 Calle de San Albino, Mesilla, NM 88046",
+  "status": "single_location",
+  "source": "https://lapostademesilla.com/",
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "United Way of Southwest New Mexico",
+  "address": "PO Box 1347, Las Cruces, NM 88004",
+  "status": "single_location",
+  "source": "https://uwswnm.org",
+  "confidence": "high",
+  "notes": "Single office. Listed address is only a PO Box; the org website lists 642 S. Alameda Blvd, Ste A, Las Cruces, NM 88005, phone 575.524.7561."
+ },
+ {
+  "name": "Tresco, Inc.",
+  "address": "1800 Copper Loop, Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "https://trescoinc.org/contact-us/ ; https://trescoinc.org/outreach-center/",
+  "confidence": "medium",
+  "notes": "All Dona Ana County programs (admin, TOTS, Day One, Outreach Center) show 1800 Copper Loop, Las Cruces 88005. Other Tresco offices are in Socorro and Truth or Consequences (outside county). Contact page also lists toll-free 1-800-554-0936. A web search snippet cited a separate Outreach Center at 2325 Nevada Ave but the org's own Outreach Center page shows 1800 Copper Loop."
+ },
+ {
+  "name": "Casa de Peregrinos",
+  "address": "999 W. Amador Ave. Suite F, Las Cruces, NM 88005",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Las Cruces (Central Pantry)",
+    "address": "999 W. Amador Ave., Building 1, Las Cruces, NM 88005",
+    "phone": "(575) 523-5542",
+    "note": "Org site lists Building 1; input says Suite F"
+   },
+   {
+    "label": "Hatch Pantry",
+    "address": "321 N. Main St., Hatch, NM 87937",
+    "phone": "(575) 267-7805",
+    "note": "Wed and Fri 3-6 p.m.; org site prints ZIP 88047 but Hatch is 87937"
+   },
+   {
+    "label": "Anthony (mobile pantry)",
+    "address": "1580 N. 4th Street, Anthony, NM 88021",
+    "phone": "",
+    "note": "4th Monday, 9:30 a.m."
+   },
+   {
+    "label": "Berino (mobile pantry)",
+    "address": "205 San Benito Rd., Berino, NM 88048",
+    "phone": "",
+    "note": "2nd Friday, 10:30 a.m."
+   },
+   {
+    "label": "Butterfield (mobile pantry)",
+    "address": "9530 Berry Patch Ln., Butterfield, NM 88011",
+    "phone": "",
+    "note": "3rd Friday, 11 a.m."
+   },
+   {
+    "label": "Chaparral (mobile pantry)",
+    "address": "568 E. Lisa Dr., Chaparral, NM 88081",
+    "phone": "",
+    "note": "1st Tuesday, 10 a.m."
+   },
+   {
+    "label": "Dona Ana (mobile pantry)",
+    "address": "5745 Ledesma Dr., Dona Ana, NM 88007",
+    "phone": "",
+    "note": "1st Thursday, 9 a.m."
+   },
+   {
+    "label": "La Mesa (mobile pantry)",
+    "address": "317 Josephine St., La Mesa, NM 88044",
+    "phone": "",
+    "note": "4th Tuesday, 10 a.m."
+   },
+   {
+    "label": "Mesquite (mobile pantry)",
+    "address": "129 Tawa Avenue, Mesquite, NM 88048",
+    "phone": "",
+    "note": "3rd Thursday, 9:30 a.m."
+   },
+   {
+    "label": "Radium Springs (mobile pantry)",
+    "address": "12060 Lindbeck Rd., Radium Springs, NM 88007",
+    "phone": "",
+    "note": "2nd Thursday, 10 a.m."
+   },
+   {
+    "label": "Tortugas (mobile pantry)",
+    "address": "3600 Paroquia St., Las Cruces, NM 88001",
+    "phone": "",
+    "note": "2nd Monday, 2 p.m."
+   },
+   {
+    "label": "Vado (mobile pantry)",
+    "address": "180 La Fe Ave., Mesquite, NM 88048",
+    "phone": "",
+    "note": "1st Friday, 10 a.m."
+   }
+  ],
+  "source": "https://casadeperegrinos.org/pantry-locations-schedule/ ; https://casadeperegrinos.org",
+  "confidence": "high",
+  "notes": "Org site shows 999 W. Amador, Building 1 (input says Suite F). Mobile pantry sites are monthly scheduled stops (general line 575-523-5542); decide whether to list all or just central + Hatch + a pointer to the schedule page."
+ },
+ {
+  "name": "FYI+",
+  "address": "1320 S. Solano Dr., Las Cruces, NM 88001",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Main Office - Las Cruces",
+    "address": "1320 S. Solano Dr., Las Cruces, NM 88001",
+    "phone": "(575) 522-4004"
+   },
+   {
+    "label": "La Vida Project (Youth Center)",
+    "address": "118 S. Main St., Las Cruces, NM 88001",
+    "phone": "(575) 522-4004",
+    "note": "Youth Success Center"
+   },
+   {
+    "label": "Juntos Project (Family Center)",
+    "address": "715 E. Amador Ave., Las Cruces, NM 88001",
+    "phone": "(575) 339-1055",
+    "note": "Family Success Center"
+   },
+   {
+    "label": "Anthony",
+    "address": "414 Saint Anthony St., Anthony, NM 88021",
+    "phone": "(575) 882-0293",
+    "note": "From directory listings, not FYI+ website; verify"
+   }
+  ],
+  "source": "https://fyiplusnm.org/fyi-programs/ ; https://fyiplusnm.org/contact/ ; web search listings for Anthony office",
+  "confidence": "medium",
+  "notes": "Las Cruces sites confirmed on fyiplusnm.org/fyi-programs. FYI+ sites mention satellite offices in Anthony, Sunland Park and Hatch (plus Deming, T or C, Socorro outside county) but the org site gives no addresses for them. Anthony address is from third-party listings (Yahoo/YellowPages) under the former name Families and Youth Inc.; Sunland Park and Hatch addresses not found."
+ },
+ {
+  "name": "Doña Ana County Farm & Livestock Bureau",
+  "address": "PO Box 904, Las Cruces, NM 88004",
+  "status": "single_location",
+  "source": "https://www.nmflb.org/About-Us/Counties/Doa-Ana",
+  "confidence": "medium",
+  "notes": "Single county office. Listed address is only a PO Box; the NM Farm & Livestock Bureau county page gives 2220 N Telshor Blvd, Las Cruces, NM 88011 (regional manager phone 575-339-4898). An older directory shows 600 S. Valley Dr., Las Cruces, NM 88005."
+ }
+]

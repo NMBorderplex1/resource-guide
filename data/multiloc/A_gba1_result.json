@@ -1,0 +1,482 @@
+[
+ {
+  "name": "Business Registration",
+  "address": "700 N. Main Street, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://lascruces.gov",
+  "confidence": "medium",
+  "notes": "Single City Hall location."
+ },
+ {
+  "name": "Permits & Inspections",
+  "address": "700 North Main Street, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://lascruces.gov",
+  "confidence": "medium",
+  "notes": "Single City Hall location."
+ },
+ {
+  "name": "Planning & Zoning",
+  "address": "700 North Main Street, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://lascruces.gov",
+  "confidence": "medium",
+  "notes": "Single City Hall location."
+ },
+ {
+  "name": "Las Cruces Utilities",
+  "address": "680 N. Motel Blvd., Las Cruces, NM 88001",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Utilities Main Office",
+    "address": "680 N. Motel Blvd., Las Cruces, NM 88001",
+    "phone": "(575) 541-2111",
+    "note": "Mon-Fri 8am-5pm"
+   },
+   {
+    "label": "City Hall Customer Central",
+    "address": "700 N. Main St., Las Cruces, NM 88001",
+    "phone": "(575) 541-2111",
+    "note": "Mon-Fri 8am-5pm"
+   },
+   {
+    "label": "East Mesa",
+    "address": "5195 Bataan Memorial West, Las Cruces, NM 88001",
+    "phone": "(575) 541-2111",
+    "note": "Mon-Fri 9am-6pm"
+   }
+  ],
+  "source": "https://lascruces.gov/property/utilities/about-lcu/contact-us/ ; https://lascruces.gov/east-mesa-utilities-office-to-reopen-july-3-2025/ ; https://lascruces.gov/east-mesa-utilities-office-temporarily-closed/",
+  "confidence": "high",
+  "notes": "Listed address/phone correct. Emergency line (575) 526-0500. East Mesa had a brief AC closure in June 2025, reopened July 3, 2025."
+ },
+ {
+  "name": "Community Development",
+  "address": "1000 McNutt Rd. #G, Sunland Park, NM 88063",
+  "status": "single_location",
+  "source": "https://sunlandpark-nm.gov",
+  "confidence": "medium",
+  "notes": "City Hall at 1000 McNutt Rd; no satellite offices listed. Site main phone (575) 589-7565."
+ },
+ {
+  "name": "Camino Real Regional Utility Authority",
+  "address": "Sunland Park Multi-Generational Center, 4700 McNutt Rd., Sunland Park, NM 88008",
+  "status": "single_location",
+  "source": "https://www.crrua.org/",
+  "confidence": "medium",
+  "notes": "Only Sunland Park office found on site (4700 McNutt Rd; site shows ZIP 88008)."
+ },
+ {
+  "name": "Community Development",
+  "address": "2231 Avenida de Mesilla, Mesilla, NM 88046",
+  "status": "single_location",
+  "source": "https://mesillanm.gov/government/departments/economic-community-development",
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Administrative Offices",
+  "address": "133 N. Franklin St., Hatch, NM 87937",
+  "status": "single_location",
+  "source": "https://villageofhatch.org",
+  "confidence": "high",
+  "notes": "Hours 8am-4pm; after-hours (866) 301-6884."
+ },
+ {
+  "name": "City Hall",
+  "address": "820 Highway 478, Anthony, NM 88021",
+  "status": "single_location",
+  "source": "https://cityofanthonynm.com",
+  "confidence": "low",
+  "notes": "Not opened; assumed single."
+ },
+ {
+  "name": "Anthony Water & Sanitation District",
+  "address": "1155 N. Fourth St., Anthony, NM 88021",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Anthony",
+    "address": "1155 N. Fourth St., Anthony, NM 88021",
+    "phone": "(575) 882-3922",
+    "note": "Mon-Fri 8am-5pm"
+   },
+   {
+    "label": "Chaparral (Desert Aire)",
+    "address": "2360 Desert Aire, Chaparral, NM 88081",
+    "phone": "(575) 824-2360",
+    "note": "Desert Aire MDW & SWA office"
+   }
+  ],
+  "source": "https://www.awsd.us/contact-us ; https://www.awsd.us/",
+  "confidence": "medium",
+  "notes": "Contact page lists Desert Aire as secondary location; homepage references 'AWSD & Desert Aire offices'. Walk-in hours at Desert Aire not published. Listed address/phone correct."
+ },
+ {
+  "name": "Business Registration",
+  "address": "845 N. Motel Blvd., Las Cruces, NM 88007",
+  "status": "single_location",
+  "source": "https://www.donaana.gov/",
+  "confidence": "medium",
+  "notes": "Government Center is the only office found; county main (575) 647-7200. A fetch summary mentioned satellite offices but no source confirmed them."
+ },
+ {
+  "name": "Planning & Zoning",
+  "address": "845 N. Motel Blvd., Las Cruces, NM 88007",
+  "status": "single_location",
+  "source": "https://www.donaana.gov/departments/community_services/building_services/index.php",
+  "confidence": "high",
+  "notes": "Community Development at 845 N Motel Blvd; no satellite offices."
+ },
+ {
+  "name": "Doña Ana County Utilities",
+  "address": "845 N. Motel Blvd., Las Cruces, NM 88007",
+  "status": "single_location",
+  "source": "https://www.donaana.gov/departments/public_works/utilities/index.php",
+  "confidence": "high",
+  "notes": "Single office at 845 N Motel Blvd."
+ },
+ {
+  "name": "Secretary of State – Business Services",
+  "address": "325 Don Gaspar, Suite 300, Santa Fe, NM 87501",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "high",
+  "notes": "Santa Fe HQ; no Dona Ana County office checked."
+ },
+ {
+  "name": "Taxation & Revenue Department",
+  "address": "2540 S. El Paseo, Bldg. #2, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://www.tax.newmexico.gov/contact-us/",
+  "confidence": "high",
+  "notes": "Only Las Cruces district office in county (Mon-Fri 8-5, closed Wed from 4:30pm, appointments required)."
+ },
+ {
+  "name": "Regulation & Licensing Department",
+  "address": "2550 Cerrillos Road, Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "https://rld.nm.gov",
+  "confidence": "medium",
+  "notes": "State HQ in Santa Fe; Las Cruces CID is separate entry."
+ },
+ {
+  "name": "Construction Industries Division",
+  "address": "505 S. Main St., Suite 103 (Loretto Town Center), Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://rld.nm.gov/construction-industries",
+  "confidence": "high",
+  "notes": "Only Las Cruces CID office; Mon-Fri 8-5."
+ },
+ {
+  "name": "Environment Department – Environmental Health",
+  "address": "2301 Entrada Del Sol, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://www.env.nm.gov/contact-us/",
+  "confidence": "medium",
+  "notes": "Las Cruces EHB office (575) 288-2050 confirmed via search; no other county office found."
+ },
+ {
+  "name": "Mesilla Valley Economic Development Alliance (MVEDA)",
+  "address": "1501 S. Don Roser, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "City of Las Cruces Economic Development Department",
+  "address": "700 N. Main St., Suite 1100, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://lascruces.gov/business/economic-development/contact/",
+  "confidence": "medium",
+  "notes": ""
+ },
+ {
+  "name": "Doña Ana County Economic Development Department",
+  "address": "845 N. Motel Blvd., Las Cruces, NM 88007",
+  "status": "single_location",
+  "source": "https://www.donaana.gov/",
+  "confidence": "medium",
+  "notes": "County Government Center only."
+ },
+ {
+  "name": "City of Sunland Park Economic Development",
+  "address": "1000 McNutt Rd., Suite G, Sunland Park, NM 88063",
+  "status": "single_location",
+  "source": "https://sunlandpark-nm.gov",
+  "confidence": "medium",
+  "notes": ""
+ },
+ {
+  "name": "New Mexico Economic Development Department (EDD)",
+  "address": "1100 S. St. Francis Drive, Suite 1242, Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "medium",
+  "notes": "Santa Fe HQ."
+ },
+ {
+  "name": "New Mexico Partnership",
+  "address": "500 Marquette Ave. NW, Suite 1000, Albuquerque, NM 87102",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "medium",
+  "notes": "Albuquerque; no county office."
+ },
+ {
+  "name": "The Borderplex Alliance",
+  "address": "123 W. Mills Ave., Suite 320, El Paso, TX 79901",
+  "status": "single_location",
+  "source": "https://www.borderplexalliance.org/",
+  "confidence": "medium",
+  "notes": "El Paso HQ; no Dona Ana County office found."
+ },
+ {
+  "name": "Border Industrial Association",
+  "address": "1300 Country Club Rd., Suite A, Santa Teresa, NM 88008",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Spaceport America",
+  "address": "4605 Research Park Circle, Suite A, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://www.spaceportamerica.com/contact/",
+  "confidence": "high",
+  "notes": "Only the Las Cruces corporate office is in Dona Ana County; Spaceport site and visitor center are in Sierra County (Truth or Consequences)."
+ },
+ {
+  "name": "Downtown Las Cruces Partnership",
+  "address": "211 N. Water Street, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "New Mexico MainStreet",
+  "address": "1100 S. St. Francis Drive, Suite 1242, Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "medium",
+  "notes": "Santa Fe."
+ },
+ {
+  "name": "Greater Las Cruces Chamber of Commerce",
+  "address": "150 E. Lohman Ave., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Las Cruces Hispanic Chamber of Commerce",
+  "address": "277 E. Amador Ave., Ste. 305, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Las Cruces Green Chamber of Commerce",
+  "address": "221 N Main St., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Anthony Chamber of Commerce",
+  "address": "P.O. Box 1086, Anthony, NM 88021",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": "PO Box only."
+ },
+ {
+  "name": "Small Business Development Center (SBDC)",
+  "address": "DACC Workforce Center, 2345 Nevada Avenue, Suite 101, Las Cruces, NM 88001-3902",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Las Cruces",
+    "address": "DACC Workforce Center, 2345 Nevada Ave., Suite 101, Las Cruces, NM 88001",
+    "phone": "(575) 527-7676",
+    "note": "Mon-Fri 8am-5pm, appointments encouraged"
+   },
+   {
+    "label": "Sunland Park",
+    "address": "DACC Sunland Park Center, 3365 McNutt Rd., Sunland Park, NM 88063",
+    "phone": "(575) 528-7085",
+    "note": "Mon-Fri 8am-5pm, appointments encouraged"
+   }
+  ],
+  "source": "https://nmsbdc.org/locations/las-cruces ; https://www.nmsbdc.org/locations/sunland-park/",
+  "confidence": "high",
+  "notes": "Listed address/phone correct. Las Cruces center serves Dona Ana and Sierra counties."
+ },
+ {
+  "name": "WESST",
+  "address": "Collective Co., 211 N Water St., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://www.lascruces.org/economic-development/business-toolbox/wesst-enterprise-center-in-las-cruces/",
+  "confidence": "medium",
+  "notes": "WESST Las Cruces at 211 N Water St; no other county office found."
+ },
+ {
+  "name": "SCORE",
+  "address": "SCORE Santa Fe & Northern NM Chapter (serves Doña Ana County), 3900 Paseo del Sol, Suite A320, Santa Fe, NM 87507",
+  "status": "single_location",
+  "source": "https://www.lascruces.org/economic-development/business-toolbox/score-las-cruces/ ; web search results for SCORE Las Cruces Chapter 397",
+  "confidence": "medium",
+  "notes": "LISTED ADDRESS LIKELY WRONG: SCORE has a Las Cruces chapter (Chapter 397), not Santa Fe. Search results: 505 S. Main St., Suite 125 (Loretto Town Center), Las Cruces NM 88001, (575) 259-0635, score.397@scorelascruces.org; Chamber listing shows 150 E. Lohman Ave, (575) 524-1968 (the chamber's address). Verify before publishing. Single county location."
+ },
+ {
+  "name": "IMPACT-NM Business Growth Services",
+  "address": "301 Gold Ave. SW, Suite 102, Albuquerque, NM 87102",
+  "status": "single_location",
+  "source": "https://www.nmccap.org",
+  "confidence": "medium",
+  "notes": "Albuquerque-based; no Las Cruces office found. nmccap.org shows 119 3rd St SW Suite 102 (physical) / 301 Gold Ave SW Suite 102 (mailing); another source shows 801 University Blvd Ste 102. Listed address unverified; org has no Dona Ana County location."
+ },
+ {
+  "name": "New Mexico Office of Business Advocacy",
+  "address": "1100 St. Francis Drive, Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": "Santa Fe."
+ },
+ {
+  "name": "EDD Justice, Equity, Diversity & Inclusion (JEDI) Office",
+  "address": "1100 S. St. Francis Drive, Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": "Santa Fe."
+ },
+ {
+  "name": "Veterans Business Outreach Center (VBOC)",
+  "address": "4801 Indian School Road NE, Building 2, Suite 2, Albuquerque, NM 87110",
+  "status": "single_location",
+  "source": "https://www.dvs.nm.gov/vboc ; https://www.dvs.nm.gov/new-mexico-offices/",
+  "confidence": "medium",
+  "notes": "Albuquerque only; no Las Cruces VBOC office. Listed address matches dvs.nm.gov. Separate NMDVS Las Cruces VSO office (veteran benefits, not VBOC): 1125 N. Solano Dr., Suite 1125, (575) 644-6869."
+ },
+ {
+  "name": "Arrowhead Center at NMSU",
+  "address": "3655 Research Rd, Las Cruces, NM 88003",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Gastro Emprende Commercial Kitchen Incubator (El Calvario)",
+  "address": "240 N. Mesquite St., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Cruces Creatives",
+  "address": "205 E. Lohman Ave, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "ALICE Makerspace – Thomas Branigan Memorial Library",
+  "address": "200 E. Picacho Ave., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": "Specific to Branigan library makerspace."
+ },
+ {
+  "name": "Meta’l Jewelry Studio",
+  "address": "3206 Harrelson St., Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Collective Co.",
+  "address": "211 N. Water St., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Workspace 141",
+  "address": "141 Roadrunner Pkwy., Suite 141A, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "Lohman Atrium Suites",
+  "address": "1990 E. Lohman Ave., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "New Mexico Manufacturing Extension Partnership (MEP)",
+  "address": "8600 San Mateo Blvd. NE, Suite 100, Albuquerque, NM 87113",
+  "status": "unclear",
+  "source": "https://newmexicomep.org/contact ; https://www.nist.gov/mep/centers/new-mexico-manufacturing-extension-partnership-new-mexico-mep",
+  "confidence": "low",
+  "notes": "Contact page lists a 'Las Cruces Office & Southeast Region' but no street address or phone published; listed Albuquerque address is outside the county. Call (505) 262-0921 for the Las Cruces address."
+ },
+ {
+  "name": "New Mexico Small Business Assistance Program (NMSBA)",
+  "address": "c/o Arrowhead Center, 3655 Research Rd., Las Cruces, NM 88003",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "NMSU Cooperative Extension Service",
+  "address": "1170 N Solano, Suite M, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://donaanaextension.nmsu.edu/",
+  "confidence": "high",
+  "notes": "Only office listed for Dona Ana County: 1170 N Solano, Suite M, Las Cruces."
+ },
+ {
+  "name": "New Mexico Film Office",
+  "address": "1100 S. St. Francis Dr., Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "medium",
+  "notes": "Santa Fe."
+ },
+ {
+  "name": "Film Las Cruces",
+  "address": "221 W. Griggs Ave., Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": ""
+ },
+ {
+  "name": "EDD Office of Military Base Planning & Support",
+  "address": "1100 S. St. Francis Dr., Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "n/a",
+  "confidence": "low",
+  "notes": "Santa Fe."
+ }
+]

@@ -1,0 +1,389 @@
+[
+ {
+  "section": "Local Business Directory",
+  "subsection": "LOGISTICS & MANUFACTURING",
+  "name": "Union Pacific",
+  "group": "RAIL",
+  "address": "211 N. Piedras, El Paso, TX 79905",
+  "phone": "",
+  "url": "https://up.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "LOGISTICS & MANUFACTURING",
+  "name": "Ironhorse Resources",
+  "group": "DEVELOPMENT",
+  "address": "5001 Avenida Creel, Santa Teresa, NM 88008",
+  "phone": "(575) 602-5112",
+  "url": "https://ironhorseresources.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "LOGISTICS & MANUFACTURING",
+  "name": "MVT Logistics",
+  "group": "THIRD-PARTY LOGISTICS",
+  "address": "4950 Avenida Creel, Santa Teresa, NM 88008",
+  "phone": "(800) 772-8314",
+  "url": "https://mvt-logistics.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "LOGISTICS & MANUFACTURING",
+  "name": "Aries Worldwide Logistics",
+  "group": "CUSTOMS & FTZ WAREHOUSING",
+  "address": "655 Industrial Avenue, Suite B, Santa Teresa, NM 88008",
+  "phone": "888-502-7437",
+  "url": "https://ariesww.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "LOGISTICS & MANUFACTURING",
+  "name": "Enterprise Truck Rental",
+  "group": "TRUCK RENTAL",
+  "address": "1340 S Valley Dr., Las Cruces, NM 88005",
+  "phone": "(575) 463-8447",
+  "url": "https://enterprisetrucks.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "LOGISTICS & MANUFACTURING",
+  "name": "Admiral Cable, Inc.",
+  "group": "MANUFACTURING",
+  "address": "4701 Avenida Divisadero, Santa Teresa, NM 88008",
+  "phone": "",
+  "url": "https://admiralcable.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "LOGISTICS & MANUFACTURING",
+  "name": "Franklin Mountain Packaging",
+  "group": "PACKAGING MANUFACTURING",
+  "address": "401 Avenida Ascención, Santa Teresa, NM 88008",
+  "phone": "(575) 997-7017",
+  "url": "https://franklinmountainpackaging.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "LOGISTICS & MANUFACTURING",
+  "name": "Las Cruces Machine & Manufacturing",
+  "group": "MANUFACTURING",
+  "address": "6000 S. Main, Suite B, Mesilla Park, NM 88047",
+  "phone": "(575) 526-1411",
+  "url": "https://lascrucesmachine.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "LOGISTICS & MANUFACTURING",
+  "name": "Cymmetrik Technologies USA Southwest",
+  "group": "PRINTING & PACKAGING",
+  "address": "150 Earhardt Way, Ste 200, Santa Teresa, NM 88008",
+  "phone": "(575) 502-4500",
+  "url": "https://cymmetrik.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "LOGISTICS & MANUFACTURING",
+  "name": "W Silver Recycling",
+  "group": "METALS RECYCLING",
+  "address": "1720 Magoffin Avenue, El Paso, TX 79901",
+  "phone": "(915) 532-5643",
+  "url": "https://wsilver.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "ENERGY & TECHNOLOGY",
+  "name": "Grid United",
+  "group": "TRANSMISSION DEVELOPMENT",
+  "address": "712 Main Street, Suite 2500, Houston, TX 77002",
+  "phone": "(832) 405-6982",
+  "url": "https://gridunited.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HEALTHCARE",
+  "name": "MountainView Regional Medical Center",
+  "group": "HOSPITAL",
+  "address": "4311 E. Lohman Avenue, Las Cruces, NM 88001",
+  "phone": "(575) 556-7600",
+  "url": "https://mountainviewregional.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HEALTHCARE",
+  "name": "Memorial Medical Center",
+  "group": "HOSPITAL",
+  "address": "2450 S. Telshor Blvd., Las Cruces, NM 88011",
+  "phone": "(575) 522-8641",
+  "url": "https://mmclc.org"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HEALTHCARE",
+  "name": "Rehabilitation Hospital of Southern NM",
+  "group": "HOSPITAL",
+  "address": "4441 E. Lohman Avenue, Las Cruces, NM 88011",
+  "phone": "(575) 521-6400",
+  "url": "https://rhsnm.ernesthealth.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HEALTHCARE",
+  "name": "Three Crosses Regional Hospital",
+  "group": "HOSPITAL",
+  "address": "2560 Samaritan Drive, Las Cruces, New Mexico 88001",
+  "phone": "(800) 421-8274",
+  "url": "https://threecrossesregional.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HEALTHCARE",
+  "name": "Matrix Home Care Services of NM",
+  "group": "HOME CARE",
+  "address": "1100 S. Main St. Suite A, Las Cruces, NM 88005",
+  "phone": "(575) 525-8755",
+  "url": "https://matrixnm.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HEALTHCARE",
+  "name": "Burrell College of Health Sciences",
+  "group": "HEALTH SCIENCES COLLEGE",
+  "address": "3501 Arrowhead Dr., Las Cruces, NM 88001",
+  "phone": "(575) 674-2266",
+  "url": "https://burrell.edu"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Sutin, Thayer & Browne",
+  "group": "ATTORNEYS",
+  "address": "6100 Uptown Blvd NE, Ste 400, Albuquerque, NM 87110",
+  "phone": "(505) 883-2500",
+  "url": "https://sutinfirm.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Carrillo Law Firm, P.C.",
+  "group": "ATTORNEYS",
+  "address": "1001 East Lohman Ave., Las Cruces, New Mexico 88001",
+  "phone": "(575) 647-3200",
+  "url": "https://carrillolawpc.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Mynatt Springer P.C.",
+  "group": "ATTORNEYS",
+  "address": "1660 Hickory Loop, Las Cruces, New Mexico 88005",
+  "phone": "",
+  "url": "https://mynattspringer.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "KW Consulting",
+  "group": "BUSINESS CONSULTING",
+  "address": "46 Kiva Place, Sandia Park, NM 87047",
+  "phone": "(505) 417-4001",
+  "url": "https://kwconsultingnm.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "NMCO Creative Studio",
+  "group": "ADVERTISING & MARKETING",
+  "address": "1335 S. Solano Dr., Las Cruces, NM 88001",
+  "phone": "(575) 618-6626",
+  "url": "https://nmcostudio.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Art Schobey Interactive",
+  "group": "WEB DEVELOPMENT",
+  "address": "Raleigh, NC area",
+  "phone": "(575) 496-6785",
+  "url": "https://arteffects.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "American Document Services",
+  "group": "DOCUMENT PROCESSING",
+  "address": "300 N. 17th Street, Ste A, Las Cruces, NM 88005",
+  "phone": "(575) 647-0060",
+  "url": "https://adslcnm.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Document Solutions Inc.",
+  "group": "DOCUMENT MANAGEMENT & IT",
+  "address": "1705 N. Valley Dr., Ste 5, Las Cruces, NM 88007",
+  "phone": "(888) 386-7834",
+  "url": "https://dsinm.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Master Imaging",
+  "group": "IMAGING & PRINTING",
+  "address": "4150 Camino Coyote Suite 1, Las Cruces, NM 88011",
+  "phone": "(575) 496-3578",
+  "url": ""
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Security Concepts of Las Cruces",
+  "group": "SECURITY",
+  "address": "130 North Solano Drive, Las Cruces, New Mexico 88001-2927",
+  "phone": "(575) 526-4151",
+  "url": "https://lcsecurityconcepts.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "LCIS Advisors",
+  "group": "SECURITY",
+  "address": "2043 Reina Drive, Las Cruces, New Mexico 88007",
+  "phone": "(575) 640-7476",
+  "url": "https://lcisadvisors.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Night Eyes",
+  "group": "SECURITY",
+  "address": "3401 Hueco Ave, El Paso, Texas 79903",
+  "phone": "(915) 351-0831",
+  "url": "https://night-eyes.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Crystal Clear Cleaning Company",
+  "group": "CLEANING",
+  "address": "16 Westdin, Las Cruces, NM 88011",
+  "phone": "(575) 201-8364",
+  "url": "https://cleaningservicelascrucesnm.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Clean Team",
+  "group": "COMMERCIAL CLEANING",
+  "address": "5015 Prospect Ave., Albuquerque, New Mexico 87110",
+  "phone": "(505) 888-5130",
+  "url": "https://cleanteamclean.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "American Linen & Uniform Supply",
+  "group": "UNIFORM SERVICES",
+  "address": "550 N Church Street, Las Cruces, New Mexico 88001",
+  "phone": "(575) 526-6641",
+  "url": "https://yourlinencompany.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "PROFESSIONAL & BUSINESS SERVICES",
+  "name": "Chisholm’s LLC",
+  "group": "BUSINESS SERVICES",
+  "address": "P.O. Box 397, Las Cruces, NM 88005",
+  "phone": "(575) 526-2281",
+  "url": ""
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HOSPITALITY",
+  "name": "Hotel Encanto de Las Cruces",
+  "group": "HOTEL",
+  "address": "705 S. Telshor Boulevard, Las Cruces, NM 88011",
+  "phone": "(575) 522-4300",
+  "url": "https://HotelEncanto.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HOSPITALITY",
+  "name": "Courtyard Las Cruces",
+  "group": "HOTEL",
+  "address": "456 E. University, Las Cruces, NM 88005",
+  "phone": "(575) 526-1722",
+  "url": "https://marriott.com/lrucy"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HOSPITALITY",
+  "name": "Staybridge Suites",
+  "group": "HOTEL",
+  "address": "2651 Northrise Dr., Las Cruces, NM 88011",
+  "phone": "(575) 521-7999",
+  "url": "https://lascruces-hotel.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HOSPITALITY",
+  "name": "Hacienda de Mesilla",
+  "group": "BOUTIQUE INN",
+  "address": "1891 Avenida de Mesilla, Mesilla, NM 88046",
+  "phone": "(575) 652-4953",
+  "url": "https://haciendademesilla.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "HOSPITALITY",
+  "name": "La Posta de Mesilla",
+  "group": "RESTAURANT",
+  "address": "2410 Calle de San Albino, Mesilla, NM 88046",
+  "phone": "(575) 524-3524",
+  "url": "https://laposta-de-mesilla.com"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "COMMUNITY & NONPROFIT ORGANIZATIONS",
+  "name": "United Way of Southwest New Mexico",
+  "group": "NONPROFIT",
+  "address": "PO Box 1347, Las Cruces, NM 88004",
+  "phone": "(575) 524-7561",
+  "url": "https://uwswnm.org"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "COMMUNITY & NONPROFIT ORGANIZATIONS",
+  "name": "Tresco, Inc.",
+  "group": "DISABILITY SERVICES",
+  "address": "1800 Copper Loop, Las Cruces, NM 88005",
+  "phone": "(575) 528-2200",
+  "url": "https://trescoinc.org"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "COMMUNITY & NONPROFIT ORGANIZATIONS",
+  "name": "Casa de Peregrinos",
+  "group": "FOOD BANK",
+  "address": "999 W. Amador Ave. Suite F, Las Cruces, NM 88005",
+  "phone": "(575) 523-5542",
+  "url": "https://casadeperegrinos.org"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "COMMUNITY & NONPROFIT ORGANIZATIONS",
+  "name": "FYI+",
+  "group": "NONPROFIT",
+  "address": "1320 S. Solano Dr., Las Cruces, NM 88001",
+  "phone": "(575) 522-4004",
+  "url": "https://fyiplusnm.org"
+ },
+ {
+  "section": "Local Business Directory",
+  "subsection": "COMMUNITY & NONPROFIT ORGANIZATIONS",
+  "name": "Doña Ana County Farm & Livestock Bureau",
+  "group": "AGRICULTURE ASSOCIATION",
+  "address": "PO Box 904, Las Cruces, NM 88004",
+  "phone": "(575) 524-8632",
+  "url": "https://nmflb.org"
+ }
+]

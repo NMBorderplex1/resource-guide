@@ -1,0 +1,414 @@
+[
+ {
+  "name": "New Mexico Finance Authority (NMFA)",
+  "address": "810 West San Mateo Road, Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "https://nmfinance.com (not individually opened)",
+  "confidence": "medium",
+  "notes": "Santa Fe state agency; no Doña Ana County office known."
+ },
+ {
+  "name": "NM EDD Business Finance Programs",
+  "address": "1100 S. St. Francis Dr., Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "https://edd.newmexico.gov/contact-us/",
+  "confidence": "medium",
+  "notes": "EDD lists only Santa Fe (1100 S. St. Francis Dr., Ste 1242) and Albuquerque offices; no Las Cruces office. (2301 Entrada Del Sol, Las Cruces is NMED, not EDD.)"
+ },
+ {
+  "name": "New Mexico Financial Development Team (FDT)",
+  "address": "1100 S. St. Francis Drive, Suite 1242, Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "https://edd.newmexico.gov/contact-us/",
+  "confidence": "medium",
+  "notes": "Part of EDD; Santa Fe only, no Las Cruces office."
+ },
+ {
+  "name": "USDA Rural Development",
+  "address": "760 Stern Dr., Suite 139, Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "https://financenewmexico.org/resources/other-resources-nearby-for-map/usda-service-center-las-cruces/",
+  "confidence": "high",
+  "notes": "Only Doña Ana County service center is 760 Stern Dr. (Ste 139), Las Cruces; listed address and phone (575) 522-8775 ext. 4 confirmed. Same building houses FSA (general) and NRCS (Ste 118)."
+ },
+ {
+  "name": "Farm Service Agency (FSA)",
+  "address": "760 Stern Drive, Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "https://financenewmexico.org/resources/other-resources-nearby-for-map/usda-service-center-las-cruces/ ; web search of USDA service center listings",
+  "confidence": "medium",
+  "notes": "Single Las Cruces USDA Service Center at 760 Stern Dr. serves Doña Ana County; no other county FSA office found. USDA locator page could not be opened directly (redirect loop)."
+ },
+ {
+  "name": "Community Foundation of Southern New Mexico",
+  "address": "2640 El Paseo Rd., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://communityfoundationofsouthernnewmexico.org",
+  "confidence": "high",
+  "notes": "Single office at 2640 El Paseo Rd., Las Cruces; matches listing."
+ },
+ {
+  "name": "U.S. Small Business Administration (SBA)",
+  "address": "500 Gold Ave. SW Suite 11301, Albuquerque, NM 87102",
+  "status": "single_location",
+  "source": "https://lascruces.gov/business/business-resources/network-of-partners/ ; web search",
+  "confidence": "medium",
+  "notes": "SBA has no Las Cruces branch; New Mexico District Office is Albuquerque. Local SBA resource partners (SBDC at DACC Workforce Center, 2345 E. Nevada Ave.; WESST at 150 E. Lohman Ave.) are separate organizations."
+ },
+ {
+  "name": "Capital Certified Development Corporation",
+  "address": "4330 Gaines Ranch Loop, Suite 220, Austin, TX 78735",
+  "status": "single_location",
+  "source": "https://www.nmsbdc.org/locations/las-cruces/",
+  "confidence": "medium",
+  "notes": "Austin TX HQ; NM SBDC page lists only Albuquerque PO Box contact (505) 250-0572. No county office."
+ },
+ {
+  "name": "Elevated Lending CDC (formerly Enchantment Land CDC)",
+  "address": "6500 Jefferson St. NE, Suite 200, Albuquerque, NM 87109",
+  "status": "single_location",
+  "source": "https://elcdc.com/about/ (via search); web search",
+  "confidence": "medium",
+  "notes": "Offices only in Albuquerque and El Paso; no Las Cruces office."
+ },
+ {
+  "name": "Borderplex Community Capital",
+  "address": "500 W. Overland Ave., Suite 210, El Paso, TX 79901",
+  "status": "single_location",
+  "source": "https://borderplexcommunitycapital.org (via search)",
+  "confidence": "medium",
+  "notes": "El Paso only; serves Doña Ana County but no Las Cruces office found. Search also shows 333 N Oregon St., El Paso as corporate address."
+ },
+ {
+  "name": "The Loan Fund",
+  "address": "423 Iron Ave. SW, Albuquerque, NM 87102",
+  "status": "single_location",
+  "source": "https://www.nmsbdc.org/locations/las-cruces/",
+  "confidence": "medium",
+  "notes": "Albuquerque (423 Iron Ave. SW) only; no Las Cruces office listed."
+ },
+ {
+  "name": "LiftFund",
+  "address": "2007 W. Martin St., San Antonio, TX 78207",
+  "status": "unclear",
+  "source": "https://liftfund.com/contact-us ; https://lascruces.gov/business/business-resources/network-of-partners/",
+  "confidence": "low",
+  "notes": "Official contact page lists only San Antonio HQ; City of Las Cruces partner page points to the El Paso LiftFund office. A web search snippet claimed an office at 700 N. Main St., Las Cruces (which is the City of Las Cruces address) but no opened source confirmed it. Treat as single_location unless verified by phone."
+ },
+ {
+  "name": "DreamSpring",
+  "address": "2000 Zearing Ave. NW, Albuquerque, NM 87104",
+  "status": "single_location",
+  "source": "https://www.nmsbdc.org/locations/las-cruces/",
+  "confidence": "medium",
+  "notes": "Albuquerque HQ only (2000 Zearing Ave NW); no Las Cruces office found."
+ },
+ {
+  "name": "Nusenda Credit Union",
+  "address": "4100 Pan American Fwy. NE, Albuquerque, NM 87107",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Alameda Branch",
+    "address": "230 S. Alameda Blvd., Las Cruces, NM 88005",
+    "phone": "(505) 889-7755",
+    "note": "Full service; Mon-Thu 9-5, Fri 9-6"
+   },
+   {
+    "label": "Pan Am Branch",
+    "address": "1715 E. University Ave., Las Cruces, NM 88001",
+    "phone": "(505) 889-7755",
+    "note": "Full service; across from NMSU Pan American Center; Saturday hours"
+   },
+   {
+    "label": "Corbett Center (NMSU)",
+    "address": "1600 International Mall, Las Cruces, NM 88003",
+    "phone": "(505) 889-7755",
+    "note": "NMSU campus, Corbett Center 1st floor"
+   },
+   {
+    "label": "Sonoma Branch",
+    "address": "4161 White Sage Arc, Las Cruces, NM 88011",
+    "phone": "(505) 889-7755",
+    "note": "Full service; off Hwy 70; Saturday hours"
+   }
+  ],
+  "source": "https://www.nusenda.org/about/branch-atm-locations/alameda-branch ; .../pan-am-branch ; .../corbett-center-branch ; .../sonoma-branch ; https://www.nusenda.org/about/branch-atm-locations",
+  "confidence": "high",
+  "notes": "Listed address (4100 Pan American Fwy NE, Albuquerque) is the Albuquerque HQ, outside Doña Ana County, so it is NOT the first item here: all 4 locations are Las Cruces branches (all use the statewide (505) 889-7755 number). Recommend replacing the Albuquerque address with these. No Anthony/Sunland Park branches found."
+ },
+ {
+  "name": "Rural Community Assistance Corporation (RCAC)",
+  "address": "",
+  "status": "single_location",
+  "source": "https://rcac.org (not opened)",
+  "confidence": "low",
+  "notes": "Regional lender with no known Doña Ana County office. Listing has no address (855 number is toll-free)."
+ },
+ {
+  "name": "Tierra del Sol Housing Corporation",
+  "address": "210 E. Idaho Ave., Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "https://tdshc.org/contact-us/",
+  "confidence": "high",
+  "notes": "Only public office in Doña Ana County is 210 E. Idaho Ave., Las Cruces. Its other office is in Columbus (Luna County, 100 E. North Boundary, (575) 936-5804), outside the county. Self-help building sites in Berino/Vado/Anthony/Chaparral are construction sites, not offices."
+ },
+ {
+  "name": "New Mexico Angels",
+  "address": "1000 Cordova Place, PMB 569, Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "New Mexico Venture Capital Program (NMFA/EDD)",
+  "address": "810 West San Mateo Road, Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "NM State Investment Council – Venture Program",
+  "address": "41 Plaza la Prensa, Santa Fe, NM 87507",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "Flywheel Ventures",
+  "address": "341 E. Alameda Street, Santa Fe, NM 87501",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "Verge Fund",
+  "address": "317 Commercial St. NE, Albuquerque, NM 87102",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "Sun Mountain Capital",
+  "address": "527 Don Gaspar Ave, Santa Fe, NM 87505",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "New Mexico Community Capital",
+  "address": "301 Gold Ave. SW, Suite 102, Albuquerque, NM 87102",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "Tierra Adentro Growth Capital (TAG)",
+  "address": "701 Spur St., Suite C, Albuquerque, NM 87102",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "Tramway Venture Partners",
+  "address": "5901 Indian School Rd. NE, Suite 205, Albuquerque, NM 87110",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "Blue Sage Capital",
+  "address": "2700 Via Fortuna, Suite 300, Austin, TX 78746",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "Deciens Capital",
+  "address": "933 San Mateo Boulevard NE, Albuquerque, NM 87108",
+  "status": "single_location",
+  "source": "(not individually opened)",
+  "confidence": "medium",
+  "notes": "Investment fund/firm based outside Doña Ana County; no county office known."
+ },
+ {
+  "name": "NM Workforce Solutions – America’s Job Centers",
+  "address": "Las Cruces: 226 S. Alameda Blvd., Las Cruces, NM 88005 Sunland Park: 1500 Appaloosa Dr., Suite A-160, Sunland Park, NM 88063",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Las Cruces",
+    "address": "226 S. Alameda Blvd., Las Cruces, NM 88005",
+    "phone": "(575) 524-6250",
+    "note": "Under renovation; as of Sept 22, 2026 services are at temporary site Loretto Towne Centre, 505 S. Main St., Ste. 149, Las Cruces, NM 88001 (same phone)"
+   },
+   {
+    "label": "Sunland Park",
+    "address": "1500 Appaloosa Dr., Suite A-160, Sunland Park, NM 88063",
+    "phone": "(575) 618-1249",
+    "note": ""
+   }
+  ],
+  "source": "https://www.employnm.com/offices",
+  "confidence": "high",
+  "notes": "Known two locations confirmed. IMPORTANT: employnm.com/offices (opened Oct 2, 2026) says the Las Cruces center is TEMPORARILY relocated to 505 S. Main St., Ste. 149 during renovation of 226 S. Alameda, effective Sept 22, 2026. Phone (575) 524-6250 unchanged. Sunland Park hours Mon-Fri 8-5."
+ },
+ {
+  "name": "Southwestern Area Workforce Development Board",
+  "address": "2251 Calle de Santiago, Mesilla, NM 88046",
+  "status": "single_location",
+  "source": "https://www.employnm.com/sawdb-membership-admin (via search)",
+  "confidence": "medium",
+  "notes": "Administrative board (South Central COG satellite in Mesilla); not a walk-in service center. 2251 Calle de Santiago is the Mesilla Community Center, used for meetings. Public services are at the America’s Job Centers."
+ },
+ {
+  "name": "Doña Ana Community College Workforce Center",
+  "address": "3400 South Espina St, Central Campus, Room 99, Las Cruces, NM 88003",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Espina Campus",
+    "address": "3400 S. Espina St., Room 99, Las Cruces, NM 88003",
+    "phone": "(575) 527-7515",
+    "note": "Listed location (Central/Espina Campus); room 99 not verified on DACC site"
+   },
+   {
+    "label": "Workforce Center",
+    "address": "2345 E. Nevada Ave., Las Cruces, NM 88001",
+    "phone": "(575) 527-7776",
+    "note": "Houses Customized Training, SBDC, Truck Driving Academy, trades programs"
+   },
+   {
+    "label": "East Mesa Campus",
+    "address": "2800 N. Sonoma Ranch Blvd., Las Cruces, NM 88011",
+    "phone": "(575) 527-7500",
+    "note": "Main campus address"
+   },
+   {
+    "label": "Cholla Hall",
+    "address": "2400 Film St., Las Cruces, NM 88001",
+    "phone": "(575) 528-7310",
+    "note": ""
+   },
+   {
+    "label": "Gadsden Center",
+    "address": "1700 E. O’Hara Rd., Anthony, NM 88021",
+    "phone": "(575) 882-3939",
+    "note": ""
+   },
+   {
+    "label": "Sunland Park Center",
+    "address": "3365 McNutt Rd., Sunland Park, NM 88063",
+    "phone": "(575) 874-7780",
+    "note": ""
+   },
+   {
+    "label": "Chaparral Center",
+    "address": "755 Prescott Anthony Dr., Chaparral, NM 88081",
+    "phone": "(575) 824-2000",
+    "note": "Adjacent to Chaparral High School"
+   }
+  ],
+  "source": "https://dacc.nmsu.edu/about/campuses-and-centers/ ; https://dacc.nmsu.edu/ ; web search of NMSU catalog",
+  "confidence": "medium",
+  "notes": "DACC’s actual Workforce Center is 2345 E. Nevada Ave., (575) 527-7776, not Espina Campus Room 99; the listed address/phone may be a different office - verify or replace. The DACC campuses page shows Espina/East Mesa phones apparently swapped; DACC homepage gives East Mesa (575) 527-7500 and NMSU catalog gives Espina/Central (575) 528-7000. Older catalog also lists a Hatch Center (219 E. Hill St.) and a Mesquite Center, but neither is on the current campuses page, so omitted. Trim list to sites offering workforce services if desired."
+ },
+ {
+  "name": "NMSU Career Services",
+  "address": "Garcia Center, Rm. 224, 3024 Andrew Wall Pl., Las Cruces, NM 88003",
+  "status": "single_location",
+  "source": "https://oel.nmsu.edu/about/index.html (via search; oel.nmsu.edu did not resolve when fetched)",
+  "confidence": "high",
+  "notes": "Office of Experiential Learning, Garcia Center Rm 224, 3024 Andrew Wall Pl., Las Cruces; matches listing. Other NMSU career units (ETSE Career Center, Career Closet) are on the same campus, not separate public service centers."
+ },
+ {
+  "name": "The Bridge of Southern New Mexico",
+  "address": "150 E. Lohman Ave., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://bridge2careers.org",
+  "confidence": "high",
+  "notes": "Only 150 E. Lohman Ave., Las Cruces listed (mailing PO Box 519)."
+ },
+ {
+  "name": "VA Veteran Readiness & Employment (VR&E)",
+  "address": "Harold L. Runnels Federal Building, 200 E. Griggs Ave., Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "web search (VA/NMSU veterans pages)",
+  "confidence": "medium",
+  "notes": "VR&E office at Runnels Federal Bldg, 200 E. Griggs Ave., Las Cruces is the only county location found (Mon-Fri 8:30-4:00 CT; national number 800-827-1000, no local number found)."
+ },
+ {
+  "name": "DM Dickason Personnel Services",
+  "address": "400 N. Telshor Blvd., Ste. A, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://dmdickason.com/Temp_Locations.aspx?SubCat=Locations (opened: shows only El Paso HQ); web search snippets of dmdickason.com",
+  "confidence": "low",
+  "notes": "Only one Doña Ana County office found. ADDRESS CHECK: sources (dmdickason.com search snippet, Yelp, BBB) give the Las Cruces office as 518 N. Telshor Blvd., Ste. A, Las Cruces, NM 88011, (575) 521-8700, not 400 N. Telshor Blvd. Listed zip 88001 also looks wrong (88011). Verify before publishing."
+ },
+ {
+  "name": "itsQuest, Inc.",
+  "address": "532 N. Telshor Blvd., Ste. C, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://itsquest.net/locations/",
+  "confidence": "high",
+  "notes": "12 offices in NM/TX; only Las Cruces (532 N. Telshor Blvd., Ste. C, (575) 541-0020) is in Doña Ana County. Matches listing."
+ },
+ {
+  "name": "Manpower",
+  "address": "580 North Telshor Boulevard, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://www.manpower.com/en/about-us/locations/las-cruces,-nm",
+  "confidence": "high",
+  "notes": "Only Las Cruces branch (580 N. Telshor Blvd., 88011, (575) 522-6028); matches listing."
+ },
+ {
+  "name": "Robert Half",
+  "address": "",
+  "status": "unclear",
+  "source": "https://www.roberthalf.com/us/en/locations/new-mexico",
+  "confidence": "low",
+  "notes": "Listing has no address and a 915 (El Paso) phone. Robert Half NM locations page shows only Albuquerque (6501 Americas Pkwy NE, (505) 990-5302); no verified Las Cruces office (a directory snippet mentioned OfficeTeam at 506 S. Main St. #940, not confirmed). Treat as no county office."
+ },
+ {
+  "name": "RMPersonnel, Inc.",
+  "address": "4707 Montana Ave., Suite 100, El Paso, TX 79903",
+  "status": "unclear",
+  "source": "https://www.rmpersonnel.com/about-us (opened: El Paso x3 and Laredo only); web search directory listings",
+  "confidence": "low",
+  "notes": "Official site lists no New Mexico office, but directory listings (Hotfrog, YellowPages) show a Las Cruces office at 1155 S. Telshor Blvd., Ste. 306, Las Cruces, NM 88011, (575) 541-5998; not confirmed on an official source. Verify by phone; if confirmed, add as a second location."
+ },
+ {
+  "name": "El Paso Community College – Workforce Education",
+  "address": "9050 Viscount Blvd., El Paso, TX 79925",
+  "status": "single_location",
+  "source": "https://www.epcc.edu/Contact/about-the-campuses (via search)",
+  "confidence": "high",
+  "notes": "All EPCC campuses are in El Paso, TX; no Doña Ana County site."
+ },
+ {
+  "name": "Southwest University",
+  "address": "6101 Montana Ave, El Paso, TX 79925",
+  "status": "single_location",
+  "source": "https://southwestuniversity.edu",
+  "confidence": "high",
+  "notes": "Single campus at 6101 Montana Ave., El Paso, TX; no NM campus."
+ },
+ {
+  "name": "Prime Time CDL (Prime Time Technical Institute)",
+  "address": "1840 E Lohman Ave, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://www.pttinstitute.com/ ; web search",
+  "confidence": "medium",
+  "notes": "Only Las Cruces (1840 E. Lohman Ave.) in the county; other campuses El Paso/Canutillo/Odessa/Dallas. Site moved to pttinstitute.com (primetimetechnicalinstitute.com redirects). Listed phone (915) 314-2626 is an El Paso-area number."
+ }
+]

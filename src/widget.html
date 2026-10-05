@@ -1,0 +1,510 @@
+<meta charset="utf-8">
+<title>Business Resource Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+<style>
+/* Everything is scoped under .mv-widget so the file can be pasted into a Divi Code module without
+   touching the host page (no body/html/:root rules). Palette = the printed guide / nmborderplex.com
+   burgundy + gold; Poppins matches the NM Borderplex Divi theme (falls back to Arial if not loaded). */
+.mv-widget{
+  --burg:#8f181c; --burg-text:#8f181c; --gold:#B78024; --gold-text:#8a5a10;
+  --ink:#25252A; --gray:#55565B; --paper:#ffffff; --panel:#faf8f6; --line:#e3ded6; --chip:#f0ece5;
+  --shadow:0 1px 2px rgba(40,20,20,.06), 0 4px 14px rgba(40,20,20,.05);
+  --shadow-hover:0 2px 4px rgba(40,20,20,.08), 0 10px 24px rgba(40,20,20,.10);
+  --font:'Poppins', Arial, Helvetica, 'Liberation Sans', sans-serif;
+  --mv-height:440px;
+  position:relative; max-width:1000px; margin:0 auto; background:var(--paper); color:var(--ink);
+  font-family:var(--font); font-size:14px; line-height:1.55; text-align:left;
+  -webkit-font-smoothing:antialiased;
+}
+@media (prefers-color-scheme: dark){
+  .mv-widget[data-theme="auto"]{
+    --ink:#ececee; --gray:#a7a7ad; --paper:#18181b; --panel:#212124; --line:#3f3f46; --chip:#2c2c30;
+    --gold:#d7a750; --gold-text:#d7a750; --burg-text:#e3b867;
+    --shadow:0 1px 2px rgba(0,0,0,.4); --shadow-hover:0 6px 20px rgba(0,0,0,.45);
+    color-scheme:dark;
+  }
+}
+.mv-widget[data-theme="dark"]{
+  --ink:#ececee; --gray:#a7a7ad; --paper:#18181b; --panel:#212124; --line:#3f3f46; --chip:#2c2c30;
+  --gold:#d7a750; --gold-text:#d7a750; --burg-text:#e3b867;
+  --shadow:0 1px 2px rgba(0,0,0,.4); --shadow-hover:0 6px 20px rgba(0,0,0,.45);
+  color-scheme:dark;
+}
+/* Defensive resets: Divi/WordPress themes add padding to p/h*, restyle buttons, inputs and links. */
+.mv-widget, .mv-widget *{ box-sizing:border-box; }
+.mv-widget p, .mv-widget h2, .mv-widget h3, .mv-widget h4{ margin:0; padding:0 !important; font-family:var(--font); text-transform:none; letter-spacing:normal; }
+.mv-widget h2, .mv-widget h3{ line-height:1.2; font-weight:700; color:inherit; }
+.mv-widget a{ text-decoration:none; box-shadow:none; border-bottom:0; }
+.mv-widget button{ font-family:var(--font); margin:0; text-transform:none; letter-spacing:normal; box-shadow:none; }
+.mv-widget input{ font-family:var(--font); margin:0; box-shadow:none; height:auto; }
+.mv-widget img{ max-width:100%; border:0 !important; box-shadow:none !important; border-radius:0; }
+.mv-widget svg{ display:block; }
+
+.mv-hero{ position:relative; height:96px; overflow:hidden; background:#3a1418; border-radius:12px 12px 0 0; }
+.mv-hero > img{ width:100%; height:100%; object-fit:cover; display:block; opacity:.95; }
+.mv-hero::after{ content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(30,10,12,.1), rgba(20,8,10,.82)); }
+.mv-hero-text{ position:absolute; left:22px; right:22px; bottom:10px; z-index:2; color:#fff; display:flex; align-items:center; gap:6px 14px; flex-wrap:wrap; }
+.mv-hero-title{ font:700 17px/1.15 var(--font) !important; color:#fff !important; margin:0; }
+.mv-nmb-chip{ display:inline-block; background:#fff; border-radius:6px; padding:5px 10px 4px; margin:0; flex:none; line-height:0; box-shadow:0 1px 5px rgba(0,0,0,.3); }
+.mv-nmb-chip img{ display:block; height:18px; width:auto; }
+.mv-brand-badge{ position:absolute; top:12px; right:14px; z-index:3; display:inline-flex; align-items:center; background:#fff; border-radius:20px; padding:6px 13px 5px; box-shadow:0 1px 5px rgba(0,0,0,.35); line-height:0; }
+.mv-brand-badge img{ display:block; height:16px; width:auto; }
+.mv-lang{ position:absolute; top:12px; left:14px; z-index:3; display:inline-flex; background:rgba(255,255,255,.18); backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px); border:1px solid rgba(255,255,255,.45); border-radius:20px; padding:2px; }
+.mv-lang button{ border:0; background:transparent; color:#fff; font:600 11.5px var(--font); letter-spacing:.06em; padding:5px 12px; border-radius:16px; cursor:pointer; }
+.mv-lang button[aria-pressed="true"]{ background:#fff; color:var(--burg); }
+.mv-lang button:focus-visible{ outline:2px solid #fff; outline-offset:2px; }
+
+.mv-body{ padding:14px 18px 16px; border:1px solid var(--line); border-top:0; border-radius:0 0 12px 12px; }
+.mv-intro{ display:flex; align-items:flex-start; justify-content:space-between; gap:10px 14px; flex-wrap:wrap; margin:0 0 10px; }
+.mv-sub{ margin:0; color:var(--gray); font-size:12.5px; flex:1 1 360px; }
+.mv-pdf{ display:inline-flex; align-items:center; gap:7px; font:600 12px var(--font); color:var(--burg-text); border:1.5px solid var(--burg-text); border-radius:999px; padding:7px 14px; white-space:nowrap; transition:background-color .15s, color .15s; }
+.mv-pdf svg{ width:14px; height:14px; }
+.mv-pdf:hover{ background:var(--burg); color:#fff; border-color:var(--burg); }
+.mv-pdf[hidden]{ display:none; }
+
+.mv-controls{ display:flex; flex-direction:column; gap:8px; margin-bottom:8px; }
+.mv-search{ position:relative; }
+.mv-search input{ width:100%; padding:9px 14px 9px 40px; border-radius:999px; border:1.5px solid var(--line); background:var(--panel); color:var(--ink); font:500 13.5px var(--font); }
+.mv-search input:focus{ outline:2px solid var(--burg-text); outline-offset:1px; }
+.mv-search svg{ position:absolute; left:15px; top:50%; transform:translateY(-50%); width:16px; height:16px; color:var(--gray); pointer-events:none; }
+.mv-pills, .mv-near{ display:flex; gap:7px; overflow-x:auto; overflow-y:hidden; scrollbar-width:none; -ms-overflow-style:none; padding:2px 1px; align-items:center; }
+.mv-pills::-webkit-scrollbar, .mv-near::-webkit-scrollbar{ display:none; }
+.mv-pill, .mv-chip{ font:600 11.5px var(--font); white-space:nowrap; cursor:pointer; flex:none; border:1.5px solid var(--line); background:var(--chip); color:var(--gray); border-radius:999px; padding:6px 13px; transition:background-color .15s, color .15s, border-color .15s; }
+.mv-pill:hover, .mv-chip:hover{ color:var(--ink); border-color:var(--gray); }
+.mv-pill[aria-pressed="true"]{ background:var(--burg); color:#fff; border-color:var(--burg); }
+.mv-pill .mv-count{ opacity:.75; font-weight:500; margin-left:3px; }
+.mv-pill:focus-visible, .mv-chip:focus-visible{ outline:2px solid var(--burg-text); outline-offset:2px; }
+.mv-near-label{ flex:none; font:600 11px var(--font); letter-spacing:.07em; text-transform:uppercase; color:var(--gold-text); display:flex; align-items:center; gap:6px; padding-right:2px; }
+.mv-near-label svg{ width:13px; height:13px; }
+.mv-chip{ padding:4px 11px; font-size:11px; background:transparent; }
+.mv-chip[aria-pressed="true"]{ background:var(--gold); color:#251c0a; border-color:var(--gold); }
+
+.mv-meta-row{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin:0 0 5px; font-size:12px; color:var(--gray); }
+.mv-meta-row strong{ color:var(--ink); font-weight:700; font-variant-numeric:tabular-nums; }
+.mv-near-note{ margin:0 0 6px; font-size:12px; color:var(--gray); background:var(--panel); border-left:3px solid var(--gold); padding:7px 11px !important; border-radius:0 8px 8px 0; }
+.mv-near-note[hidden]{ display:none; }
+
+.mv-results{ max-height:min(var(--mv-height), 78vh); overflow-y:auto; overflow-x:hidden; padding:2px 8px 6px 2px; margin-right:-6px;
+  overscroll-behavior:contain; scrollbar-width:thin; scrollbar-color:var(--gold) transparent; border-top:1px solid var(--line); }
+.mv-results::-webkit-scrollbar{ width:8px; }
+.mv-results::-webkit-scrollbar-thumb{ background:var(--gold); border-radius:8px; }
+.mv-results::-webkit-scrollbar-track{ background:transparent; }
+.mv-results:focus-visible{ outline:2px solid var(--burg-text); outline-offset:2px; }
+.mv-sec{ margin:0 0 6px; }
+.mv-sec-banner{ position:relative; height:92px; border-radius:12px; overflow:hidden; margin:16px 0 10px; background:#3a1418; }
+.mv-sec:first-child .mv-sec-banner{ margin-top:10px; }
+.mv-par{ position:absolute; left:0; top:-30px; width:100%; height:calc(100% + 60px); object-fit:cover; will-change:transform; }
+.mv-sec-banner::after{ content:""; position:absolute; inset:0; background:linear-gradient(90deg, rgba(30,8,10,.78), rgba(30,8,10,.25) 70%, rgba(30,8,10,.1)); }
+.mv-sec-banner-text{ position:absolute; z-index:2; left:16px; right:16px; bottom:12px; display:flex; align-items:center; gap:12px; color:#fff; }
+.mv-sec-badge{ flex:none; width:30px; height:30px; border-radius:50%; background:var(--gold); color:#251c0a; display:flex; align-items:center; justify-content:center; font:800 13px var(--font); box-shadow:0 2px 8px rgba(0,0,0,.3); }
+.mv-sec-title{ font:700 15px/1.2 var(--font) !important; color:#fff !important; text-transform:uppercase; letter-spacing:.03em !important; margin:0; text-shadow:0 1px 6px rgba(0,0,0,.4); }
+.mv-sec-count{ margin-left:auto; font:500 11.5px var(--font); color:rgba(255,255,255,.85); white-space:nowrap; }
+.mv-sub-head{ font:700 11px var(--font); letter-spacing:.09em; text-transform:uppercase; color:var(--gold-text); padding:8px 2px 6px; border-bottom:2px solid var(--gold); margin:2px 0 10px; }
+.mv-grid{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:6px; align-items:start; }
+@media (max-width:640px){ .mv-grid{ grid-template-columns:1fr; } }
+.mv-group-head{ font:800 11px var(--font); letter-spacing:.06em; text-transform:uppercase; color:var(--burg-text); margin:12px 0 9px 2px; padding-left:9px; border-left:3px solid var(--gold); }
+.mv-grid-nested{ margin-left:12px; }
+@media (max-width:480px){ .mv-grid-nested{ margin-left:6px; } }
+
+.mv-card{ background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:11px 14px; cursor:pointer; box-shadow:var(--shadow); transition:box-shadow .18s ease, transform .18s ease, border-color .18s ease; }
+.mv-card:hover{ box-shadow:var(--shadow-hover); transform:translateY(-2px); border-color:var(--burg-text); }
+.mv-card:focus-visible{ outline:2px solid var(--burg-text); outline-offset:2px; }
+.mv-card-top{ display:flex; align-items:flex-start; justify-content:space-between; gap:8px; }
+.mv-kicker{ font:600 10px var(--font); letter-spacing:.08em; text-transform:uppercase; color:var(--gold-text); margin:0 0 3px !important; }
+.mv-card-name{ font:600 13.5px/1.35 var(--font) !important; color:var(--burg-text); margin:0; }
+.mv-locs-badge{ display:inline-flex; align-items:center; gap:4px; margin-top:7px; font:600 10.5px var(--font); color:var(--gold-text); background:var(--chip); border-radius:999px; padding:3px 9px 3px 7px; }
+.mv-locs-badge svg{ width:11px; height:11px; }
+.mv-chev{ flex:none; width:16px; height:16px; color:var(--gray); transition:transform .18s; margin-top:2px; }
+.mv-card[aria-expanded="true"] .mv-chev{ transform:rotate(180deg); }
+.mv-card-body{ display:grid; grid-template-rows:0fr; transition:grid-template-rows .2s ease; }
+.mv-card-body-inner{ overflow:hidden; }
+.mv-card[aria-expanded="true"] .mv-card-body{ grid-template-rows:1fr; }
+.mv-desc{ font-size:12.5px; color:var(--ink); margin:9px 0 9px !important; line-height:1.55; }
+.mv-facts{ display:flex; flex-direction:column; gap:6px; font-size:12px; }
+.mv-fact{ display:flex; gap:8px; align-items:flex-start; color:var(--gray); }
+.mv-fact svg{ flex:none; width:13px; height:13px; margin-top:3px; color:var(--burg-text); }
+.mv-fact a{ color:var(--burg-text); font-weight:600; }
+.mv-fact a:hover{ text-decoration:underline; }
+.mv-fact a.mv-plain{ color:var(--gray); font-weight:400; }
+.mv-loc{ display:flex; flex-direction:column; gap:4px; padding:8px 0 9px; border-top:1px solid var(--line); }
+.mv-loc:first-child{ border-top:0; padding-top:0; }
+.mv-loc-match{ border-left:3px solid var(--gold); padding-left:9px; margin-left:-12px; background:linear-gradient(90deg, rgba(183,128,36,.10), transparent 70%); }
+.mv-loc-label{ font:700 10.5px var(--font); letter-spacing:.06em; text-transform:uppercase; color:var(--burg-text); }
+.mv-loc-note{ font-size:11px; color:var(--gray); font-style:italic; }
+.mv-empty{ padding:40px 16px; text-align:center; color:var(--gray); font-size:13px; }
+
+.mv-cta{ margin-top:12px; border-radius:12px; overflow:hidden; display:flex; align-items:center; justify-content:space-between; gap:10px 16px; flex-wrap:wrap; padding:12px 18px; color:#fff; background:linear-gradient(120deg, #6e1217, var(--burg) 55%, #a8262b); box-shadow:var(--shadow); }
+.mv-cta-text{ flex:1 1 280px; font:600 13.5px/1.35 var(--font) !important; color:#fff !important; }
+.mv-cta-actions{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.mv-cta-btn{ display:inline-flex; align-items:center; background:#fff; color:var(--burg) !important; font:700 12.5px var(--font); border-radius:999px; padding:8px 18px; transition:transform .15s, box-shadow .15s; }
+.mv-cta-btn:hover{ transform:translateY(-1px); box-shadow:0 6px 16px rgba(0,0,0,.28); }
+.mv-cta-phone{ color:#fff !important; font:600 13px var(--font); border-bottom:1px solid rgba(255,255,255,.5); }
+.mv-footer{ margin-top:10px; padding-top:9px; border-top:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+.mv-footer-mark{ display:flex; align-items:center; gap:9px; }
+.mv-footer-logo-chip{ background:#fff; border-radius:5px; padding:4px 6px; flex:none; line-height:0; border:1px solid var(--line); }
+.mv-footer-logo-chip img{ display:block; height:20px; width:auto; }
+.mv-footer-text{ font-size:12px; color:var(--gray); }
+.mv-footer-mark:hover .mv-footer-text{ text-decoration:underline; }
+
+.mv-reveal{ opacity:0; transform:translateY(14px); }
+.mv-reveal.mv-in{ opacity:1; transform:none; transition:opacity .5s ease, transform .5s ease; }
+@media (prefers-reduced-motion: reduce){
+  .mv-reveal{ opacity:1; transform:none; }
+  .mv-card, .mv-card-body, .mv-chev{ transition:none; }
+  .mv-card:hover{ transform:none; }
+  .mv-par{ top:0; height:100%; }
+}
+@media (max-width:520px){
+  .mv-hero{ height:104px; } .mv-hero-title{ font-size:15.5px !important; } .mv-body{ padding:12px 10px 14px; }
+  .mv-nmb-chip img{ height:17px; } .mv-brand-badge{ padding:5px 10px 4px; top:8px; right:8px; } .mv-brand-badge img{ height:13px; }
+  .mv-lang{ top:8px; left:8px; } .mv-sec-banner{ height:80px; } .mv-sec-title{ font-size:13px !important; } .mv-sec-count{ display:none; }
+  .mv-cta{ padding:12px; }
+}
+</style>
+
+<div class="mv-widget" id="mv-root" data-theme="auto">
+  <div class="mv-hero">
+    <img src="data:image/jpeg;base64,__BANNER_B64__" alt="">
+    <div class="mv-lang" role="group" aria-label="Language / Idioma">
+      <button type="button" data-lang="en" aria-pressed="true" aria-label="English">EN</button>
+      <button type="button" data-lang="es" aria-pressed="false" aria-label="Español">ES</button>
+    </div>
+    <a class="mv-brand-badge" href="https://mveda.com" target="_blank" rel="noopener" aria-label="Powered by MVEDA — Mesilla Valley Economic Development Alliance">
+      <img src="data:image/png;base64,__PB_B64__" alt="Powered by MVEDA">
+    </a>
+    <div class="mv-hero-text">
+      <div class="mv-nmb-chip"><img src="data:image/png;base64,__NMB_B64__" alt="NM Borderplex — Las Cruces, Doña Ana County"></div>
+      <h2 class="mv-hero-title" id="mv-title"></h2>
+    </div>
+  </div>
+
+  <div class="mv-body">
+    <div class="mv-intro">
+      <p class="mv-sub" id="mv-sub"></p>
+      <a class="mv-pdf" id="mv-pdf" hidden target="_blank" rel="noopener" download>
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 4v11m0 0 4-4m-4 4-4-4M5 19h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span id="mv-pdf-label"></span>
+      </a>
+    </div>
+
+    <div class="mv-controls">
+      <div class="mv-search">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m21 21-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="mv-q" type="search" autocomplete="off">
+      </div>
+      <div class="mv-pills" id="mv-pills" role="group"></div>
+      <div class="mv-near" id="mv-near" role="group"></div>
+    </div>
+
+    <div class="mv-meta-row">
+      <span><strong id="mv-count">0</strong> <span id="mv-count-label"></span></span>
+      <span id="mv-scope"></span>
+    </div>
+    <p class="mv-near-note" id="mv-near-note" hidden></p>
+
+    <div class="mv-results" id="mv-results" role="list" tabindex="0"></div>
+
+    <div class="mv-cta">
+      <p class="mv-cta-text" id="mv-cta-text"></p>
+      <div class="mv-cta-actions">
+        <a class="mv-cta-btn" id="mv-cta-btn" target="_blank" rel="noopener"></a>
+        <a class="mv-cta-phone" id="mv-cta-phone"></a>
+      </div>
+    </div>
+
+    <div class="mv-footer">
+      <a class="mv-footer-mark" href="https://mveda.com" target="_blank" rel="noopener">
+        <div class="mv-footer-logo-chip"><img src="data:image/png;base64,__MV_B64__" alt="MVEDA"></div>
+        <span class="mv-footer-text">Mesilla Valley Economic Development Alliance · mveda.com</span>
+      </a>
+      <span class="mv-footer-text" id="mv-matches"></span>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+/* ---- Settings: edit here (or define window.MV_CONFIG before this script) ---- */
+const CONFIG = Object.assign({
+  pdfEn: '',            // URL of the English PDF guide; leave blank to hide the download button
+  pdfEs: '',            // URL of the Spanish PDF guide (falls back to pdfEn)
+  contactUrl: 'https://www.nmborderplex.com/contact-us/',
+  ctaClass: '',         // optional CSS class on the call-to-action button (e.g. to trigger a Divi popup)
+  phone: '(575) 525-2852',
+  theme: 'auto',        // 'auto' (follow visitor's system), 'light' or 'dark'
+  height: 440           // max height (px) of the scrolling results area; the widget scrolls inside the page
+}, window.MV_CONFIG || {});
+
+const DATA = __DATA_JSON__;
+const BANNERS = ['__B1__','__B2__','__B3__','__B4__','__B5__'].map(b => 'data:image/jpeg;base64,' + b);
+const SLUGS = ['general-business','local-directory','financing','workforce','incentives'];
+
+const STR = {
+  en: {
+    title:'Business Resource Guide — Interactive Edition',
+    sub:'The same Business Resource Guide published in print — search it, filter it, and get straight to the office, program, or partner you need.',
+    search:'Search by name, service, or keyword…', all:'All', resources:'resources', allCats:'All categories',
+    nearLabel:'Locations in', nearAll:'All Doña Ana County',
+    nearNote:c=>`Showing offices and locations in ${c}. Programs and incentives that aren’t tied to one place are hidden — clear the filter to see them.`,
+    empty:'No matches. Try a different search term or category.',
+    locs:n=>`${n} locations`, cta:'Let MVEDA run a customized incentives analysis for your project.', ctaBtn:'Talk to MVEDA',
+    pdf:'Download the PDF guide', matches:'Matches the printed edition', maps:'Open in Maps'
+  },
+  es: {
+    title:'Guía de Recursos Empresariales — Edición Interactiva',
+    sub:'La misma Guía de Recursos Empresariales publicada en versión impresa: búsquela, fíltrela y llegue directamente a la oficina, programa o socio que necesita.',
+    search:'Buscar por nombre, servicio o palabra clave…', all:'Todo', resources:'recursos', allCats:'Todas las categorías',
+    nearLabel:'Ubicaciones en', nearAll:'Todo el condado de Doña Ana',
+    nearNote:c=>`Mostrando oficinas y ubicaciones en ${c}. Los programas e incentivos que no dependen de un lugar se ocultan; quite el filtro para verlos.`,
+    empty:'Sin resultados. Pruebe con otro término o categoría.',
+    locs:n=>`${n} ubicaciones`, cta:'Permita que MVEDA realice un análisis de incentivos personalizado para su proyecto.', ctaBtn:'Hable con MVEDA',
+    pdf:'Descargar la guía en PDF', matches:'Coincide con la edición impresa', maps:'Abrir en Mapas'
+  }
+};
+
+const root = document.getElementById('mv-root');
+root.setAttribute('data-theme', CONFIG.theme);
+root.style.setProperty('--mv-height', (+CONFIG.height || 440) + 'px');
+const $ = id => document.getElementById(id);
+const results = $('mv-results'), pillsEl = $('mv-pills'), nearEl = $('mv-near'), qEl = $('mv-q');
+const reduced = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const state = { lang:'en', sec:'all', near:'', q:'' };
+
+/* ---- helpers ---- */
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const T = () => STR[state.lang];
+const isEs = () => state.lang === 'es';
+const dName = e => (isEs() && e.es && e.es.name) || e.name;
+const dDesc = e => isEs() && e.es && 'desc' in e.es ? e.es.desc : (e.desc || '');
+const dKick = (e, f) => (isEs() && e.es && e.es[f]) || e[f] || '';
+const dAddr = e => (isEs() && e.es && e.es.address) || e.address || '';
+const h1Title = h => (isEs() && h.title_es) || h.title;
+const h2Title = h => (isEs() && h.title_es) || h.title;
+const mapsUrl = a => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(a);
+function telHref(p){
+  const m = String(p).match(/(\d{3})[)\s.-]*(\d{3})[\s.-]*(\d{4})(?:[^\d]+(?:ext\.?|x)\s*(\d+))?/i);
+  return m ? 'tel:+1' + m[1] + m[2] + m[3] + (m[4] ? ';ext=' + m[4] : '') : '';
+}
+const iconPin = '<svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.1 7-11.5A7 7 0 0 0 5 9.5C5 14.9 12 21 12 21Z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="9.5" r="2.3" stroke="currentColor" stroke-width="1.7"/></svg>';
+const iconPhone = '<svg viewBox="0 0 24 24" fill="none"><path d="M4 5c0 8 7 15 15 15l2-4-6-2-1.5 2C10.5 14.5 9.5 13.5 8 11.5L10 10 8 4 4 5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>';
+const iconLink = '<svg viewBox="0 0 24 24" fill="none"><path d="M10 14a4 4 0 0 0 5.7.3l3-3a4 4 0 0 0-5.7-5.7l-1.5 1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 10a4 4 0 0 0-5.7-.3l-3 3a4 4 0 0 0 5.7 5.7l1.4-1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+const chev = '<svg class="mv-chev" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+/* ---- community (city) index, parsed from addresses ---- */
+const COUNTY = ['Las Cruces','Mesilla','Anthony','Chaparral','Sunland Park','Santa Teresa','Hatch','Doña Ana','Vado','Berino','Organ','Radium Springs','La Union','Mesquite','Rincon','Garfield','Salem','Tortugas','Butterfield','La Mesa'];
+function citiesOf(address){
+  const out = [];
+  String(address || '').split(/\s{2,}|\n/).forEach(chunk => {
+    const parts = chunk.split(',').map(s => s.trim());
+    parts.forEach((p, i) => { if(/^NM\b/i.test(p) && i > 0) out.push(parts[i-1]); });
+  });
+  return out;
+}
+function entryCities(e){
+  const addrs = (e.locations && e.locations.length) ? e.locations.map(l => l.address) : [e.address];
+  const set = new Set();
+  addrs.forEach(a => citiesOf(a).forEach(c => { const k = COUNTY.find(x => x.toLowerCase() === c.toLowerCase()); if(k) set.add(k); }));
+  return set;
+}
+DATA.forEach(h1 => h1.subsections.forEach(h2 => h2.entries.forEach(e => { e._cities = entryCities(e); })));
+const cityCounts = {};
+DATA.forEach(h1 => h1.subsections.forEach(h2 => h2.entries.forEach(e => e._cities.forEach(c => cityCounts[c] = (cityCounts[c] || 0) + 1))));
+const NEAR = COUNTY.filter(c => cityCounts[c] >= 2).sort((a, b) => a === 'Las Cruces' ? -1 : b === 'Las Cruces' ? 1 : cityCounts[b] - cityCounts[a]);
+
+function textMatch(e, q){
+  if(!q) return true;
+  const locs = (e.locations || []).map(l => (l.label || '') + ' ' + (l.label_es || '')).join(' ');
+  const es = e.es || {};
+  const hay = [e.name, e.category, e.group, e.desc, es.name, es.category, es.group, es.desc, locs].join(' ').toLowerCase();
+  return hay.includes(q);
+}
+const nearMatch = e => !state.near || e._cities.has(state.near);
+const passes = e => textMatch(e, state.q.trim().toLowerCase()) && nearMatch(e);
+
+/* ---- URL hash state (deep links) ---- */
+function readHash(){
+  const p = new URLSearchParams(location.hash.replace(/^#/, ''));
+  let touched = false;
+  if(p.has('lang')){ state.lang = p.get('lang') === 'es' ? 'es' : 'en'; touched = true; }
+  if(p.has('sec')){ const i = SLUGS.indexOf(p.get('sec')); state.sec = i >= 0 ? String(i) : 'all'; touched = true; }
+  if(p.has('near')){ const c = NEAR.find(x => x.toLowerCase() === p.get('near').toLowerCase()); state.near = c || ''; touched = true; }
+  if(p.has('q')){ state.q = p.get('q') || ''; touched = true; }
+  return touched;
+}
+function writeHash(){
+  const p = new URLSearchParams();
+  if(state.lang !== 'en') p.set('lang', state.lang);
+  if(state.sec !== 'all') p.set('sec', SLUGS[+state.sec]);
+  if(state.near) p.set('near', state.near.toLowerCase());
+  if(state.q.trim()) p.set('q', state.q.trim());
+  const h = p.toString();
+  try { history.replaceState(null, '', h ? '#' + h : location.pathname + location.search); } catch(_) {}
+}
+
+/* ---- rendering ---- */
+function renderStatic(){
+  const t = T();
+  $('mv-title').textContent = t.title;
+  $('mv-sub').textContent = t.sub;
+  qEl.placeholder = t.search;
+  $('mv-count-label').textContent = t.resources;
+  $('mv-matches').textContent = t.matches;
+  $('mv-cta-text').textContent = t.cta;
+  const btn = $('mv-cta-btn'); btn.textContent = t.ctaBtn; btn.href = CONFIG.contactUrl;
+  btn.className = 'mv-cta-btn' + (CONFIG.ctaClass ? ' ' + CONFIG.ctaClass : '');
+  const ph = $('mv-cta-phone'); ph.textContent = CONFIG.phone; ph.href = telHref(CONFIG.phone);
+  const pdf = $('mv-pdf'), url = isEs() ? (CONFIG.pdfEs || CONFIG.pdfEn) : CONFIG.pdfEn;
+  pdf.hidden = !url; if(url) pdf.href = url; $('mv-pdf-label').textContent = t.pdf;
+  root.querySelectorAll('.mv-lang button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.lang === state.lang)));
+  root.setAttribute('lang', state.lang);
+}
+
+function secCount(h1){
+  return h1.subsections.reduce((n, h2) => n + h2.entries.filter(passes).length, 0);
+}
+function renderPills(){
+  const t = T();
+  const counts = DATA.map(secCount);
+  const all = counts.reduce((a, b) => a + b, 0);
+  const items = [{k:'all', label:t.all, n:all}].concat(DATA.map((h1, i) => ({k:String(i), label:h1Title(h1), n:counts[i]})));
+  pillsEl.innerHTML = items.map(s => `<button class="mv-pill" type="button" data-sec="${s.k}" aria-pressed="${s.k === state.sec}">${esc(s.label)} <span class="mv-count">${s.n}</span></button>`).join('');
+  pillsEl.querySelectorAll('.mv-pill').forEach(b => b.addEventListener('click', () => { state.sec = b.dataset.sec; update(true); }));
+}
+function renderNear(){
+  const t = T();
+  nearEl.innerHTML = `<span class="mv-near-label">${iconPin}${esc(t.nearLabel)}</span>`
+    + `<button class="mv-chip" type="button" data-near="" aria-pressed="${!state.near}">${esc(t.nearAll)}</button>`
+    + NEAR.map(c => `<button class="mv-chip" type="button" data-near="${esc(c)}" aria-pressed="${state.near === c}">${esc(c)}</button>`).join('');
+  nearEl.querySelectorAll('.mv-chip').forEach(b => b.addEventListener('click', () => { state.near = b.dataset.near; update(true); }));
+  const note = $('mv-near-note');
+  note.hidden = !state.near;
+  if(state.near) note.textContent = t.nearNote(state.near);
+}
+
+function renderCard(e, reveal){
+  const t = T();
+  const facts = [];
+  const locs = (e.locations && e.locations.length > 1) ? e.locations.slice() : null;
+  let badge = '';
+  if(locs){
+    if(state.near){
+      const has = l => citiesOf(l.address).some(c => c.toLowerCase() === state.near.toLowerCase());
+      locs.sort((a, b) => (has(b) ? 1 : 0) - (has(a) ? 1 : 0));
+      locs.forEach(l => l._m = has(l));
+    }
+    locs.forEach(l => {
+      const label = isEs() ? (l.label_es || l.label) : l.label;
+      const note = isEs() ? (l.note_es || l.note) : l.note;
+      const ph = l.phone ? (telHref(l.phone) ? `<a class="mv-plain" href="${telHref(l.phone)}">${esc(l.phone)}</a>` : esc(l.phone)) : '';
+      facts.push(`<div class="mv-loc${l._m ? ' mv-loc-match' : ''}">${label ? `<div class="mv-loc-label">${esc(label)}</div>` : ''}`
+        + (l.address ? `<div class="mv-fact">${iconPin}<a class="mv-plain" href="${mapsUrl(l.address)}" target="_blank" rel="noopener" title="${esc(t.maps)}">${esc(l.address)}</a></div>` : '')
+        + (ph ? `<div class="mv-fact">${iconPhone}<span>${ph}</span></div>` : '')
+        + (note ? `<div class="mv-loc-note">${esc(note)}</div>` : '') + `</div>`);
+    });
+    badge = `<div class="mv-locs-badge">${iconPin}${esc(t.locs(locs.length))}</div>`;
+  } else {
+    const a = dAddr(e);
+    if(a) facts.push(`<div class="mv-fact">${iconPin}<a class="mv-plain" href="${mapsUrl(a)}" target="_blank" rel="noopener" title="${esc(t.maps)}">${esc(a)}</a></div>`);
+    if(e.phone) facts.push(`<div class="mv-fact">${iconPhone}<span>${telHref(e.phone) ? `<a class="mv-plain" href="${telHref(e.phone)}">${esc(e.phone)}</a>` : esc(e.phone)}</span></div>`);
+  }
+  if(e.url) facts.push(`<div class="mv-fact">${iconLink}<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.url.replace(/^https?:\/\//, ''))}</a></div>`);
+  const kick = dKick(e, 'category'), desc = dDesc(e);
+  return `<div class="mv-card${reveal ? ' mv-reveal' : ''}" role="listitem" tabindex="0" aria-expanded="false">
+    <div class="mv-card-top"><div>
+      ${kick ? `<p class="mv-kicker">${esc(kick)}</p>` : ''}
+      <p class="mv-card-name">${esc(dName(e))}</p>${badge}
+    </div>${chev}</div>
+    <div class="mv-card-body"><div class="mv-card-body-inner">
+      ${desc ? `<p class="mv-desc">${esc(desc)}</p>` : ''}
+      ${facts.length ? `<div class="mv-facts">${facts.join('')}</div>` : ''}
+    </div></div>
+  </div>`;
+}
+
+let parObserver, revealObserver;
+const parVisible = new Set();
+function setupObservers(){
+  if(!('IntersectionObserver' in window)) return;
+  parObserver = new IntersectionObserver(es => es.forEach(en => en.isIntersecting ? parVisible.add(en.target) : parVisible.delete(en.target)), {root:results, rootMargin:'120px'});
+  revealObserver = new IntersectionObserver(es => es.forEach(en => { if(en.isIntersecting){ en.target.classList.add('mv-in'); revealObserver.unobserve(en.target); } }), {root:results, rootMargin:'0px 0px -30px 0px', threshold:.05});
+}
+let ticking = false;
+function updateParallax(){
+  ticking = false;
+  const box = results.getBoundingClientRect(), vh = box.height || 600;
+  parVisible.forEach(b => {
+    const r = b.getBoundingClientRect();
+    const p = ((r.top + r.height / 2) - (box.top + vh / 2)) / vh;
+    const img = b.firstElementChild;
+    if(img) img.style.transform = 'translate3d(0,' + (-Math.max(-1, Math.min(1, p)) * 26).toFixed(1) + 'px,0)';
+  });
+}
+results.addEventListener('scroll', () => { if(!reduced && !ticking){ ticking = true; requestAnimationFrame(updateParallax); } }, {passive:true});
+
+function renderResults(animate){
+  const t = T();
+  const reveal = animate && !reduced && !!revealObserver;
+  parVisible.clear();
+  let shown = 0, html = '';
+  DATA.forEach((h1, h1i) => {
+    if(state.sec !== 'all' && state.sec !== String(h1i)) return;
+    const subs = [];
+    h1.subsections.forEach(h2 => { const f = h2.entries.filter(passes); if(f.length) subs.push({h2, f}); });
+    if(!subs.length) return;
+    const n = subs.reduce((a, s) => a + s.f.length, 0);
+    html += `<section class="mv-sec" id="mv-${SLUGS[h1i]}">
+      <div class="mv-sec-banner${reveal ? ' mv-reveal' : ''}"><img class="mv-par" src="${BANNERS[h1i % BANNERS.length]}" alt="" loading="lazy">
+        <div class="mv-sec-banner-text"><span class="mv-sec-badge">${String(h1i + 1).padStart(2, '0')}</span><h3 class="mv-sec-title">${esc(h1Title(h1))}</h3><span class="mv-sec-count">${n} ${esc(t.resources)}</span></div>
+      </div>`;
+    subs.forEach(({h2, f}) => {
+      html += `<h4 class="mv-sub-head">${esc(h2Title(h2))}</h4>`;
+      let i = 0;
+      while(i < f.length){
+        const key = f[i].group || f[i].category || '';
+        let j = i; const bucket = [];
+        while(j < f.length && (f[j].group || f[j].category || '') === key){ bucket.push(f[j]); j++; }
+        const g = f[i].group ? dKick(f[i], 'group') : '';
+        if(g) html += `<div class="mv-group-head">${esc(g)}</div>`;
+        html += `<div class="mv-grid${g ? ' mv-grid-nested' : ''}">`;
+        bucket.forEach(e => { shown++; html += renderCard(e, reveal); });
+        html += `</div>`;
+        i = j;
+      }
+    });
+    html += `</section>`;
+  });
+  results.innerHTML = shown ? html : `<div class="mv-empty">${esc(t.empty)}</div>`;
+  $('mv-count').textContent = shown;
+  $('mv-scope').textContent = state.sec === 'all' ? t.allCats : h1Title(DATA[+state.sec]);
+
+  results.querySelectorAll('.mv-card').forEach(card => {
+    const toggle = () => card.setAttribute('aria-expanded', String(card.getAttribute('aria-expanded') !== 'true'));
+    card.addEventListener('click', ev => { if(!ev.target.closest('a')) toggle(); });
+    card.addEventListener('keydown', ev => { if(ev.key === 'Enter' || ev.key === ' '){ ev.preventDefault(); toggle(); } });
+  });
+  if(parObserver) results.querySelectorAll('.mv-sec-banner').forEach(b => parObserver.observe(b));
+  if(reveal && revealObserver) results.querySelectorAll('.mv-reveal').forEach(el => revealObserver.observe(el));
+  if(!reduced) requestAnimationFrame(updateParallax);
+}
+
+function update(animate){
+  renderStatic(); renderPills(); renderNear(); renderResults(animate); writeHash();
+  if(animate) results.scrollTop = 0;
+}
+
+root.querySelectorAll('.mv-lang button').forEach(b => b.addEventListener('click', () => { state.lang = b.dataset.lang; update(false); }));
+let deb;
+qEl.addEventListener('input', () => { clearTimeout(deb); deb = setTimeout(() => { state.q = qEl.value; renderPills(); renderResults(false); writeHash(); }, 120); });
+window.addEventListener('hashchange', () => {
+  const before = JSON.stringify(state);
+  if(readHash() && JSON.stringify(state) !== before){ qEl.value = state.q; update(true); root.scrollIntoView({behavior: reduced ? 'auto' : 'smooth', block:'start'}); }
+});
+
+setupObservers();
+readHash();
+qEl.value = state.q;
+update(true);
+})();
+</script>

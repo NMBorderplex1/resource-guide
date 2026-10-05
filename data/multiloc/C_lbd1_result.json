@@ -1,0 +1,665 @@
+[
+ {
+  "name": "HB Construction",
+  "address": "141 Roadrunner Pkwy., Suite 141A, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://hbconstruction.com",
+  "confidence": "low",
+  "notes": "Single Las Cruces office; site excerpt did not list other offices."
+ },
+ {
+  "name": "Jaynes Corporation",
+  "address": "3849 Foothills Rd., Suite B, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://jaynescorp.com",
+  "confidence": "medium",
+  "notes": "Offices: Albuquerque, Durango, Aztec, Las Cruces, El Paso - only one in Dona Ana County. Las Cruces page not individually verified."
+ },
+ {
+  "name": "McGinley Construction",
+  "address": "PO Box 370, Mesilla, NM 88046",
+  "status": "single_location",
+  "source": "quick check only",
+  "confidence": "low",
+  "notes": "Not researched in depth; no evidence of additional Dona Ana County locations."
+ },
+ {
+  "name": "Smith & Aguirre Construction",
+  "address": "P.O. Drawer 2276, Las Cruces, NM 88004",
+  "status": "single_location",
+  "source": "quick check only",
+  "confidence": "low",
+  "notes": "Not researched in depth; no evidence of additional Dona Ana County locations."
+ },
+ {
+  "name": "ZTEX Construction",
+  "address": "1326 Henry Brennan Dr., El Paso, TX 79936",
+  "status": "single_location",
+  "source": "https://ztexconstruction.com",
+  "confidence": "medium",
+  "notes": "Only El Paso office listed; no Dona Ana County office."
+ },
+ {
+  "name": "RT Electric, Inc.",
+  "address": "480 N. 17th Street, Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "https://rtelectricinc.com",
+  "confidence": "medium",
+  "notes": "One Las Cruces office; has separate El Paso phone (915) 838-8585."
+ },
+ {
+  "name": "Sun City Plumbing & Heating",
+  "address": "3479 W. Picacho Ave., Las Cruces, NM 88007",
+  "status": "single_location",
+  "source": "https://youknowsuncity.com",
+  "confidence": "medium",
+  "notes": "Single shop; serves Anthony, Sunland Park, Santa Teresa from Las Cruces."
+ },
+ {
+  "name": "Yearout Service, LLC",
+  "address": "100 Wyatt, Suite D, Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "https://yearout.com; search results (Yearout Las Cruces office 100 Wyatt Ste D)",
+  "confidence": "medium",
+  "notes": "Las Cruces office only in county; site did not list other Dona Ana County offices. Site brands as Yearout Mechanical (a Legence company); listed phone has a 505 area code."
+ },
+ {
+  "name": "Associated Builders & Contractors NM",
+  "address": "2821 Broadway Blvd. NE, Albuquerque, NM 87107",
+  "status": "single_location",
+  "source": "https://abcnm.org",
+  "confidence": "medium",
+  "notes": "Only Albuquerque office listed; no Dona Ana County office."
+ },
+ {
+  "name": "Bohannan Huston, Inc.",
+  "address": "425 S. Telshor Blvd, Ste C-103, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://bhinc.com/bhi-las-cruces-open-house-rsvp/",
+  "confidence": "high",
+  "notes": "ADDRESS CHANGED: BHI moved to a new Las Cruces office at 2730 Northrise Dr., Las Cruces, NM 88011 (open house Aug 25, 2026); phone (575) 532-8670 still shown. Only one Las Cruces office; others are Albuquerque and Denver area."
+ },
+ {
+  "name": "Souder, Miller & Associates",
+  "address": "3500 Sedona Hills Parkway, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://www.soudermiller.com/contact-us",
+  "confidence": "high",
+  "notes": "Only Las Cruces office in county (3500 Sedona Hills Pkwy, (575) 647-0799)."
+ },
+ {
+  "name": "Stubbs Engineering",
+  "address": "277 E. Amador Ave., Suite 200, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://stubbseng.com",
+  "confidence": "high",
+  "notes": "Las Cruces office only in county (others El Paso, Fort Worth)."
+ },
+ {
+  "name": "WHA International",
+  "address": "5605 Dona Ana Road, Las Cruces, NM 88007",
+  "status": "single_location",
+  "source": "https://wha-international.com",
+  "confidence": "high",
+  "notes": "Single office."
+ },
+ {
+  "name": "ASA Architects, PA",
+  "address": "201 N. Alameda Blvd., Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://asa-architects.com",
+  "confidence": "high",
+  "notes": "Las Cruces office only in county (others El Paso, Roswell)."
+ },
+ {
+  "name": "Desert Peak Architects",
+  "address": "311 N. Main Street, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "quick check only",
+  "confidence": "low",
+  "notes": "Not researched in depth; no evidence of additional Dona Ana County locations."
+ },
+ {
+  "name": "Dekker",
+  "address": "7601 Jefferson St NE, Ste 100, Albuquerque, NM 87109",
+  "status": "single_location",
+  "source": "https://dekkerdesign.org",
+  "confidence": "medium",
+  "notes": "Offices in Albuquerque, El Paso, Phoenix only; no Dona Ana County office. Listed address is Albuquerque."
+ },
+ {
+  "name": "LoyaWilke Architects",
+  "address": "221 N. Kansas, Ste 820, El Paso, TX 79930",
+  "status": "single_location",
+  "source": "https://loyawilke.com",
+  "confidence": "medium",
+  "notes": "Only El Paso office listed; no Dona Ana County office."
+ },
+ {
+  "name": "Vigil & Associates",
+  "address": "1765 Avenida de Mercado, Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "quick check only",
+  "confidence": "low",
+  "notes": "Not researched in depth; no evidence of additional Dona Ana County locations."
+ },
+ {
+  "name": "NAI 1st Valley",
+  "address": "1155 S. Telshor, Suite B, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://1stvalley.com",
+  "confidence": "medium",
+  "notes": "One Las Cruces office per site."
+ },
+ {
+  "name": "Steinborn TCN Commercial Real Estate",
+  "address": "141 Roadrunner Pkwy, Ste 141, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://steinborn.com; https://steinborn.com/steinborn-las-cruces/",
+  "confidence": "medium",
+  "notes": "Las Cruces, Alamogordo, Ruidoso offices; only Las Cruces is in county. Street address not shown on page; site lists (800) 234-3698."
+ },
+ {
+  "name": "CBRE",
+  "address": "6565 Americas Pkwy NE, Suite 825, Albuquerque, NM 87110",
+  "status": "single_location",
+  "source": "quick check only",
+  "confidence": "low",
+  "notes": "Not researched in depth; no evidence of additional Dona Ana County locations. Listed office is Albuquerque; no Las Cruces office found."
+ },
+ {
+  "name": "Colliers",
+  "address": "5051 Journal Center Blvd. NE, Suite 200, Albuquerque, NM 87109",
+  "status": "single_location",
+  "source": "quick check only",
+  "confidence": "low",
+  "notes": "Not researched in depth; no evidence of additional Dona Ana County locations. Listed office is Albuquerque; no Las Cruces office found."
+ },
+ {
+  "name": "Killam Development",
+  "address": "4320 University Blvd., Laredo, TX 78041",
+  "status": "single_location",
+  "source": "https://killamdevelopment.com",
+  "confidence": "medium",
+  "notes": "South Texas developer; no Dona Ana County office found."
+ },
+ {
+  "name": "Sierra Norte Development",
+  "address": "4935 Ocotillo Rd., Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "quick check only",
+  "confidence": "low",
+  "notes": "Not researched in depth; no evidence of additional Dona Ana County locations."
+ },
+ {
+  "name": "Alta Mesa Estates",
+  "address": "5657 Caminito Genio, La Jolla, CA 92037",
+  "status": "single_location",
+  "source": "https://www.nmborderplex.com/border-boom-the-2-billion-transformation-of-santa-teresa-in-new-mexicos-borderplex/",
+  "confidence": "medium",
+  "notes": "This is a master-planned community in Santa Teresa, NM, not a branch organization. Listed address (La Jolla, CA) is the developer's mailing address. No public sales office found."
+ },
+ {
+  "name": "L&M Asset Management",
+  "address": "PO Box 12007, El Paso, TX 79932",
+  "status": "single_location",
+  "source": "quick check only",
+  "confidence": "low",
+  "notes": "Not researched in depth; no evidence of additional Dona Ana County locations. Listed address is an El Paso PO Box."
+ },
+ {
+  "name": "Las Cruces Association of Realtors",
+  "address": "150 E. Idaho Ave., Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "https://lcarnm.com",
+  "confidence": "high",
+  "notes": "Single office."
+ },
+ {
+  "name": "Doña Ana Title",
+  "address": "424 -B South Telshor, Las Cruces, NM 88011",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Telshor",
+    "address": "425 S. Telshor Blvd., Ste B, Las Cruces, NM 88011",
+    "phone": "(575) 521-5800"
+   },
+   {
+    "label": "Roadrunner",
+    "address": "141 Roadrunner Pkwy., Ste 139, Las Cruces, NM 88011",
+    "phone": "(575) 532-2390"
+   }
+  ],
+  "source": "https://local.firstam.com/nm/offices/dona-ana-title-telshor; https://local.firstam.com/nm/offices/dona-ana-title-roadrunner",
+  "confidence": "high",
+  "notes": "Listed address '424-B South Telshor' should be 425 S. Telshor Blvd, Suite B; phone (575) 521-5800 was blank in listing."
+ },
+ {
+  "name": "Southwestern Abstract & Title",
+  "address": "P.O. Box 695, Las Cruces, NM 88004",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Main",
+    "address": "1125 S. Main St., Las Cruces, NM 88005",
+    "phone": "(575) 523-8561"
+   },
+   {
+    "label": "Foothills",
+    "address": "3780 Foothills Rd., Ste B, Las Cruces, NM 88011",
+    "phone": ""
+   }
+  ],
+  "source": "https://swatlc.com/",
+  "confidence": "high",
+  "notes": "Listed address is a PO Box; physical main office is 1125 S. Main St. Foothills branch phone not shown on site."
+ },
+ {
+  "name": "WestStar Bank",
+  "address": "555 S. Telshor, Ste 100A, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://www.bankbranchlocator.com/weststar-bank-locations-in-new-mexico.html; https://www.weststarbank.com/locations (locator did not render)",
+  "confidence": "medium",
+  "notes": "Only New Mexico branch is Las Cruces (555 S. Telshor, Ste 100A, (575) 323-6040)."
+ },
+ {
+  "name": "Century Bank",
+  "address": "141 S. Roadrunner Parkway, Suite 101, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://www.mycenturybank.com/who-we-are/about-us/las-cruces-branch",
+  "confidence": "high",
+  "notes": "One Las Cruces branch; address/phone confirmed."
+ },
+ {
+  "name": "Citizens Bank of Las Cruces",
+  "address": "505 S. Main St., Las Cruces, NM 88001 (Main Bank)",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Main Bank",
+    "address": "505 S. Main St., Las Cruces, NM 88001",
+    "phone": "(575) 647-4100"
+   },
+   {
+    "label": "Country Club",
+    "address": "2841 N. Main St., Las Cruces, NM 88001",
+    "phone": "(575) 647-4136"
+   },
+   {
+    "label": "Roadrunner",
+    "address": "3991 E. Lohman Ave., Las Cruces, NM 88011",
+    "phone": "(575) 528-6300"
+   },
+   {
+    "label": "Picacho",
+    "address": "3030 W. Picacho Ave., Las Cruces, NM 88007",
+    "phone": "(575) 528-6363"
+   },
+   {
+    "label": "University",
+    "address": "3065 E. University Ave., Las Cruces, NM 88011",
+    "phone": "(575) 647-6700"
+   },
+   {
+    "label": "Sonoma",
+    "address": "4785 N. Sonoma Ranch Blvd., Las Cruces, NM 88012",
+    "phone": "(575) 647-4180"
+   }
+  ],
+  "source": "https://www.citizenslc.com/about-us/locations-and-hours",
+  "confidence": "high",
+  "notes": "Listed address/phone correct for Main Bank. Other branches (T or C, El Paso, Albuquerque) are outside Dona Ana County."
+ },
+ {
+  "name": "First American Bank",
+  "address": "1553 Avenida de Mesilla Ste 225, Las Cruces, NM 88005",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Mesilla",
+    "address": "1553 Avenida de Mesilla, Ste 225, Las Cruces, NM 88005",
+    "phone": "(575) 524-8000"
+   },
+   {
+    "label": "East Lohman",
+    "address": "2145 E. Lohman Ave., Las Cruces, NM 88001",
+    "phone": "(575) 525-4230"
+   }
+  ],
+  "source": "https://www.bankbranchlocator.com/first-american-bank-nm-offices-in-las-cruces-nm.html; https://www.usbanklocations.com/first-american-bank-las-cruces-nm.htm; https://www.firstamericanbanknm.com/ (official locator is dynamic, would not render)",
+  "confidence": "medium",
+  "notes": "Official locator did not render; two Las Cruces offices confirmed from FDIC-based directories. A web search also surfaced a 223 E. Idaho Ave, Las Cruces office (575-647-7760) via directory listings, not confirmed as a branch, so omitted. Verify with the bank."
+ },
+ {
+  "name": "First New Mexico Bank of Las Cruces",
+  "address": "3000 E. Lohman Ave., Las Cruces, NM 88011",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Main Bank",
+    "address": "3000 E. Lohman Ave., Las Cruces, NM 88011",
+    "phone": "(575) 556-3000"
+   },
+   {
+    "label": "Motel Blvd",
+    "address": "920 N. Motel Blvd., Las Cruces, NM 88007",
+    "phone": "(575) 556-3060"
+   },
+   {
+    "label": "Anthony",
+    "address": "455 Landers Rd., Anthony, NM 88021",
+    "phone": "(575) 882-5885"
+   }
+  ],
+  "source": "https://firstnewmexicobanklc.com/index.php/locations/",
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Pioneer Bank",
+  "address": "PO Box 609, Las Cruces, NM 88004",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Lohman",
+    "address": "3831 E. Lohman Ave., Las Cruces, NM 88011",
+    "phone": "(800) 624-5200"
+   },
+   {
+    "label": "Roadrunner",
+    "address": "2900 Roadrunner Pkwy., Las Cruces, NM 88011",
+    "phone": "(800) 624-5200"
+   },
+   {
+    "label": "University",
+    "address": "705 E. University Ave., Las Cruces, NM 88005",
+    "phone": "(800) 624-5200"
+   }
+  ],
+  "source": "https://pioneer.bank/locations",
+  "confidence": "medium",
+  "notes": "Listed address is only a PO Box; official site (now pioneer.bank; old pioneerbnk.com redirects) lists three Las Cruces branches, all with the 1-800-624-5200 number and no individual branch phones. Listed phone (575) 532-7520 not confirmed on the official site. ZIP codes for Roadrunner/University inferred (not shown on page)."
+ },
+ {
+  "name": "U.S. Bank",
+  "address": "277 E. Amador Avenue, Las Cruces, NM 88001",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Amador",
+    "address": "277 E. Amador Ave., Las Cruces, NM 88001",
+    "phone": "(575) 647-7310"
+   },
+   {
+    "label": "Foothills",
+    "address": "3790 E. Lohman Ave., Las Cruces, NM 88011",
+    "phone": "(575) 522-9660"
+   }
+  ],
+  "source": "https://www.usbank.com/locations/new-mexico/las-cruces/; https://www.usbank.com/locations/new-mexico/las-cruces/277-e-amador-ave-bank-atm/; https://www.usbank.com/locations/new-mexico/las-cruces/3790-e-lohman-ave-bank-atm/",
+  "confidence": "high",
+  "notes": "Las Cruces is the only Dona Ana County city on U.S. Bank's NM city list."
+ },
+ {
+  "name": "WaFd Bank",
+  "address": "301 W. Amador Ave., Las Cruces, NM 88005",
+  "status": "single_location",
+  "source": "https://www.wafdbank.com/locations/new-mexico/las-cruces/amador-ave; https://www.bankbranchlocator.com/wafd-bank-telshor-las-cruces-branch.html",
+  "confidence": "high",
+  "notes": "Only Amador branch open; former Telshor branch (1800 S. Telshor) is permanently closed."
+ },
+ {
+  "name": "FirstLight Federal Credit Union",
+  "address": "9983 Kenworthy St., El Paso, TX 79924",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Idaho",
+    "address": "522 E. Idaho Ave., Las Cruces, NM 88001",
+    "phone": "(575) 526-4401"
+   },
+   {
+    "label": "Del Rey",
+    "address": "3105 Del Rey Blvd., Las Cruces, NM 88012",
+    "phone": "(575) 526-4401"
+   },
+   {
+    "label": "Lohman",
+    "address": "3791 E. Lohman Ave., Las Cruces, NM 88011",
+    "phone": "(575) 526-4401"
+   }
+  ],
+  "source": "https://www.firstlightfcu.org/branches; https://www.firstlightfcu.org/branches-and-atms/idaho-branch.html; .../del-ray-branch.html; .../lohman-branch.html",
+  "confidence": "high",
+  "notes": "Listed address (9983 Kenworthy St., El Paso, TX) is the El Paso Kenworthy branch, outside the county; (575) 526-4401 is the Las Cruces number (branch pages show 1-800-351-1670). Old Foster Rd branch (300 E Foster) appears closed and is not on the official branch list. Recommend replacing the listed El Paso address with the Las Cruces branches."
+ },
+ {
+  "name": "Axcess Financial Group",
+  "address": "6605 Uptown Blvd. NE, Suite 280, Albuquerque, NM 87110",
+  "status": "single_location",
+  "source": "quick check only",
+  "confidence": "low",
+  "notes": "Albuquerque firm; no county location found (not researched in depth)."
+ },
+ {
+  "name": "Edward Jones – Amy Daniels",
+  "address": "4300 Sonoma Ranch Blvd Suite 5, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://www.edwardjones.com/us-en/financial-advisor/amy-daniels (search result)",
+  "confidence": "medium",
+  "notes": "Individual advisor; single office."
+ },
+ {
+  "name": "Beasley Mitchell & Co., LLP",
+  "address": "509 S. Main St., Suite A, Las Cruces, NM 88001",
+  "status": "single_location",
+  "source": "https://bmc-cpa.com",
+  "confidence": "high",
+  "notes": "Only Las Cruces office in county (other offices El Paso, Tucson, Albuquerque)."
+ },
+ {
+  "name": "CLA (formerly Axiom CPAs & Business Advisors)",
+  "address": "316 Osuna Rd. NE, Suite 401, Albuquerque, NM 87107",
+  "status": "single_location",
+  "source": "quick check; no Dona Ana County office found",
+  "confidence": "low",
+  "notes": "Listed Albuquerque office; no Las Cruces office found. Not researched in depth."
+ },
+ {
+  "name": "Higginbotham",
+  "address": "141 Roadrunner Pkwy., Suite 109, Las Cruces, NM 88011",
+  "status": "single_location",
+  "source": "https://www.higginbotham.com/locations/las-cruces/ (search result; page blocked)",
+  "confidence": "medium",
+  "notes": "Single Las Cruces office; only other NM office is Albuquerque."
+ },
+ {
+  "name": "Bank of America",
+  "address": "",
+  "status": "single_location",
+  "source": "https://locators.bankofamerica.com/nm/lascruces/financial-centers-las-cruces-9130.html",
+  "confidence": "high",
+  "notes": "Only one financial center in county: 691 S. Telshor Blvd, Las Cruces 88011, (575) 647-3700. Standalone ATM at 1600 International Mall is not a branch. Phone-only listing."
+ },
+ {
+  "name": "Bank of the Southwest",
+  "address": "",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Las Cruces",
+    "address": "1043 N. Main St., Las Cruces, NM 88001",
+    "phone": "(575) 527-5498"
+   },
+   {
+    "label": "Hatch",
+    "address": "134 E. Hall St., Hatch, NM 87937",
+    "phone": "(575) 267-1095"
+   }
+  ],
+  "source": "https://www.bankofsw.com/About-Us/Locations-And-Hours/",
+  "confidence": "high",
+  "notes": "Surprise: Hatch branch. GECU announced a pending acquisition of Bank of the Southwest - branding/phones may change."
+ },
+ {
+  "name": "BMO Bank (formerly Bank of the West)",
+  "address": "",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Church St",
+    "address": "201 N. Church St., Las Cruces, NM 88001",
+    "phone": "(575) 527-6200"
+   },
+   {
+    "label": "Telshor",
+    "address": "795 S. Telshor Blvd., Las Cruces, NM 88011",
+    "phone": "(575) 532-1889"
+   },
+   {
+    "label": "Anthony",
+    "address": "300 N. Anthony Dr., Anthony, NM 88021",
+    "phone": "(575) 882-2154"
+   }
+  ],
+  "source": "https://www.bankbranchlocator.com/bmo-bank-las-cruces-branch.html; https://www.bankbranchlocator.com/bmo-bank-telshor-las-cruces-branch.html; https://www.bankbranchlocator.com/bmo-bank-anthony-branch.html; BMO CRA open-branch list (Apr 2026) referenced in search; usbranches.bmo.com pages would not render details",
+  "confidence": "medium",
+  "notes": "Official BMO branch pages exist (usbranches.bmo.com/nm/las-cruces/bmo367, /nm/anthony/bmo368) but content did not render; details from FDIC-based directory pages. Listed phone (575) 527-6200 = Church St branch."
+ },
+ {
+  "name": "Southwest Heritage Bank",
+  "address": "",
+  "status": "single_location",
+  "source": "https://www.swhbank.com/applications/contact-us.html",
+  "confidence": "medium",
+  "notes": "One Las Cruces office (220 N. Telshor Blvd., 88011 per directories, (575) 521-8100). Other NM office is Alamogordo (outside county). Phone-only listing."
+ },
+ {
+  "name": "PNC Bank",
+  "address": "",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Lohman",
+    "address": "3800 E. Lohman Ave., Las Cruces, NM 88011",
+    "phone": "(575) 521-0000"
+   },
+   {
+    "label": "Idaho",
+    "address": "225 E. Idaho Ave., Las Cruces, NM 88005",
+    "phone": "(575) 523-5920"
+   }
+  ],
+  "source": "https://www.bankbranchlocator.com/pnc-bank-offices-in-las-cruces-nm.html; search results from directory pages (pnc.com locator would not render)",
+  "confidence": "medium",
+  "notes": "Two Las Cruces branches per FDIC-based directories; listed phone (575) 521-0000 matches the Lohman branch. Phone for Idaho from search snippet only."
+ },
+ {
+  "name": "American AgCredit (formerly Farm Credit of New Mexico)",
+  "address": "",
+  "status": "single_location",
+  "source": "https://www.agloan.com/locations/new-mexico/",
+  "confidence": "high",
+  "notes": "One office in county: 2800 Las Vegas Ct., Las Cruces, NM 88007, (575) 528-7100. Phone-only listing."
+ },
+ {
+  "name": "First Savings Bank",
+  "address": "",
+  "status": "single_location",
+  "source": "https://www.firstsavingsbanks.bank/convenient-locations/",
+  "confidence": "high",
+  "notes": "One office in county: 2804 N. Telshor Blvd., Las Cruces, NM 88011, (575) 521-7931. Other NM branches outside county. Phone-only listing."
+ },
+ {
+  "name": "One Source Federal Credit Union",
+  "address": "",
+  "status": "single_location",
+  "source": "https://www.onesourcefcu.org/locations/las-cruces",
+  "confidence": "high",
+  "notes": "One office in county: 1375 E. Boutz Rd., Las Cruces, NM 88001, (575) 523-5524. Phone-only listing."
+ },
+ {
+  "name": "Wells Fargo Bank",
+  "address": "",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Telshor",
+    "address": "425 S. Telshor Blvd., Las Cruces, NM 88011",
+    "phone": "(575) 521-6800"
+   },
+   {
+    "label": "North Main",
+    "address": "2400 N. Main St., Las Cruces, NM 88001",
+    "phone": "(575) 523-3942"
+   },
+   {
+    "label": "El Paseo",
+    "address": "2505 El Paseo Rd., Las Cruces, NM 88001",
+    "phone": "(575) 541-9502"
+   },
+   {
+    "label": "Anthony",
+    "address": "800 Hwy 478, Anthony, NM 88021",
+    "phone": "(575) 882-3571"
+   },
+   {
+    "label": "Hatch",
+    "address": "212 E. Hall St., Hatch, NM 87937",
+    "phone": "(575) 267-3071"
+   }
+  ],
+  "source": "https://locations.wellsfargo.com/nm/las-cruces; https://locations.wellsfargo.com/nm/anthony; https://locations.wellsfargo.com/nm/hatch; https://locations.wellsfargo.com/nm",
+  "confidence": "high",
+  "notes": "Listed phone (575) 521-6800 is the Telshor branch (425 S. Telshor). Two ATM-only sites (2500 N Main, 600 S Main) not included."
+ },
+ {
+  "name": "White Sands Federal Credit Union",
+  "address": "",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "North Main",
+    "address": "2755 N. Main St., Las Cruces, NM 88001",
+    "phone": "(575) 647-4500"
+   },
+   {
+    "label": "Lohman",
+    "address": "2190 E. Lohman Ave., Las Cruces, NM 88001",
+    "phone": "(575) 647-4500"
+   }
+  ],
+  "source": "https://www.wsfcu.org/branches",
+  "confidence": "high",
+  "notes": "A University Ave branch (3110 E. University Ave., Las Cruces 88011) is marked 'Coming Soon' - add when open. Other branches (El Paso, T or C) are outside county. Phone-only listing; (575) 647-4500 verified."
+ },
+ {
+  "name": "AgTrust Farm Credit",
+  "address": "",
+  "status": "single_location",
+  "source": "https://agtrustaca.com/locations/las-cruces/",
+  "confidence": "high",
+  "notes": "One office in county: 1310 Picacho Hills Dr., Ste 1, Las Cruces, NM 88007, (575) 647-4430. Phone-only listing."
+ },
+ {
+  "name": "Sunflower Bank (First National 1870)",
+  "address": "",
+  "status": "multiple_locations",
+  "locations": [
+   {
+    "label": "Water St",
+    "address": "421 N. Water St., Las Cruces, NM 88001",
+    "phone": "(575) 525-8907"
+   },
+   {
+    "label": "Telshor",
+    "address": "2535 S. Telshor Blvd., Las Cruces, NM 88011",
+    "phone": "(575) 525-8910"
+   }
+  ],
+  "source": "https://www.bankbranchlocator.com/sunflower-bank-offices-in-las-cruces-nm.html; https://www.bankbranchlocator.com/sunflower-bank-telshor-las-cruces-branch.html; sunflowerbank.com find-a-location pages (blocked 403, seen in search results)",
+  "confidence": "medium",
+  "notes": "Official site blocked automated access; two branches confirmed from FDIC-based directory. Former Northrise Dr (3500 Northrise) branch shown as closed. Listed phone (575) 525-8900 not confirmed; branch phones are 525-8907 / 525-8910. Water St phone from search snippet."
+ }
+]

@@ -1,0 +1,2471 @@
+[
+ {
+  "title": "Asistencia Empresarial General",
+  "subsections": [
+   {
+    "title": "LICENCIAS, PERMISOS Y REGISTRO",
+    "entries": [
+     {
+      "name": "Registro de Negocios",
+      "category": "",
+      "group": "CIUDAD DE LAS CRUCES",
+      "url": "https://lascruces.gov",
+      "desc": "Emite registros y licencias para cualquier negocio que opere dentro de los límites de la ciudad.",
+      "address": "700 N. Main Street, Las Cruces, NM 88001",
+      "phone": "(575) 528-3059"
+     },
+     {
+      "name": "Permisos e Inspecciones",
+      "category": "",
+      "group": "CIUDAD DE LAS CRUCES",
+      "url": "https://lascruces.gov",
+      "desc": "Permisos de construcción, revisión de planos e inspecciones de obra, incluida la revisión del código de incendios para proyectos comerciales.",
+      "address": "700 North Main Street, Las Cruces, NM 88001",
+      "phone": "(575) 528-3059"
+     },
+     {
+      "name": "Planificación y Zonificación",
+      "category": "",
+      "group": "CIUDAD DE LAS CRUCES",
+      "url": "https://lascruces.gov",
+      "desc": "Zonificación, uso de suelo, subdivisiones y revisión de planos de sitio para proyectos en la ciudad.",
+      "address": "700 North Main Street, Las Cruces, NM 88001",
+      "phone": "(575) 528-3043"
+     },
+     {
+      "name": "Desarrollo Comunitario",
+      "category": "CIUDAD DE SUNLAND PARK",
+      "group": "",
+      "url": "https://sunlandpark-nm.gov",
+      "desc": "Licencias, permisos y servicios de planificación para negocios en Sunland Park.",
+      "address": "1000 McNutt Rd. #G, Sunland Park, NM 88063",
+      "phone": "(575) 589-3631"
+     },
+     {
+      "name": "Desarrollo Comunitario",
+      "category": "PUEBLO DE MESILLA",
+      "group": "",
+      "url": "https://ext. 104 ·mesillanm.gov/government/departments/economic-community-development",
+      "desc": "Licencias y permisos para negocios y planificación del distrito histórico de Mesilla.",
+      "address": "2231 Avenida de Mesilla, Mesilla, NM 88046",
+      "phone": "(575) 524-3262"
+     },
+     {
+      "name": "Oficinas Administrativas",
+      "category": "VILLA DE HATCH",
+      "group": "",
+      "url": "https://villageofhatch.org",
+      "desc": "Licencias y permisos para negocios, además del servicio de agua, aguas residuales y recolección de residuos, nuevas conexiones y extensiones de línea.",
+      "address": "133 N. Franklin St., Hatch, NM 87937",
+      "phone": "(575) 267-5216"
+     },
+     {
+      "name": "Ayuntamiento",
+      "category": "CIUDAD DE ANTHONY",
+      "group": "",
+      "url": "https://cityofanthonynm.com",
+      "desc": "Licencias y permisos para negocios en la Ciudad de Anthony.",
+      "address": "820 Highway 478, Anthony, NM 88021",
+      "phone": "(575) 882-2983"
+     },
+     {
+      "name": "Registro de Negocios",
+      "category": "",
+      "group": "CONDADO DE DOÑA ANA",
+      "url": "https://donaanacounty.org",
+      "desc": "Registro de negocios en las zonas no incorporadas del Condado de Doña Ana.",
+      "address": "845 N. Motel Blvd., Las Cruces, NM 88007",
+      "phone": "(575) 647-7421"
+     },
+     {
+      "name": "Planificación y Zonificación",
+      "category": "",
+      "group": "CONDADO DE DOÑA ANA",
+      "url": "https://donaanacounty.org",
+      "desc": "Zonificación, subdivisiones y permisos de construcción para las zonas no incorporadas del condado.",
+      "address": "845 N. Motel Blvd., Las Cruces, NM 88007",
+      "phone": "(575) 647-7350"
+     },
+     {
+      "name": "Secretaría de Estado – Servicios Empresariales",
+      "category": "",
+      "group": "ESTADO DE NUEVO MÉXICO",
+      "url": "https://sos.nm.gov",
+      "desc": "Registra corporaciones, LLC y otras entidades comerciales y mantiene sus registros al día.",
+      "address": "325 Don Gaspar, Suite 300, Santa Fe, NM 87501",
+      "phone": "(505) 827-3600"
+     },
+     {
+      "name": "Departamento de Impuestos e Ingresos",
+      "category": "",
+      "group": "ESTADO DE NUEVO MÉXICO",
+      "url": "https://tax.newmexico.gov",
+      "desc": "Obtenga su número de identificación fiscal estatal y presente el impuesto sobre ingresos brutos (GRT), retenciones y otros impuestos empresariales.",
+      "address": "2540 S. El Paseo, Bldg. #2, Las Cruces, NM 88001",
+      "phone": "(866) 285-2996"
+     },
+     {
+      "name": "Departamento de Regulación y Licencias",
+      "category": "",
+      "group": "ESTADO DE NUEVO MÉXICO",
+      "url": "https://rld.nm.gov",
+      "desc": "Emite licencias profesionales y ocupacionales para decenas de oficios y profesiones.",
+      "address": "2550 Cerrillos Road, Santa Fe, NM 87505",
+      "phone": "(505) 476-4500"
+     },
+     {
+      "name": "División de Industrias de la Construcción",
+      "category": "",
+      "group": "ESTADO DE NUEVO MÉXICO",
+      "url": "https://rld.nm.gov/construction-industries",
+      "desc": "Otorga licencias a contratistas y emite permisos de construcción, electricidad, plomería y mecánica donde no existe un departamento local de construcción.",
+      "address": "505 S. Main St., Suite 103 (Loretto Town Center), Las Cruces, NM 88001",
+      "phone": "(575) 524-6320"
+     },
+     {
+      "name": "Departamento del Medio Ambiente – Salud Ambiental",
+      "category": "",
+      "group": "ESTADO DE NUEVO MÉXICO",
+      "url": "https://env.nm.gov/environmental-health",
+      "desc": "Otorga permisos e inspecciona establecimientos de alimentos, unidades móviles de comida y sistemas sépticos. · lascruces.gov/2220/Apply-for-a-Permit · lascruces.gov/property/remodeling-and-construction · donaana.gov/about_us/services/maps.php · assessor.donaanacounty.org",
+      "address": "2301 Entrada Del Sol, Las Cruces, NM 88001",
+      "phone": "(575) 288-2050"
+     }
+    ]
+   },
+   {
+    "title": "ORGANIZACIONES DE DESARROLLO ECONÓMICO Y CÁMARAS DE COMERCIO",
+    "entries": [
+     {
+      "name": "Mesilla Valley Economic Development Alliance (MVEDA)",
+      "category": "",
+      "group": "",
+      "url": "https://mveda.com",
+      "desc": "La organización privada sin fines de lucro de desarrollo económico del Condado de Doña Ana, que ayuda a las empresas a establecerse y crecer en el NMBorderplex.",
+      "address": "1501 S. Don Roser, Las Cruces, NM 88011",
+      "phone": "(575) 525-2852"
+     },
+     {
+      "name": "City of Las Cruces Economic Development Department",
+      "category": "",
+      "group": "",
+      "url": "https://lascruces.gov/business/economic-development",
+      "desc": "Consultas individuales gratuitas, en inglés y español, sobre permisos, zonificación, incentivos, fuerza laboral y financiamiento para negocios nuevos y en expansión.",
+      "address": "700 N. Main St., Suite 1100, Las Cruces, NM 88001",
+      "phone": "(575) 541-2425"
+     },
+     {
+      "name": "Doña Ana County Economic Development Department",
+      "category": "",
+      "group": "",
+      "url": "https://donaana.gov",
+      "desc": "Atrae industria, apoya a emprendedores y ayuda a los negocios existentes a permanecer y crecer en el condado.",
+      "address": "845 N. Motel Blvd., Las Cruces, NM 88007",
+      "phone": "(575) 386-4352"
+     },
+     {
+      "name": "City of Sunland Park Economic Development",
+      "category": "",
+      "group": "",
+      "url": "https://sunlandpark-nm.gov",
+      "desc": "Apoya la atracción y expansión de negocios en Sunland Park y la región fronteriza de Santa Teresa.",
+      "address": "1000 McNutt Rd., Suite G, Sunland Park, NM 88063",
+      "phone": "(575) 589-3631"
+     },
+     {
+      "name": "New Mexico Economic Development Department (EDD)",
+      "category": "",
+      "group": "",
+      "url": "https://edd.newmexico.gov",
+      "desc": "La principal agencia estatal de desarrollo económico, que administra LEDA, JTIP y programas de financiamiento empresarial y creación de empleos.",
+      "address": "David.White@edd.nm.gov Representante Región 5: Stephen Lindsey · (575) 342-4932 · Stephen.Lindsey@edd.nm.gov 1100 S. St. Francis Drive, Suite 1242, Santa Fe, NM 87505",
+      "phone": "(505) 827-0300"
+     },
+     {
+      "name": "New Mexico Partnership",
+      "category": "",
+      "group": "",
+      "url": "https://nmpartnership.com",
+      "desc": "La organización público-privada designada por el estado para empresas que consideran establecerse en Nuevo México.",
+      "address": "500 Marquette Ave. NW, Suite 1000, Albuquerque, NM 87102",
+      "phone": "(505) 247-8500"
+     },
+     {
+      "name": "The Borderplex Alliance",
+      "category": "",
+      "group": "",
+      "url": "https://borderplexalliance.org",
+      "desc": "Organización liderada por el sector privado que atrae empleos e inversión y promueve el crecimiento en todo el Borderplex binacional.",
+      "address": "123 W. Mills Ave., Suite 320, El Paso, TX 79901",
+      "phone": "(915) 298-1000"
+     },
+     {
+      "name": "Border Industrial Association",
+      "category": "",
+      "group": "",
+      "url": "https://nmbia.org",
+      "desc": "Promueve un entorno empresarial sólido para fabricantes y operaciones de valor agregado en la región fronteriza de Santa Teresa.",
+      "address": "1300 Country Club Rd., Suite A, Santa Teresa, NM 88008",
+      "phone": "(575) 589-2200"
+     },
+     {
+      "name": "Spaceport America",
+      "category": "",
+      "group": "",
+      "url": "https://spaceportamerica.com",
+      "desc": "Puerto espacial comercial propiedad del estado, que apoya a empresas aeroespaciales y a sus proveedores en el sur de Nuevo México.",
+      "address": "4605 Research Park Circle, Suite A, Las Cruces, NM 88001",
+      "phone": "(575) 267-8500"
+     },
+     {
+      "name": "Downtown Las Cruces Partnership",
+      "category": "",
+      "group": "",
+      "url": "https://downtownlascruces.org",
+      "desc": "Trabaja con dueños de negocios y propiedades del centro y con la Ciudad para planear y promover un centro de Las Cruces lleno de vida.",
+      "address": "211 N. Water Street, Las Cruces, NM 88001",
+      "phone": "(575) 525-1955"
+     },
+     {
+      "name": "New Mexico MainStreet",
+      "category": "",
+      "group": "",
+      "url": "https://nmmainstreet.org",
+      "desc": "Programa de EDD para revitalizar los centros urbanos, que ofrece desarrollo de capacidades, diseño y apoyo de infraestructura a los distritos MainStreet.",
+      "address": "1100 S. St. Francis Drive, Suite 1242, Santa Fe, NM 87505",
+      "phone": "(505) 365-3998"
+     },
+     {
+      "name": "Greater Las Cruces Chamber of Commerce",
+      "category": "",
+      "group": "",
+      "url": "https://lascruces.org",
+      "desc": "Principal promotor y punto de encuentro para los negocios de Las Cruces y el Condado de Doña Ana.",
+      "address": "150 E. Lohman Ave., Las Cruces, NM 88001",
+      "phone": "(575) 524-1968"
+     },
+     {
+      "name": "Las Cruces Hispanic Chamber of Commerce",
+      "category": "",
+      "group": "",
+      "url": "https://lascruceshispanicchamber.com",
+      "desc": "Eventos de networking, promoción y apoyo empresarial para negocios hispanos y aliados.",
+      "address": "277 E. Amador Ave., Ste. 305, Las Cruces, NM 88001",
+      "phone": "(575) 524-8900"
+     },
+     {
+      "name": "Las Cruces Green Chamber of Commerce",
+      "category": "",
+      "group": "",
+      "url": "https://nmgreenchamber.com",
+      "desc": "Conecta a negocios comprometidos con prácticas sostenibles y una economía local más fuerte.",
+      "address": "221 N Main St., Las Cruces, NM 88001",
+      "phone": "(575) 323-1575"
+     },
+     {
+      "name": "Anthony Chamber of Commerce",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Promueve y apoya a los negocios de la zona de Anthony, a ambos lados de la línea estatal. Busque edificios y terrenos disponibles en todo el Condado de Doña Ana en un mapa interactivo. · newmexico.gov · edd.newmexico.gov/news-and-information/resource-map",
+      "address": "P.O. Box 1086, Anthony, NM 88021",
+      "phone": ""
+     }
+    ]
+   },
+   {
+    "title": "APOYO A PEQUEÑAS EMPRESAS",
+    "entries": [
+     {
+      "name": "Small Business Development Center (SBDC)",
+      "category": "",
+      "group": "",
+      "url": "https://nmsbdc.org/locations/las-cruces",
+      "desc": "Asesoría y capacitación empresarial gratuita y confidencial, desde planes de negocio hasta financiamiento y ventas al gobierno.",
+      "address": "DACC Workforce Center, 2345 Nevada Avenue, Suite 101, Las Cruces, NM 88001-3902",
+      "phone": "(575) 527-7676"
+     },
+     {
+      "name": "WESST",
+      "category": "",
+      "group": "",
+      "url": "https://wesst.org",
+      "desc": "Capacitación, asesoría, incubación y préstamos para pequeñas empresas de $500 a $150,000, con un Centro de Negocios para Mujeres en Las Cruces.",
+      "address": "Collective Co., 211 N Water St., Las Cruces, NM 88001",
+      "phone": "(575) 323-7961"
+     },
+     {
+      "name": "SCORE",
+      "category": "",
+      "group": "",
+      "url": "https://score.org/lascruces",
+      "desc": "Mentoría empresarial gratuita de voluntarios con experiencia, además de cursos en línea, seminarios web y talleres.",
+      "address": "SCORE Santa Fe & Northern NM Chapter (atiende al Condado de Doña Ana), 3900 Paseo del Sol, Suite A320, Santa Fe, NM 87507",
+      "phone": ""
+     },
+     {
+      "name": "IMPACT-NM Business Growth Services",
+      "category": "",
+      "group": "",
+      "url": "https://nmccap.org",
+      "desc": "Ayuda a empresas prometedoras de Nuevo México a desarrollar estrategias, habilidades y recursos externos para crecer.",
+      "address": "301 Gold Ave. SW, Suite 102, Albuquerque, NM 87102",
+      "phone": "(505) 924-2820"
+     },
+     {
+      "name": "New Mexico Office of Business Advocacy",
+      "category": "",
+      "group": "",
+      "url": "https://financenewmexico.org",
+      "desc": "Ayuda a los negocios a resolver problemas burocráticos, intergubernamentales y regulatorios con el gobierno estatal.",
+      "address": "1100 St. Francis Drive, Santa Fe, NM 87505",
+      "phone": "(505) 827-0300"
+     },
+     {
+      "name": "EDD Justice, Equity, Diversity & Inclusion (JEDI) Office",
+      "category": "",
+      "group": "",
+      "url": "https://edd.newmexico.gov/divisions-and-offices/jedi",
+      "desc": "Conecta a negocios de minorías, de mujeres y otros negocios desatendidos con financiamiento, asistencia técnica y programas estatales.",
+      "address": "1100 S. St. Francis Drive, Santa Fe, NM 87505",
+      "phone": "(505) 827-0300"
+     },
+     {
+      "name": "Veterans Business Outreach Center (VBOC)",
+      "category": "",
+      "group": "",
+      "url": "https://dvs.nm.gov/vboc",
+      "desc": "Capacitación empresarial, asesoría y mentoría para veteranos, militares en servicio y sus cónyuges.",
+      "address": "4801 Indian School Road NE, Building 2, Suite 2, Albuquerque, NM 87110",
+      "phone": "505-220-9932"
+     }
+    ]
+   },
+   {
+    "title": "INCUBADORAS, MAKERSPACES Y COWORKING",
+    "entries": [
+     {
+      "name": "Arrowhead Center at NMSU",
+      "category": "",
+      "group": "",
+      "url": "https://arrowheadcenter.nmsu.edu",
+      "desc": "Centro de emprendimiento e innovación de NMSU: incubación, la incubadora estudiantil Studio G, aceleradoras, comercialización y apoyo de NM FAST para obtener subvenciones SBIR/STTR.",
+      "address": "3655 Research Rd, Las Cruces, NM 88003",
+      "phone": "(575) 646-7415"
+     },
+     {
+      "name": "Gastro Emprende Commercial Kitchen Incubator (El Calvario)",
+      "category": "",
+      "group": "",
+      "url": "https://resiliencylc.org/commercial-kitchen-incubator",
+      "desc": "Incubadora con cocina comercial y apoyo para el desarrollo de negocios de alimentos nuevos y en crecimiento.",
+      "address": "240 N. Mesquite St., Las Cruces, NM 88001",
+      "phone": "(575) 523-0142"
+     },
+     {
+      "name": "Cruces Creatives",
+      "category": "",
+      "group": "",
+      "url": "https://crucescreatives.org",
+      "desc": "El makerspace más completo del condado: impresoras 3D, equipo CNC y láser, talleres de carpintería, bicicletas, textiles y electrónica, con membresías y pases por día.",
+      "address": "205 E. Lohman Ave, Las Cruces, NM 88001",
+      "phone": "(575) 448-1072"
+     },
+     {
+      "name": "ALICE Makerspace – Thomas Branigan Memorial Library",
+      "category": "",
+      "group": "",
+      "url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings",
+      "desc": "Makerspace público y gratuito con impresión 3D, láser Glowforge, Cricut y máquinas de coser.",
+      "address": "200 E. Picacho Ave., Las Cruces, NM 88001",
+      "phone": "(575) 528-4000"
+     },
+     {
+      "name": "Meta’l Jewelry Studio",
+      "category": "",
+      "group": "",
+      "url": "https://metaljewelrystudio.com",
+      "desc": "Estudio especializado en joyería, orfebrería y metalistería a pequeña escala, con clases y horario de taller abierto.",
+      "address": "3206 Harrelson St., Las Cruces, NM 88005",
+      "phone": ""
+     },
+     {
+      "name": "Alter3Dimension Studios",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Estudio local de impresión 3D y STEM que ofrece servicios especializados de fabricación.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Collective Co.",
+      "category": "",
+      "group": "",
+      "url": "https://collectiveco.com",
+      "desc": "Coworking en el centro con oficinas privadas, escritorios dedicados, salas de juntas y espacio para eventos; sede de los programas de WESST.",
+      "address": "211 N. Water St., Las Cruces, NM 88001",
+      "phone": "(575) 201-3016"
+     },
+     {
+      "name": "Workspace 141",
+      "category": "",
+      "group": "",
+      "url": "https://workspace141.com",
+      "desc": "Espacio de coworking con escritorios dedicados, oficinas privadas y virtuales, y salas de juntas.",
+      "address": "141 Roadrunner Pkwy., Suite 141A, Las Cruces, NM 88011",
+      "phone": "(575) 286-1655"
+     },
+     {
+      "name": "Lohman Atrium Suites",
+      "category": "",
+      "group": "",
+      "url": "https://lohmanatrium.com",
+      "desc": "Oficinas ejecutivas y servicios de oficina virtual.",
+      "address": "1990 E. Lohman Ave., Las Cruces, NM 88001",
+      "phone": "(575) 524-6800"
+     },
+     {
+      "name": "Arrowhead Executive Office Center",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Oficinas privadas y virtuales en el parque de investigación Arrowhead, cerca de NMSU.",
+      "address": "",
+      "phone": ""
+     }
+    ]
+   },
+   {
+    "title": "APOYO POR INDUSTRIA Y SECTOR",
+    "entries": [
+     {
+      "name": "New Mexico Manufacturing Extension Partnership (MEP)",
+      "category": "",
+      "group": "",
+      "url": "https://newmexicomep.org",
+      "desc": "Recursos técnicos y empresariales que ayudan a los fabricantes a ampliar sus capacidades y su rentabilidad.",
+      "address": "8600 San Mateo Blvd. NE, Suite 100, Albuquerque, NM 87113",
+      "phone": "(505) 262-0921"
+     },
+     {
+      "name": "New Mexico Small Business Assistance Program (NMSBA)",
+      "category": "",
+      "group": "",
+      "url": "https://nmsbaprogram.org",
+      "desc": "Conecta a pequeñas empresas con retos técnicos con expertos de los Laboratorios Nacionales de Los Álamos y Sandia.",
+      "address": "c/o Arrowhead Center, 3655 Research Rd., Las Cruces, NM 88003",
+      "phone": "(575) 646-7415"
+     },
+     {
+      "name": "NMSU Cooperative Extension Service",
+      "category": "",
+      "group": "",
+      "url": "https://extension.nmsu.edu",
+      "desc": "Educación basada en investigación y apoyo al desarrollo económico comunitario a través de las oficinas de extensión del condado.",
+      "address": "1170 N Solano, Suite M, Las Cruces, NM 88001",
+      "phone": "(575) 525-6649"
+     },
+     {
+      "name": "New Mexico Film Office",
+      "category": "",
+      "group": "",
+      "url": "https://nmfilm.com",
+      "desc": "Apoya la producción de cine y televisión en todo el estado, incluidos programas de capacitación para equipos técnicos e incentivos a la producción.",
+      "address": "1100 S. St. Francis Dr., Santa Fe, NM 87505",
+      "phone": "(505) 476-5600"
+     },
+     {
+      "name": "Film Las Cruces",
+      "category": "",
+      "group": "",
+      "url": "https://filmlascruces.com",
+      "desc": "Enlace oficial de cine para Las Cruces, el Condado de Doña Ana y Anthony: búsqueda de locaciones, contactos de equipo técnico y permisos de filmación.",
+      "address": "221 W. Griggs Ave., Las Cruces, NM 88005",
+      "phone": "(575) 805-3456"
+     },
+     {
+      "name": "EDD Office of Military Base Planning & Support",
+      "category": "",
+      "group": "",
+      "url": "https://edd.newmexico.gov",
+      "desc": "Apoya a las instalaciones del Departamento de Defensa y a los contratistas y comunidades a su alrededor.",
+      "address": "1100 S. St. Francis Dr., Santa Fe, NM 87505",
+      "phone": "(505) 827-0300"
+     }
+    ]
+   },
+   {
+    "title": "COMERCIO INTERNACIONAL Y FRONTERA",
+    "entries": [
+     {
+      "name": "International Business Accelerator (IBA)",
+      "category": "",
+      "group": "",
+      "url": "https://nmiba.com",
+      "desc": "Recursos de exportación en un solo lugar para negocios de Nuevo México que llevan sus productos y servicios a mercados globales.",
+      "address": "1300 Country Club Rd Suite A, Santa Teresa, NM 88008",
+      "phone": "(575) 589-2200"
+     },
+     {
+      "name": "New Mexico Border Authority",
+      "category": "",
+      "group": "",
+      "url": "https://nmborder.com",
+      "desc": "Agencia estatal que desarrolla y promueve los puertos de entrada de Santa Teresa, Columbus y Antelope Wells.",
+      "address": "221 Pete Domenici Highway, Santa Teresa, NM 88008",
+      "phone": "(575) 589-6501"
+     },
+     {
+      "name": "EDD Office of International Trade",
+      "category": "",
+      "group": "",
+      "url": "https://edd.newmexico.gov",
+      "desc": "Ayuda a las empresas de Nuevo México a aprovechar oportunidades globales mediante misiones comerciales, asesorías y subvenciones STEP.",
+      "address": "1100 St. Francis Drive, Santa Fe, NM 87505",
+      "phone": "(505) 827-0300"
+     },
+     {
+      "name": "New Mexico Trade Alliance",
+      "category": "",
+      "group": "",
+      "url": "https://nmtradealliance.org",
+      "desc": "Administra las subvenciones de exportación del Programa Estatal de Expansión Comercial (STEP) y ofrece misiones comerciales.",
+      "address": "3225 Central Ave NE, Albuquerque, NM 87106",
+      "phone": "(505) 549-7928"
+     },
+     {
+      "name": "U.S. Commercial Service – El Paso",
+      "category": "",
+      "group": "",
+      "url": "https://trade.gov/el-paso-contact-us",
+      "desc": "Asistencia federal de exportación para empresas del Condado de Doña Ana que ingresan o amplían su presencia en mercados internacionales.",
+      "address": "9570 Pan American Dr., El Paso, TX 79927",
+      "phone": "(432) 967-5718"
+     }
+    ]
+   },
+   {
+    "title": "CONTRATACIÓN Y COMPRAS GUBERNAMENTALES",
+    "entries": [
+     {
+      "name": "New Mexico APEX Accelerator",
+      "category": "",
+      "group": "",
+      "url": "https://nmapexaccelerator.org",
+      "desc": "Capacitación gratuita, búsqueda de licitaciones y asesoría individual para negocios que buscan contratos con el gobierno federal, estatal y local.",
+      "address": "NMSU Genesis Bldg. C, Rm. 173, 3655 Research Dr., Las Cruces, NM 88003",
+      "phone": "(575) 644-9753"
+     },
+     {
+      "name": "City of Las Cruces Purchasing Division",
+      "category": "",
+      "group": "",
+      "url": "https://procurement.opengov.com/portal/las-cruces",
+      "desc": "Registro de proveedores y oportunidades de licitación vigentes para negocios que venden a la Ciudad.",
+      "address": "700 N. Main Street, 3rd Floor, Suite 3100, Las Cruces, NM 88001",
+      "phone": "(575) 541-2525"
+     },
+     {
+      "name": "Doña Ana County Purchasing",
+      "category": "",
+      "group": "",
+      "url": "https://donaana.gov/departments/administration/financial_services/purchasing.php",
+      "desc": "Registro de licitantes y licitaciones y solicitudes de propuestas vigentes del Condado.",
+      "address": "845 N. Motel Blvd., Las Cruces, NM 88007",
+      "phone": "(575) 647-7221"
+     }
+    ]
+   },
+   {
+    "title": "INVESTIGACIÓN ECONÓMICA Y EMPRESARIAL",
+    "entries": [
+     {
+      "name": "Center for Border Economic Development (C-BED), NMSU",
+      "category": "",
+      "group": "",
+      "url": "https://cbed.nmsu.edu",
+      "desc": "Investigación aplicada sobre comercio fronterizo, fuerza laboral e infraestructura, incluidos estudios de impacto económico del Puerto de Entrada de Santa Teresa.",
+      "address": "Domenici Hall, Rm. 132, 1305 Frenger St., Las Cruces, NM 88003",
+      "phone": ""
+     },
+     {
+      "name": "New Mexico Business Outlook, NMSU",
+      "category": "",
+      "group": "",
+      "url": "https://business.nmsu.edu",
+      "desc": "Pronósticos económicos regionales y presentaciones de perspectivas a cargo de economistas de NMSU.",
+      "address": "Domenici Hall, Room 132, 1305 Frenger St., Las Cruces, NM 88003",
+      "phone": "(575) 646-2821"
+     },
+     {
+      "name": "Bureau of Business & Economic Research (BBER), UNM",
+      "category": "",
+      "group": "",
+      "url": "https://bber.unm.edu",
+      "desc": "Datos económicos y demográficos, pronósticos y análisis para Nuevo México.",
+      "address": "2701 Campus Blvd. NE, Office #1007, Albuquerque, NM 87131",
+      "phone": "(505) 277-2216"
+     },
+     {
+      "name": "Border Region Modeling Project, UTEP",
+      "category": "",
+      "group": "",
+      "url": "https://utep.edu/business/border-region-modeling-project",
+      "desc": "Pronósticos e investigación económica para la región fronteriza de El Paso, Las Cruces y Ciudad Juárez.",
+      "address": "500 W University Ave., El Paso, TX 79968",
+      "phone": "(915) 747-7747"
+     }
+    ]
+   },
+   {
+    "title": "SERVICIOS PÚBLICOS, BANDA ANCHA E INFRAESTRUCTURA",
+    "entries": [
+     {
+      "name": "El Paso Electric Company (EPE)",
+      "category": "ELECTRICIDAD",
+      "group": "",
+      "url": "https://epelectric.com",
+      "desc": "",
+      "address": "100 N. Stanton St., El Paso, TX 79901",
+      "phone": "(575) 526-5555"
+     },
+     {
+      "name": "Las Cruces Utilities",
+      "category": "GAS, AGUA Y AGUAS RESIDUALES DE LA CIUDAD",
+      "group": "",
+      "url": "https://lascruces.gov",
+      "desc": "",
+      "address": "680 N. Motel Blvd., Las Cruces, NM 88001",
+      "phone": "(575) 541-2111"
+     },
+     {
+      "name": "New Mexico Gas Company",
+      "category": "",
+      "group": "GAS NATURAL",
+      "url": "https://nmgco.com",
+      "desc": "",
+      "address": "350 Acosta Rd, Anthony, NM 88021",
+      "phone": "(888) 664-2726"
+     },
+     {
+      "name": "Zia Natural Gas Company",
+      "category": "",
+      "group": "GAS NATURAL",
+      "url": "https://zngc.com",
+      "desc": "",
+      "address": "3700 W. Picacho, Las Cruces, NM 88007",
+      "phone": "(575) 526-4427"
+     },
+     {
+      "name": "Doña Ana County Utilities",
+      "category": "",
+      "group": "AGUA Y AGUAS RESIDUALES",
+      "url": "https://donaanacounty.org",
+      "desc": "",
+      "address": "845 N. Motel Blvd., Las Cruces, NM 88007",
+      "phone": "(575) 647-7142"
+     },
+     {
+      "name": "Town of Mesilla Utilities",
+      "category": "",
+      "group": "AGUA Y AGUAS RESIDUALES",
+      "url": "https://mesillanm.gov/utilities",
+      "desc": "",
+      "address": "2231 Avenida de Mesilla, Mesilla, NM 88046",
+      "phone": "(575) 524-3262"
+     },
+     {
+      "name": "Camino Real Regional Utility Authority",
+      "category": "",
+      "group": "AGUA Y AGUAS RESIDUALES",
+      "url": "https://crrua.org",
+      "desc": "",
+      "address": "Sunland Park Multi-Generational Center, 4700 McNutt Rd., Sunland Park, NM 88008",
+      "phone": "(575) 589-1075"
+     },
+     {
+      "name": "Anthony Water & Sanitation District",
+      "category": "AGUA Y SANEAMIENTO",
+      "group": "",
+      "url": "https://awsd.us",
+      "desc": "",
+      "address": "1155 N. Fourth St., Anthony, NM 88021",
+      "phone": "(575) 882-3922"
+     },
+     {
+      "name": "Moongate Water Company",
+      "category": "AGUA · EAST MESA",
+      "group": "",
+      "url": "",
+      "desc": "",
+      "address": "9301 Bataan Memorial W., Las Cruces, NM 88012",
+      "phone": "(575) 382-7001"
+     },
+     {
+      "name": "Lake Section Water Company",
+      "category": "AGUA · CHAPARRAL",
+      "group": "",
+      "url": "https://lakesectionwater.com",
+      "desc": "",
+      "address": "303 Paseo Real Dr., Chaparral, NM 88081",
+      "phone": "(575) 824-4731"
+     },
+     {
+      "name": "Elephant Butte Irrigation District (EBID)",
+      "category": "AGUA DE RIEGO",
+      "group": "",
+      "url": "https://ebid-nm.org",
+      "desc": "",
+      "address": "530 S. Melendres St., Las Cruces, NM 88005",
+      "phone": "(575) 526-6671"
+     },
+     {
+      "name": "Comcast Business",
+      "category": "BANDA ANCHA",
+      "group": "",
+      "url": "https://business.comcast.com",
+      "desc": "",
+      "address": "110 E. Idaho Ave., Las Cruces, NM 88005",
+      "phone": "(844) 822-4208"
+     },
+     {
+      "name": "CenturyLink",
+      "category": "BANDA ANCHA Y FIBRA ÓPTICA",
+      "group": "",
+      "url": "https://centurylink.com/small-business",
+      "desc": "",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Segra",
+      "category": "RED DE FIBRA ÓPTICA",
+      "group": "",
+      "url": "https://segra.com",
+      "desc": "",
+      "address": "3830 Singer Blvd. NE, Suite 2000, Albuquerque, NM 87109",
+      "phone": ""
+     },
+     {
+      "name": "Fastwave",
+      "category": "BANDA ANCHA",
+      "group": "",
+      "url": "https://fastwave.biz",
+      "desc": "",
+      "address": "555 S. Miranda St., Las Cruces, NM 88005",
+      "phone": "(575) 521-3000"
+     },
+     {
+      "name": "NM Office of Broadband Access & Expansion",
+      "category": "PROGRAMAS DE BANDA ANCHA",
+      "group": "",
+      "url": "https://connect.nm.gov",
+      "desc": "",
+      "address": "715 Alta Vista St., Santa Fe, NM 87505",
+      "phone": "(505) 637-1911"
+     },
+     {
+      "name": "Las Cruces International Airport",
+      "category": "AEROPUERTO",
+      "group": "",
+      "url": "https://lascruces.gov/community/transportation/airport",
+      "desc": "",
+      "address": "8990 Zia Boulevard, Las Cruces, NM 88007",
+      "phone": "(575) 541-2471"
+     },
+     {
+      "name": "Doña Ana County International Jetport",
+      "category": "AEROPUERTO Y ADUANAS DE EE. UU.",
+      "group": "",
+      "url": "https://donaana.gov",
+      "desc": "",
+      "address": "8014 Airport Rd., Santa Teresa, NM 88008",
+      "phone": "(575) 644-2358"
+     },
+     {
+      "name": "La Union Water Association",
+      "category": "",
+      "group": "SISTEMAS COMUNITARIOS DE AGUA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 589-4676"
+     },
+     {
+      "name": "Mesquite Mutual Domestic Water",
+      "category": "",
+      "group": "SISTEMAS COMUNITARIOS DE AGUA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 233-3947"
+     },
+     {
+      "name": "Oregon Water & Sewer",
+      "category": "",
+      "group": "SISTEMAS COMUNITARIOS DE AGUA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 382-0180"
+     },
+     {
+      "name": "Garfield Water",
+      "category": "",
+      "group": "SISTEMAS COMUNITARIOS DE AGUA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 267-4090"
+     },
+     {
+      "name": "Rincon Water Consumers Co-op",
+      "category": "",
+      "group": "SISTEMAS COMUNITARIOS DE AGUA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 267-0633"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Directorio de Negocios Locales",
+  "subsections": [
+   {
+    "title": "CONSTRUCCIÓN Y OFICIOS",
+    "entries": [
+     {
+      "name": "HB Construction",
+      "category": "",
+      "group": "CONTRATISTA GENERAL",
+      "url": "https://hbconstruction.com",
+      "desc": "",
+      "address": "141 Roadrunner Pkwy., Suite 141A, Las Cruces, NM 88011",
+      "phone": "(575) 526-4252"
+     },
+     {
+      "name": "Jaynes Corporation",
+      "category": "",
+      "group": "CONTRATISTA GENERAL",
+      "url": "https://jaynescorp.com",
+      "desc": "",
+      "address": "3849 Foothills Rd., Suite B, Las Cruces, NM 88011",
+      "phone": "(575) 526-6400"
+     },
+     {
+      "name": "McGinley Construction",
+      "category": "",
+      "group": "CONTRATISTA GENERAL",
+      "url": "https://mcginley-construction.com",
+      "desc": "",
+      "address": "PO Box 370, Mesilla, NM 88046",
+      "phone": "(575) 523-9140"
+     },
+     {
+      "name": "Smith & Aguirre Construction",
+      "category": "",
+      "group": "CONTRATISTA GENERAL",
+      "url": "https://smithandaguirre.com",
+      "desc": "",
+      "address": "P.O. Drawer 2276, Las Cruces, NM 88004",
+      "phone": "(575) 527-2500"
+     },
+     {
+      "name": "ZTEX Construction",
+      "category": "CONTRATISTA DE OBRA CIVIL Y MOVIMIENTO DE TIERRAS",
+      "group": "",
+      "url": "https://ztexconstruction.com",
+      "desc": "",
+      "address": "1326 Henry Brennan Dr., El Paso, TX 79936",
+      "phone": "(915) 591-6900"
+     },
+     {
+      "name": "RT Electric, Inc.",
+      "category": "CONTRATISTA ELÉCTRICO",
+      "group": "",
+      "url": "https://rtelectricinc.com",
+      "desc": "",
+      "address": "480 N. 17th Street, Las Cruces, NM 88005",
+      "phone": "(575) 523-9252"
+     },
+     {
+      "name": "Sun City Plumbing & Heating",
+      "category": "CONTRATISTA ESPECIALIZADO",
+      "group": "",
+      "url": "https://youknowsuncity.com",
+      "desc": "",
+      "address": "3479 W. Picacho Ave., Las Cruces, NM 88007",
+      "phone": "(575) 777-9758"
+     },
+     {
+      "name": "Yearout Service, LLC",
+      "category": "SISTEMAS MECÁNICOS",
+      "group": "",
+      "url": "https://yearout.com",
+      "desc": "",
+      "address": "100 Wyatt, Suite D, Las Cruces, NM 88005",
+      "phone": "(505) 884-0994"
+     },
+     {
+      "name": "Associated Builders & Contractors NM",
+      "category": "ASOCIACIÓN DE LA INDUSTRIA",
+      "group": "",
+      "url": "https://abcnm.org",
+      "desc": "",
+      "address": "2821 Broadway Blvd. NE, Albuquerque, NM 87107",
+      "phone": "(505) 830-4222"
+     }
+    ]
+   },
+   {
+    "title": "INGENIERÍA Y ARQUITECTURA",
+    "entries": [
+     {
+      "name": "Bohannan Huston, Inc.",
+      "category": "INGENIERÍA",
+      "group": "",
+      "url": "https://bhinc.com",
+      "desc": "",
+      "address": "425 S. Telshor Blvd, Ste C-103, Las Cruces, NM 88011",
+      "phone": "(575) 532-8670"
+     },
+     {
+      "name": "Souder, Miller & Associates",
+      "category": "INGENIERÍA Y MEDIO AMBIENTE",
+      "group": "",
+      "url": "https://soudermiller.com",
+      "desc": "",
+      "address": "3500 Sedona Hills Parkway, Las Cruces, NM 88011",
+      "phone": "(575) 647-0799"
+     },
+     {
+      "name": "Stubbs Engineering",
+      "category": "INGENIERÍA",
+      "group": "",
+      "url": "https://stubbseng.com",
+      "desc": "",
+      "address": "277 E. Amador Ave., Suite 200, Las Cruces, NM 88001",
+      "phone": "(575) 993-5228"
+     },
+     {
+      "name": "WHA International",
+      "category": "INGENIERÍA FORENSE",
+      "group": "",
+      "url": "https://wha-international.com",
+      "desc": "",
+      "address": "5605 Dona Ana Road, Las Cruces, NM 88007",
+      "phone": "(575) 523-5623"
+     },
+     {
+      "name": "ASA Architects, PA",
+      "category": "",
+      "group": "ARQUITECTURA",
+      "url": "https://asa-architects.com",
+      "desc": "",
+      "address": "201 N. Alameda Blvd., Las Cruces, NM 88011",
+      "phone": "(575) 526-3111"
+     },
+     {
+      "name": "Desert Peak Architects",
+      "category": "",
+      "group": "ARQUITECTURA",
+      "url": "https://desertpeakarchitects.com",
+      "desc": "",
+      "address": "311 N. Main Street, Las Cruces, NM 88001",
+      "phone": "(575) 528-0021"
+     },
+     {
+      "name": "Dekker",
+      "category": "ARQUITECTURA Y PLANIFICACIÓN",
+      "group": "",
+      "url": "https://dekkerdesign.org",
+      "desc": "",
+      "address": "7601 Jefferson St NE, Ste 100, Albuquerque, NM 87109",
+      "phone": "(505) 761-9700"
+     },
+     {
+      "name": "LoyaWilke Architects",
+      "category": "",
+      "group": "ARQUITECTURA",
+      "url": "https://loyawilke.com",
+      "desc": "",
+      "address": "221 N. Kansas, Ste 820, El Paso, TX 79930",
+      "phone": "(915) 613-4576"
+     },
+     {
+      "name": "Vigil & Associates",
+      "category": "",
+      "group": "ARQUITECTURA",
+      "url": "https://va-architects.com",
+      "desc": "",
+      "address": "1765 Avenida de Mercado, Las Cruces, NM 88005",
+      "phone": "(575) 527-0400"
+     }
+    ]
+   },
+   {
+    "title": "BIENES RAÍCES, DESARROLLO Y TÍTULOS",
+    "entries": [
+     {
+      "name": "NAI 1st Valley",
+      "category": "",
+      "group": "BIENES RAÍCES COMERCIALES",
+      "url": "https://ext. 108 ·1stvalley.com",
+      "desc": "",
+      "address": "1155 S. Telshor, Suite B, Las Cruces, NM 88011",
+      "phone": "(575) 521-1535"
+     },
+     {
+      "name": "Steinborn TCN Commercial Real Estate",
+      "category": "",
+      "group": "BIENES RAÍCES COMERCIALES",
+      "url": "https://steinborn.com",
+      "desc": "",
+      "address": "141 Roadrunner Pkwy, Ste 141, Las Cruces, NM 88011",
+      "phone": "(575) 522-3698"
+     },
+     {
+      "name": "CBRE",
+      "category": "",
+      "group": "BIENES RAÍCES COMERCIALES",
+      "url": "https://cbre.com",
+      "desc": "",
+      "address": "6565 Americas Pkwy NE, Suite 825, Albuquerque, NM 87110",
+      "phone": "(505) 837-4999"
+     },
+     {
+      "name": "Colliers",
+      "category": "",
+      "group": "BIENES RAÍCES COMERCIALES",
+      "url": "https://colliers.com",
+      "desc": "",
+      "address": "5051 Journal Center Blvd. NE, Suite 200, Albuquerque, NM 87109",
+      "phone": ""
+     },
+     {
+      "name": "Killam Development",
+      "category": "",
+      "group": "DESARROLLO INMOBILIARIO",
+      "url": "https://ext. 212 ·killamdevelopment.com",
+      "desc": "",
+      "address": "4320 University Blvd., Laredo, TX 78041",
+      "phone": "(956) 724-7141"
+     },
+     {
+      "name": "Sierra Norte Development",
+      "category": "",
+      "group": "DESARROLLO INMOBILIARIO",
+      "url": "https://metroverdenm.com",
+      "desc": "",
+      "address": "4935 Ocotillo Rd., Las Cruces, NM 88011",
+      "phone": "(575) 496-7115"
+     },
+     {
+      "name": "Alta Mesa Estates",
+      "category": "COMUNIDAD PLANIFICADA · SANTA TERESA",
+      "group": "",
+      "url": "https://altamesaestates.com",
+      "desc": "",
+      "address": "5657 Caminito Genio, La Jolla, CA 92037",
+      "phone": "(972) 713-7569"
+     },
+     {
+      "name": "L&M Asset Management",
+      "category": "CORRETAJE INMOBILIARIO Y ADMINISTRACIÓN DE PROPIEDADES",
+      "group": "",
+      "url": "",
+      "desc": "",
+      "address": "PO Box 12007, El Paso, TX 79932",
+      "phone": "(915) 217-2271"
+     },
+     {
+      "name": "Las Cruces Association of Realtors",
+      "category": "ASOCIACIÓN DE LA INDUSTRIA",
+      "group": "",
+      "url": "https://lcarnm.com",
+      "desc": "",
+      "address": "150 E. Idaho Ave., Las Cruces, NM 88005",
+      "phone": "(575) 524-0658"
+     },
+     {
+      "name": "Doña Ana Title",
+      "category": "",
+      "group": "TÍTULOS Y DEPÓSITO EN GARANTÍA",
+      "url": "https://local.firstam.com/nm/offices/dona-ana-title-telshor",
+      "desc": "",
+      "address": "424 -B South Telshor, Las Cruces, NM 88011",
+      "phone": ""
+     },
+     {
+      "name": "Southwestern Abstract & Title",
+      "category": "",
+      "group": "TÍTULOS Y DEPÓSITO EN GARANTÍA",
+      "url": "https://swatlc.com",
+      "desc": "",
+      "address": "P.O. Box 695, Las Cruces, NM 88004",
+      "phone": "(575) 523-8561"
+     }
+    ]
+   },
+   {
+    "title": "BANCA Y SERVICIOS FINANCIEROS",
+    "entries": [
+     {
+      "name": "WestStar Bank",
+      "category": "",
+      "group": "BANCO",
+      "url": "https://weststarbank.com",
+      "desc": "",
+      "address": "555 S. Telshor, Ste 100A, Las Cruces, NM 88011",
+      "phone": "(575) 323-6040"
+     },
+     {
+      "name": "Century Bank",
+      "category": "",
+      "group": "BANCO",
+      "url": "https://mycenturybank.com",
+      "desc": "",
+      "address": "141 S. Roadrunner Parkway, Suite 101, Las Cruces, NM 88011",
+      "phone": "(575) 521-2400"
+     },
+     {
+      "name": "Citizens Bank of Las Cruces",
+      "category": "",
+      "group": "BANCO",
+      "url": "https://citizenslc.com",
+      "desc": "",
+      "address": "505 S. Main St., Las Cruces, NM 88001 (Main Bank)",
+      "phone": "(575) 647-4100"
+     },
+     {
+      "name": "First American Bank",
+      "category": "",
+      "group": "BANCO",
+      "url": "https://firstambank.com",
+      "desc": "",
+      "address": "1553 Avenida de Mesilla Ste 225, Las Cruces, NM 88005",
+      "phone": "(575) 524-8000"
+     },
+     {
+      "name": "First New Mexico Bank of Las Cruces",
+      "category": "",
+      "group": "BANCO",
+      "url": "https://firstnewmexicobanklc.com",
+      "desc": "",
+      "address": "3000 E. Lohman Ave., Las Cruces, NM 88011",
+      "phone": "(575) 556-3000"
+     },
+     {
+      "name": "Pioneer Bank",
+      "category": "",
+      "group": "BANCO",
+      "url": "https://pioneerbnk.com",
+      "desc": "",
+      "address": "PO Box 609, Las Cruces, NM 88004",
+      "phone": "(575) 532-7520"
+     },
+     {
+      "name": "U.S. Bank",
+      "category": "",
+      "group": "BANCO",
+      "url": "https://usbank.com",
+      "desc": "",
+      "address": "277 E. Amador Avenue, Las Cruces, NM 88001",
+      "phone": "(575) 647-7310"
+     },
+     {
+      "name": "WaFd Bank",
+      "category": "",
+      "group": "BANCO",
+      "url": "https://wafdbank.com",
+      "desc": "",
+      "address": "301 W. Amador Ave., Las Cruces, NM 88005",
+      "phone": "(575) 647-0704"
+     },
+     {
+      "name": "FirstLight Federal Credit Union",
+      "category": "COOPERATIVA DE CRÉDITO",
+      "group": "",
+      "url": "https://firstlightfcu.org",
+      "desc": "",
+      "address": "9983 Kenworthy St., El Paso, TX 79924",
+      "phone": "(575) 526-4401"
+     },
+     {
+      "name": "Axcess Financial Group",
+      "category": "BENEFICIOS PARA EMPLEADOS Y PLANES DE RETIRO",
+      "group": "",
+      "url": "https://axcessfinancialgroup.com",
+      "desc": "",
+      "address": "6605 Uptown Blvd. NE, Suite 280, Albuquerque, NM 87110",
+      "phone": "(505) 872-4900"
+     },
+     {
+      "name": "Edward Jones – Amy Daniels",
+      "category": "ASESOR FINANCIERO",
+      "group": "",
+      "url": "https://edwardjones.com/us-en/financial-advisor/amy-daniels",
+      "desc": "",
+      "address": "4300 Sonoma Ranch Blvd Suite 5, Las Cruces, NM 88011",
+      "phone": "(575) 305-7901"
+     },
+     {
+      "name": "Beasley Mitchell & Co., LLP",
+      "category": "",
+      "group": "CONTABILIDAD",
+      "url": "https://bmc-cpa.com",
+      "desc": "",
+      "address": "509 S. Main St., Suite A, Las Cruces, NM 88001",
+      "phone": "(575) 528-6700"
+     },
+     {
+      "name": "CLA (formerly Axiom CPAs & Business Advisors)",
+      "category": "",
+      "group": "CONTABILIDAD",
+      "url": "https://axiomnm.com",
+      "desc": "",
+      "address": "316 Osuna Rd. NE, Suite 401, Albuquerque, NM 87107",
+      "phone": "(505) 767-7620"
+     },
+     {
+      "name": "Higginbotham",
+      "category": "SEGUROS",
+      "group": "",
+      "url": "https://higginbotham.com",
+      "desc": "",
+      "address": "141 Roadrunner Pkwy., Suite 109, Las Cruces, NM 88011",
+      "phone": "(575) 524-8642"
+     },
+     {
+      "name": "Bank of America",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 647-3700"
+     },
+     {
+      "name": "Bank of the Southwest",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 527-5498"
+     },
+     {
+      "name": "BMO Bank (antes Bank of the West)",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 527-6200"
+     },
+     {
+      "name": "Southwest Heritage Bank",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 521-8100"
+     },
+     {
+      "name": "PNC Bank",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 521-0000"
+     },
+     {
+      "name": "American AgCredit (antes Farm Credit of New Mexico)",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 528-7100"
+     },
+     {
+      "name": "First Savings Bank",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 521-7931"
+     },
+     {
+      "name": "One Source Federal Credit Union",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 523-5524"
+     },
+     {
+      "name": "Wells Fargo Bank",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 521-6800"
+     },
+     {
+      "name": "White Sands Federal Credit Union",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 647-4500"
+     },
+     {
+      "name": "AgTrust Farm Credit",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 647-4430"
+     },
+     {
+      "name": "Sunflower Bank (First National 1870)",
+      "category": "",
+      "group": "OTROS BANCOS Y COOPERATIVAS DE CRÉDITO DE LA ZONA",
+      "url": "",
+      "desc": "",
+      "address": "",
+      "phone": "(575) 525-8900"
+     }
+    ]
+   },
+   {
+    "title": "LOGÍSTICA Y MANUFACTURA",
+    "entries": [
+     {
+      "name": "Union Pacific",
+      "category": "FERROCARRIL",
+      "group": "",
+      "url": "https://up.com",
+      "desc": "",
+      "address": "211 N. Piedras, El Paso, TX 79905",
+      "phone": ""
+     },
+     {
+      "name": "Ironhorse Resources",
+      "category": "FERROCARRIL DE VÍA CORTA Y DESARROLLO DE PARQUE FERROVIARIO",
+      "group": "",
+      "url": "https://ironhorseresources.com",
+      "desc": "",
+      "address": "5001 Avenida Creel, Santa Teresa, NM 88008",
+      "phone": "(575) 602-5112"
+     },
+     {
+      "name": "MVT Logistics",
+      "category": "LOGÍSTICA DE TERCEROS",
+      "group": "",
+      "url": "https://mvt-logistics.com",
+      "desc": "",
+      "address": "4950 Avenida Creel, Santa Teresa, NM 88008",
+      "phone": "(800) 772-8314"
+     },
+     {
+      "name": "Aries Worldwide Logistics",
+      "category": "ADUANAS Y ALMACENAJE EN FTZ",
+      "group": "",
+      "url": "https://(company main) ·ariesww.com",
+      "desc": "",
+      "address": "655 Industrial Avenue, Suite B, Santa Teresa, NM 88008",
+      "phone": "888-502-7437"
+     },
+     {
+      "name": "Enterprise Truck Rental",
+      "category": "RENTA DE CAMIONES",
+      "group": "",
+      "url": "https://enterprisetrucks.com",
+      "desc": "",
+      "address": "1340 S Valley Dr., Las Cruces, NM 88005",
+      "phone": "(575) 463-8447"
+     },
+     {
+      "name": "Admiral Cable, Inc.",
+      "category": "MANUFACTURA",
+      "group": "",
+      "url": "https://admiralcable.com",
+      "desc": "",
+      "address": "4701 Avenida Divisadero, Santa Teresa, NM 88008",
+      "phone": ""
+     },
+     {
+      "name": "Franklin Mountain Packaging",
+      "category": "FABRICACIÓN DE EMPAQUES",
+      "group": "",
+      "url": "https://franklinmountainpackaging.com",
+      "desc": "",
+      "address": "401 Avenida Ascención, Santa Teresa, NM 88008",
+      "phone": "(575) 997-7017"
+     },
+     {
+      "name": "Las Cruces Machine & Manufacturing",
+      "category": "MANUFACTURA",
+      "group": "",
+      "url": "https://lascrucesmachine.com",
+      "desc": "",
+      "address": "6000 S. Main, Suite B, Mesilla Park, NM 88047",
+      "phone": "(575) 526-1411"
+     },
+     {
+      "name": "Cymmetrik Technologies USA Southwest",
+      "category": "IMPRESIÓN Y EMPAQUES",
+      "group": "",
+      "url": "https://cymmetrik.com",
+      "desc": "",
+      "address": "150 Earhardt Way, Ste 200, Santa Teresa, NM 88008",
+      "phone": "(575) 502-4500"
+     },
+     {
+      "name": "W Silver Recycling",
+      "category": "RECICLAJE DE METALES",
+      "group": "",
+      "url": "https://wsilver.com",
+      "desc": "",
+      "address": "1720 Magoffin Avenue, El Paso, TX 79901",
+      "phone": "(915) 532-5643"
+     }
+    ]
+   },
+   {
+    "title": "ENERGÍA Y TECNOLOGÍA",
+    "entries": [
+     {
+      "name": "Oracle",
+      "category": "TECNOLOGÍA",
+      "group": "",
+      "url": "https://oracle.com",
+      "desc": "",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Stack Infrastructure",
+      "category": "CENTROS DE DATOS",
+      "group": "",
+      "url": "https://stackinfra.com",
+      "desc": "",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Borderplex Digital Assets",
+      "category": "DESARROLLO DE CENTROS DE DATOS",
+      "group": "",
+      "url": "https://borderplexdigital.com",
+      "desc": "",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Energy Transfer",
+      "category": "ENERGÍA",
+      "group": "",
+      "url": "https://energytransfer.com",
+      "desc": "",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Grid United",
+      "category": "DESARROLLO DE TRANSMISIÓN ELÉCTRICA",
+      "group": "",
+      "url": "https://gridunited.com",
+      "desc": "",
+      "address": "712 Main Street, Suite 2500, Houston, TX 77002",
+      "phone": "(832) 405-6982"
+     }
+    ]
+   },
+   {
+    "title": "ATENCIÓN MÉDICA",
+    "entries": [
+     {
+      "name": "MountainView Regional Medical Center",
+      "category": "",
+      "group": "HOSPITAL",
+      "url": "https://mountainviewregional.com",
+      "desc": "",
+      "address": "4311 E. Lohman Avenue, Las Cruces, NM 88001",
+      "phone": "(575) 556-7600"
+     },
+     {
+      "name": "Memorial Medical Center",
+      "category": "",
+      "group": "HOSPITAL",
+      "url": "https://mmclc.org",
+      "desc": "",
+      "address": "2450 S. Telshor Blvd., Las Cruces, NM 88011",
+      "phone": "(575) 522-8641"
+     },
+     {
+      "name": "Rehabilitation Hospital of Southern NM",
+      "category": "",
+      "group": "HOSPITAL",
+      "url": "https://rhsnm.ernesthealth.com",
+      "desc": "",
+      "address": "4441 E. Lohman Avenue, Las Cruces, NM 88011",
+      "phone": "(575) 521-6400"
+     },
+     {
+      "name": "Three Crosses Regional Hospital",
+      "category": "",
+      "group": "HOSPITAL",
+      "url": "https://threecrossesregional.com",
+      "desc": "",
+      "address": "2560 Samaritan Drive, Las Cruces, New Mexico 88001",
+      "phone": "(800) 421-8274"
+     },
+     {
+      "name": "Matrix Home Care Services of NM",
+      "category": "CUIDADO EN EL HOGAR",
+      "group": "",
+      "url": "https://matrixnm.com",
+      "desc": "",
+      "address": "1100 S. Main St. Suite A, Las Cruces, NM 88005",
+      "phone": "(575) 525-8755"
+     },
+     {
+      "name": "Burrell College of Health Sciences",
+      "category": "COLEGIO DE CIENCIAS DE LA SALUD",
+      "group": "",
+      "url": "https://burrell.edu",
+      "desc": "",
+      "address": "3501 Arrowhead Dr., Las Cruces, NM 88001",
+      "phone": "(575) 674-2266"
+     }
+    ]
+   },
+   {
+    "title": "SERVICIOS PROFESIONALES Y EMPRESARIALES",
+    "entries": [
+     {
+      "name": "Sutin, Thayer & Browne",
+      "category": "",
+      "group": "ABOGADOS",
+      "url": "https://sutinfirm.com",
+      "desc": "",
+      "address": "6100 Uptown Blvd NE, Ste 400, Albuquerque, NM 87110",
+      "phone": "(505) 883-2500"
+     },
+     {
+      "name": "Carrillo Law Firm, P.C.",
+      "category": "",
+      "group": "ABOGADOS",
+      "url": "https://carrillolawpc.com",
+      "desc": "",
+      "address": "1001 East Lohman Ave., Las Cruces, New Mexico 88001",
+      "phone": "(575) 647-3200"
+     },
+     {
+      "name": "Mynatt Springer P.C.",
+      "category": "",
+      "group": "ABOGADOS",
+      "url": "https://mynattspringer.com",
+      "desc": "",
+      "address": "1660 Hickory Loop, Las Cruces, New Mexico 88005",
+      "phone": ""
+     },
+     {
+      "name": "KW Consulting",
+      "category": "CONSULTORÍA EMPRESARIAL",
+      "group": "",
+      "url": "https://kwconsultingnm.com",
+      "desc": "",
+      "address": "46 Kiva Place, Sandia Park, NM 87047",
+      "phone": "(505) 417-4001"
+     },
+     {
+      "name": "NMCO Creative Studio",
+      "category": "PUBLICIDAD Y MERCADOTECNIA",
+      "group": "",
+      "url": "https://nmcostudio.com",
+      "desc": "",
+      "address": "1335 S. Solano Dr., Las Cruces, NM 88001",
+      "phone": "(575) 618-6626"
+     },
+     {
+      "name": "Art Schobey Interactive",
+      "category": "DESARROLLO WEB",
+      "group": "",
+      "url": "https://arteffects.com",
+      "desc": "",
+      "address": "Raleigh, NC area",
+      "phone": "(575) 496-6785"
+     },
+     {
+      "name": "American Document Services",
+      "category": "PROCESAMIENTO DE DOCUMENTOS",
+      "group": "",
+      "url": "https://adslcnm.com",
+      "desc": "",
+      "address": "300 N. 17th Street, Ste A, Las Cruces, NM 88005",
+      "phone": "(575) 647-0060"
+     },
+     {
+      "name": "Document Solutions Inc.",
+      "category": "GESTIÓN DOCUMENTAL Y TI",
+      "group": "",
+      "url": "https://dsinm.com",
+      "desc": "",
+      "address": "1705 N. Valley Dr., Ste 5, Las Cruces, NM 88007",
+      "phone": "(888) 386-7834"
+     },
+     {
+      "name": "Master Imaging",
+      "category": "IMAGEN E IMPRESIÓN",
+      "group": "",
+      "url": "",
+      "desc": "",
+      "address": "4150 Camino Coyote Suite 1, Las Cruces, NM 88011",
+      "phone": "(575) 496-3578"
+     },
+     {
+      "name": "Security Concepts of Las Cruces",
+      "category": "",
+      "group": "SEGURIDAD",
+      "url": "https://lcsecurityconcepts.com",
+      "desc": "",
+      "address": "130 North Solano Drive, Las Cruces, New Mexico 88001-2927",
+      "phone": "(575) 526-4151"
+     },
+     {
+      "name": "LCIS Advisors",
+      "category": "",
+      "group": "SEGURIDAD",
+      "url": "https://lcisadvisors.com",
+      "desc": "",
+      "address": "2043 Reina Drive, Las Cruces, New Mexico 88007",
+      "phone": "(575) 640-7476"
+     },
+     {
+      "name": "Night Eyes",
+      "category": "",
+      "group": "SEGURIDAD",
+      "url": "https://night-eyes.com",
+      "desc": "",
+      "address": "3401 Hueco Ave, El Paso, Texas 79903",
+      "phone": "(915) 351-0831"
+     },
+     {
+      "name": "Crystal Clear Cleaning Company",
+      "category": "LIMPIEZA DE MANTENIMIENTO E INDUSTRIAL",
+      "group": "",
+      "url": "https://cleaningservicelascrucesnm.com",
+      "desc": "",
+      "address": "16 Westdin, Las Cruces, NM 88011",
+      "phone": "(575) 201-8364"
+     },
+     {
+      "name": "Clean Team",
+      "category": "LIMPIEZA COMERCIAL",
+      "group": "",
+      "url": "https://cleanteamclean.com",
+      "desc": "",
+      "address": "5015 Prospect Ave., Albuquerque, New Mexico 87110",
+      "phone": "(505) 888-5130"
+     },
+     {
+      "name": "American Linen & Uniform Supply",
+      "category": "SERVICIOS DE UNIFORMES",
+      "group": "",
+      "url": "https://yourlinencompany.com",
+      "desc": "",
+      "address": "550 N Church Street, Las Cruces, New Mexico 88001",
+      "phone": "(575) 526-6641"
+     },
+     {
+      "name": "Chisholm’s LLC",
+      "category": "SERVICIOS EMPRESARIALES",
+      "group": "",
+      "url": "",
+      "desc": "",
+      "address": "P.O. Box 397, Las Cruces, NM 88005",
+      "phone": "(575) 526-2281"
+     }
+    ]
+   },
+   {
+    "title": "HOSPITALIDAD",
+    "entries": [
+     {
+      "name": "Hotel Encanto de Las Cruces",
+      "category": "",
+      "group": "HOTEL",
+      "url": "https://HotelEncanto.com",
+      "desc": "",
+      "address": "705 S. Telshor Boulevard, Las Cruces, NM 88011",
+      "phone": "(575) 522-4300"
+     },
+     {
+      "name": "Courtyard Las Cruces",
+      "category": "",
+      "group": "HOTEL",
+      "url": "https://marriott.com/lrucy",
+      "desc": "",
+      "address": "456 E. University, Las Cruces, NM 88005",
+      "phone": "(575) 526-1722"
+     },
+     {
+      "name": "Staybridge Suites",
+      "category": "",
+      "group": "HOTEL",
+      "url": "https://lascruces-hotel.com",
+      "desc": "",
+      "address": "2651 Northrise Dr., Las Cruces, NM 88011",
+      "phone": "(575) 521-7999"
+     },
+     {
+      "name": "Hacienda de Mesilla",
+      "category": "HOTEL BOUTIQUE",
+      "group": "",
+      "url": "https://haciendademesilla.com",
+      "desc": "",
+      "address": "1891 Avenida de Mesilla, Mesilla, NM 88046",
+      "phone": "(575) 652-4953"
+     },
+     {
+      "name": "La Posta de Mesilla",
+      "category": "RESTAURANTE",
+      "group": "",
+      "url": "https://laposta-de-mesilla.com",
+      "desc": "",
+      "address": "2410 Calle de San Albino, Mesilla, NM 88046",
+      "phone": "(575) 524-3524"
+     }
+    ]
+   },
+   {
+    "title": "ORGANIZACIONES COMUNITARIAS Y SIN FINES DE LUCRO",
+    "entries": [
+     {
+      "name": "United Way of Southwest New Mexico",
+      "category": "SIN FINES DE LUCRO",
+      "group": "",
+      "url": "https://uwswnm.org",
+      "desc": "",
+      "address": "PO Box 1347, Las Cruces, NM 88004",
+      "phone": "(575) 524-7561"
+     },
+     {
+      "name": "Tresco, Inc.",
+      "category": "SERVICIOS PARA PERSONAS CON DISCAPACIDAD",
+      "group": "",
+      "url": "https://trescoinc.org",
+      "desc": "",
+      "address": "1800 Copper Loop, Las Cruces, NM 88005",
+      "phone": "(575) 528-2200"
+     },
+     {
+      "name": "Casa de Peregrinos",
+      "category": "BANCO DE ALIMENTOS",
+      "group": "",
+      "url": "https://casadeperegrinos.org",
+      "desc": "",
+      "address": "999 W. Amador Ave. Suite F, Las Cruces, NM 88005",
+      "phone": "(575) 523-5542"
+     },
+     {
+      "name": "FYI+",
+      "category": "SIN FINES DE LUCRO",
+      "group": "",
+      "url": "https://fyiplusnm.org",
+      "desc": "",
+      "address": "1320 S. Solano Dr., Las Cruces, NM 88001",
+      "phone": "(575) 522-4004"
+     },
+     {
+      "name": "Doña Ana County Farm & Livestock Bureau",
+      "category": "ASOCIACIÓN AGRÍCOLA",
+      "group": "",
+      "url": "https://nmflb.org",
+      "desc": "",
+      "address": "PO Box 904, Las Cruces, NM 88004",
+      "phone": "(575) 524-8632"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Financiamiento y Capital",
+  "subsections": [
+   {
+    "title": "SUBVENCIONES Y PROGRAMAS DE FINANCIAMIENTO",
+    "entries": [
+     {
+      "name": "New Mexico Finance Authority (NMFA)",
+      "category": "",
+      "group": "",
+      "url": "https://nmfinance.com",
+      "desc": "Financiamiento de bajo costo para negocios y comunidades, incluido el programa de participación en préstamos Smart Money con bancos locales.",
+      "address": "810 West San Mateo Road, Santa Fe, NM 87505",
+      "phone": "(505) 984-1454"
+     },
+     {
+      "name": "NM EDD Business Finance Programs",
+      "category": "",
+      "group": "",
+      "url": "https://edd.newmexico.gov",
+      "desc": "Asistencia con garantías (CAP 2.0), asistencia técnica SSBCI, subvenciones de la Oficina de Tecnología e Innovación y fondos del programa de Alimentación, Hambre y Agricultura.",
+      "address": "1100 S. St. Francis Dr., Santa Fe, NM 87505",
+      "phone": "(505) 827-0300"
+     },
+     {
+      "name": "New Mexico Financial Development Team (FDT)",
+      "category": "",
+      "group": "",
+      "url": "https://edd.newmexico.gov",
+      "desc": "Ayuda gratuita para estructurar financiamiento de deuda o capital, analizar estados financieros y conectar con fuentes de capital.",
+      "address": "1100 S. St. Francis Drive, Suite 1242, Santa Fe, NM 87505",
+      "phone": "(505) 827-0300"
+     },
+     {
+      "name": "USDA Rural Development",
+      "category": "",
+      "group": "",
+      "url": "https://ext. 4 · rd.usda.gov/nm",
+      "desc": "Préstamos, garantías de préstamo y subvenciones para negocios rurales, incluidos los programas Value-Added Producer y Rural Energy.",
+      "address": "760 Stern Dr., Suite 139, Las Cruces, NM 88005",
+      "phone": "(575) 522-8775"
+     },
+     {
+      "name": "Farm Service Agency (FSA)",
+      "category": "",
+      "group": "",
+      "url": "https://farmers.gov/loans",
+      "desc": "Préstamos para la compra y operación de granjas para productores agrícolas que no obtienen crédito en otras fuentes.",
+      "address": "760 Stern Drive, Las Cruces, NM 88005",
+      "phone": "(575) 522-8775"
+     },
+     {
+      "name": "Community Foundation of Southern New Mexico",
+      "category": "",
+      "group": "",
+      "url": "https://communityfoundationofsouthernnewmexico.org",
+      "desc": "Administra subvenciones de desarrollo económico para negocios locales, incluida la New Mexico Economic Development Grant financiada por El Paso Electric.",
+      "address": "2640 El Paseo Rd., Las Cruces, NM 88001",
+      "phone": "(575) 521-4794"
+     }
+    ]
+   },
+   {
+    "title": "PRÉSTAMOS Y MICROPRÉSTAMOS",
+    "entries": [
+     {
+      "name": "U.S. Small Business Administration (SBA)",
+      "category": "",
+      "group": "",
+      "url": "https://sba.gov",
+      "desc": "Garantiza préstamos otorgados por instituciones locales, incluidos los préstamos 7(a), 504 y microcréditos.",
+      "address": "500 Gold Ave. SW Suite 11301, Albuquerque, NM 87102",
+      "phone": "(505) 248-8225"
+     },
+     {
+      "name": "Capital Certified Development Corporation",
+      "category": "",
+      "group": "",
+      "url": "https://capitalcdc.com",
+      "desc": "Prestamista SBA 504 sin fines de lucro que financia edificios, construcción y equipo.",
+      "address": "4330 Gaines Ranch Loop, Suite 220, Austin, TX 78735",
+      "phone": "(512) 327-9229"
+     },
+     {
+      "name": "Elevated Lending CDC (antes Enchantment Land CDC)",
+      "category": "",
+      "group": "",
+      "url": "https://elcdc.com",
+      "desc": "Prestamista 504 con licencia de la SBA que financia hasta el 90% de proyectos de expansión elegibles.",
+      "address": "6500 Jefferson St. NE, Suite 200, Albuquerque, NM 87109",
+      "phone": "(505) 843-9232"
+     },
+     {
+      "name": "Borderplex Community Capital",
+      "category": "",
+      "group": "",
+      "url": "https://borderplexcommunitycapital.org",
+      "desc": "Institución financiera de desarrollo comunitario (CDFI) que ofrece préstamos de bajo interés y asesoría gratuita a pequeñas empresas y organizaciones sin fines de lucro en los condados de El Paso y Doña Ana.",
+      "address": "500 W. Overland Ave., Suite 210, El Paso, TX 79901",
+      "phone": "(915) 533-4020"
+     },
+     {
+      "name": "The Loan Fund",
+      "category": "",
+      "group": "",
+      "url": "https://loanfund.org",
+      "desc": "Préstamos, capacitación y asesoría para emprendedores, pequeñas empresas y organizaciones sin fines de lucro en todo el estado.",
+      "address": "423 Iron Ave. SW, Albuquerque, NM 87102",
+      "phone": "(505) 243-3196"
+     },
+     {
+      "name": "LiftFund",
+      "category": "",
+      "group": "",
+      "url": "https://liftfund.com",
+      "desc": "Préstamos y capacitación para pequeñas empresas: hasta $50,000 para startups y hasta $1 millón para negocios establecidos.",
+      "address": "2007 W. Martin St., San Antonio, TX 78207",
+      "phone": "(210) 226-3664"
+     },
+     {
+      "name": "DreamSpring",
+      "category": "",
+      "group": "",
+      "url": "https://dreamspring.org",
+      "desc": "Préstamos accesibles para pequeñas empresas, con asesoría gratuita y apoyo para construir historial crediticio, para emprendedores con acceso limitado al crédito tradicional.",
+      "address": "2000 Zearing Ave. NW, Albuquerque, NM 87104",
+      "phone": "(800) 508-7624"
+     },
+     {
+      "name": "Nusenda Credit Union",
+      "category": "",
+      "group": "",
+      "url": "https://nusenda.org",
+      "desc": "Cooperativa de crédito de servicio completo y patrocinadora del programa de micropréstamos Co-op Capital, basado en el carácter del solicitante.",
+      "address": "4100 Pan American Fwy. NE, Albuquerque, NM 87107",
+      "phone": "(505) 889-7755"
+     },
+     {
+      "name": "Rural Community Assistance Corporation (RCAC)",
+      "category": "",
+      "group": "",
+      "url": "https://rcac.org/lending/small-business-loans",
+      "desc": "Préstamos para capital de trabajo, bienes raíces y equipo para negocios en comunidades rurales de 50,000 habitantes o menos.",
+      "address": "",
+      "phone": "855-979-7322"
+     },
+     {
+      "name": "Tierra del Sol Housing Corporation",
+      "category": "",
+      "group": "",
+      "url": "https://tdshc.org",
+      "desc": "Préstamos para el desarrollo comunitario y programas de vivienda en el sur de Nuevo México.",
+      "address": "210 E. Idaho Ave., Las Cruces, NM 88005",
+      "phone": "(575) 541-0477"
+     }
+    ]
+   },
+   {
+    "title": "INVERSIONISTAS ÁNGELES Y CAPITAL DE RIESGO",
+    "entries": [
+     {
+      "name": "New Mexico Angels",
+      "category": "",
+      "group": "",
+      "url": "https://nmangels.com",
+      "desc": "El grupo estatal de inversionistas ángeles acreditados que respalda a empresas en etapa inicial.",
+      "address": "1000 Cordova Place, PMB 569, Santa Fe, NM 87505",
+      "phone": "(505) 932-6435"
+     },
+     {
+      "name": "No Border Ventures",
+      "category": "",
+      "group": "",
+      "url": "https://noborderventures.com",
+      "desc": "Fondo de capital de riesgo con sede en El Paso que invierte en startups tecnológicas en etapa inicial en todo el Suroeste, incluido Nuevo México.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "New Mexico Venture Capital Program (NMFA/EDD)",
+      "category": "",
+      "group": "",
+      "url": "https://nmfinance.com/venture-capital-program",
+      "desc": "Fondo estatal que realiza inversiones de capital en startups y empresas en crecimiento de Nuevo México.",
+      "address": "810 West San Mateo Road, Santa Fe, NM 87505",
+      "phone": "(505) 984-1454"
+     },
+     {
+      "name": "NM State Investment Council – Venture Program",
+      "category": "",
+      "group": "",
+      "url": "https://sic.state.nm.us",
+      "desc": "Invierte capital estatal en fondos de capital de riesgo que invierten en empresas de Nuevo México.",
+      "address": "41 Plaza la Prensa, Santa Fe, NM 87507",
+      "phone": "(505) 476-9500"
+     },
+     {
+      "name": "Flywheel Ventures",
+      "category": "",
+      "group": "",
+      "url": "https://flywheelventures.com",
+      "desc": "Firma de capital de riesgo de etapa inicial que comercializa ciencia y tecnología.",
+      "address": "341 E. Alameda Street, Santa Fe, NM 87501",
+      "phone": "(505) 225-1618"
+     },
+     {
+      "name": "Verge Fund",
+      "category": "",
+      "group": "",
+      "url": "https://vergefund.com",
+      "desc": "Inversionista semilla y de etapa inicial en empresas tecnológicas del Suroeste, con prioridad en Nuevo México.",
+      "address": "317 Commercial St. NE, Albuquerque, NM 87102",
+      "phone": "(505) 247-1038"
+     },
+     {
+      "name": "Sun Mountain Capital",
+      "category": "",
+      "group": "",
+      "url": "https://sunmountaincapital.com",
+      "desc": "Firma de capital de riesgo y capital privado que administra fondos para inversionistas públicos y privados.",
+      "address": "527 Don Gaspar Ave, Santa Fe, NM 87505",
+      "phone": "(505) 780-4218"
+     },
+     {
+      "name": "New Mexico Community Capital",
+      "category": "",
+      "group": "",
+      "url": "https://nmccap.org",
+      "desc": "Invierte en empresas en crecimiento que atienden mercados emergentes y desatendidos, y las asesora.",
+      "address": "301 Gold Ave. SW, Suite 102, Albuquerque, NM 87102",
+      "phone": "(505) 924-2820"
+     },
+     {
+      "name": "Tierra Adentro Growth Capital (TAG)",
+      "category": "",
+      "group": "",
+      "url": "https://tagrowth.com",
+      "desc": "Fondo de infraestructura de crecimiento que invierte en telecomunicaciones, centros de datos, energía e infraestructura cuántica.",
+      "address": "701 Spur St., Suite C, Albuquerque, NM 87102",
+      "phone": ""
+     },
+     {
+      "name": "UP.Abundance",
+      "category": "",
+      "group": "",
+      "url": "https://upabundance.com",
+      "desc": "Inversionista de capital de riesgo enfocado en empresas en crecimiento de Nuevo México.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Tramway Venture Partners",
+      "category": "",
+      "group": "",
+      "url": "https://tramwayventures.com",
+      "desc": "Fondo de etapa inicial que invierte en startups tecnológicas de Nuevo México.",
+      "address": "5901 Indian School Rd. NE, Suite 205, Albuquerque, NM 87110",
+      "phone": ""
+     },
+     {
+      "name": "Blue Sage Capital",
+      "category": "",
+      "group": "",
+      "url": "https://bluesage.com",
+      "desc": "Firma de capital privado que invierte en empresas del mercado medio-bajo.",
+      "address": "2700 Via Fortuna, Suite 300, Austin, TX 78746",
+      "phone": "(512) 536-1900"
+     },
+     {
+      "name": "Epic Ventures",
+      "category": "",
+      "group": "",
+      "url": "https://epicvc.com",
+      "desc": "Firma de capital de riesgo de etapa inicial enfocada en software e infraestructura de internet.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Lowercarbon Capital",
+      "category": "",
+      "group": "",
+      "url": "https://lowercarbon.com",
+      "desc": "Fondo de capital de riesgo de tecnología climática con un vehículo de inversión en Nuevo México.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "At One Ventures",
+      "category": "",
+      "group": "",
+      "url": "https://atoneventures.com",
+      "desc": "Fondo de capital de riesgo que respalda tecnologías que reducen el impacto ambiental.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Deciens Capital",
+      "category": "",
+      "group": "",
+      "url": "https://deciens.com",
+      "desc": "Inversionista de capital de riesgo en empresas fintech en etapa inicial. · financenewmexico.org · nmfundit.org",
+      "address": "933 San Mateo Boulevard NE, Albuquerque, NM 87108",
+      "phone": "415-260-8318"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Fuerza Laboral",
+  "subsections": [
+   {
+    "title": "CENTROS LABORALES Y SERVICIOS DE EMPLEO",
+    "entries": [
+     {
+      "name": "NM Workforce Solutions – America’s Job Centers",
+      "category": "",
+      "group": "",
+      "url": "https://employnm.com",
+      "desc": "Publicación gratuita de vacantes, preselección de candidatos, ferias de empleo, referencias a capacitación WIOA y orientación sobre leyes laborales.",
+      "address": "Las Cruces: 226 S. Alameda Blvd., Las Cruces, NM 88005 Sunland Park: 1500 Appaloosa Dr., Suite A-160, Sunland Park, NM 88063",
+      "phone": "(575) 524-6250"
+     },
+     {
+      "name": "Southwestern Area Workforce Development Board",
+      "category": "",
+      "group": "",
+      "url": "https://employnm.com",
+      "desc": "Supervisa el sistema laboral de WIOA y los America’s Job Centers en Doña Ana y seis condados vecinos.",
+      "address": "2251 Calle de Santiago, Mesilla, NM 88046",
+      "phone": "(575) 744-4857"
+     },
+     {
+      "name": "Doña Ana Community College Workforce Center",
+      "category": "",
+      "group": "",
+      "url": "https://dacc.nmsu.edu",
+      "desc": "Capacitación a la medida, licencia de conducir comercial (CDL), colocación laboral y programas de prácticas para empleadores y personas que buscan empleo.",
+      "address": "3400 South Espina St, Central Campus, Room 99, Las Cruces, NM 88003",
+      "phone": "(575) 527-7515"
+     },
+     {
+      "name": "NMSU Career Services",
+      "category": "",
+      "group": "",
+      "url": "https://oel.nmsu.edu",
+      "desc": "Conecta a empleadores con estudiantes y egresados de NMSU para prácticas profesionales y contrataciones de tiempo completo.",
+      "address": "Garcia Center, Rm. 224, 3024 Andrew Wall Pl., Las Cruces, NM 88003",
+      "phone": "(575) 646-1631"
+     },
+     {
+      "name": "The Bridge of Southern New Mexico",
+      "category": "",
+      "group": "",
+      "url": "https://bridge2careers.org",
+      "desc": "Alianza entre empresas e instituciones educativas que crea trayectorias profesionales y una reserva de talento local calificado.",
+      "address": "150 E. Lohman Ave., Las Cruces, NM 88001",
+      "phone": "(575) 652-6825"
+     },
+     {
+      "name": "VA Veteran Readiness & Employment (VR&E)",
+      "category": "",
+      "group": "",
+      "url": "https://va.gov/careers-employment",
+      "desc": "Ayuda a veteranos con discapacidades relacionadas con el servicio a prepararse para un empleo, conseguirlo y conservarlo, incluido el autoempleo.",
+      "address": "Harold L. Runnels Federal Building, 200 E. Griggs Ave., Las Cruces, NM 88001 eva@va.gov",
+      "phone": ""
+     }
+    ]
+   },
+   {
+    "title": "AGENCIAS DE PERSONAL Y CAPACITACIÓN",
+    "entries": [
+     {
+      "name": "DM Dickason Personnel Services",
+      "category": "PERSONAL · CONTRATACIÓN DIRECTA Y RR. HH.",
+      "group": "",
+      "url": "https://dmdickason.com",
+      "desc": "",
+      "address": "400 N. Telshor Blvd., Ste. A, Las Cruces, NM 88001",
+      "phone": "(575) 521-8700"
+     },
+     {
+      "name": "itsQuest, Inc.",
+      "category": "PERSONAL · GENERAL Y OFICIOS CALIFICADOS",
+      "group": "",
+      "url": "https://itsquest.net",
+      "desc": "",
+      "address": "532 N. Telshor Blvd., Ste. C, Las Cruces, NM 88011",
+      "phone": "(575) 541-0020"
+     },
+     {
+      "name": "Manpower",
+      "category": "PERSONAL · TEMPORAL Y DE PLANTA",
+      "group": "",
+      "url": "https://manpower.com",
+      "desc": "",
+      "address": "580 North Telshor Boulevard, Las Cruces, NM 88011",
+      "phone": "(575) 522-6028"
+     },
+     {
+      "name": "Robert Half",
+      "category": "PERSONAL · ADMINISTRATIVO Y ATENCIÓN AL CLIENTE",
+      "group": "",
+      "url": "https://roberthalf.com/us/en/locations/tx-el-paso/el-paso-area",
+      "desc": "",
+      "address": "",
+      "phone": "(915) 351-5395"
+     },
+     {
+      "name": "RMPersonnel, Inc.",
+      "category": "PERSONAL · TEMPORAL Y DIRECTO",
+      "group": "",
+      "url": "https://rmpersonnel.com",
+      "desc": "",
+      "address": "4707 Montana Ave., Suite 100, El Paso, TX 79903",
+      "phone": "(915) 565-7674"
+     },
+     {
+      "name": "El Paso Community College – Workforce Education",
+      "category": "CAPACITACIÓN LABORAL",
+      "group": "",
+      "url": "https://epcc.edu",
+      "desc": "",
+      "address": "9050 Viscount Blvd., El Paso, TX 79925",
+      "phone": "(915) 831-3722"
+     },
+     {
+      "name": "Southwest University",
+      "category": "COLEGIO TÉCNICO Y PROFESIONAL",
+      "group": "",
+      "url": "https://southwestuniversity.edu",
+      "desc": "",
+      "address": "6101 Montana Ave, El Paso, TX 79925",
+      "phone": "(915) 778-4001"
+     },
+     {
+      "name": "Prime Time CDL (Prime Time Technical Institute)",
+      "category": "CAPACITACIÓN PARA LICENCIA CDL",
+      "group": "",
+      "url": "https://primetimetechnicalinstitute.com",
+      "desc": "",
+      "address": "1840 E Lohman Ave, Las Cruces, NM 88001",
+      "phone": "(915) 314-2626"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Incentivos",
+  "subsections": [
+   {
+    "title": "REEMBOLSOS EN EFECTIVO",
+    "entries": [
+     {
+      "name": "Programa de Incentivos para la Capacitación Laboral (JTIP)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Reembolsa parte de los salarios durante un máximo de seis meses de capacitación en el empleo o en el aula para puestos nuevos: una tasa base del 50% en zonas urbanas como Las Cruces, 65% en zonas rurales y 75% en zonas remotas (frontier), con hasta un 10% adicional para empleos que califiquen.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Programa de capacitación Step-Up",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Reembolsa a empresas elegibles para JTIP parte del costo de capacitar a su personal actual, hasta $6,000 por participante.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Programa WagePlus",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Reembolso adicional en efectivo de $1,500 por cada puesto calificado para empresas elegibles para JTIP en la Ciudad de Las Cruces (fabricantes, exportadores de servicios fuera del estado y negocios de la industria verde) que completen JTIP y paguen al menos un 10% por encima del salario medio del condado.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Ley de Innovación y Oportunidades en la Fuerza Laboral (WIOA)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Programa con fondos federales que reembolsa parte de los salarios durante la capacitación en el empleo, incluso para personas que no residen en Nuevo México.",
+      "address": "",
+      "phone": ""
+     }
+    ]
+   },
+   {
+    "title": "SUBSIDIOS EN EFECTIVO Y FONDOS DE CIERRE",
+    "entries": [
+     {
+      "name": "Ley de Desarrollo Económico Local (LEDA)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Subvenciones discrecionales por creación de empleos para terrenos, edificios e infraestructura, disponibles tanto del estado, a través de EDD, como de gobiernos locales como la Ciudad de Las Cruces y el Condado de Doña Ana. Los fondos LEDA estatales y locales pueden combinarse en un mismo proyecto.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Incentivo de Cierre NMBorderplex (Closing Incentive)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Subsidio en efectivo de gestión local, otorgado después del desempeño, para proyectos que demuestren inversión de capital directa o creación de empleos permanentes; el uso de los fondos es libre.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "NMBorderplex AutomateUp+",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Ayuda a cubrir el costo de certificaciones industriales para fabricantes que capacitan a su personal actual. Creado por MVEDA con una subvención LEADS de EDD.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "GRIP de la Ciudad de Las Cruces",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Devuelve hasta el 75% del impuesto sobre ingresos brutos que genera un proyecto grande para reembolsar la infraestructura que construye; los proyectos deben alcanzar $5 millones en ventas anuales en un plazo de tres años.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "LEDA para comercio minorista de la Ciudad de Las Cruces",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Extiende el apoyo de LEDA a negocios minoristas que realicen una inversión de capital de al menos $251,000 en Las Cruces.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Programas locales de la Ciudad de Las Cruces",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Subvenciones de contrapartida Renovate Main Street y para reparación de fachadas en el centro, además del Distrito de Desarrollo por Incremento Fiscal (TIDD) del centro, que reinvierte los nuevos ingresos fiscales en infraestructura pública.",
+      "address": "",
+      "phone": ""
+     }
+    ]
+   },
+   {
+    "title": "REDUCCIONES DEL IMPUESTO PREDIAL",
+    "entries": [
+     {
+      "name": "Bonos de Ingresos Industriales (Industrial Revenue Bonds, IRB)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Exenta una parte considerable del impuesto predial y del impuesto compensatorio sobre terrenos, edificios y equipo hasta por 30 años; por lo general conviene para inversiones de unos $5 millones o más.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Ley de Incentivos para el Desarrollo Comunitario (Community Development Incentive Act)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Exenta el impuesto sobre bienes muebles del equipo cuando no hay terrenos ni edificios de por medio, hasta por 20 años; adecuado para inversiones menores.",
+      "address": "",
+      "phone": ""
+     }
+    ]
+   },
+   {
+    "title": "CRÉDITOS FISCALES",
+    "entries": [
+     {
+      "name": "Crédito fiscal por empleos de altos salarios (High Wage Jobs Tax Credit)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Crédito reembolsable del 8.5% de los salarios, hasta $12,750 por empleo nuevo al año durante cuatro años, para puestos que paguen $60,000 o más en Las Cruces y sus alrededores, o $40,000 o más en otras zonas. Aplica a empleos creados antes del 1 de julio de 2036.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Crédito fiscal por empleos rurales (Rural Jobs Tax Credit)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Crédito de hasta el 25% de los primeros $16,000 en salarios por cada empleo nuevo, según la zona. No aplica en Las Cruces ni dentro de 10 millas de la ciudad.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Crédito fiscal por empleos tecnológicos",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Crédito del 5% de los gastos calificados de investigación y desarrollo, o del 10% en instalaciones ubicadas en zonas rurales de Nuevo México.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Crédito fiscal por inversión (Investment Tax Credit)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Los fabricantes pueden deducir el 5.125% del valor del equipo calificado, vinculado a nuevas contrataciones: un empleado nuevo por cada $500,000 invertidos hasta $30 millones, con proporciones distintas por encima de ese monto.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Crédito fiscal por nuevos mercados (New Markets Tax Credit)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Financiamiento por debajo del mercado para negocios ubicados en zonas censales calificadas, combinado con otras fuentes de financiamiento.",
+      "address": "",
+      "phone": ""
+     }
+    ]
+   },
+   {
+    "title": "FINANCIAMIENTO Y VENTAJAS DE UBICACIÓN",
+    "entries": [
+     {
+      "name": "Fondo Rotatorio Opportunity Enterprise",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Préstamos de bajo interés de NMFA de hasta $17.5 millones para construir o renovar espacios comerciales e industriales, incluidos edificios especulativos.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Zona de Comercio Exterior No. 197 (Foreign Trade Zone)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Abarca todo el Condado de Doña Ana y permite a las empresas diferir o evitar aranceles aduaneros sobre productos importados. Comuníquese con Desarrollo Comunitario del Condado de Doña Ana al (575) 647-7350.",
+      "address": "",
+      "phone": ""
+     },
+     {
+      "name": "Zonas de Oportunidad 2.0 (Opportunity Zones)",
+      "category": "",
+      "group": "",
+      "url": "",
+      "desc": "Ahora permanentes: beneficios fiscales sobre ganancias de capital por invertir en zonas censales de bajos ingresos designadas, con zonas redefinidas cada 10 años y beneficios mayores en zonas rurales.",
+      "address": "",
+      "phone": ""
+     }
+    ]
+   },
+   {
+    "title": "INCENTIVOS POR INDUSTRIA",
+    "entries": []
+   }
+  ]
+ }
+]
