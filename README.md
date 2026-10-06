@@ -12,8 +12,34 @@ A searchable, bilingual (English / Español) web version of the printed *NM Bord
 
 ## Use it on the website
 
+### Option A (recommended): GitHub Pages + an iframe, so pushes to this repo update the site
+
+One-time setup:
+
+1. In this repository: **Settings → Pages → Build and deployment → Source: "Deploy from a branch"**, branch `main`, folder `/docs`. (On a free GitHub plan the repository must be public.)
+2. After a minute the widget is live at `https://nmborderplex1.github.io/resource-guide/`.
+3. In Divi, add a **Code module** with:
+
+```html
+<iframe src="https://nmborderplex1.github.io/resource-guide/?theme=light&height=440&pdfEn=PDF_URL_ENGLISH&pdfEs=PDF_URL_SPANISH"
+        style="width:100%;height:760px;border:0" loading="lazy" title="Business Resource Guide"></iframe>
+```
+
+Settings go in the iframe address (all optional):
+
+| Parameter | Meaning |
+|---|---|
+| `theme` | `auto` (visitor's system setting), `light` or `dark` |
+| `height` | Height in pixels of the scrolling results (200–1600, default 440). Keep the iframe `height` about 320 px larger. |
+| `pdfEn`, `pdfEs`, `contactUrl` | Links for the PDF download button (hidden until set) and the call-to-action button; only `nmborderplex.com` and `mveda.com` addresses are accepted |
+| `phone` | Phone number on the call-to-action |
+
+Deep links work on the Pages address itself (e.g. `…/#sec=incentives&near=anthony&lang=es`). Updating: run `python build.py` (or `build.py all …`), commit, and push; `docs/index.html` is rebuilt and Pages redeploys.
+
+### Option B: paste into a Divi Code module
+
 1. Build (below) or copy `dist/business-resource-finder-DIVI-EMBED.html`.
-2. In Divi, add a **Code module** and paste the file's contents.
+2. In Divi, add a **Code module** and paste the file's contents (needs a user who may add unfiltered HTML).
 3. Edit the `CONFIG` block at the top of the `<script>`:
 
 | Setting | Meaning |
@@ -32,7 +58,8 @@ src/assets/            logos and photo banners
 data/                  extracted guide data (see below) and multi-location research
 scripts/               PDF extractors and data/build scripts
 build.py               one entry point for the pipeline
-dist/                  built output (committed so it can be used without building)
+dist/                  built output: full page and the Divi Code-module embed
+docs/                  index.html = the page GitHub Pages serves (built by build.py)
 ```
 
 ## Build

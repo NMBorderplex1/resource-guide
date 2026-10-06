@@ -236,6 +236,19 @@ const CONFIG = Object.assign({
   height: 440           // max height (px) of the scrolling results area; the widget scrolls inside the page
 }, window.MV_CONFIG || {});
 
+/* Settings can also come from the address, e.g. .../resource-guide/?theme=light&height=520&pdfEn=https://nmborderplex.com/...pdf
+   Links are only accepted for MVEDA / NM Borderplex domains; anything else in the address is ignored. */
+(function(){
+  try {
+    const q = new URLSearchParams(location.search);
+    const okHost = v => { try { const h = new URL(v).hostname.toLowerCase(); return /^https?:$/.test(new URL(v).protocol) && ['nmborderplex.com', 'mveda.com'].some(d => h === d || h.endsWith('.' + d)); } catch(_) { return false; } };
+    ['pdfEn', 'pdfEs', 'contactUrl'].forEach(k => { const v = q.get(k); if(v && okHost(v)) CONFIG[k] = v; });
+    const ph = q.get('phone'); if(ph && /^[\d()\s.+-]{7,20}$/.test(ph)) CONFIG.phone = ph;
+    const th = q.get('theme'); if(th === 'auto' || th === 'light' || th === 'dark') CONFIG.theme = th;
+    const h = +q.get('height'); if(h >= 200 && h <= 1600) CONFIG.height = h;
+  } catch(_) {}
+})();
+
 const DATA = __DATA_JSON__;
 const BANNERS = ['__B1__','__B2__','__B3__','__B4__','__B5__'].map(b => 'data:image/jpeg;base64,' + b);
 const SLUGS = ['general-business','local-directory','financing','workforce','incentives'];
