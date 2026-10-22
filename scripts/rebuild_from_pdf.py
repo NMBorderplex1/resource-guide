@@ -82,6 +82,26 @@ for item in json.load(open('data/extra_entries.json', encoding='utf-8')):
         h2['entries'].append(dict(item['entry']))
         report.append('added web-only entry: ' + item['entry']['name'])
 
+# 3c. Keep each headed group's companies together: a card with a different label between two members
+#     (e.g. Dekker, "Architecture & Planning") would otherwise split one group heading into two.
+for h1 in PDF:
+    for h2 in h1['subsections']:
+        order, buckets = [], {}
+        for e in h2['entries']:
+            g = e['group']
+            if g and g in buckets:
+                buckets[g].append(e)
+            else:
+                if g:
+                    buckets[g] = [e]
+                order.append(('g', g) if g else ('e', e))
+        merged = []
+        for kind, v in order:
+            merged.extend(buckets[v] if kind == 'g' else [v])
+        if [x['name'] for x in merged] != [x['name'] for x in h2['entries']]:
+            report.append('regrouped ' + h2['title'])
+        h2['entries'] = merged
+
 # 4. Widget-only decision (user: "it could live in both for the ones that are specific to a city"):
 #    keep the city-specific utilities also under their municipality's Licensing group, values taken from the PDF's Utilities entries.
 util = {}

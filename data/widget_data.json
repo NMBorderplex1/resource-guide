@@ -2910,19 +2910,6 @@
       }
      },
      {
-      "name": "Dekker",
-      "category": "ARCHITECTURE & PLANNING",
-      "group": "",
-      "url": "https://dekkerdesign.org",
-      "desc": "",
-      "address": "7601 Jefferson St NE, Ste 100, Albuquerque, NM 87109",
-      "phone": "(505) 761-9700",
-      "es": {
-       "name": "Dekker",
-       "category": "ARQUITECTURA Y PLANIFICACIÓN"
-      }
-     },
-     {
       "name": "LoyaWilke Architects",
       "category": "",
       "group": "ARCHITECTURE",
@@ -2946,6 +2933,19 @@
       "es": {
        "name": "Vigil & Associates",
        "group": "ARQUITECTURA"
+      }
+     },
+     {
+      "name": "Dekker",
+      "category": "ARCHITECTURE & PLANNING",
+      "group": "",
+      "url": "https://dekkerdesign.org",
+      "desc": "",
+      "address": "7601 Jefferson St NE, Ste 100, Albuquerque, NM 87109",
+      "phone": "(505) 761-9700",
+      "es": {
+       "name": "Dekker",
+       "category": "ARQUITECTURA Y PLANIFICACIÓN"
       }
      }
     ],

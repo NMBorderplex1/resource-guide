@@ -2039,15 +2039,6 @@
       "phone": "(575) 528-0021"
      },
      {
-      "name": "Dekker",
-      "category": "ARCHITECTURE & PLANNING",
-      "group": "",
-      "url": "https://dekkerdesign.org",
-      "desc": "",
-      "address": "7601 Jefferson St NE, Ste 100, Albuquerque, NM 87109",
-      "phone": "(505) 761-9700"
-     },
-     {
       "name": "LoyaWilke Architects",
       "category": "",
       "group": "ARCHITECTURE",
@@ -2064,6 +2055,15 @@
       "desc": "",
       "address": "1765 Avenida de Mercado, Las Cruces, NM 88005",
       "phone": "(575) 527-0400"
+     },
+     {
+      "name": "Dekker",
+      "category": "ARCHITECTURE & PLANNING",
+      "group": "",
+      "url": "https://dekkerdesign.org",
+      "desc": "",
+      "address": "7601 Jefferson St NE, Ste 100, Albuquerque, NM 87109",
+      "phone": "(505) 761-9700"
      }
     ]
    },
