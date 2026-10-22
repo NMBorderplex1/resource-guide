@@ -139,7 +139,9 @@
 .mv-empty{ padding:40px 16px; text-align:center; color:var(--gray); font-size:13px; }
 
 .mv-cta{ margin-top:12px; border-radius:12px; overflow:hidden; display:flex; align-items:center; justify-content:space-between; gap:10px 16px; flex-wrap:wrap; padding:12px 18px; color:#fff; background:linear-gradient(120deg, #6e1217, var(--burg) 55%, #a8262b); box-shadow:var(--shadow); }
-.mv-cta-text{ flex:1 1 280px; font:600 13.5px/1.35 var(--font) !important; color:#fff !important; }
+.mv-cta-copy{ flex:1 1 300px; }
+.mv-widget .mv-cta-note{ margin-top:6px; font:400 11.5px/1.5 var(--font); color:rgba(255,255,255,.88); }
+.mv-cta-text{ flex:none; font:600 13.5px/1.35 var(--font) !important; color:#fff !important; }
 .mv-cta-actions{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
 .mv-cta-btn{ display:inline-flex; align-items:center; background:#fff; color:var(--burg) !important; font:700 12.5px var(--font); border-radius:999px; padding:8px 18px; transition:transform .15s, box-shadow .15s; }
 .mv-cta-btn:hover{ transform:translateY(-1px); box-shadow:0 6px 16px rgba(0,0,0,.28); }
@@ -210,7 +212,10 @@
     <div class="mv-results" id="mv-results" role="list" tabindex="0"></div>
 
     <div class="mv-cta">
-      <p class="mv-cta-text" id="mv-cta-text"></p>
+      <div class="mv-cta-copy">
+        <p class="mv-cta-text" id="mv-cta-text"></p>
+        <p class="mv-cta-note" id="mv-cta-note"></p>
+      </div>
       <div class="mv-cta-actions">
         <a class="mv-cta-btn" id="mv-cta-btn" target="_blank" rel="noopener"></a>
         <a class="mv-cta-phone" id="mv-cta-phone"></a>
@@ -269,7 +274,9 @@ const STR = {
     nearLabel:'Locations in', nearAll:'All Doña Ana County',
     nearNote:c=>`Showing offices and locations in ${c}. Programs and incentives that aren’t tied to one place are hidden — clear the filter to see them.`,
     empty:'No matches. Try a different search term or category.',
-    locs:n=>`${n} locations`, cta:'Let MVEDA run a customized incentives analysis for your project.', ctaBtn:'Talk to MVEDA',
+    locs:n=>`${n} locations`, cta:'Let MVEDA run a customized incentives analysis for your project.',
+    ctaNote:'MVEDA works with companies that create economic-base jobs: businesses that bring new dollars into the region by selling goods or services outside it, such as manufacturing, logistics, aerospace, technology, energy and agribusiness. Retail, restaurants and other local-serving businesses: start with Small Business Support or the City of Las Cruces programs.',
+    ctaBtn:'Talk to MVEDA',
     pdf:'Download the PDF guide', matches:'Matches the printed edition', maps:'Open in Maps'
   },
   es: {
@@ -279,7 +286,9 @@ const STR = {
     nearLabel:'Ubicaciones en', nearAll:'Todo el condado de Doña Ana',
     nearNote:c=>`Mostrando oficinas y ubicaciones en ${c}. Los programas e incentivos que no dependen de un lugar se ocultan; quite el filtro para verlos.`,
     empty:'Sin resultados. Pruebe con otro término o categoría.',
-    locs:n=>`${n} ubicaciones`, cta:'Permita que MVEDA realice un análisis de incentivos personalizado para su proyecto.', ctaBtn:'Hable con MVEDA',
+    locs:n=>`${n} ubicaciones`, cta:'Permita que MVEDA realice un análisis de incentivos personalizado para su proyecto.',
+    ctaNote:'MVEDA trabaja con empresas que generan empleos de base económica: negocios que traen nuevos ingresos a la región al vender bienes o servicios fuera de ella, como manufactura, logística, aeroespacial, tecnología, energía y agronegocios. Comercio minorista, restaurantes y otros negocios que atienden solo al mercado local: comience con Apoyo a Pequeñas Empresas o con los programas de la Ciudad de Las Cruces.',
+    ctaBtn:'Hable con MVEDA',
     pdf:'Descargar la guía en PDF', matches:'Coincide con la edición impresa', maps:'Abrir en Mapas'
   }
 };
@@ -373,6 +382,7 @@ function renderStatic(){
   $('mv-count-label').textContent = t.resources;
   $('mv-matches').textContent = t.matches;
   $('mv-cta-text').textContent = t.cta;
+  $('mv-cta-note').textContent = t.ctaNote;
   const btn = $('mv-cta-btn'); btn.textContent = t.ctaBtn; btn.href = CONFIG.contactUrl;
   btn.className = 'mv-cta-btn' + (CONFIG.ctaClass ? ' ' + CONFIG.ctaClass : '');
   const ph = $('mv-cta-phone'); ph.textContent = CONFIG.phone; ph.href = telHref(CONFIG.phone);
