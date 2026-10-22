@@ -224,7 +224,6 @@
         <div class="mv-footer-logo-chip"><img src="data:image/png;base64,__MV_B64__" alt="MVEDA"></div>
         <span class="mv-footer-text">Mesilla Valley Economic Development Alliance · mveda.com</span>
       </a>
-      <span class="mv-footer-text" id="mv-matches"></span>
     </div>
   </div>
 </div>
@@ -274,7 +273,7 @@ const STR = {
     locs:n=>`${n} locations`, cta:'Let MVEDA run a customized incentives analysis for your project.',
     ctaNote:'MVEDA works with companies that create economic-base jobs, including, but not limited to, manufacturing, logistics, aerospace, technology, energy and agribusiness.',
     ctaBtn:'Talk to MVEDA',
-    pdf:'Download the PDF guide', matches:'Matches the printed edition', maps:'Open in Maps'
+    pdf:'Download the PDF guide', maps:'Open in Maps'
   },
   es: {
     title:'Guía de Recursos Empresariales — Edición Interactiva',
@@ -286,7 +285,7 @@ const STR = {
     locs:n=>`${n} ubicaciones`, cta:'Permita que MVEDA realice un análisis de incentivos personalizado para su proyecto.',
     ctaNote:'MVEDA trabaja con empresas que generan empleos de base económica, incluidos, entre otros, manufactura, logística, aeroespacial, tecnología, energía y agronegocios.',
     ctaBtn:'Hable con MVEDA',
-    pdf:'Descargar la guía en PDF', matches:'Coincide con la edición impresa', maps:'Abrir en Mapas'
+    pdf:'Descargar la guía en PDF', maps:'Abrir en Mapas'
   }
 };
 
@@ -377,7 +376,6 @@ function renderStatic(){
   $('mv-sub').textContent = t.sub;
   qEl.placeholder = t.search;
   $('mv-count-label').textContent = t.resources;
-  $('mv-matches').textContent = t.matches;
   $('mv-cta-text').textContent = t.cta;
   $('mv-cta-note').textContent = t.ctaNote;
   const btn = $('mv-cta-btn'); btn.textContent = t.ctaBtn; btn.href = CONFIG.contactUrl;
