@@ -411,7 +411,7 @@ function renderNear(){
   if(state.near) note.textContent = t.nearNote(state.near);
 }
 
-function renderCard(e, reveal){
+function renderCard(e, reveal, kickGroup){
   const t = T();
   const facts = [];
   const locs = (e.locations && e.locations.length > 1) ? e.locations.slice() : null;
@@ -438,7 +438,7 @@ function renderCard(e, reveal){
     if(e.phone) facts.push(`<div class="mv-fact">${iconPhone}<span>${telHref(e.phone) ? `<a class="mv-plain" href="${telHref(e.phone)}">${esc(e.phone)}</a>` : esc(e.phone)}</span></div>`);
   }
   if(e.url) facts.push(`<div class="mv-fact">${iconLink}<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.url.replace(/^https?:\/\//, ''))}</a></div>`);
-  const kick = dKick(e, 'category'), desc = dDesc(e);
+  const kick = dKick(e, 'category') || (kickGroup ? dKick(e, 'group') : ''), desc = dDesc(e);
   return `<div class="mv-card${reveal ? ' mv-reveal' : ''}" role="listitem" tabindex="0" aria-expanded="false">
     <div class="mv-card-top"><div>
       ${kick ? `<p class="mv-kicker">${esc(kick)}</p>` : ''}
@@ -488,6 +488,8 @@ function renderResults(animate){
       </div>`;
     subs.forEach(({h2, f}) => {
       html += `<h4 class="mv-sub-head">${esc(h2Title(h2))}</h4>`;
+      // grouped cards also carry their label above the name, except where the group is an organization heading
+      const kickGroup = !/^(LICENSING|INDUSTRY-SPECIFIC)/i.test(h2.title);
       let i = 0;
       while(i < f.length){
         const key = f[i].group || '';   // only headed groups get their own block; ungrouped cards (each shows its own label) share rows
@@ -496,7 +498,7 @@ function renderResults(animate){
         const g = f[i].group ? dKick(f[i], 'group') : '';
         if(g) html += `<div class="mv-group-head">${esc(g)}</div>`;
         html += `<div class="mv-grid${g ? ' mv-grid-nested' : ''}">`;
-        bucket.forEach(e => { shown++; html += renderCard(e, reveal); });
+        bucket.forEach(e => { shown++; html += renderCard(e, reveal, kickGroup); });
         html += `</div>`;
         i = j;
       }
