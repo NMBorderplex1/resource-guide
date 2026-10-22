@@ -22,7 +22,7 @@ One-time setup:
 3. In Divi, add a **Code module** with:
 
 ```html
-<iframe id="mv-guide" allow="geolocation" src="https://nmborderplex1.github.io/resource-guide/?theme=light&pdfEn=PDF_URL_ENGLISH&pdfEs=PDF_URL_SPANISH"
+<iframe id="mv-guide" allow="geolocation" src="https://nmborderplex1.github.io/resource-guide/?theme=light"
         style="width:100%;height:900px;border:0" loading="lazy" title="Business Resource Guide"></iframe>
 <script>
 /* the widget reports its height so the frame fits on every screen size */
