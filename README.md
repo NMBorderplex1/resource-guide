@@ -99,3 +99,7 @@ The data comes from a printed publication that is reviewed by MVEDA staff; entri
 ## Copyright
 
 (c) 2026 Mesilla Valley Economic Development Alliance (MVEDA). All rights reserved. This repository is visible for hosting and maintaining the interactive guide only; see [LICENSE](LICENSE). Logos and names belong to their owners.
+
+## Web-only entries
+
+`data/extra_entries.json` holds listings that are not in the print guide (currently three FY27 MVEDA partners). The data pipeline adds them after every PDF extraction, so they survive rebuilds. Edit that file to add or remove web-only entries.

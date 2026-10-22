@@ -1,0 +1,48 @@
+[
+  {
+    "note": "Web-only entries: FY27 MVEDA partners (FY27 Partners.xlsx, Primary Partners) not in the print directory or elsewhere in the guide. Not in the print PDF.",
+    "h1": "Local Business Directory",
+    "h2": "COMMUNITY & NONPROFIT ORGANIZATIONS",
+    "entry": {
+      "name": "New Mexico State University",
+      "category": "UNIVERSITY",
+      "group": "",
+      "url": "https://nmsu.edu",
+      "desc": "",
+      "address": "PO Box 30001, Las Cruces, NM 88003",
+      "phone": "(575) 646-0111",
+      "extra": true,
+      "es": {"category": "UNIVERSIDAD"}
+    }
+  },
+  {
+    "h1": "Local Business Directory",
+    "h2": "COMMUNITY & NONPROFIT ORGANIZATIONS",
+    "entry": {
+      "name": "The Borderplex Bi-National Alliance",
+      "category": "REGIONAL ECONOMIC DEVELOPMENT",
+      "group": "",
+      "url": "https://www.borderplexalliance.org",
+      "desc": "",
+      "address": "123 W. Mills Ave., Suite 320, El Paso, TX 79901",
+      "phone": "(915) 298-1000",
+      "extra": true,
+      "es": {"category": "DESARROLLO ECONÓMICO REGIONAL"}
+    }
+  },
+  {
+    "h1": "Local Business Directory",
+    "h2": "BANKING & FINANCIAL SERVICES",
+    "entry": {
+      "name": "Percha Creek Investments LLC",
+      "category": "INVESTMENTS",
+      "group": "",
+      "url": "",
+      "desc": "",
+      "address": "PO Box 389, Mesilla Park, NM 88047",
+      "phone": "(575) 649-1299",
+      "extra": true,
+      "es": {"category": "INVERSIONES"}
+    }
+  }
+]

@@ -141,6 +141,9 @@ for h1i, h1 in enumerate(out):
             if h2['title'].upper().startswith('INDUSTRY-SPECIFIC'):
                 es = {'name': IND_ES[ind_i], 'group': IND_GROUP_ES[e['group']]}
                 ind_i += 1
+            elif e.get('extra'):
+                e['es'] = dict(e.get('es', {}))
+                continue
             else:
                 t = find_twin(h1i, h2i, e)
                 if t is None:

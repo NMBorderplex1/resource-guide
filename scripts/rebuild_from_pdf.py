@@ -74,6 +74,14 @@ e = by_name('Las Cruces Association of Realtors')
 if e:
     fix(e, address=re.sub(r'\s+lascrucesassociationofrealtors\.co\s?m$', '', e['address']), url=e['url'] or 'https://lcarnm.com')
 
+# 3b. Web-only entries (FY27 partners that are not in the print guide), from data/extra_entries.json
+for item in json.load(open('data/extra_entries.json', encoding='utf-8')):
+    h2 = next((h2 for h1 in PDF if h1['title'] == item['h1'] for h2 in h1['subsections'] if h2['title'].upper() == item['h2']), None)
+    assert h2 is not None, item['h2']
+    if not any(norm(x['name']) == norm(item['entry']['name']) for x in h2['entries']):
+        h2['entries'].append(dict(item['entry']))
+        report.append('added web-only entry: ' + item['entry']['name'])
+
 # 4. Widget-only decision (user: "it could live in both for the ones that are specific to a city"):
 #    keep the city-specific utilities also under their municipality's Licensing group, values taken from the PDF's Utilities entries.
 util = {}
