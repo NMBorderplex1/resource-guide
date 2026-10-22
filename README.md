@@ -21,16 +21,27 @@ One-time setup:
 3. In Divi, add a **Code module** with:
 
 ```html
-<iframe src="https://nmborderplex1.github.io/resource-guide/?theme=light&height=440&pdfEn=PDF_URL_ENGLISH&pdfEs=PDF_URL_SPANISH"
+<iframe id="mv-guide" src="https://nmborderplex1.github.io/resource-guide/?theme=light&pdfEn=PDF_URL_ENGLISH&pdfEs=PDF_URL_SPANISH"
         style="width:100%;height:900px;border:0" loading="lazy" title="Business Resource Guide"></iframe>
+<script>
+/* the widget reports its height so the frame fits on every screen size */
+window.addEventListener('message', function (e) {
+  var f = document.getElementById('mv-guide');
+  if (f && e.source === f.contentWindow && e.data && e.data.type === 'mv-resize' && e.data.height > 200 && e.data.height < 3000) {
+    f.style.height = e.data.height + 'px';
+  }
+});
+</script>
 ```
+
+The width follows the Divi column. The height is set automatically by the small script (900 px is only the starting height before the widget loads); without the script the frame stays at 900 px, which can cut off the bottom on phones.
 
 Settings go in the iframe address (all optional):
 
 | Parameter | Meaning |
 |---|---|
 | `theme` | `auto` (visitor's system setting), `light` or `dark` |
-| `height` | Height in pixels of the scrolling results (200–1600, default 440). Make the iframe `height` about 460 px larger than this (e.g. 900 px for the default 440). |
+| `height` | Height in pixels of the scrolling results list (200–1600, default 440); the whole widget is about 430 px taller than this. |
 | `pdfEn`, `pdfEs`, `contactUrl` | Links for the PDF download button (hidden until set) and the call-to-action button; only `nmborderplex.com` and `mveda.com` addresses are accepted |
 | `phone` | Phone number on the call-to-action |
 

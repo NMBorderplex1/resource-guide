@@ -87,6 +87,7 @@
 
 .mv-results{ max-height:min(var(--mv-height), 78vh); overflow-y:auto; overflow-x:hidden; padding:2px 8px 6px 2px; margin-right:-6px;
   overscroll-behavior:contain; scrollbar-width:thin; scrollbar-color:var(--gold) transparent; border-top:1px solid var(--line); }
+.mv-widget.mv-framed .mv-results{ max-height:var(--mv-height); }
 .mv-results::-webkit-scrollbar{ width:8px; }
 .mv-results::-webkit-scrollbar-thumb{ background:var(--gold); border-radius:8px; }
 .mv-results::-webkit-scrollbar-track{ background:transparent; }
@@ -523,5 +524,18 @@ setupObservers();
 readHash();
 qEl.value = state.q;
 update(true);
+
+/* When embedded in an iframe, report the widget's height so the host page can size the frame (see README). */
+if (window.parent !== window) {
+  root.classList.add('mv-framed');
+  let lastH = 0;
+  const report = () => {
+    const h = Math.ceil(root.getBoundingClientRect().height);
+    if (h && h !== lastH) { lastH = h; window.parent.postMessage({type: 'mv-resize', height: h}, '*'); }
+  };
+  if ('ResizeObserver' in window) new ResizeObserver(report).observe(root);
+  window.addEventListener('load', report);
+  report();
+}
 })();
 </script>
