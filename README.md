@@ -22,7 +22,7 @@ One-time setup:
 
 ```html
 <iframe src="https://nmborderplex1.github.io/resource-guide/?theme=light&height=440&pdfEn=PDF_URL_ENGLISH&pdfEs=PDF_URL_SPANISH"
-        style="width:100%;height:760px;border:0" loading="lazy" title="Business Resource Guide"></iframe>
+        style="width:100%;height:900px;border:0" loading="lazy" title="Business Resource Guide"></iframe>
 ```
 
 Settings go in the iframe address (all optional):
@@ -30,7 +30,7 @@ Settings go in the iframe address (all optional):
 | Parameter | Meaning |
 |---|---|
 | `theme` | `auto` (visitor's system setting), `light` or `dark` |
-| `height` | Height in pixels of the scrolling results (200–1600, default 440). Keep the iframe `height` about 320 px larger. |
+| `height` | Height in pixels of the scrolling results (200–1600, default 440). Make the iframe `height` about 460 px larger than this (e.g. 900 px for the default 440). |
 | `pdfEn`, `pdfEs`, `contactUrl` | Links for the PDF download button (hidden until set) and the call-to-action button; only `nmborderplex.com` and `mveda.com` addresses are accepted |
 | `phone` | Phone number on the call-to-action |
 
