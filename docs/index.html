@@ -493,9 +493,9 @@ function renderResults(animate){
       html += `<h4 class="mv-sub-head">${esc(h2Title(h2))}</h4>`;
       let i = 0;
       while(i < f.length){
-        const key = f[i].group || f[i].category || '';
+        const key = f[i].group || '';   // only headed groups get their own block; ungrouped cards (each shows its own label) share rows
         let j = i; const bucket = [];
-        while(j < f.length && (f[j].group || f[j].category || '') === key){ bucket.push(f[j]); j++; }
+        while(j < f.length && (f[j].group || '') === key){ bucket.push(f[j]); j++; }
         const g = f[i].group ? dKick(f[i], 'group') : '';
         if(g) html += `<div class="mv-group-head">${esc(g)}</div>`;
         html += `<div class="mv-grid${g ? ' mv-grid-nested' : ''}">`;
