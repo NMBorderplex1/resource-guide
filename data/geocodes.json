@@ -1,0 +1,1067 @@
+{
+"100 N. Stanton St., El Paso, TX 79901": {
+"lat": 31.759185,
+"lng": -106.48607,
+"src": "census"
+},
+"100 Wyatt, Suite D, Las Cruces, NM 88005": {
+"lat": 32.29889,
+"lng": -106.779067,
+"src": "census"
+},
+"1000 Cordova Place, PMB 569, Santa Fe, NM 87505": {
+"lat": 35.67384,
+"lng": -105.951338,
+"src": "census"
+},
+"1000 McNutt Rd. #G, Sunland Park, NM 88063": {
+"lat": 31.795982,
+"lng": -106.555062,
+"src": "census"
+},
+"1000 McNutt Rd., Suite G, Sunland Park, NM 88063": {
+"lat": 31.795982,
+"lng": -106.555062,
+"src": "census"
+},
+"110 E. Idaho Ave., Las Cruces, NM 88005": {
+"lat": 32.296542,
+"lng": -106.779009,
+"src": "census"
+},
+"1100 S. Main St. Suite A, Las Cruces, NM 88005": {
+"lat": 32.298699,
+"lng": -106.779715,
+"src": "census"
+},
+"1100 S. St. Francis Dr., Santa Fe, NM 87505": {
+"lat": 35.674101,
+"lng": -105.953849,
+"src": "census"
+},
+"1100 S. St. Francis Drive, Santa Fe, NM 87505": {
+"lat": 35.674101,
+"lng": -105.953849,
+"src": "census"
+},
+"1100 S. St. Francis Drive, Suite 1242, Santa Fe, NM 87505": {
+"lat": 35.674101,
+"lng": -105.953849,
+"src": "census"
+},
+"1100 St. Francis Drive, Santa Fe, NM 87505": {
+"lat": 35.674101,
+"lng": -105.953849,
+"src": "census"
+},
+"1125 S. Main St., Las Cruces, NM 88005": {
+"lat": 32.298321,
+"lng": -106.780042,
+"src": "osm"
+},
+"1155 N. Fourth St., Anthony, NM 88021": {
+"lat": 32.012273,
+"lng": -106.602748,
+"src": "census"
+},
+"1155 S. Telshor, Suite B, Las Cruces, NM 88011": {
+"lat": 32.305568,
+"lng": -106.738525,
+"src": "census"
+},
+"1170 N Solano, Suite M, Las Cruces, NM 88001": {
+"lat": 32.320439,
+"lng": -106.771649,
+"src": "census"
+},
+"118 S. Main St., Las Cruces, NM 88001": {
+"lat": 32.30927,
+"lng": -106.778556,
+"src": "census"
+},
+"123 W. Mills Ave., Suite 320, El Paso, TX 79901": {
+"lat": 31.759102,
+"lng": -106.488691,
+"src": "census"
+},
+"1300 Country Club Rd Suite A, Santa Teresa, NM 88008": {
+"lat": 31.846483,
+"lng": -106.628998,
+"src": "census"
+},
+"1300 Country Club Rd., Suite A, Santa Teresa, NM 88008": {
+"lat": 31.846483,
+"lng": -106.628998,
+"src": "census"
+},
+"1320 S. Solano Dr., Las Cruces, NM 88001": {
+"lat": 32.298998,
+"lng": -106.762075,
+"src": "census"
+},
+"1326 Henry Brennan Dr., El Paso, TX 79936": {
+"lat": 31.723904,
+"lng": -106.291575,
+"src": "census"
+},
+"133 N. Franklin St., Hatch, NM 87937": {
+"lat": 32.665627,
+"lng": -107.153405,
+"src": "census"
+},
+"1340 S Valley Dr., Las Cruces, NM 88005": {
+"lat": 32.293122,
+"lng": -106.785737,
+"src": "census"
+},
+"141 Roadrunner Pkwy, Ste 141, Las Cruces, NM 88011": {
+"lat": 32.324513,
+"lng": -106.735307,
+"src": "census"
+},
+"141 Roadrunner Pkwy., Ste 139, Las Cruces, NM 88011": {
+"lat": 32.324513,
+"lng": -106.735307,
+"src": "census"
+},
+"141 Roadrunner Pkwy., Suite 109, Las Cruces, NM 88011": {
+"lat": 32.324513,
+"lng": -106.735307,
+"src": "census"
+},
+"141 Roadrunner Pkwy., Suite 141A, Las Cruces, NM 88011": {
+"lat": 32.324513,
+"lng": -106.735307,
+"src": "census"
+},
+"141 S. Roadrunner Parkway, Suite 101, Las Cruces, NM 88011": {
+"lat": 32.324513,
+"lng": -106.735307,
+"src": "census"
+},
+"1455 S. Valley Drive, Suite A, Las Cruces, NM 88005": {
+"lat": 32.291367,
+"lng": -106.784086,
+"src": "census"
+},
+"1455 S. Valley Drive, Suite B, Las Cruces, NM 88005": {
+"lat": 32.291367,
+"lng": -106.784086,
+"src": "census"
+},
+"150 E. Idaho Ave., Las Cruces, NM 88005": {
+"lat": 32.296213,
+"lng": -106.77853,
+"src": "census"
+},
+"150 E. Lohman Ave., Las Cruces, NM 88001": {
+"lat": 32.306321,
+"lng": -106.777093,
+"src": "census"
+},
+"150 Earhardt Way, Ste 200, Santa Teresa, NM 88008": {
+"lat": 31.864842,
+"lng": -106.695609,
+"src": "census"
+},
+"1500 Appaloosa Dr., Suite A-160, Sunland Park, NM 88063": {
+"lat": 31.8018,
+"lng": -106.563485,
+"src": "census"
+},
+"1501 S. Don Roser, Las Cruces, NM 88011": {
+"lat": 32.301941,
+"lng": -106.742689,
+"src": "census"
+},
+"1553 Avenida de Mesilla Ste 225, Las Cruces, NM 88005": {
+"lat": 32.283666,
+"lng": -106.794991,
+"src": "census"
+},
+"1600 International Mall, Las Cruces, NM 88003": {
+"lat": 32.283487,
+"lng": -106.747708,
+"src": "census"
+},
+"1700 E. O’Hara Rd., Anthony, NM 88021": {
+"lat": 32.024616,
+"lng": -106.645254,
+"src": "census"
+},
+"1715 E. University Ave., Las Cruces, NM 88001": {
+"lat": 32.286246,
+"lng": -106.74518,
+"src": "census"
+},
+"1720 Magoffin Avenue, El Paso, TX 79901": {
+"lat": 31.766603,
+"lng": -106.46969,
+"src": "census"
+},
+"1765 Avenida de Mercado, Las Cruces, NM 88005": {
+"lat": 32.286532,
+"lng": -106.796044,
+"src": "census"
+},
+"1800 Copper Loop, Las Cruces, NM 88005": {
+"lat": 32.30646,
+"lng": -106.804583,
+"src": "census"
+},
+"1840 E Lohman Ave, Las Cruces, NM 88001": {
+"lat": 32.309902,
+"lng": -106.759705,
+"src": "census"
+},
+"1891 Avenida de Mesilla, Mesilla, NM 88046": {
+"lat": 32.279011,
+"lng": -106.796111,
+"src": "osm"
+},
+"1990 E. Lohman Ave., Las Cruces, NM 88001": {
+"lat": 32.310777,
+"lng": -106.756992,
+"src": "census"
+},
+"200 E. Picacho Ave., Las Cruces, NM 88001": {
+"lat": 32.316364,
+"lng": -106.77856,
+"src": "census"
+},
+"2000 Zearing Ave. NW, Albuquerque, NM 87104": {
+"lat": 35.102459,
+"lng": -106.667537,
+"src": "census"
+},
+"2007 W. Martin St., San Antonio, TX 78207": {
+"lat": 29.430987,
+"lng": -98.514122,
+"src": "census"
+},
+"201 N. Alameda Blvd., Las Cruces, NM 88011": {
+"lat": 32.309824,
+"lng": -106.781471,
+"src": "census"
+},
+"205 E. Lohman Ave, Las Cruces, NM 88001": {
+"lat": 32.306529,
+"lng": -106.776524,
+"src": "census"
+},
+"210 E. Idaho Ave., Las Cruces, NM 88005": {
+"lat": 32.296361,
+"lng": -106.775976,
+"src": "osm"
+},
+"211 N. Piedras, El Paso, TX 79905": {
+"lat": 31.775929,
+"lng": -106.461674,
+"src": "census"
+},
+"211 N. Water St., Las Cruces, NM 88001": {
+"lat": 32.310357,
+"lng": -106.779937,
+"src": "census"
+},
+"211 N. Water Street, Las Cruces, NM 88001": {
+"lat": 32.310357,
+"lng": -106.779937,
+"src": "census"
+},
+"2145 E. Lohman Ave., Las Cruces, NM 88001": {
+"lat": 32.312875,
+"lng": -106.752838,
+"src": "census"
+},
+"221 N Main St., Las Cruces, NM 88001": {
+"lat": 32.310275,
+"lng": -106.778688,
+"src": "census"
+},
+"221 N. Kansas, Ste 820, El Paso, TX 79930": {
+"lat": 31.760099,
+"lng": -106.485619,
+"src": "census"
+},
+"221 Pete Domenici Highway, Santa Teresa, NM 88008": {
+"lat": 31.8394,
+"lng": -106.6821,
+"src": "zip"
+},
+"221 W. Griggs Ave., Las Cruces, NM 88005": {
+"lat": 32.30921,
+"lng": -106.780369,
+"src": "census"
+},
+"2231 Avenida de Mesilla, Mesilla, NM 88046": {
+"lat": 32.276123,
+"lng": -106.794856,
+"src": "osm"
+},
+"2251 Calle de Santiago, Mesilla, NM 88046": {
+"lat": 32.273358,
+"lng": -106.796953,
+"src": "osm"
+},
+"226 S. Alameda Blvd., Las Cruces, NM 88005": {
+"lat": 32.307716,
+"lng": -106.781074,
+"src": "census"
+},
+"230 S. Alameda Blvd., Las Cruces, NM 88005": {
+"lat": 32.307588,
+"lng": -106.78104,
+"src": "census"
+},
+"2301 Entrada Del Sol, Las Cruces, NM 88001": {
+"lat": 32.30968,
+"lng": -106.751454,
+"src": "osm"
+},
+"2345 E. Nevada Ave., Las Cruces, NM 88001": {
+"lat": 32.308639,
+"lng": -106.74984,
+"src": "census"
+},
+"240 N. Mesquite St., Las Cruces, NM 88001": {
+"lat": 32.311634,
+"lng": -106.774657,
+"src": "census"
+},
+"2400 Film St., Las Cruces, NM 88001": {
+"lat": 32.2901,
+"lng": -106.7539,
+"src": "zip"
+},
+"2410 Calle de San Albino, Mesilla, NM 88046": {
+"lat": 32.274211,
+"lng": -106.794415,
+"src": "census"
+},
+"2540 S. El Paseo, Bldg. #2, Las Cruces, NM 88001": {
+"lat": 32.284636,
+"lng": -106.762349,
+"src": "census"
+},
+"2550 Cerrillos Road, Santa Fe, NM 87505": {
+"lat": 35.659636,
+"lng": -105.982825,
+"src": "census"
+},
+"2640 El Paseo Rd., Las Cruces, NM 88001": {
+"lat": 32.283706,
+"lng": -106.762016,
+"src": "census"
+},
+"2651 Northrise Dr., Las Cruces, NM 88011": {
+"lat": 32.35234,
+"lng": -106.76281,
+"src": "census"
+},
+"2700 Via Fortuna, Suite 300, Austin, TX 78746": {
+"lat": 30.31315,
+"lng": -97.922124,
+"src": "census"
+},
+"2701 Campus Blvd. NE, Office #1007, Albuquerque, NM 87131": {
+"lat": 35.086028,
+"lng": -106.615881,
+"src": "census"
+},
+"277 E. Amador Ave., Ste. 305, Las Cruces, NM 88001": {
+"lat": 32.307566,
+"lng": -106.776163,
+"src": "census"
+},
+"277 E. Amador Ave., Suite 200, Las Cruces, NM 88001": {
+"lat": 32.307566,
+"lng": -106.776163,
+"src": "census"
+},
+"277 E. Amador Avenue, Las Cruces, NM 88001": {
+"lat": 32.307566,
+"lng": -106.776163,
+"src": "census"
+},
+"2800 N. Sonoma Ranch Blvd., Las Cruces, NM 88011": {
+"lat": 32.348638,
+"lng": -106.738634,
+"src": "census"
+},
+"2811 North Main Street, Las Cruces, NM 88001": {
+"lat": 32.336793,
+"lng": -106.778891,
+"src": "census"
+},
+"2821 Broadway Blvd. NE, Albuquerque, NM 87107": {
+"lat": 35.112295,
+"lng": -106.63908,
+"src": "census"
+},
+"2841 N. Main St., Las Cruces, NM 88001": {
+"lat": 32.337061,
+"lng": -106.778687,
+"src": "census"
+},
+"2900 Roadrunner Pkwy., Las Cruces, NM 88011": {
+"lat": 32.356151,
+"lng": -106.755149,
+"src": "census"
+},
+"300 N. 17th Street, Ste A, Las Cruces, NM 88005": {
+"lat": 32.305577,
+"lng": -106.804005,
+"src": "census"
+},
+"3000 E. Lohman Ave., Las Cruces, NM 88011": {
+"lat": 32.31587,
+"lng": -106.743357,
+"src": "census"
+},
+"301 Gold Ave. SW, Suite 102, Albuquerque, NM 87102": {
+"lat": 35.08347,
+"lng": -106.650648,
+"src": "census"
+},
+"301 W. Amador Ave., Las Cruces, NM 88005": {
+"lat": 32.306531,
+"lng": -106.780719,
+"src": "census"
+},
+"303 Paseo Real Dr., Chaparral, NM 88081": {
+"lat": 32.023645,
+"lng": -106.41033,
+"src": "census"
+},
+"3030 W. Picacho Ave., Las Cruces, NM 88007": {
+"lat": 32.310993,
+"lng": -106.815901,
+"src": "census"
+},
+"3065 E. University Ave., Las Cruces, NM 88011": {
+"lat": 32.291003,
+"lng": -106.732176,
+"src": "census"
+},
+"3105 Del Rey Blvd., Las Cruces, NM 88012": {
+"lat": 32.35223,
+"lng": -106.765373,
+"src": "census"
+},
+"311 N. Main Street, Las Cruces, NM 88001": {
+"lat": 32.311353,
+"lng": -106.77914,
+"src": "census"
+},
+"317 Commercial St. NE, Albuquerque, NM 87102": {
+"lat": 35.085929,
+"lng": -106.645796,
+"src": "census"
+},
+"3206 Harrelson St., Las Cruces, NM 88005": {
+"lat": 32.276233,
+"lng": -106.768223,
+"src": "census"
+},
+"321 N. Main St., Hatch, NM 87937": {
+"lat": 32.66764,
+"lng": -107.151671,
+"src": "census"
+},
+"3225 Central Ave NE, Albuquerque, NM 87106": {
+"lat": 35.080511,
+"lng": -106.609186,
+"src": "census"
+},
+"325 Don Gaspar, Suite 300, Santa Fe, NM 87501": {
+"lat": 35.684116,
+"lng": -105.940363,
+"src": "census"
+},
+"3365 McNutt Rd., Sunland Park, NM 88063": {
+"lat": 31.809009,
+"lng": -106.590352,
+"src": "census"
+},
+"3400 South Espina St, Central Campus, Room 99, Las Cruces, NM 88003": {
+"lat": 32.277042,
+"lng": -106.754622,
+"src": "census"
+},
+"341 E. Alameda Street, Santa Fe, NM 87501": {
+"lat": 35.684565,
+"lng": -105.932811,
+"src": "census"
+},
+"3485 Northrise Drive, Suite 1, Las Cruces, NM 88011": {
+"lat": 32.362538,
+"lng": -106.748878,
+"src": "census"
+},
+"3485 Northrise Drive, Suite 2, Las Cruces, NM 88011": {
+"lat": 32.362538,
+"lng": -106.748878,
+"src": "census"
+},
+"350 Acosta Rd, Anthony, NM 88021": {
+"lat": 32.010213,
+"lng": -106.603007,
+"src": "census"
+},
+"3500 Sedona Hills Parkway, Las Cruces, NM 88011": {
+"lat": 32.349039,
+"lng": -106.73274,
+"src": "census"
+},
+"3501 Arrowhead Dr., Las Cruces, NM 88001": {
+"lat": 32.27787,
+"lng": -106.737368,
+"src": "osm"
+},
+"3655 Research Rd, Las Cruces, NM 88003": {
+"lat": 32.272732,
+"lng": -106.746937,
+"src": "census"
+},
+"3700 W. Picacho, Las Cruces, NM 88007": {
+"lat": 32.309153,
+"lng": -106.832749,
+"src": "census"
+},
+"3780 Foothills Rd., Ste B, Las Cruces, NM 88011": {
+"lat": 32.317676,
+"lng": -106.736928,
+"src": "census"
+},
+"3790 E. Lohman Ave., Las Cruces, NM 88011": {
+"lat": 32.31832,
+"lng": -106.736148,
+"src": "census"
+},
+"3791 E. Lohman Ave., Las Cruces, NM 88011": {
+"lat": 32.318582,
+"lng": -106.738187,
+"src": "osm"
+},
+"3830 Singer Blvd. NE, Suite 2000, Albuquerque, NM 87109": {
+"lat": 35.144635,
+"lng": -106.602702,
+"src": "census"
+},
+"3831 E. Lohman Ave., Las Cruces, NM 88011": {
+"lat": 32.318662,
+"lng": -106.736362,
+"src": "census"
+},
+"3849 Foothills Rd., Suite B, Las Cruces, NM 88011": {
+"lat": 32.315343,
+"lng": -106.738186,
+"src": "census"
+},
+"3991 E. Lohman Ave., Las Cruces, NM 88011": {
+"lat": 32.320349,
+"lng": -106.732192,
+"src": "census"
+},
+"400 N. Telshor Blvd., Ste. A, Las Cruces, NM 88001": {
+"lat": 32.321921,
+"lng": -106.750842,
+"src": "census"
+},
+"401 Avenida Ascención, Santa Teresa, NM 88008": {
+"lat": 31.8394,
+"lng": -106.6821,
+"src": "zip"
+},
+"41 Plaza la Prensa, Santa Fe, NM 87507": {
+"lat": 35.607764,
+"lng": -106.039381,
+"src": "census"
+},
+"4150 Camino Coyote Suite 1, Las Cruces, NM 88011": {
+"lat": 32.324711,
+"lng": -106.731686,
+"src": "census"
+},
+"4161 White Sage Arc, Las Cruces, NM 88011": {
+"lat": 32.3244,
+"lng": -106.6683,
+"src": "zip"
+},
+"423 Iron Ave. SW, Albuquerque, NM 87102": {
+"lat": 35.079749,
+"lng": -106.652833,
+"src": "census"
+},
+"425 S. Telshor Blvd, Ste C-103, Las Cruces, NM 88011": {
+"lat": 32.317031,
+"lng": -106.747656,
+"src": "osm"
+},
+"425 S. Telshor Blvd., Ste B, Las Cruces, NM 88011": {
+"lat": 32.314578,
+"lng": -106.74383,
+"src": "osm"
+},
+"4300 Sonoma Ranch Blvd Suite 5, Las Cruces, NM 88011": {
+"lat": 32.362941,
+"lng": -106.739371,
+"src": "census"
+},
+"4311 E. Lohman Avenue, Las Cruces, NM 88001": {
+"lat": 32.32388,
+"lng": -106.7263,
+"src": "census"
+},
+"4320 University Blvd., Laredo, TX 78041": {
+"lat": 27.577415,
+"lng": -99.43519,
+"src": "osm"
+},
+"4330 Gaines Ranch Loop, Suite 220, Austin, TX 78735": {
+"lat": 30.241569,
+"lng": -97.815707,
+"src": "census"
+},
+"4351 E. Lohman Avenue, Suite 100, Las Cruces, NM 88011": {
+"lat": 32.324046,
+"lng": -106.72596,
+"src": "census"
+},
+"4351 E. Lohman Avenue, Suites 301 and 310, Las Cruces, NM 88011": {
+"lat": 32.324046,
+"lng": -106.72596,
+"src": "census"
+},
+"4401 E. Lohman Avenue, Building 5, Suite C, Las Cruces, NM 88011": {
+"lat": 32.324302,
+"lng": -106.725431,
+"src": "census"
+},
+"4441 E. Lohman Avenue, Las Cruces, NM 88011": {
+"lat": 32.324611,
+"lng": -106.724745,
+"src": "census"
+},
+"455 Landers Rd., Anthony, NM 88021": {
+"lat": 32.013947,
+"lng": -106.60376,
+"src": "census"
+},
+"456 E. University, Las Cruces, NM 88005": {
+"lat": 32.27843,
+"lng": -106.776117,
+"src": "census"
+},
+"46 Kiva Place, Sandia Park, NM 87047": {
+"lat": 35.192805,
+"lng": -106.324759,
+"src": "census"
+},
+"4605 Research Park Circle, Suite A, Las Cruces, NM 88001": {
+"lat": 32.269111,
+"lng": -106.741107,
+"src": "census"
+},
+"4701 Avenida Divisadero, Santa Teresa, NM 88008": {
+"lat": 31.849973,
+"lng": -106.703209,
+"src": "census"
+},
+"4707 Montana Ave., Suite 100, El Paso, TX 79903": {
+"lat": 31.783813,
+"lng": -106.432766,
+"src": "census"
+},
+"4785 N. Sonoma Ranch Blvd., Las Cruces, NM 88012": {
+"lat": 32.37327,
+"lng": -106.741155,
+"src": "census"
+},
+"480 N. 17th Street, Las Cruces, NM 88005": {
+"lat": 32.306286,
+"lng": -106.804351,
+"src": "census"
+},
+"4801 Indian School Road NE, Building 2, Suite 2, Albuquerque, NM 87110": {
+"lat": 35.101981,
+"lng": -106.591702,
+"src": "census"
+},
+"4935 Ocotillo Rd., Las Cruces, NM 88011": {
+"lat": 32.272106,
+"lng": -106.723046,
+"src": "census"
+},
+"4950 Avenida Creel, Santa Teresa, NM 88008": {
+"lat": 31.8394,
+"lng": -106.6821,
+"src": "zip"
+},
+"500 Gold Ave. SW Suite 11301, Albuquerque, NM 87102": {
+"lat": 35.083654,
+"lng": -106.653073,
+"src": "census"
+},
+"500 Marquette Ave. NW, Suite 1000, Albuquerque, NM 87102": {
+"lat": 35.088281,
+"lng": -106.652219,
+"src": "census"
+},
+"500 W University Ave., El Paso, TX 79968": {
+"lat": 31.770992,
+"lng": -106.50369,
+"src": "census"
+},
+"500 W. Overland Ave., Suite 210, El Paso, TX 79901": {
+"lat": 31.755662,
+"lng": -106.492851,
+"src": "census"
+},
+"5001 Avenida Creel, Santa Teresa, NM 88008": {
+"lat": 31.8394,
+"lng": -106.6821,
+"src": "zip"
+},
+"505 S. Main St., Las Cruces, NM 88001 (Main Bank)": {
+"lat": 32.304108,
+"lng": -106.777312,
+"src": "census"
+},
+"505 S. Main St., Suite 103 (Loretto Town Center), Las Cruces, NM 88001": {
+"lat": 32.304108,
+"lng": -106.777312,
+"src": "census"
+},
+"5051 Journal Center Blvd. NE, Suite 200, Albuquerque, NM 87109": {
+"lat": 35.170276,
+"lng": -106.587703,
+"src": "census"
+},
+"509 S. Main St., Suite A, Las Cruces, NM 88001": {
+"lat": 32.304149,
+"lng": -106.777304,
+"src": "census"
+},
+"5195 Bataan Memorial West, Las Cruces, NM 88001": {
+"lat": 32.385934,
+"lng": -106.7134,
+"src": "census"
+},
+"522 E. Idaho Ave., Las Cruces, NM 88001": {
+"lat": 32.297375,
+"lng": -106.770978,
+"src": "census"
+},
+"527 Don Gaspar Ave, Santa Fe, NM 87505": {
+"lat": 35.681394,
+"lng": -105.940956,
+"src": "census"
+},
+"530 S. Melendres St., Las Cruces, NM 88005": {
+"lat": 32.30394,
+"lng": -106.783044,
+"src": "census"
+},
+"532 N. Telshor Blvd., Ste. C, Las Cruces, NM 88011": {
+"lat": 32.323625,
+"lng": -106.75203,
+"src": "census"
+},
+"555 S. Miranda St., Las Cruces, NM 88005": {
+"lat": 32.304672,
+"lng": -106.782032,
+"src": "census"
+},
+"555 S. Telshor, Ste 100A, Las Cruces, NM 88011": {
+"lat": 32.3073,
+"lng": -106.737805,
+"src": "osm"
+},
+"5605 Dona Ana Road, Las Cruces, NM 88007": {
+"lat": 32.384621,
+"lng": -106.825129,
+"src": "census"
+},
+"5657 Caminito Genio, La Jolla, CA 92037": {
+"lat": 32.817554,
+"lng": -117.251666,
+"src": "census"
+},
+"580 North Telshor Boulevard, Las Cruces, NM 88011": {
+"lat": 32.324244,
+"lng": -106.752462,
+"src": "census"
+},
+"5901 Indian School Rd. NE, Suite 205, Albuquerque, NM 87110": {
+"lat": 35.101957,
+"lng": -106.580839,
+"src": "census"
+},
+"6000 S. Main, Suite B, Mesilla Park, NM 88047": {
+"lat": 32.238613,
+"lng": -106.74342,
+"src": "census"
+},
+"6101 Montana Ave, El Paso, TX 79925": {
+"lat": 31.786501,
+"lng": -106.411827,
+"src": "census"
+},
+"6500 Jefferson St. NE, Suite 200, Albuquerque, NM 87109": {
+"lat": 35.15393,
+"lng": -106.593654,
+"src": "census"
+},
+"6605 Uptown Blvd. NE, Suite 280, Albuquerque, NM 87110": {
+"lat": 35.103796,
+"lng": -106.571198,
+"src": "census"
+},
+"680 N. Motel Blvd., Las Cruces, NM 88001": {
+"lat": 32.305047,
+"lng": -106.81411,
+"src": "osm"
+},
+"700 N. Main St., Las Cruces, NM 88001": {
+"lat": 32.315091,
+"lng": -106.779962,
+"src": "census"
+},
+"700 N. Main St., Suite 1100, Las Cruces, NM 88001": {
+"lat": 32.315091,
+"lng": -106.779962,
+"src": "census"
+},
+"700 N. Main Street, 3rd Floor, Suite 3100, Las Cruces, NM 88001": {
+"lat": 32.315091,
+"lng": -106.779962,
+"src": "census"
+},
+"700 N. Main Street, Las Cruces, NM 88001": {
+"lat": 32.315091,
+"lng": -106.779962,
+"src": "census"
+},
+"700 North Main Street, Las Cruces, NM 88001": {
+"lat": 32.315091,
+"lng": -106.779962,
+"src": "census"
+},
+"701 Spur St., Suite C, Albuquerque, NM 87102": {
+"lat": 35.242141,
+"lng": -106.721797,
+"src": "census"
+},
+"705 E. University Ave., Las Cruces, NM 88005": {
+"lat": 32.277919,
+"lng": -106.776903,
+"src": "census"
+},
+"705 S. Telshor Boulevard, Las Cruces, NM 88011": {
+"lat": 32.312725,
+"lng": -106.740426,
+"src": "osm"
+},
+"712 Main Street, Suite 2500, Houston, TX 77002": {
+"lat": 29.759099,
+"lng": -95.363301,
+"src": "census"
+},
+"715 Alta Vista St., Santa Fe, NM 87505": {
+"lat": 35.671214,
+"lng": -105.955553,
+"src": "census"
+},
+"715 E. Amador Ave., Las Cruces, NM 88001": {
+"lat": 32.308504,
+"lng": -106.771529,
+"src": "census"
+},
+"755 Prescott Anthony Dr., Chaparral, NM 88081": {
+"lat": 32.027082,
+"lng": -106.385673,
+"src": "osm"
+},
+"760 Stern Dr., Suite 139, Las Cruces, NM 88005": {
+"lat": 32.284811,
+"lng": -106.791759,
+"src": "census"
+},
+"760 Stern Drive, Las Cruces, NM 88005": {
+"lat": 32.284811,
+"lng": -106.791759,
+"src": "census"
+},
+"7601 Jefferson St NE, Ste 100, Albuquerque, NM 87109": {
+"lat": 35.166009,
+"lng": -106.591925,
+"src": "census"
+},
+"8014 Airport Rd., Santa Teresa, NM 88008": {
+"lat": 31.874322,
+"lng": -106.700706,
+"src": "census"
+},
+"810 West San Mateo Road, Santa Fe, NM 87505": {
+"lat": 35.661266,
+"lng": -105.961812,
+"src": "census"
+},
+"820 Highway 478, Anthony, NM 88021": {
+"lat": 32.007341,
+"lng": -106.608745,
+"src": "census"
+},
+"845 N. Motel Blvd., Las Cruces, NM 88007": {
+"lat": 32.306815,
+"lng": -106.8148,
+"src": "census"
+},
+"8600 San Mateo Blvd. NE, Suite 100, Albuquerque, NM 87113": {
+"lat": 35.181691,
+"lng": -106.586431,
+"src": "census"
+},
+"8990 Zia Boulevard, Las Cruces, NM 88007": {
+"lat": 32.282795,
+"lng": -106.920466,
+"src": "census"
+},
+"9050 Viscount Blvd., El Paso, TX 79925": {
+"lat": 31.773877,
+"lng": -106.370008,
+"src": "census"
+},
+"920 N. Motel Blvd., Las Cruces, NM 88007": {
+"lat": 32.309985,
+"lng": -106.815325,
+"src": "census"
+},
+"9301 Bataan Memorial W., Las Cruces, NM 88012": {
+"lat": 32.410056,
+"lng": -106.643496,
+"src": "census"
+},
+"933 San Mateo Boulevard NE, Albuquerque, NM 87108": {
+"lat": 35.086471,
+"lng": -106.586266,
+"src": "census"
+},
+"9570 Pan American Dr., El Paso, TX 79927": {
+"lat": 31.671523,
+"lng": -106.321152,
+"src": "census"
+},
+"999 W. Amador Ave. Suite F, Las Cruces, NM 88005": {
+"lat": 32.304428,
+"lng": -106.789068,
+"src": "census"
+},
+"Collective Co., 211 N Water St., Las Cruces, NM 88001": {
+"lat": 32.310357,
+"lng": -106.779937,
+"src": "census"
+},
+"DACC Sunland Park Center, 3365 McNutt Rd., Sunland Park, NM 88063": {
+"lat": 31.809009,
+"lng": -106.590352,
+"src": "census"
+},
+"DACC Workforce Center, 2345 Nevada Ave., Suite 101, Las Cruces, NM 88001": {
+"lat": 32.308639,
+"lng": -106.74984,
+"src": "census"
+},
+"Domenici Hall, Rm. 132, 1305 Frenger St., Las Cruces, NM 88003": {
+"lat": 32.281445,
+"lng": -106.751308,
+"src": "census"
+},
+"Domenici Hall, Room 132, 1305 Frenger St., Las Cruces, NM 88003": {
+"lat": 32.281445,
+"lng": -106.751308,
+"src": "census"
+},
+"Garcia Center, Rm. 224, 3024 Andrew Wall Pl., Las Cruces, NM 88003": {
+"lat": 32.2738,
+"lng": -106.7472,
+"src": "zip"
+},
+"Harold L. Runnels Federal Building, 200 E. Griggs Ave., Las Cruces, NM 88001": {
+"lat": 32.310045,
+"lng": -106.77823,
+"src": "osm"
+},
+"Hatch Village Hall, 133 N. Franklin St., Hatch, NM 87937": {
+"lat": 32.665627,
+"lng": -107.153405,
+"src": "census"
+},
+"NMSU Genesis Bldg. C, Rm. 173, 3655 Research Dr., Las Cruces, NM 88003": {
+"lat": 32.272732,
+"lng": -106.746937,
+"src": "census"
+},
+"P.O. Box 1086, Anthony, NM 88021": {
+"lat": 32.0682,
+"lng": -106.5705,
+"src": "zip"
+},
+"P.O. Box 397, Las Cruces, NM 88005": {
+"lat": 32.3161,
+"lng": -106.7991,
+"src": "zip"
+},
+"P.O. Drawer 2276, Las Cruces, NM 88004": {
+"lat": 32.4182,
+"lng": -106.8201,
+"src": "zip"
+},
+"PO Box 12007, El Paso, TX 79932": {
+"lat": 31.8623,
+"lng": -106.5932,
+"src": "zip"
+},
+"PO Box 1347, Las Cruces, NM 88004": {
+"lat": 32.4182,
+"lng": -106.8201,
+"src": "zip"
+},
+"PO Box 30001, Las Cruces, NM 88003": {
+"lat": 32.2738,
+"lng": -106.7472,
+"src": "zip"
+},
+"PO Box 370, Mesilla, NM 88046": {
+"lat": 32.268,
+"lng": -106.8059,
+"src": "zip"
+},
+"PO Box 389, Mesilla Park, NM 88047": {
+"lat": 32.21,
+"lng": -106.7147,
+"src": "zip"
+},
+"PO Box 904, Las Cruces, NM 88004": {
+"lat": 32.4182,
+"lng": -106.8201,
+"src": "zip"
+},
+"SCORE Santa Fe & Northern NM Chapter (serves Doña Ana County), 3900 Paseo del Sol, Suite A320, Santa Fe, NM 87507": {
+"lat": 35.635786,
+"lng": -106.044091,
+"src": "census"
+},
+"Sunland Park Multi-Generational Center, 4700 McNutt Rd., Sunland Park, NM 88008": {
+"lat": 31.830162,
+"lng": -106.611324,
+"src": "census"
+},
+"c/o Arrowhead Center, 3655 Research Rd., Las Cruces, NM 88003": {
+"lat": 32.272732,
+"lng": -106.746937,
+"src": "census"
+}
+}

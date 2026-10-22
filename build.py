@@ -12,7 +12,8 @@ Steps run by "all" (each is a script in scripts/ and works from the repo root):
                                                              + artifact cleanups -> data/widget_data_from_pdf.json)
   4 apply_locations.py                                      (multi-location research in data/multiloc -> data/widget_data_en.json)
   5 build_bilingual.py                                      (attach Spanish -> data/widget_data.json)
-  6 build_widget.py                                         (-> dist/)
+  6 geocode.py                                              (map coordinates for every address; cached in data/geocodes.json)
+  7 build_widget.py                                         (-> dist/)
 """
 import argparse, os, subprocess, sys
 
@@ -41,4 +42,5 @@ if a.step in ('all', 'data'):
     run('rebuild_from_pdf.py')
     run('apply_locations.py')
     run('build_bilingual.py')
+    run('geocode.py')
 run('build_widget.py')

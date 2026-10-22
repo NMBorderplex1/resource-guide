@@ -84,6 +84,14 @@
 .mv-more:focus-visible{ outline:2px solid var(--burg-text); outline-offset:2px; }
 .mv-widget .mv-empty p{ margin:0 0 12px; }
 .mv-empty-actions{ display:flex; gap:8px; justify-content:center; flex-wrap:wrap; }
+.mv-geo{ display:flex; gap:7px; align-items:center; flex-wrap:wrap; padding:1px; }
+.mv-geo .mv-near-label span{ display:inline; }
+.mv-zip{ display:inline-flex; gap:6px; align-items:center; margin:0; }
+.mv-zip input{ width:86px; padding:4px 10px; border-radius:999px; border:1.5px solid var(--line); background:var(--panel); color:var(--ink); font:500 11.5px var(--font); }
+.mv-zip input:focus{ outline:2px solid var(--burg-text); outline-offset:1px; }
+.mv-chip:disabled{ opacity:.6; cursor:wait; }
+.mv-widget .mv-near-note.mv-err{ border-left-color:#b3261e; }
+.mv-dist{ display:inline-flex; align-items:center; margin:7px 6px 0 0; font:700 10.5px var(--font); color:#251c0a; background:var(--gold); border-radius:999px; padding:3px 9px; }
 
 .mv-meta-row{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin:0 0 5px; font-size:12px; color:var(--gray); }
 .mv-meta-row strong{ color:var(--ink); font-weight:700; font-variant-numeric:tabular-nums; }
@@ -206,6 +214,15 @@
       </div>
       <div class="mv-pills" id="mv-pills" role="group"></div>
       <div class="mv-near" id="mv-near" role="group"></div>
+      <div class="mv-geo" id="mv-geo" role="group">
+        <span class="mv-near-label"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.6"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span id="mv-geo-label"></span></span>
+        <button class="mv-chip" type="button" id="mv-geo-btn" aria-pressed="false"></button>
+        <form class="mv-zip" id="mv-zip-form" novalidate>
+          <input id="mv-zip" type="text" inputmode="numeric" maxlength="5" autocomplete="postal-code">
+          <button class="mv-chip" type="submit" id="mv-zip-go"></button>
+        </form>
+        <button class="mv-chip" type="button" id="mv-geo-clear" hidden></button>
+      </div>
     </div>
 
     <div class="mv-meta-row">
@@ -213,6 +230,7 @@
       <span id="mv-scope"></span>
     </div>
     <p class="mv-near-note" id="mv-near-note" hidden></p>
+    <p class="mv-near-note" id="mv-geo-note" role="status" hidden></p>
 
     <div class="mv-results" id="mv-results" role="list" tabindex="0"></div>
 
@@ -266,6 +284,7 @@ const CONFIG = Object.assign({
 const DATA = __DATA_JSON__;
 const BANNERS = ['__B1__','__B2__','__B3__','__B4__','__B5__'].map(b => 'data:image/jpeg;base64,' + b);
 const SLUGS = ['general-business','local-directory','financing','workforce','incentives'];
+const ZIPS = __ZIPS_JSON__;
 /* banner photo and deep-link name follow the section's English title, not its position, so the print guide can reorder sections */
 const SEC_KEY = {'General Business Assistance':0, 'Local Business Directory':1, 'Financing & Capital':2, 'Workforce':3, 'Incentives':4};
 const keyOf = h1 => (h1.title in SEC_KEY ? SEC_KEY[h1.title] : 0);
@@ -283,7 +302,13 @@ const STR = {
     locs:n=>`${n} locations`, cta:'Let MVEDA run a customized incentives analysis for your project.',
     ctaNote:'MVEDA works with companies that create economic-base jobs, including, but not limited to, manufacturing, logistics, aerospace, technology, energy and agribusiness.',
     ctaBtn:'Talk to MVEDA',
-    pdf:'Download the PDF guide', maps:'Open in Maps', produced:'Produced by'
+    pdf:'Download the PDF guide', maps:'Open in Maps', produced:'Produced by',
+    geoLabel:'Closest to you', geoBtn:'Use my location', zipPlaceholder:'ZIP code', zipGo:'Find', geoClear:'Clear',
+    geoNoteGps:'Sorted by straight-line distance from your location, which stays in your browser and isn’t sent anywhere. Listings without a street address aren’t shown.',
+    geoNoteZip:z=>`Sorted by straight-line distance from ZIP code ${z}. Listings without a street address aren’t shown.`,
+    geoError:'We couldn’t get your location (it may be blocked or unavailable). Try entering your ZIP code instead.',
+    zipError:'Enter a 5-digit ZIP code in or near Doña Ana County.',
+    closest:'Closest to you', showMore:'Show more', mi:'mi'
   },
   es: {
     title:'Guía de Recursos Empresariales — Edición Interactiva',
@@ -296,7 +321,13 @@ const STR = {
     locs:n=>`${n} ubicaciones`, cta:'Permita que MVEDA realice un análisis de incentivos personalizado para su proyecto.',
     ctaNote:'MVEDA trabaja con empresas que generan empleos de base económica, incluidos, entre otros, manufactura, logística, aeroespacial, tecnología, energía y agronegocios.',
     ctaBtn:'Hable con MVEDA',
-    pdf:'Descargar la guía en PDF', maps:'Abrir en Mapas', produced:'Elaborado por'
+    pdf:'Descargar la guía en PDF', maps:'Abrir en Mapas', produced:'Elaborado por',
+    geoLabel:'Más cerca de usted', geoBtn:'Usar mi ubicación', zipPlaceholder:'Código postal', zipGo:'Buscar', geoClear:'Quitar',
+    geoNoteGps:'Ordenado por distancia en línea recta desde su ubicación, que permanece en su navegador y no se envía a ningún lugar. No se muestran los registros sin dirección.',
+    geoNoteZip:z=>`Ordenado por distancia en línea recta desde el código postal ${z}. No se muestran los registros sin dirección.`,
+    geoError:'No pudimos obtener su ubicación (puede estar bloqueada o no disponible). Intente escribir su código postal.',
+    zipError:'Escriba un código postal de 5 dígitos en o cerca del condado de Doña Ana.',
+    closest:'Más cerca de usted', showMore:'Ver más', mi:'mi'
   }
 };
 
@@ -307,7 +338,7 @@ const $ = id => document.getElementById(id);
 const results = $('mv-results'), pillsEl = $('mv-pills'), nearEl = $('mv-near'), qEl = $('mv-q');
 const reduced = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-const state = { lang:'en', sec:'all', near:'', q:'' };
+const state = { lang:'en', sec:'all', near:'', q:'', geo:null, geoMsg:'', geoLimit:24 };
 
 /* ---- helpers ---- */
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -345,7 +376,22 @@ function entryCities(e){
   addrs.forEach(a => citiesOf(a).forEach(c => { const k = COUNTY.find(x => x.toLowerCase() === c.toLowerCase()); if(k) set.add(k); }));
   return set;
 }
-DATA.forEach(h1 => h1.subsections.forEach(h2 => h2.entries.forEach(e => { e._cities = entryCities(e); })));
+DATA.forEach(h1 => h1.subsections.forEach(h2 => h2.entries.forEach(e => {
+  e._cities = entryCities(e);
+  e._h2 = h2;
+  e._pts = (e.locations && e.locations.length ? e.locations : [e]).map(x => x.geo).filter(Boolean);
+})));
+function distMi(a, b){
+  const R = 3958.8, r = Math.PI / 180, dLat = (b[0] - a[0]) * r, dLng = (b[1] - a[1]) * r;
+  const x = Math.sin(dLat / 2) ** 2 + Math.cos(a[0] * r) * Math.cos(b[0] * r) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(x));
+}
+function fmtMi(d, approx){ return (approx && d >= 0.1 ? '~' : '') + (d < 0.1 ? '<0.1' : d < 10 ? d.toFixed(1) : String(Math.round(d))) + ' ' + T().mi; }
+function nearestOf(e){
+  let best = null;
+  e._pts.forEach(p => { const d = distMi(state.geo.pt, p); if(!best || d < best.d) best = {d, approx:p[2]}; });
+  return best;
+}
 const cityCounts = {};
 DATA.forEach(h1 => h1.subsections.forEach(h2 => h2.entries.forEach(e => e._cities.forEach(c => cityCounts[c] = (cityCounts[c] || 0) + 1))));
 const NEAR = COUNTY.filter(c => cityCounts[c] >= 2).sort((a, b) => a === 'Las Cruces' ? -1 : b === 'Las Cruces' ? 1 : cityCounts[b] - cityCounts[a]);
@@ -361,7 +407,7 @@ function textMatch(e, q){
   return hay.includes(q);
 }
 const nearMatch = e => !state.near || e._cities.has(state.near);
-const passes = e => textMatch(e, state.q.trim().toLowerCase()) && nearMatch(e);
+const passes = e => textMatch(e, state.q.trim().toLowerCase()) && nearMatch(e) && (!state.geo || e._pts.length > 0);
 
 /* ---- URL hash state (deep links) ---- */
 function readHash(){
@@ -371,6 +417,7 @@ function readHash(){
   if(p.has('sec')){ const i = DATA.findIndex(h => slugOf(h) === p.get('sec')); state.sec = i >= 0 ? String(i) : 'all'; touched = true; }
   if(p.has('near')){ const c = COUNTY.find(x => x.toLowerCase() === p.get('near').toLowerCase()); state.near = c || ''; touched = true; }
   if(p.has('q')){ state.q = p.get('q') || ''; touched = true; }
+  if(p.has('zip')){ const z = p.get('zip'); if(/^\d{5}$/.test(z) && ZIPS[z]){ state.geo = {kind:'zip', zip:z, pt:ZIPS[z].slice(0, 2)}; state.near = ''; $('mv-zip').value = z; touched = true; } }
   return touched;
 }
 function writeHash(){
@@ -379,6 +426,7 @@ function writeHash(){
   if(state.sec !== 'all') p.set('sec', slugOf(DATA[+state.sec]));
   if(state.near) p.set('near', state.near.toLowerCase());
   if(state.q.trim()) p.set('q', state.q.trim());
+  if(state.geo && state.geo.kind === 'zip') p.set('zip', state.geo.zip);
   const h = p.toString();
   try { history.replaceState(null, '', h ? '#' + h : location.pathname + location.search); } catch(_) {}
 }
@@ -391,6 +439,9 @@ function renderStatic(){
   qEl.placeholder = t.search;
   $('mv-count-label').textContent = t.resources;
   $('mv-cta-text').textContent = t.cta;
+  $('mv-geo-label').textContent = t.geoLabel; $('mv-geo-btn').textContent = t.geoBtn;
+  $('mv-zip').placeholder = t.zipPlaceholder; $('mv-zip').setAttribute('aria-label', t.zipPlaceholder);
+  $('mv-zip-go').textContent = t.zipGo; $('mv-geo-clear').textContent = t.geoClear;
   $('mv-produced').textContent = t.produced;
   const fp = $('mv-footer-phone'); fp.textContent = CONFIG.phone; fp.href = telHref(CONFIG.phone);
   $('mv-cta-note').textContent = t.ctaNote;
@@ -417,24 +468,29 @@ function renderPills(){
 function renderNear(){
   const t = T();
   nearEl.innerHTML = `<span class="mv-near-label">${iconPin}${esc(t.nearLabel)}</span>`
-    + `<button class="mv-chip" type="button" data-near="" aria-pressed="${!state.near}">${esc(t.nearAll)}</button>`
+    + `<button class="mv-chip" type="button" data-near="" aria-pressed="${!state.near && !state.geo}">${esc(t.nearAll)}</button>`
     + NEAR.map(c => `<button class="mv-chip" type="button" data-near="${esc(c)}" aria-pressed="${state.near === c}">${esc(c)}</button>`).join('')
     + (MORE.length ? `<select class="mv-more${MORE.includes(state.near) ? ' mv-on' : ''}" id="mv-more" aria-label="${esc(t.more)}"><option value="">${esc(t.more)}</option>${MORE.map(c => `<option value="${esc(c)}"${state.near === c ? ' selected' : ''}>${esc(c)}</option>`).join('')}</select>` : '');
-  nearEl.querySelectorAll('.mv-chip').forEach(b => b.addEventListener('click', () => { state.near = b.dataset.near; update(true); }));
+  nearEl.querySelectorAll('.mv-chip').forEach(b => b.addEventListener('click', () => setNear(b.dataset.near)));
   const moreSel = $('mv-more');
-  if(moreSel) moreSel.addEventListener('change', () => { state.near = moreSel.value; update(true); });
+  if(moreSel) moreSel.addEventListener('change', () => setNear(moreSel.value));
   const note = $('mv-near-note');
   note.hidden = !state.near;
   if(state.near) note.textContent = t.nearNote(state.near);
 }
 
-function renderCard(e, reveal, kickGroup){
+function renderCard(e, reveal, kickGroup, geoKick){
   const t = T();
   const facts = [];
   const locs = (e.locations && e.locations.length > 1) ? e.locations.slice() : null;
-  let badge = '';
+  let badge = '', distBadge = '';
+  if(state.geo && e._pts.length){ const nb = nearestOf(e); distBadge = `<span class="mv-dist">${esc(fmtMi(nb.d, nb.approx))}</span>`; }
   if(locs){
-    if(state.near){
+    if(state.geo){
+      locs.forEach(l => { l._dm = l.geo ? distMi(state.geo.pt, l.geo) : null; });
+      locs.sort((a, b) => ((a._dm == null) - (b._dm == null)) || (a._dm - b._dm));
+      locs.forEach((l, i) => { l._m = i === 0 && l._dm != null; });
+    } else if(state.near){
       const has = l => citiesOf(l.address).some(c => c.toLowerCase() === state.near.toLowerCase());
       locs.sort((a, b) => (has(b) ? 1 : 0) - (has(a) ? 1 : 0));
       locs.forEach(l => l._m = has(l));
@@ -443,7 +499,7 @@ function renderCard(e, reveal, kickGroup){
       const label = isEs() ? (l.label_es || l.label) : l.label;
       const note = isEs() ? (l.note_es || l.note) : l.note;
       const ph = l.phone ? (telHref(l.phone) ? `<a class="mv-plain" href="${telHref(l.phone)}">${esc(l.phone)}</a>` : esc(l.phone)) : '';
-      facts.push(`<div class="mv-loc${l._m ? ' mv-loc-match' : ''}">${label ? `<div class="mv-loc-label">${esc(label)}</div>` : ''}`
+      facts.push(`<div class="mv-loc${l._m ? ' mv-loc-match' : ''}">${(label || l._dm != null) ? `<div class="mv-loc-label">${esc([label, (state.geo && l._dm != null) ? fmtMi(l._dm, l.geo[2]) : ''].filter(Boolean).join(' · '))}</div>` : ''}`
         + (l.address ? `<div class="mv-fact">${iconPin}<a class="mv-plain" href="${mapsUrl(l.address)}" target="_blank" rel="noopener" title="${esc(t.maps)}">${esc(l.address)}</a></div>` : '')
         + (ph ? `<div class="mv-fact">${iconPhone}<span>${ph}</span></div>` : '')
         + (note ? `<div class="mv-loc-note">${esc(note)}</div>` : '') + `</div>`);
@@ -455,11 +511,11 @@ function renderCard(e, reveal, kickGroup){
     if(e.phone) facts.push(`<div class="mv-fact">${iconPhone}<span>${telHref(e.phone) ? `<a class="mv-plain" href="${telHref(e.phone)}">${esc(e.phone)}</a>` : esc(e.phone)}</span></div>`);
   }
   if(e.url) facts.push(`<div class="mv-fact">${iconLink}<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.url.replace(/^https?:\/\//, ''))}</a></div>`);
-  const kick = dKick(e, 'category') || (kickGroup ? dKick(e, 'group') : ''), desc = dDesc(e);
+  const kick = dKick(e, 'category') || (kickGroup ? dKick(e, 'group') : '') || (geoKick ? h2Title(e._h2) : ''), desc = dDesc(e);
   return `<div class="mv-card${reveal ? ' mv-reveal' : ''}" role="listitem" tabindex="0" aria-expanded="false">
     <div class="mv-card-top"><div>
       ${kick ? `<p class="mv-kicker">${esc(kick)}</p>` : ''}
-      <p class="mv-card-name">${esc(dName(e))}</p>${badge}
+      <p class="mv-card-name">${esc(dName(e))}</p>${distBadge}${badge}
     </div>${chev}</div>
     <div class="mv-card-body"><div class="mv-card-body-inner">
       ${desc ? `<p class="mv-desc">${esc(desc)}</p>` : ''}
@@ -488,6 +544,39 @@ function updateParallax(){
 }
 results.addEventListener('scroll', () => { if(!reduced && !ticking){ ticking = true; requestAnimationFrame(updateParallax); } }, {passive:true});
 
+function setNear(c){ state.near = c; state.geo = null; state.geoMsg = ''; update(true); }
+function setGeo(geo){ state.geo = geo; state.geoMsg = ''; state.near = ''; state.geoLimit = 24; update(true); }
+
+function geoHtml(reveal){
+  const t = T(), seen = new Set(), list = [];
+  DATA.forEach((h1, h1i) => {
+    if(state.sec !== 'all' && state.sec !== String(h1i)) return;
+    h1.subsections.forEach(h2 => h2.entries.forEach(e => {
+      if(!passes(e)) return;
+      const k = e.name + '|' + (e.address || (e.locations && e.locations[0] && e.locations[0].address) || '');
+      if(seen.has(k)) return;
+      seen.add(k);
+      list.push({e, d: nearestOf(e).d});
+    }));
+  });
+  list.sort((a, b) => a.d - b.d);
+  const part = list.slice(0, state.geoLimit);
+  let html = `<section class="mv-sec"><h4 class="mv-sub-head">${esc(t.closest)}</h4><div class="mv-grid">`;
+  part.forEach(x => { html += renderCard(x.e, reveal, true, true); });
+  html += '</div>';
+  if(list.length > part.length) html += `<div class="mv-empty-actions"><button class="mv-chip" type="button" id="mv-more-geo">${esc(t.showMore)} (${list.length - part.length})</button></div>`;
+  return {html: list.length ? html + '</section>' : '', shown: list.length};
+}
+
+function renderGeo(){
+  const t = T(), note = $('mv-geo-note');
+  $('mv-geo-btn').setAttribute('aria-pressed', String(!!state.geo && state.geo.kind === 'gps'));
+  $('mv-geo-clear').hidden = !state.geo;
+  if(state.geoMsg){ note.hidden = false; note.classList.add('mv-err'); note.textContent = t[state.geoMsg]; }
+  else if(state.geo){ note.hidden = false; note.classList.remove('mv-err'); note.textContent = state.geo.kind === 'zip' ? t.geoNoteZip(state.geo.zip) : t.geoNoteGps; }
+  else note.hidden = true;
+}
+
 function emptyHtml(){
   const t = T();
   const inNear = state.near ? DATA.reduce((n, h1) => n + h1.subsections.reduce((m, h2) => m + h2.entries.filter(e => e._cities.has(state.near)).length, 0), 0) : 1;
@@ -505,7 +594,8 @@ function renderResults(animate){
   const reveal = animate && !reduced && !!revealObserver;
   parVisible.clear();
   let shown = 0, html = '';
-  DATA.forEach((h1, h1i) => {
+  if(state.geo){ const g = geoHtml(reveal); html = g.html; shown = g.shown; }
+  else DATA.forEach((h1, h1i) => {
     if(state.sec !== 'all' && state.sec !== String(h1i)) return;
     const subs = [];
     h1.subsections.forEach(h2 => { const f = h2.entries.filter(passes); if(f.length) subs.push({h2, f}); });
@@ -535,7 +625,9 @@ function renderResults(animate){
     html += `</section>`;
   });
   results.innerHTML = shown ? html : emptyHtml();
-  results.querySelectorAll('.mv-empty .mv-chip').forEach(b => b.addEventListener('click', () => { state.near = b.dataset.near; update(true); }));
+  results.querySelectorAll('.mv-empty .mv-chip').forEach(b => b.addEventListener('click', () => setNear(b.dataset.near)));
+  const moreGeo = $('mv-more-geo');
+  if(moreGeo) moreGeo.addEventListener('click', () => { state.geoLimit += 24; const y = results.scrollTop; renderResults(false); results.scrollTop = y; });
   $('mv-count').textContent = shown;
   $('mv-scope').textContent = state.sec === 'all' ? t.allCats : h1Title(DATA[+state.sec]);
 
@@ -550,11 +642,27 @@ function renderResults(animate){
 }
 
 function update(animate){
-  renderStatic(); renderPills(); renderNear(); renderResults(animate); writeHash();
+  renderStatic(); renderPills(); renderNear(); renderGeo(); renderResults(animate); writeHash();
   if(animate) results.scrollTop = 0;
 }
 
 root.querySelectorAll('.mv-lang button').forEach(b => b.addEventListener('click', () => { state.lang = b.dataset.lang; update(false); }));
+$('mv-geo-btn').addEventListener('click', () => {
+  if(state.geo && state.geo.kind === 'gps'){ setGeo(null); return; }
+  if(!navigator.geolocation){ state.geoMsg = 'geoError'; update(false); return; }
+  const btn = $('mv-geo-btn'); btn.disabled = true;
+  navigator.geolocation.getCurrentPosition(
+    pos => { btn.disabled = false; setGeo({kind:'gps', pt:[pos.coords.latitude, pos.coords.longitude]}); },
+    () => { btn.disabled = false; state.geoMsg = 'geoError'; update(false); },
+    {timeout: 12000, maximumAge: 300000});
+});
+$('mv-zip-form').addEventListener('submit', ev => {
+  ev.preventDefault();
+  const z = $('mv-zip').value.trim();
+  if(/^\d{5}$/.test(z) && ZIPS[z]) setGeo({kind:'zip', zip:z, pt:ZIPS[z].slice(0, 2)});
+  else { state.geoMsg = 'zipError'; update(false); }
+});
+$('mv-geo-clear').addEventListener('click', () => { $('mv-zip').value = ''; setGeo(null); });
 let deb;
 qEl.addEventListener('input', () => { clearTimeout(deb); deb = setTimeout(() => { state.q = qEl.value; renderPills(); renderResults(false); writeHash(); }, 120); });
 window.addEventListener('hashchange', () => {

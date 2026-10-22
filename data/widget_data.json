@@ -17,7 +17,12 @@
        "name": "Registro de Negocios",
        "desc": "Emite registros y licencias para cualquier negocio que opere dentro de los límites de la ciudad.",
        "group": "CIUDAD DE LAS CRUCES"
-      }
+      },
+      "geo": [
+       32.315091,
+       -106.779962,
+       0
+      ]
      },
      {
       "name": "Permits & Inspections",
@@ -31,7 +36,12 @@
        "name": "Permisos e Inspecciones",
        "desc": "Permisos de construcción, revisión de planos e inspecciones de obra, incluida la revisión del código de incendios para proyectos comerciales.",
        "group": "CIUDAD DE LAS CRUCES"
-      }
+      },
+      "geo": [
+       32.315091,
+       -106.779962,
+       0
+      ]
      },
      {
       "name": "Planning & Zoning",
@@ -45,7 +55,12 @@
        "name": "Planificación y Zonificación",
        "desc": "Zonificación, uso de suelo, subdivisiones y revisión de planos de sitio para proyectos en la ciudad.",
        "group": "CIUDAD DE LAS CRUCES"
-      }
+      },
+      "geo": [
+       32.315091,
+       -106.779962,
+       0
+      ]
      },
      {
       "name": "Las Cruces Utilities",
@@ -62,7 +77,12 @@
         "phone": "(575) 541-2111",
         "note": "Mon–Fri 8 a.m.–5 p.m.",
         "note_es": "lun–vie 8 a.m.–5 p.m.",
-        "label_es": "Oficina principal de Servicios Públicos"
+        "label_es": "Oficina principal de Servicios Públicos",
+        "geo": [
+         32.305047,
+         -106.81411,
+         0
+        ]
        },
        {
         "label": "City Hall Customer Central",
@@ -70,14 +90,24 @@
         "phone": "(575) 541-2111",
         "note": "Mon–Fri 8 a.m.–5 p.m.",
         "note_es": "lun–vie 8 a.m.–5 p.m.",
-        "label_es": "Atención al Cliente – Ayuntamiento"
+        "label_es": "Atención al Cliente – Ayuntamiento",
+        "geo": [
+         32.315091,
+         -106.779962,
+         0
+        ]
        },
        {
         "label": "East Mesa",
         "address": "5195 Bataan Memorial West, Las Cruces, NM 88001",
         "phone": "(575) 541-2111",
         "note": "Mon–Fri 9 a.m.–6 p.m.",
-        "note_es": "lun–vie 9 a.m.–6 p.m."
+        "note_es": "lun–vie 9 a.m.–6 p.m.",
+        "geo": [
+         32.385934,
+         -106.7134,
+         0
+        ]
        }
       ],
       "es": {
@@ -98,7 +128,12 @@
        "name": "Desarrollo Comunitario",
        "desc": "Licencias, permisos y servicios de planificación para negocios en Sunland Park.",
        "group": "CIUDAD DE SUNLAND PARK"
-      }
+      },
+      "geo": [
+       31.795982,
+       -106.555062,
+       0
+      ]
      },
      {
       "name": "Camino Real Regional Utility Authority",
@@ -112,7 +147,12 @@
        "name": "Camino Real Regional Utility Authority",
        "desc": "Servicio de agua y aguas residuales para Sunland Park y Santa Teresa.",
        "group": "CIUDAD DE SUNLAND PARK"
-      }
+      },
+      "geo": [
+       31.830162,
+       -106.611324,
+       0
+      ]
      },
      {
       "name": "Community Development",
@@ -126,7 +166,12 @@
        "name": "Desarrollo Comunitario",
        "desc": "Licencias y permisos para negocios y planificación del distrito histórico de Mesilla.",
        "group": "PUEBLO DE MESILLA"
-      }
+      },
+      "geo": [
+       32.276123,
+       -106.794856,
+       0
+      ]
      },
      {
       "name": "Administrative Offices",
@@ -140,7 +185,12 @@
        "name": "Oficinas Administrativas",
        "desc": "Licencias y permisos para negocios, además del servicio de agua, aguas residuales y recolección de residuos, nuevas conexiones y extensiones de línea.",
        "group": "VILLA DE HATCH"
-      }
+      },
+      "geo": [
+       32.665627,
+       -107.153405,
+       0
+      ]
      },
      {
       "name": "City Hall",
@@ -154,7 +204,12 @@
        "name": "Ayuntamiento",
        "desc": "Licencias y permisos para negocios en la Ciudad de Anthony.",
        "group": "CIUDAD DE ANTHONY"
-      }
+      },
+      "geo": [
+       32.007341,
+       -106.608745,
+       0
+      ]
      },
      {
       "name": "Anthony Water & Sanitation District",
@@ -168,7 +223,12 @@
        "name": "Anthony Water & Sanitation District",
        "desc": "Servicio de agua y saneamiento para el área de Anthony.",
        "group": "CIUDAD DE ANTHONY"
-      }
+      },
+      "geo": [
+       32.012273,
+       -106.602748,
+       0
+      ]
      },
      {
       "name": "Business Registration",
@@ -182,7 +242,12 @@
        "name": "Registro de Negocios",
        "desc": "Registro de negocios en las zonas no incorporadas del Condado de Doña Ana.",
        "group": "CONDADO DE DOÑA ANA"
-      }
+      },
+      "geo": [
+       32.306815,
+       -106.8148,
+       0
+      ]
      },
      {
       "name": "Planning & Zoning",
@@ -196,7 +261,12 @@
        "name": "Planificación y Zonificación",
        "desc": "Zonificación, subdivisiones y permisos de construcción para las zonas no incorporadas del condado.",
        "group": "CONDADO DE DOÑA ANA"
-      }
+      },
+      "geo": [
+       32.306815,
+       -106.8148,
+       0
+      ]
      },
      {
       "name": "Doña Ana County Utilities",
@@ -210,7 +280,12 @@
        "name": "Doña Ana County Utilities",
        "desc": "Servicios de agua y aguas residuales para las áreas no incorporadas del condado.",
        "group": "CONDADO DE DOÑA ANA"
-      }
+      },
+      "geo": [
+       32.306815,
+       -106.8148,
+       0
+      ]
      },
      {
       "name": "Secretary of State – Business Services",
@@ -224,7 +299,12 @@
        "name": "Secretaría de Estado – Servicios Empresariales",
        "desc": "Registra corporaciones, LLC y otras entidades comerciales y mantiene sus registros al día.",
        "group": "ESTADO DE NUEVO MÉXICO"
-      }
+      },
+      "geo": [
+       35.684116,
+       -105.940363,
+       0
+      ]
      },
      {
       "name": "Taxation & Revenue Department",
@@ -238,7 +318,12 @@
        "name": "Departamento de Impuestos e Ingresos",
        "desc": "Obtenga su número de identificación fiscal estatal y presente el impuesto sobre ingresos brutos (GRT), retenciones y otros impuestos empresariales.",
        "group": "ESTADO DE NUEVO MÉXICO"
-      }
+      },
+      "geo": [
+       32.284636,
+       -106.762349,
+       0
+      ]
      },
      {
       "name": "Regulation & Licensing Department",
@@ -252,7 +337,12 @@
        "name": "Departamento de Regulación y Licencias",
        "desc": "Emite licencias profesionales y ocupacionales para decenas de oficios y profesiones.",
        "group": "ESTADO DE NUEVO MÉXICO"
-      }
+      },
+      "geo": [
+       35.659636,
+       -105.982825,
+       0
+      ]
      },
      {
       "name": "Construction Industries Division",
@@ -266,7 +356,12 @@
        "name": "División de Industrias de la Construcción",
        "desc": "Otorga licencias a contratistas y emite permisos de construcción, electricidad, plomería y mecánica donde no existe un departamento local de construcción.",
        "group": "ESTADO DE NUEVO MÉXICO"
-      }
+      },
+      "geo": [
+       32.304108,
+       -106.777312,
+       0
+      ]
      },
      {
       "name": "Environment Department – Environmental Health",
@@ -280,7 +375,12 @@
        "name": "Departamento del Medio Ambiente – Salud Ambiental",
        "desc": "Otorga permisos e inspecciona establecimientos de alimentos, unidades móviles de comida y sistemas sépticos. · lascruces.gov/2220/Apply-for-a-Permit · lascruces.gov/property/remodeling-and-construction · donaana.gov/about_us/services/maps.php · assessor.donaanacounty.org",
        "group": "ESTADO DE NUEVO MÉXICO"
-      }
+      },
+      "geo": [
+       32.30968,
+       -106.751454,
+       0
+      ]
      }
     ],
     "title_es": "LICENCIAS, PERMISOS Y REGISTRO"
@@ -299,7 +399,12 @@
       "es": {
        "name": "Mesilla Valley Economic Development Alliance (MVEDA)",
        "desc": "La organización privada sin fines de lucro de desarrollo económico del Condado de Doña Ana, que ayuda a las empresas a establecerse y crecer en el NMBorderplex."
-      }
+      },
+      "geo": [
+       32.301941,
+       -106.742689,
+       0
+      ]
      },
      {
       "name": "City of Las Cruces Economic Development Department",
@@ -312,7 +417,12 @@
       "es": {
        "name": "City of Las Cruces Economic Development Department",
        "desc": "Consultas individuales gratuitas, en inglés y español, sobre permisos, zonificación, incentivos, fuerza laboral y financiamiento para negocios nuevos y en expansión."
-      }
+      },
+      "geo": [
+       32.315091,
+       -106.779962,
+       0
+      ]
      },
      {
       "name": "Doña Ana County Economic Development Department",
@@ -325,7 +435,12 @@
       "es": {
        "name": "Doña Ana County Economic Development Department",
        "desc": "Atrae industria, apoya a emprendedores y ayuda a los negocios existentes a permanecer y crecer en el condado."
-      }
+      },
+      "geo": [
+       32.306815,
+       -106.8148,
+       0
+      ]
      },
      {
       "name": "City of Sunland Park Economic Development",
@@ -338,7 +453,12 @@
       "es": {
        "name": "City of Sunland Park Economic Development",
        "desc": "Apoya la atracción y expansión de negocios en Sunland Park y la región fronteriza de Santa Teresa."
-      }
+      },
+      "geo": [
+       31.795982,
+       -106.555062,
+       0
+      ]
      },
      {
       "name": "New Mexico Economic Development Department (EDD)",
@@ -351,7 +471,12 @@
       "es": {
        "name": "New Mexico Economic Development Department (EDD)",
        "desc": "La principal agencia estatal de desarrollo económico, que administra LEDA, JTIP y programas de financiamiento empresarial y creación de empleos."
-      }
+      },
+      "geo": [
+       35.674101,
+       -105.953849,
+       0
+      ]
      },
      {
       "name": "New Mexico Partnership",
@@ -364,7 +489,12 @@
       "es": {
        "name": "New Mexico Partnership",
        "desc": "La organización público-privada designada por el estado para empresas que consideran establecerse en Nuevo México."
-      }
+      },
+      "geo": [
+       35.088281,
+       -106.652219,
+       0
+      ]
      },
      {
       "name": "The Borderplex Alliance",
@@ -377,7 +507,12 @@
       "es": {
        "name": "The Borderplex Alliance",
        "desc": "Organización liderada por el sector privado que atrae empleos e inversión y promueve el crecimiento en todo el Borderplex binacional."
-      }
+      },
+      "geo": [
+       31.759102,
+       -106.488691,
+       0
+      ]
      },
      {
       "name": "Border Industrial Association",
@@ -390,7 +525,12 @@
       "es": {
        "name": "Border Industrial Association",
        "desc": "Promueve un entorno empresarial sólido para fabricantes y operaciones de valor agregado en la región fronteriza de Santa Teresa."
-      }
+      },
+      "geo": [
+       31.846483,
+       -106.628998,
+       0
+      ]
      },
      {
       "name": "Spaceport America",
@@ -403,7 +543,12 @@
       "es": {
        "name": "Spaceport America",
        "desc": "Puerto espacial comercial propiedad del estado, que apoya a empresas aeroespaciales y a sus proveedores en el sur de Nuevo México."
-      }
+      },
+      "geo": [
+       32.269111,
+       -106.741107,
+       0
+      ]
      },
      {
       "name": "Downtown Las Cruces Partnership",
@@ -416,7 +561,12 @@
       "es": {
        "name": "Downtown Las Cruces Partnership",
        "desc": "Trabaja con dueños de negocios y propiedades del centro y con la Ciudad para planear y promover un centro de Las Cruces lleno de vida."
-      }
+      },
+      "geo": [
+       32.310357,
+       -106.779937,
+       0
+      ]
      },
      {
       "name": "New Mexico MainStreet",
@@ -429,7 +579,12 @@
       "es": {
        "name": "New Mexico MainStreet",
        "desc": "Programa de EDD para revitalizar los centros urbanos, que ofrece desarrollo de capacidades, diseño y apoyo de infraestructura a los distritos MainStreet."
-      }
+      },
+      "geo": [
+       35.674101,
+       -105.953849,
+       0
+      ]
      },
      {
       "name": "Greater Las Cruces Chamber of Commerce",
@@ -442,7 +597,12 @@
       "es": {
        "name": "Greater Las Cruces Chamber of Commerce",
        "desc": "Principal promotor y punto de encuentro para los negocios de Las Cruces y el Condado de Doña Ana."
-      }
+      },
+      "geo": [
+       32.306321,
+       -106.777093,
+       0
+      ]
      },
      {
       "name": "Las Cruces Hispanic Chamber of Commerce",
@@ -455,7 +615,12 @@
       "es": {
        "name": "Las Cruces Hispanic Chamber of Commerce",
        "desc": "Eventos de networking, promoción y apoyo empresarial para negocios hispanos y aliados."
-      }
+      },
+      "geo": [
+       32.307566,
+       -106.776163,
+       0
+      ]
      },
      {
       "name": "Las Cruces Green Chamber of Commerce",
@@ -468,7 +633,12 @@
       "es": {
        "name": "Las Cruces Green Chamber of Commerce",
        "desc": "Conecta a negocios comprometidos con prácticas sostenibles y una economía local más fuerte."
-      }
+      },
+      "geo": [
+       32.310275,
+       -106.778688,
+       0
+      ]
      },
      {
       "name": "Anthony Chamber of Commerce",
@@ -481,7 +651,12 @@
       "es": {
        "name": "Anthony Chamber of Commerce",
        "desc": "Promueve y apoya a los negocios de la zona de Anthony, a ambos lados de la línea estatal. Busque edificios y terrenos disponibles en todo el Condado de Doña Ana en un mapa interactivo. · newmexico.gov · edd.newmexico.gov/news-and-information/resource-map"
-      }
+      },
+      "geo": [
+       32.0682,
+       -106.5705,
+       1
+      ]
      }
     ],
     "title_es": "ORGANIZACIONES DE DESARROLLO ECONÓMICO Y CÁMARAS DE COMERCIO"
@@ -503,14 +678,24 @@
         "address": "DACC Workforce Center, 2345 Nevada Ave., Suite 101, Las Cruces, NM 88001",
         "phone": "(575) 527-7676",
         "note": "Mon–Fri 8 a.m.–5 p.m. · appointments encouraged",
-        "note_es": "lun–vie 8 a.m.–5 p.m. · se recomienda cita"
+        "note_es": "lun–vie 8 a.m.–5 p.m. · se recomienda cita",
+        "geo": [
+         32.308639,
+         -106.74984,
+         0
+        ]
        },
        {
         "label": "Sunland Park",
         "address": "DACC Sunland Park Center, 3365 McNutt Rd., Sunland Park, NM 88063",
         "phone": "(575) 528-7085",
         "note": "Mon–Fri 8 a.m.–5 p.m. · appointments encouraged",
-        "note_es": "lun–vie 8 a.m.–5 p.m. · se recomienda cita"
+        "note_es": "lun–vie 8 a.m.–5 p.m. · se recomienda cita",
+        "geo": [
+         31.809009,
+         -106.590352,
+         0
+        ]
        }
       ],
       "es": {
@@ -529,7 +714,12 @@
       "es": {
        "name": "WESST",
        "desc": "Capacitación, asesoría, incubación y préstamos para pequeñas empresas de $500 a $150,000, con un Centro de Negocios para Mujeres en Las Cruces."
-      }
+      },
+      "geo": [
+       32.310357,
+       -106.779937,
+       0
+      ]
      },
      {
       "name": "SCORE",
@@ -543,7 +733,12 @@
        "name": "SCORE",
        "desc": "Mentoría empresarial gratuita de voluntarios con experiencia, además de cursos en línea, seminarios web y talleres.",
        "address": "SCORE Santa Fe & Northern NM Chapter (atiende al Condado de Doña Ana), 3900 Paseo del Sol, Suite A320, Santa Fe, NM 87507"
-      }
+      },
+      "geo": [
+       35.635786,
+       -106.044091,
+       0
+      ]
      },
      {
       "name": "IMPACT-NM Business Growth Services",
@@ -556,7 +751,12 @@
       "es": {
        "name": "IMPACT-NM Business Growth Services",
        "desc": "Ayuda a empresas prometedoras de Nuevo México a desarrollar estrategias, habilidades y recursos externos para crecer."
-      }
+      },
+      "geo": [
+       35.08347,
+       -106.650648,
+       0
+      ]
      },
      {
       "name": "New Mexico Office of Business Advocacy",
@@ -569,7 +769,12 @@
       "es": {
        "name": "New Mexico Office of Business Advocacy",
        "desc": "Ayuda a los negocios a resolver problemas burocráticos, intergubernamentales y regulatorios con el gobierno estatal."
-      }
+      },
+      "geo": [
+       35.674101,
+       -105.953849,
+       0
+      ]
      },
      {
       "name": "EDD Justice, Equity, Diversity & Inclusion (JEDI) Office",
@@ -582,7 +787,12 @@
       "es": {
        "name": "EDD Justice, Equity, Diversity & Inclusion (JEDI) Office",
        "desc": "Conecta a negocios de minorías, de mujeres y otros negocios desatendidos con financiamiento, asistencia técnica y programas estatales."
-      }
+      },
+      "geo": [
+       35.674101,
+       -105.953849,
+       0
+      ]
      },
      {
       "name": "Veterans Business Outreach Center (VBOC)",
@@ -595,7 +805,12 @@
       "es": {
        "name": "Veterans Business Outreach Center (VBOC)",
        "desc": "Capacitación empresarial, asesoría y mentoría para veteranos, militares en servicio y sus cónyuges."
-      }
+      },
+      "geo": [
+       35.101981,
+       -106.591702,
+       0
+      ]
      }
     ],
     "title_es": "APOYO A PEQUEÑAS EMPRESAS"
@@ -614,7 +829,12 @@
       "es": {
        "name": "Arrowhead Center at NMSU",
        "desc": "Centro de emprendimiento e innovación de NMSU: incubación, la incubadora estudiantil Studio G, aceleradoras, comercialización y apoyo de NM FAST para obtener subvenciones SBIR/STTR."
-      }
+      },
+      "geo": [
+       32.272732,
+       -106.746937,
+       0
+      ]
      },
      {
       "name": "Gastro Emprende Commercial Kitchen Incubator (El Calvario)",
@@ -627,7 +847,12 @@
       "es": {
        "name": "Gastro Emprende Commercial Kitchen Incubator (El Calvario)",
        "desc": "Incubadora con cocina comercial y apoyo para el desarrollo de negocios de alimentos nuevos y en crecimiento."
-      }
+      },
+      "geo": [
+       32.311634,
+       -106.774657,
+       0
+      ]
      },
      {
       "name": "Cruces Creatives",
@@ -640,7 +865,12 @@
       "es": {
        "name": "Cruces Creatives",
        "desc": "El makerspace más completo del condado: impresoras 3D, equipo CNC y láser, talleres de carpintería, bicicletas, textiles y electrónica, con membresías y pases por día."
-      }
+      },
+      "geo": [
+       32.306529,
+       -106.776524,
+       0
+      ]
      },
      {
       "name": "ALICE Makerspace – Thomas Branigan Memorial Library",
@@ -653,7 +883,12 @@
       "es": {
        "name": "ALICE Makerspace – Thomas Branigan Memorial Library",
        "desc": "Makerspace público y gratuito con impresión 3D, láser Glowforge, Cricut y máquinas de coser."
-      }
+      },
+      "geo": [
+       32.316364,
+       -106.77856,
+       0
+      ]
      },
      {
       "name": "Meta’l Jewelry Studio",
@@ -666,7 +901,12 @@
       "es": {
        "name": "Meta’l Jewelry Studio",
        "desc": "Estudio especializado en joyería, orfebrería y metalistería a pequeña escala, con clases y horario de taller abierto."
-      }
+      },
+      "geo": [
+       32.276233,
+       -106.768223,
+       0
+      ]
      },
      {
       "name": "Alter3Dimension Studios",
@@ -692,7 +932,12 @@
       "es": {
        "name": "Collective Co.",
        "desc": "Coworking en el centro con oficinas privadas, escritorios dedicados, salas de juntas y espacio para eventos; sede de los programas de WESST."
-      }
+      },
+      "geo": [
+       32.310357,
+       -106.779937,
+       0
+      ]
      },
      {
       "name": "Workspace 141",
@@ -705,7 +950,12 @@
       "es": {
        "name": "Workspace 141",
        "desc": "Espacio de coworking con escritorios dedicados, oficinas privadas y virtuales, y salas de juntas."
-      }
+      },
+      "geo": [
+       32.324513,
+       -106.735307,
+       0
+      ]
      },
      {
       "name": "Lohman Atrium Suites",
@@ -718,7 +968,12 @@
       "es": {
        "name": "Lohman Atrium Suites",
        "desc": "Oficinas ejecutivas y servicios de oficina virtual."
-      }
+      },
+      "geo": [
+       32.310777,
+       -106.756992,
+       0
+      ]
      },
      {
       "name": "Arrowhead Executive Office Center",
@@ -750,7 +1005,12 @@
       "es": {
        "name": "New Mexico Manufacturing Extension Partnership (MEP)",
        "desc": "Recursos técnicos y empresariales que ayudan a los fabricantes a ampliar sus capacidades y su rentabilidad."
-      }
+      },
+      "geo": [
+       35.181691,
+       -106.586431,
+       0
+      ]
      },
      {
       "name": "New Mexico Small Business Assistance Program (NMSBA)",
@@ -763,7 +1023,12 @@
       "es": {
        "name": "New Mexico Small Business Assistance Program (NMSBA)",
        "desc": "Conecta a pequeñas empresas con retos técnicos con expertos de los Laboratorios Nacionales de Los Álamos y Sandia."
-      }
+      },
+      "geo": [
+       32.272732,
+       -106.746937,
+       0
+      ]
      },
      {
       "name": "NMSU Cooperative Extension Service",
@@ -776,7 +1041,12 @@
       "es": {
        "name": "NMSU Cooperative Extension Service",
        "desc": "Educación basada en investigación y apoyo al desarrollo económico comunitario a través de las oficinas de extensión del condado."
-      }
+      },
+      "geo": [
+       32.320439,
+       -106.771649,
+       0
+      ]
      },
      {
       "name": "New Mexico Film Office",
@@ -789,7 +1059,12 @@
       "es": {
        "name": "New Mexico Film Office",
        "desc": "Apoya la producción de cine y televisión en todo el estado, incluidos programas de capacitación para equipos técnicos e incentivos a la producción."
-      }
+      },
+      "geo": [
+       35.674101,
+       -105.953849,
+       0
+      ]
      },
      {
       "name": "Film Las Cruces",
@@ -802,7 +1077,12 @@
       "es": {
        "name": "Film Las Cruces",
        "desc": "Enlace oficial de cine para Las Cruces, el Condado de Doña Ana y Anthony: búsqueda de locaciones, contactos de equipo técnico y permisos de filmación."
-      }
+      },
+      "geo": [
+       32.30921,
+       -106.780369,
+       0
+      ]
      },
      {
       "name": "EDD Office of Military Base Planning & Support",
@@ -815,7 +1095,12 @@
       "es": {
        "name": "EDD Office of Military Base Planning & Support",
        "desc": "Apoya a las instalaciones del Departamento de Defensa y a los contratistas y comunidades a su alrededor."
-      }
+      },
+      "geo": [
+       35.674101,
+       -105.953849,
+       0
+      ]
      }
     ],
     "title_es": "APOYO POR INDUSTRIA Y SECTOR"
@@ -834,7 +1119,12 @@
       "es": {
        "name": "International Business Accelerator (IBA)",
        "desc": "Recursos de exportación en un solo lugar para negocios de Nuevo México que llevan sus productos y servicios a mercados globales."
-      }
+      },
+      "geo": [
+       31.846483,
+       -106.628998,
+       0
+      ]
      },
      {
       "name": "New Mexico Border Authority",
@@ -847,7 +1137,12 @@
       "es": {
        "name": "New Mexico Border Authority",
        "desc": "Agencia estatal que desarrolla y promueve los puertos de entrada de Santa Teresa, Columbus y Antelope Wells."
-      }
+      },
+      "geo": [
+       31.8394,
+       -106.6821,
+       1
+      ]
      },
      {
       "name": "EDD Office of International Trade",
@@ -860,7 +1155,12 @@
       "es": {
        "name": "EDD Office of International Trade",
        "desc": "Ayuda a las empresas de Nuevo México a aprovechar oportunidades globales mediante misiones comerciales, asesorías y subvenciones STEP."
-      }
+      },
+      "geo": [
+       35.674101,
+       -105.953849,
+       0
+      ]
      },
      {
       "name": "New Mexico Trade Alliance",
@@ -873,7 +1173,12 @@
       "es": {
        "name": "New Mexico Trade Alliance",
        "desc": "Administra las subvenciones de exportación del Programa Estatal de Expansión Comercial (STEP) y ofrece misiones comerciales."
-      }
+      },
+      "geo": [
+       35.080511,
+       -106.609186,
+       0
+      ]
      },
      {
       "name": "U.S. Commercial Service – El Paso",
@@ -886,7 +1191,12 @@
       "es": {
        "name": "U.S. Commercial Service – El Paso",
        "desc": "Asistencia federal de exportación para empresas del Condado de Doña Ana que ingresan o amplían su presencia en mercados internacionales."
-      }
+      },
+      "geo": [
+       31.671523,
+       -106.321152,
+       0
+      ]
      }
     ],
     "title_es": "COMERCIO INTERNACIONAL Y FRONTERA"
@@ -905,7 +1215,12 @@
       "es": {
        "name": "New Mexico APEX Accelerator",
        "desc": "Capacitación gratuita, búsqueda de licitaciones y asesoría individual para negocios que buscan contratos con el gobierno federal, estatal y local."
-      }
+      },
+      "geo": [
+       32.272732,
+       -106.746937,
+       0
+      ]
      },
      {
       "name": "City of Las Cruces Purchasing Division",
@@ -918,7 +1233,12 @@
       "es": {
        "name": "City of Las Cruces Purchasing Division",
        "desc": "Registro de proveedores y oportunidades de licitación vigentes para negocios que venden a la Ciudad."
-      }
+      },
+      "geo": [
+       32.315091,
+       -106.779962,
+       0
+      ]
      },
      {
       "name": "Doña Ana County Purchasing",
@@ -931,7 +1251,12 @@
       "es": {
        "name": "Doña Ana County Purchasing",
        "desc": "Registro de licitantes y licitaciones y solicitudes de propuestas vigentes del Condado."
-      }
+      },
+      "geo": [
+       32.306815,
+       -106.8148,
+       0
+      ]
      }
     ],
     "title_es": "CONTRATACIÓN Y COMPRAS GUBERNAMENTALES"
@@ -950,7 +1275,12 @@
       "es": {
        "name": "Center for Border Economic Development (C-BED), NMSU",
        "desc": "Investigación aplicada sobre comercio fronterizo, fuerza laboral e infraestructura, incluidos estudios de impacto económico del Puerto de Entrada de Santa Teresa."
-      }
+      },
+      "geo": [
+       32.281445,
+       -106.751308,
+       0
+      ]
      },
      {
       "name": "New Mexico Business Outlook, NMSU",
@@ -963,7 +1293,12 @@
       "es": {
        "name": "New Mexico Business Outlook, NMSU",
        "desc": "Pronósticos económicos regionales y presentaciones de perspectivas a cargo de economistas de NMSU."
-      }
+      },
+      "geo": [
+       32.281445,
+       -106.751308,
+       0
+      ]
      },
      {
       "name": "Bureau of Business & Economic Research (BBER), UNM",
@@ -976,7 +1311,12 @@
       "es": {
        "name": "Bureau of Business & Economic Research (BBER), UNM",
        "desc": "Datos económicos y demográficos, pronósticos y análisis para Nuevo México."
-      }
+      },
+      "geo": [
+       35.086028,
+       -106.615881,
+       0
+      ]
      },
      {
       "name": "Border Region Modeling Project, UTEP",
@@ -989,7 +1329,12 @@
       "es": {
        "name": "Border Region Modeling Project, UTEP",
        "desc": "Pronósticos e investigación económica para la región fronteriza de El Paso, Las Cruces y Ciudad Juárez."
-      }
+      },
+      "geo": [
+       31.770992,
+       -106.50369,
+       0
+      ]
      }
     ],
     "title_es": "INVESTIGACIÓN ECONÓMICA Y EMPRESARIAL"
@@ -1009,7 +1354,12 @@
        "name": "El Paso Electric Company (EPE)",
        "desc": "Genera y distribuye electricidad en el sur de Nuevo México y el oeste de Texas, incluidos Las Cruces y el condado de Doña Ana.",
        "category": "ELECTRICIDAD"
-      }
+      },
+      "geo": [
+       31.759185,
+       -106.48607,
+       0
+      ]
      },
      {
       "name": "Las Cruces Utilities",
@@ -1026,7 +1376,12 @@
         "phone": "(575) 541-2111",
         "note": "Mon–Fri 8 a.m.–5 p.m.",
         "note_es": "lun–vie 8 a.m.–5 p.m.",
-        "label_es": "Oficina principal de Servicios Públicos"
+        "label_es": "Oficina principal de Servicios Públicos",
+        "geo": [
+         32.305047,
+         -106.81411,
+         0
+        ]
        },
        {
         "label": "City Hall Customer Central",
@@ -1034,14 +1389,24 @@
         "phone": "(575) 541-2111",
         "note": "Mon–Fri 8 a.m.–5 p.m.",
         "note_es": "lun–vie 8 a.m.–5 p.m.",
-        "label_es": "Atención al Cliente – Ayuntamiento"
+        "label_es": "Atención al Cliente – Ayuntamiento",
+        "geo": [
+         32.315091,
+         -106.779962,
+         0
+        ]
        },
        {
         "label": "East Mesa",
         "address": "5195 Bataan Memorial West, Las Cruces, NM 88001",
         "phone": "(575) 541-2111",
         "note": "Mon–Fri 9 a.m.–6 p.m.",
-        "note_es": "lun–vie 9 a.m.–6 p.m."
+        "note_es": "lun–vie 9 a.m.–6 p.m.",
+        "geo": [
+         32.385934,
+         -106.7134,
+         0
+        ]
        }
       ],
       "es": {
@@ -1062,7 +1427,12 @@
        "name": "New Mexico Gas Company",
        "desc": "Servicio de gas natural en gran parte de Nuevo México.",
        "group": "GAS NATURAL"
-      }
+      },
+      "geo": [
+       32.010213,
+       -106.603007,
+       0
+      ]
      },
      {
       "name": "Zia Natural Gas Company",
@@ -1078,13 +1448,23 @@
         "address": "3700 W. Picacho, Las Cruces, NM 88007",
         "phone": "(575) 526-4427",
         "note": "Mon–Fri 8–5 · lobby opens 8:30",
-        "note_es": "lun–vie 8–5 · el vestíbulo abre a las 8:30"
+        "note_es": "lun–vie 8–5 · el vestíbulo abre a las 8:30",
+        "geo": [
+         32.309153,
+         -106.832749,
+         0
+        ]
        },
        {
         "label": "Hatch",
         "address": "Hatch Village Hall, 133 N. Franklin St., Hatch, NM 87937",
         "note": "Payment center only · hours vary, call the Las Cruces office to confirm",
-        "note_es": "Solo centro de pagos · horario variable, llame a la oficina de Las Cruces para confirmar"
+        "note_es": "Solo centro de pagos · horario variable, llame a la oficina de Las Cruces para confirmar",
+        "geo": [
+         32.665627,
+         -107.153405,
+         0
+        ]
        }
       ],
       "es": {
@@ -1105,7 +1485,12 @@
        "name": "Doña Ana County Utilities",
        "desc": "Servicios de agua y aguas residuales para las áreas no incorporadas del condado.",
        "group": "AGUA Y AGUAS RESIDUALES"
-      }
+      },
+      "geo": [
+       32.306815,
+       -106.8148,
+       0
+      ]
      },
      {
       "name": "Town of Mesilla Utilities",
@@ -1118,7 +1503,12 @@
       "es": {
        "name": "Town of Mesilla Utilities",
        "group": "AGUA Y AGUAS RESIDUALES"
-      }
+      },
+      "geo": [
+       32.276123,
+       -106.794856,
+       0
+      ]
      },
      {
       "name": "Camino Real Regional Utility Authority",
@@ -1132,7 +1522,12 @@
        "name": "Camino Real Regional Utility Authority",
        "desc": "Servicio de agua y aguas residuales para Sunland Park y Santa Teresa.",
        "group": "AGUA Y AGUAS RESIDUALES"
-      }
+      },
+      "geo": [
+       31.830162,
+       -106.611324,
+       0
+      ]
      },
      {
       "name": "Anthony Water & Sanitation District",
@@ -1146,7 +1541,12 @@
        "name": "Anthony Water & Sanitation District",
        "desc": "Servicio de agua y saneamiento para el área de Anthony.",
        "category": "AGUA Y SANEAMIENTO"
-      }
+      },
+      "geo": [
+       32.012273,
+       -106.602748,
+       0
+      ]
      },
      {
       "name": "Moongate Water Company",
@@ -1160,7 +1560,12 @@
        "name": "Moongate Water Company",
        "desc": "Empresa privada de agua regulada por la PRC que atiende el área de East Mesa, al este de Las Cruces.",
        "category": "AGUA · EAST MESA"
-      }
+      },
+      "geo": [
+       32.410056,
+       -106.643496,
+       0
+      ]
      },
      {
       "name": "Lake Section Water Company",
@@ -1174,7 +1579,12 @@
        "name": "Lake Section Water Company",
        "desc": "Empresa privada de agua regulada por la PRC que atiende el área de Chaparral.",
        "category": "AGUA · CHAPARRAL"
-      }
+      },
+      "geo": [
+       32.023645,
+       -106.41033,
+       0
+      ]
      },
      {
       "name": "Elephant Butte Irrigation District (EBID)",
@@ -1188,7 +1598,12 @@
        "name": "Elephant Butte Irrigation District (EBID)",
        "desc": "Suministra agua de riego del Río Grande a tierras agrícolas en todo el Valle de Mesilla.",
        "category": "AGUA DE RIEGO"
-      }
+      },
+      "geo": [
+       32.30394,
+       -106.783044,
+       0
+      ]
      },
      {
       "name": "Comcast Business",
@@ -1202,7 +1617,12 @@
        "name": "Comcast Business",
        "desc": "Servicios de internet, voz y redes para empresas.",
        "category": "BANDA ANCHA"
-      }
+      },
+      "geo": [
+       32.296542,
+       -106.779009,
+       0
+      ]
      },
      {
       "name": "CenturyLink",
@@ -1230,7 +1650,12 @@
        "name": "Segra",
        "desc": "Red de fibra, datos y servicios de conectividad para empresas y operadores.",
        "category": "RED DE FIBRA ÓPTICA"
-      }
+      },
+      "geo": [
+       35.144635,
+       -106.602702,
+       0
+      ]
      },
      {
       "name": "Fastwave",
@@ -1244,7 +1669,12 @@
        "name": "Fastwave",
        "desc": "Proveedor local de internet de alta velocidad para empresas de Las Cruces.",
        "category": "BANDA ANCHA"
-      }
+      },
+      "geo": [
+       32.304672,
+       -106.782032,
+       0
+      ]
      },
      {
       "name": "NM Office of Broadband Access & Expansion",
@@ -1258,7 +1688,12 @@
        "name": "NM Office of Broadband Access & Expansion",
        "desc": "Mapas de cobertura de banda ancha y programas de subvenciones a nivel estatal, incluidos los fondos federales BEAD.",
        "category": "PROGRAMAS DE BANDA ANCHA"
-      }
+      },
+      "geo": [
+       35.671214,
+       -105.955553,
+       0
+      ]
      },
      {
       "name": "Las Cruces International Airport",
@@ -1272,7 +1707,12 @@
        "name": "Las Cruces International Airport",
        "desc": "Aeropuerto de aviación general en West Mesa con hangares, estacionamiento de aeronaves y terrenos en arrendamiento para empresas de aviación y aeroespaciales.",
        "category": "AEROPUERTO"
-      }
+      },
+      "geo": [
+       32.282795,
+       -106.920466,
+       0
+      ]
      },
      {
       "name": "Doña Ana County International Jetport",
@@ -1285,7 +1725,12 @@
       "es": {
        "name": "Doña Ana County International Jetport",
        "category": "AEROPUERTO Y ADUANAS DE EE. UU."
-      }
+      },
+      "geo": [
+       31.874322,
+       -106.700706,
+       0
+      ]
      },
      {
       "name": "La Union Water Association",
@@ -1375,7 +1820,12 @@
       "es": {
        "name": "New Mexico Finance Authority (NMFA)",
        "desc": "Financiamiento de bajo costo para negocios y comunidades, incluido el programa de participación en préstamos Smart Money con bancos locales."
-      }
+      },
+      "geo": [
+       35.661266,
+       -105.961812,
+       0
+      ]
      },
      {
       "name": "NM EDD Business Finance Programs",
@@ -1388,7 +1838,12 @@
       "es": {
        "name": "NM EDD Business Finance Programs",
        "desc": "Asistencia con garantías (CAP 2.0), asistencia técnica SSBCI, subvenciones de la Oficina de Tecnología e Innovación y fondos del programa de Alimentación, Hambre y Agricultura."
-      }
+      },
+      "geo": [
+       35.674101,
+       -105.953849,
+       0
+      ]
      },
      {
       "name": "New Mexico Financial Development Team (FDT)",
@@ -1401,7 +1856,12 @@
       "es": {
        "name": "New Mexico Financial Development Team (FDT)",
        "desc": "Ayuda gratuita para estructurar financiamiento de deuda o capital, analizar estados financieros y conectar con fuentes de capital."
-      }
+      },
+      "geo": [
+       35.674101,
+       -105.953849,
+       0
+      ]
      },
      {
       "name": "USDA Rural Development",
@@ -1414,7 +1874,12 @@
       "es": {
        "name": "USDA Rural Development",
        "desc": "Préstamos, garantías de préstamo y subvenciones para negocios rurales, incluidos los programas Value-Added Producer y Rural Energy."
-      }
+      },
+      "geo": [
+       32.284811,
+       -106.791759,
+       0
+      ]
      },
      {
       "name": "Farm Service Agency (FSA)",
@@ -1427,7 +1892,12 @@
       "es": {
        "name": "Farm Service Agency (FSA)",
        "desc": "Préstamos para la compra y operación de granjas para productores agrícolas que no obtienen crédito en otras fuentes."
-      }
+      },
+      "geo": [
+       32.284811,
+       -106.791759,
+       0
+      ]
      },
      {
       "name": "Community Foundation of Southern New Mexico",
@@ -1440,7 +1910,12 @@
       "es": {
        "name": "Community Foundation of Southern New Mexico",
        "desc": "Administra subvenciones de desarrollo económico para negocios locales, incluida la New Mexico Economic Development Grant financiada por El Paso Electric."
-      }
+      },
+      "geo": [
+       32.283706,
+       -106.762016,
+       0
+      ]
      }
     ],
     "title_es": "SUBVENCIONES Y PROGRAMAS DE FINANCIAMIENTO"
@@ -1459,7 +1934,12 @@
       "es": {
        "name": "U.S. Small Business Administration (SBA)",
        "desc": "Garantiza préstamos otorgados por instituciones locales, incluidos los préstamos 7(a), 504 y microcréditos."
-      }
+      },
+      "geo": [
+       35.083654,
+       -106.653073,
+       0
+      ]
      },
      {
       "name": "Capital Certified Development Corporation",
@@ -1472,7 +1952,12 @@
       "es": {
        "name": "Capital Certified Development Corporation",
        "desc": "Prestamista SBA 504 sin fines de lucro que financia edificios, construcción y equipo."
-      }
+      },
+      "geo": [
+       30.241569,
+       -97.815707,
+       0
+      ]
      },
      {
       "name": "Elevated Lending CDC (formerly Enchantment Land CDC)",
@@ -1485,7 +1970,12 @@
       "es": {
        "name": "Elevated Lending CDC (antes Enchantment Land CDC)",
        "desc": "Prestamista 504 con licencia de la SBA que financia hasta el 90% de proyectos de expansión elegibles."
-      }
+      },
+      "geo": [
+       35.15393,
+       -106.593654,
+       0
+      ]
      },
      {
       "name": "Borderplex Community Capital",
@@ -1498,7 +1988,12 @@
       "es": {
        "name": "Borderplex Community Capital",
        "desc": "Institución financiera de desarrollo comunitario (CDFI) que ofrece préstamos de bajo interés y asesoría gratuita a pequeñas empresas y organizaciones sin fines de lucro en los condados de El Paso y Doña Ana."
-      }
+      },
+      "geo": [
+       31.755662,
+       -106.492851,
+       0
+      ]
      },
      {
       "name": "The Loan Fund",
@@ -1511,7 +2006,12 @@
       "es": {
        "name": "The Loan Fund",
        "desc": "Préstamos, capacitación y asesoría para emprendedores, pequeñas empresas y organizaciones sin fines de lucro en todo el estado."
-      }
+      },
+      "geo": [
+       35.079749,
+       -106.652833,
+       0
+      ]
      },
      {
       "name": "LiftFund",
@@ -1524,7 +2024,12 @@
       "es": {
        "name": "LiftFund",
        "desc": "Préstamos y capacitación para pequeñas empresas: hasta $50,000 para startups y hasta $1 millón para negocios establecidos."
-      }
+      },
+      "geo": [
+       29.430987,
+       -98.514122,
+       0
+      ]
      },
      {
       "name": "DreamSpring",
@@ -1537,7 +2042,12 @@
       "es": {
        "name": "DreamSpring",
        "desc": "Préstamos accesibles para pequeñas empresas, con asesoría gratuita y apoyo para construir historial crediticio, para emprendedores con acceso limitado al crédito tradicional."
-      }
+      },
+      "geo": [
+       35.102459,
+       -106.667537,
+       0
+      ]
      },
      {
       "name": "Nusenda Credit Union",
@@ -1554,7 +2064,12 @@
         "phone": "(505) 889-7755",
         "note": "Full service · Mon–Thu 9–5, Fri 9–6",
         "note_es": "Servicio completo · lun–jue 9–5, vie 9–6",
-        "label_es": "Sucursal Alameda"
+        "label_es": "Sucursal Alameda",
+        "geo": [
+         32.307588,
+         -106.78104,
+         0
+        ]
        },
        {
         "label": "Pan Am Branch",
@@ -1562,12 +2077,22 @@
         "phone": "(505) 889-7755",
         "note": "Full service · across from NMSU Pan American Center · Saturday hours",
         "note_es": "Servicio completo · frente al Pan American Center de NMSU · abre los sábados",
-        "label_es": "Sucursal Pan Am"
+        "label_es": "Sucursal Pan Am",
+        "geo": [
+         32.286246,
+         -106.74518,
+         0
+        ]
        },
        {
         "label": "Corbett Center (NMSU)",
         "address": "1600 International Mall, Las Cruces, NM 88003",
-        "phone": "(505) 889-7755"
+        "phone": "(505) 889-7755",
+        "geo": [
+         32.283487,
+         -106.747708,
+         0
+        ]
        },
        {
         "label": "Sonoma Branch",
@@ -1575,7 +2100,12 @@
         "phone": "(505) 889-7755",
         "note": "Full service · off Hwy 70 · Saturday hours",
         "note_es": "Servicio completo · cerca de la Hwy 70 · abre los sábados",
-        "label_es": "Sucursal Sonoma"
+        "label_es": "Sucursal Sonoma",
+        "geo": [
+         32.3244,
+         -106.6683,
+         1
+        ]
        }
       ],
       "es": {
@@ -1607,7 +2137,12 @@
       "es": {
        "name": "Tierra del Sol Housing Corporation",
        "desc": "Préstamos para el desarrollo comunitario y programas de vivienda en el sur de Nuevo México."
-      }
+      },
+      "geo": [
+       32.296361,
+       -106.775976,
+       0
+      ]
      }
     ],
     "title_es": "PRÉSTAMOS Y MICROPRÉSTAMOS"
@@ -1626,7 +2161,12 @@
       "es": {
        "name": "New Mexico Angels",
        "desc": "El grupo estatal de inversionistas ángeles acreditados que respalda a empresas en etapa inicial."
-      }
+      },
+      "geo": [
+       35.67384,
+       -105.951338,
+       0
+      ]
      },
      {
       "name": "No Border Ventures",
@@ -1652,7 +2192,12 @@
       "es": {
        "name": "New Mexico Venture Capital Program (NMFA/EDD)",
        "desc": "Fondo estatal que realiza inversiones de capital en startups y empresas en crecimiento de Nuevo México."
-      }
+      },
+      "geo": [
+       35.661266,
+       -105.961812,
+       0
+      ]
      },
      {
       "name": "NM State Investment Council – Venture Program",
@@ -1665,7 +2210,12 @@
       "es": {
        "name": "NM State Investment Council – Venture Program",
        "desc": "Invierte capital estatal en fondos de capital de riesgo que invierten en empresas de Nuevo México."
-      }
+      },
+      "geo": [
+       35.607764,
+       -106.039381,
+       0
+      ]
      },
      {
       "name": "Flywheel Ventures",
@@ -1678,7 +2228,12 @@
       "es": {
        "name": "Flywheel Ventures",
        "desc": "Firma de capital de riesgo de etapa inicial que comercializa ciencia y tecnología."
-      }
+      },
+      "geo": [
+       35.684565,
+       -105.932811,
+       0
+      ]
      },
      {
       "name": "Verge Fund",
@@ -1691,7 +2246,12 @@
       "es": {
        "name": "Verge Fund",
        "desc": "Inversionista semilla y de etapa inicial en empresas tecnológicas del Suroeste, con prioridad en Nuevo México."
-      }
+      },
+      "geo": [
+       35.085929,
+       -106.645796,
+       0
+      ]
      },
      {
       "name": "Sun Mountain Capital",
@@ -1704,7 +2264,12 @@
       "es": {
        "name": "Sun Mountain Capital",
        "desc": "Firma de capital de riesgo y capital privado que administra fondos para inversionistas públicos y privados."
-      }
+      },
+      "geo": [
+       35.681394,
+       -105.940956,
+       0
+      ]
      },
      {
       "name": "New Mexico Community Capital",
@@ -1717,7 +2282,12 @@
       "es": {
        "name": "New Mexico Community Capital",
        "desc": "Invierte en empresas en crecimiento que atienden mercados emergentes y desatendidos, y las asesora."
-      }
+      },
+      "geo": [
+       35.08347,
+       -106.650648,
+       0
+      ]
      },
      {
       "name": "Tierra Adentro Growth Capital (TAG)",
@@ -1730,7 +2300,12 @@
       "es": {
        "name": "Tierra Adentro Growth Capital (TAG)",
        "desc": "Fondo de infraestructura de crecimiento que invierte en telecomunicaciones, centros de datos, energía e infraestructura cuántica."
-      }
+      },
+      "geo": [
+       35.242141,
+       -106.721797,
+       0
+      ]
      },
      {
       "name": "UP.Abundance",
@@ -1756,7 +2331,12 @@
       "es": {
        "name": "Tramway Venture Partners",
        "desc": "Fondo de etapa inicial que invierte en startups tecnológicas de Nuevo México."
-      }
+      },
+      "geo": [
+       35.101957,
+       -106.580839,
+       0
+      ]
      },
      {
       "name": "Blue Sage Capital",
@@ -1769,7 +2349,12 @@
       "es": {
        "name": "Blue Sage Capital",
        "desc": "Firma de capital privado que invierte en empresas del mercado medio-bajo."
-      }
+      },
+      "geo": [
+       30.31315,
+       -97.922124,
+       0
+      ]
      },
      {
       "name": "Epic Ventures",
@@ -1821,7 +2406,12 @@
       "es": {
        "name": "Deciens Capital",
        "desc": "Inversionista de capital de riesgo en empresas fintech en etapa inicial. · financenewmexico.org · nmfundit.org"
-      }
+      },
+      "geo": [
+       35.086471,
+       -106.586266,
+       0
+      ]
      }
     ],
     "title_es": "INVERSIONISTAS ÁNGELES Y CAPITAL DE RIESGO"
@@ -1847,12 +2437,22 @@
        {
         "label": "Las Cruces",
         "address": "226 S. Alameda Blvd., Las Cruces, NM 88005",
-        "phone": "(575) 524-6250"
+        "phone": "(575) 524-6250",
+        "geo": [
+         32.307716,
+         -106.781074,
+         0
+        ]
        },
        {
         "label": "Sunland Park",
         "address": "1500 Appaloosa Dr., Suite A-160, Sunland Park, NM 88063",
-        "phone": "(575) 618-1249"
+        "phone": "(575) 618-1249",
+        "geo": [
+         31.8018,
+         -106.563485,
+         0
+        ]
        }
       ],
       "es": {
@@ -1871,7 +2471,12 @@
       "es": {
        "name": "Southwestern Area Workforce Development Board",
        "desc": "Supervisa el sistema laboral de WIOA y los America’s Job Centers en Doña Ana y seis condados vecinos."
-      }
+      },
+      "geo": [
+       32.273358,
+       -106.796953,
+       0
+      ]
      },
      {
       "name": "Doña Ana Community College Workforce Center",
@@ -1886,7 +2491,12 @@
         "label": "Espina Campus",
         "address": "3400 South Espina St, Central Campus, Room 99, Las Cruces, NM 88003",
         "phone": "(575) 527-7515",
-        "label_es": "Campus Espina"
+        "label_es": "Campus Espina",
+        "geo": [
+         32.277042,
+         -106.754622,
+         0
+        ]
        },
        {
         "label": "Workforce Center",
@@ -1894,30 +2504,55 @@
         "phone": "(575) 527-7776",
         "note": "Houses Customized Training, SBDC, Truck Driving Academy and trades programs",
         "note_es": "Alberga Capacitación Personalizada, SBDC, Academia de Conducción de Camiones y programas de oficios",
-        "label_es": "Centro de Fuerza Laboral"
+        "label_es": "Centro de Fuerza Laboral",
+        "geo": [
+         32.308639,
+         -106.74984,
+         0
+        ]
        },
        {
         "label": "East Mesa Campus",
         "address": "2800 N. Sonoma Ranch Blvd., Las Cruces, NM 88011",
         "phone": "(575) 527-7500",
-        "label_es": "Campus East Mesa"
+        "label_es": "Campus East Mesa",
+        "geo": [
+         32.348638,
+         -106.738634,
+         0
+        ]
        },
        {
         "label": "Cholla Hall",
         "address": "2400 Film St., Las Cruces, NM 88001",
-        "phone": "(575) 528-7310"
+        "phone": "(575) 528-7310",
+        "geo": [
+         32.2901,
+         -106.7539,
+         1
+        ]
        },
        {
         "label": "Gadsden Center",
         "address": "1700 E. O’Hara Rd., Anthony, NM 88021",
         "phone": "(575) 882-3939",
-        "label_es": "Centro Gadsden"
+        "label_es": "Centro Gadsden",
+        "geo": [
+         32.024616,
+         -106.645254,
+         0
+        ]
        },
        {
         "label": "Sunland Park Center",
         "address": "3365 McNutt Rd., Sunland Park, NM 88063",
         "phone": "(575) 874-7780",
-        "label_es": "Centro Sunland Park"
+        "label_es": "Centro Sunland Park",
+        "geo": [
+         31.809009,
+         -106.590352,
+         0
+        ]
        },
        {
         "label": "Chaparral Center",
@@ -1925,7 +2560,12 @@
         "phone": "(575) 824-2000",
         "note": "Next to Chaparral High School",
         "note_es": "Junto a Chaparral High School",
-        "label_es": "Centro Chaparral"
+        "label_es": "Centro Chaparral",
+        "geo": [
+         32.027082,
+         -106.385673,
+         0
+        ]
        }
       ],
       "es": {
@@ -1944,7 +2584,12 @@
       "es": {
        "name": "NMSU Career Services",
        "desc": "Conecta a empleadores con estudiantes y egresados de NMSU para prácticas profesionales y contrataciones de tiempo completo."
-      }
+      },
+      "geo": [
+       32.2738,
+       -106.7472,
+       1
+      ]
      },
      {
       "name": "The Bridge of Southern New Mexico",
@@ -1957,7 +2602,12 @@
       "es": {
        "name": "The Bridge of Southern New Mexico",
        "desc": "Alianza entre empresas e instituciones educativas que crea trayectorias profesionales y una reserva de talento local calificado."
-      }
+      },
+      "geo": [
+       32.306321,
+       -106.777093,
+       0
+      ]
      },
      {
       "name": "VA Veteran Readiness & Employment (VR&E)",
@@ -1970,7 +2620,12 @@
       "es": {
        "name": "VA Veteran Readiness & Employment (VR&E)",
        "desc": "Ayuda a veteranos con discapacidades relacionadas con el servicio a prepararse para un empleo, conseguirlo y conservarlo, incluido el autoempleo."
-      }
+      },
+      "geo": [
+       32.310045,
+       -106.77823,
+       0
+      ]
      }
     ],
     "title_es": "CENTROS LABORALES Y SERVICIOS DE EMPLEO"
@@ -1989,7 +2644,12 @@
       "es": {
        "name": "DM Dickason Personnel Services",
        "category": "PERSONAL · CONTRATACIÓN DIRECTA Y RR. HH."
-      }
+      },
+      "geo": [
+       32.321921,
+       -106.750842,
+       0
+      ]
      },
      {
       "name": "itsQuest, Inc.",
@@ -2002,7 +2662,12 @@
       "es": {
        "name": "itsQuest, Inc.",
        "category": "PERSONAL · GENERAL Y OFICIOS CALIFICADOS"
-      }
+      },
+      "geo": [
+       32.323625,
+       -106.75203,
+       0
+      ]
      },
      {
       "name": "Manpower",
@@ -2015,7 +2680,12 @@
       "es": {
        "name": "Manpower",
        "category": "PERSONAL · TEMPORAL Y DE PLANTA"
-      }
+      },
+      "geo": [
+       32.324244,
+       -106.752462,
+       0
+      ]
      },
      {
       "name": "Robert Half",
@@ -2041,7 +2711,12 @@
       "es": {
        "name": "RMPersonnel, Inc.",
        "category": "PERSONAL · TEMPORAL Y DIRECTO"
-      }
+      },
+      "geo": [
+       31.783813,
+       -106.432766,
+       0
+      ]
      },
      {
       "name": "El Paso Community College – Workforce Education",
@@ -2054,7 +2729,12 @@
       "es": {
        "name": "El Paso Community College – Workforce Education",
        "category": "CAPACITACIÓN LABORAL"
-      }
+      },
+      "geo": [
+       31.773877,
+       -106.370008,
+       0
+      ]
      },
      {
       "name": "Southwest University",
@@ -2067,7 +2747,12 @@
       "es": {
        "name": "Southwest University",
        "category": "COLEGIO TÉCNICO Y PROFESIONAL"
-      }
+      },
+      "geo": [
+       31.786501,
+       -106.411827,
+       0
+      ]
      },
      {
       "name": "Prime Time CDL (Prime Time Technical Institute)",
@@ -2080,7 +2765,12 @@
       "es": {
        "name": "Prime Time CDL (Prime Time Technical Institute)",
        "category": "CAPACITACIÓN PARA LICENCIA CDL"
-      }
+      },
+      "geo": [
+       32.309902,
+       -106.759705,
+       0
+      ]
      }
     ],
     "title_es": "AGENCIAS DE PERSONAL Y CAPACITACIÓN"
@@ -2732,7 +3422,12 @@
       "es": {
        "name": "HB Construction",
        "group": "CONTRATISTA GENERAL"
-      }
+      },
+      "geo": [
+       32.324513,
+       -106.735307,
+       0
+      ]
      },
      {
       "name": "Jaynes Corporation",
@@ -2745,7 +3440,12 @@
       "es": {
        "name": "Jaynes Corporation",
        "group": "CONTRATISTA GENERAL"
-      }
+      },
+      "geo": [
+       32.315343,
+       -106.738186,
+       0
+      ]
      },
      {
       "name": "McGinley Construction",
@@ -2758,7 +3458,12 @@
       "es": {
        "name": "McGinley Construction",
        "group": "CONTRATISTA GENERAL"
-      }
+      },
+      "geo": [
+       32.268,
+       -106.8059,
+       1
+      ]
      },
      {
       "name": "Smith & Aguirre Construction",
@@ -2771,7 +3476,12 @@
       "es": {
        "name": "Smith & Aguirre Construction",
        "group": "CONTRATISTA GENERAL"
-      }
+      },
+      "geo": [
+       32.4182,
+       -106.8201,
+       1
+      ]
      },
      {
       "name": "ZTEX Construction",
@@ -2784,7 +3494,12 @@
       "es": {
        "name": "ZTEX Construction",
        "category": "CONTRATISTA DE OBRA CIVIL Y MOVIMIENTO DE TIERRAS"
-      }
+      },
+      "geo": [
+       31.723904,
+       -106.291575,
+       0
+      ]
      },
      {
       "name": "RT Electric, Inc.",
@@ -2797,7 +3512,12 @@
       "es": {
        "name": "RT Electric, Inc.",
        "category": "CONTRATISTA ELÉCTRICO"
-      }
+      },
+      "geo": [
+       32.306286,
+       -106.804351,
+       0
+      ]
      },
      {
       "name": "Yearout Service, LLC",
@@ -2810,7 +3530,12 @@
       "es": {
        "name": "Yearout Service, LLC",
        "category": "SISTEMAS MECÁNICOS"
-      }
+      },
+      "geo": [
+       32.29889,
+       -106.779067,
+       0
+      ]
      },
      {
       "name": "Associated Builders & Contractors NM",
@@ -2823,7 +3548,12 @@
       "es": {
        "name": "Associated Builders & Contractors NM",
        "category": "ASOCIACIÓN DE LA INDUSTRIA"
-      }
+      },
+      "geo": [
+       35.112295,
+       -106.63908,
+       0
+      ]
      }
     ],
     "title_es": "CONSTRUCCIÓN Y OFICIOS"
@@ -2842,7 +3572,12 @@
       "es": {
        "name": "Bohannan Huston, Inc.",
        "category": "INGENIERÍA"
-      }
+      },
+      "geo": [
+       32.317031,
+       -106.747656,
+       0
+      ]
      },
      {
       "name": "Souder, Miller & Associates",
@@ -2855,7 +3590,12 @@
       "es": {
        "name": "Souder, Miller & Associates",
        "category": "INGENIERÍA Y MEDIO AMBIENTE"
-      }
+      },
+      "geo": [
+       32.349039,
+       -106.73274,
+       0
+      ]
      },
      {
       "name": "Stubbs Engineering",
@@ -2868,7 +3608,12 @@
       "es": {
        "name": "Stubbs Engineering",
        "category": "INGENIERÍA"
-      }
+      },
+      "geo": [
+       32.307566,
+       -106.776163,
+       0
+      ]
      },
      {
       "name": "WHA International",
@@ -2881,7 +3626,12 @@
       "es": {
        "name": "WHA International",
        "category": "INGENIERÍA FORENSE"
-      }
+      },
+      "geo": [
+       32.384621,
+       -106.825129,
+       0
+      ]
      },
      {
       "name": "ASA Architects, PA",
@@ -2894,7 +3644,12 @@
       "es": {
        "name": "ASA Architects, PA",
        "group": "ARQUITECTURA"
-      }
+      },
+      "geo": [
+       32.309824,
+       -106.781471,
+       0
+      ]
      },
      {
       "name": "Desert Peak Architects",
@@ -2907,7 +3662,12 @@
       "es": {
        "name": "Desert Peak Architects",
        "group": "ARQUITECTURA"
-      }
+      },
+      "geo": [
+       32.311353,
+       -106.77914,
+       0
+      ]
      },
      {
       "name": "LoyaWilke Architects",
@@ -2920,7 +3680,12 @@
       "es": {
        "name": "LoyaWilke Architects",
        "group": "ARQUITECTURA"
-      }
+      },
+      "geo": [
+       31.760099,
+       -106.485619,
+       0
+      ]
      },
      {
       "name": "Vigil & Associates",
@@ -2933,7 +3698,12 @@
       "es": {
        "name": "Vigil & Associates",
        "group": "ARQUITECTURA"
-      }
+      },
+      "geo": [
+       32.286532,
+       -106.796044,
+       0
+      ]
      },
      {
       "name": "Dekker",
@@ -2946,7 +3716,12 @@
       "es": {
        "name": "Dekker",
        "category": "ARQUITECTURA Y PLANIFICACIÓN"
-      }
+      },
+      "geo": [
+       35.166009,
+       -106.591925,
+       0
+      ]
      }
     ],
     "title_es": "INGENIERÍA Y ARQUITECTURA"
@@ -2965,7 +3740,12 @@
       "es": {
        "name": "NAI 1st Valley",
        "group": "BIENES RAÍCES COMERCIALES"
-      }
+      },
+      "geo": [
+       32.305568,
+       -106.738525,
+       0
+      ]
      },
      {
       "name": "Steinborn TCN Commercial Real Estate",
@@ -2978,7 +3758,12 @@
       "es": {
        "name": "Steinborn TCN Commercial Real Estate",
        "group": "BIENES RAÍCES COMERCIALES"
-      }
+      },
+      "geo": [
+       32.324513,
+       -106.735307,
+       0
+      ]
      },
      {
       "name": "Colliers",
@@ -2991,7 +3776,12 @@
       "es": {
        "name": "Colliers",
        "group": "BIENES RAÍCES COMERCIALES"
-      }
+      },
+      "geo": [
+       35.170276,
+       -106.587703,
+       0
+      ]
      },
      {
       "name": "Killam Development",
@@ -3004,7 +3794,12 @@
       "es": {
        "name": "Killam Development",
        "group": "DESARROLLO INMOBILIARIO"
-      }
+      },
+      "geo": [
+       27.577415,
+       -99.43519,
+       0
+      ]
      },
      {
       "name": "Sierra Norte Development",
@@ -3017,7 +3812,12 @@
       "es": {
        "name": "Sierra Norte Development",
        "group": "DESARROLLO INMOBILIARIO"
-      }
+      },
+      "geo": [
+       32.272106,
+       -106.723046,
+       0
+      ]
      },
      {
       "name": "Alta Mesa Estates",
@@ -3030,7 +3830,12 @@
       "es": {
        "name": "Alta Mesa Estates",
        "category": "COMUNIDAD PLANIFICADA · SANTA TERESA"
-      }
+      },
+      "geo": [
+       32.817554,
+       -117.251666,
+       0
+      ]
      },
      {
       "name": "L&M Asset Management",
@@ -3043,7 +3848,12 @@
       "es": {
        "name": "L&M Asset Management",
        "category": "CORRETAJE INMOBILIARIO Y ADMINISTRACIÓN DE PROPIEDADES"
-      }
+      },
+      "geo": [
+       31.8623,
+       -106.5932,
+       1
+      ]
      },
      {
       "name": "Las Cruces Association of Realtors",
@@ -3056,7 +3866,12 @@
       "es": {
        "name": "Las Cruces Association of Realtors",
        "category": "ASOCIACIÓN DE LA INDUSTRIA"
-      }
+      },
+      "geo": [
+       32.296213,
+       -106.77853,
+       0
+      ]
      },
      {
       "name": "Doña Ana Title",
@@ -3070,12 +3885,22 @@
        {
         "label": "Telshor",
         "address": "425 S. Telshor Blvd., Ste B, Las Cruces, NM 88011",
-        "phone": "(575) 521-5800"
+        "phone": "(575) 521-5800",
+        "geo": [
+         32.314578,
+         -106.74383,
+         0
+        ]
        },
        {
         "label": "Roadrunner",
         "address": "141 Roadrunner Pkwy., Ste 139, Las Cruces, NM 88011",
-        "phone": "(575) 532-2390"
+        "phone": "(575) 532-2390",
+        "geo": [
+         32.324513,
+         -106.735307,
+         0
+        ]
        }
       ],
       "es": {
@@ -3096,11 +3921,21 @@
         "label": "Main",
         "address": "1125 S. Main St., Las Cruces, NM 88005",
         "phone": "(575) 523-8561",
-        "label_es": "Principal"
+        "label_es": "Principal",
+        "geo": [
+         32.298321,
+         -106.780042,
+         0
+        ]
        },
        {
         "label": "Foothills",
-        "address": "3780 Foothills Rd., Ste B, Las Cruces, NM 88011"
+        "address": "3780 Foothills Rd., Ste B, Las Cruces, NM 88011",
+        "geo": [
+         32.317676,
+         -106.736928,
+         0
+        ]
        }
       ],
       "es": {
@@ -3125,7 +3960,12 @@
       "es": {
        "name": "WestStar Bank",
        "group": "BANCO"
-      }
+      },
+      "geo": [
+       32.3073,
+       -106.737805,
+       0
+      ]
      },
      {
       "name": "Century Bank",
@@ -3138,7 +3978,12 @@
       "es": {
        "name": "Century Bank",
        "group": "BANCO"
-      }
+      },
+      "geo": [
+       32.324513,
+       -106.735307,
+       0
+      ]
      },
      {
       "name": "Citizens Bank of Las Cruces",
@@ -3153,32 +3998,62 @@
         "label": "Main Bank",
         "address": "505 S. Main St., Las Cruces, NM 88001 (Main Bank)",
         "phone": "(575) 647-4100",
-        "label_es": "Sucursal principal"
+        "label_es": "Sucursal principal",
+        "geo": [
+         32.304108,
+         -106.777312,
+         0
+        ]
        },
        {
         "label": "Country Club",
         "address": "2841 N. Main St., Las Cruces, NM 88001",
-        "phone": "(575) 647-4136"
+        "phone": "(575) 647-4136",
+        "geo": [
+         32.337061,
+         -106.778687,
+         0
+        ]
        },
        {
         "label": "Roadrunner",
         "address": "3991 E. Lohman Ave., Las Cruces, NM 88011",
-        "phone": "(575) 528-6300"
+        "phone": "(575) 528-6300",
+        "geo": [
+         32.320349,
+         -106.732192,
+         0
+        ]
        },
        {
         "label": "Picacho",
         "address": "3030 W. Picacho Ave., Las Cruces, NM 88007",
-        "phone": "(575) 528-6363"
+        "phone": "(575) 528-6363",
+        "geo": [
+         32.310993,
+         -106.815901,
+         0
+        ]
        },
        {
         "label": "University",
         "address": "3065 E. University Ave., Las Cruces, NM 88011",
-        "phone": "(575) 647-6700"
+        "phone": "(575) 647-6700",
+        "geo": [
+         32.291003,
+         -106.732176,
+         0
+        ]
        },
        {
         "label": "Sonoma",
         "address": "4785 N. Sonoma Ranch Blvd., Las Cruces, NM 88012",
-        "phone": "(575) 647-4180"
+        "phone": "(575) 647-4180",
+        "geo": [
+         32.37327,
+         -106.741155,
+         0
+        ]
        }
       ],
       "es": {
@@ -3198,12 +4073,22 @@
        {
         "label": "Mesilla",
         "address": "1553 Avenida de Mesilla Ste 225, Las Cruces, NM 88005",
-        "phone": "(575) 524-8000"
+        "phone": "(575) 524-8000",
+        "geo": [
+         32.283666,
+         -106.794991,
+         0
+        ]
        },
        {
         "label": "East Lohman",
         "address": "2145 E. Lohman Ave., Las Cruces, NM 88001",
-        "phone": "(575) 525-4230"
+        "phone": "(575) 525-4230",
+        "geo": [
+         32.312875,
+         -106.752838,
+         0
+        ]
        }
       ],
       "es": {
@@ -3224,17 +4109,32 @@
         "label": "Main Bank",
         "address": "3000 E. Lohman Ave., Las Cruces, NM 88011",
         "phone": "(575) 556-3000",
-        "label_es": "Sucursal principal"
+        "label_es": "Sucursal principal",
+        "geo": [
+         32.31587,
+         -106.743357,
+         0
+        ]
        },
        {
         "label": "Motel Blvd",
         "address": "920 N. Motel Blvd., Las Cruces, NM 88007",
-        "phone": "(575) 556-3060"
+        "phone": "(575) 556-3060",
+        "geo": [
+         32.309985,
+         -106.815325,
+         0
+        ]
        },
        {
         "label": "Anthony",
         "address": "455 Landers Rd., Anthony, NM 88021",
-        "phone": "(575) 882-5885"
+        "phone": "(575) 882-5885",
+        "geo": [
+         32.013947,
+         -106.60376,
+         0
+        ]
        }
       ],
       "es": {
@@ -3254,17 +4154,32 @@
        {
         "label": "Lohman",
         "address": "3831 E. Lohman Ave., Las Cruces, NM 88011",
-        "phone": "(800) 624-5200"
+        "phone": "(800) 624-5200",
+        "geo": [
+         32.318662,
+         -106.736362,
+         0
+        ]
        },
        {
         "label": "Roadrunner",
         "address": "2900 Roadrunner Pkwy., Las Cruces, NM 88011",
-        "phone": "(800) 624-5200"
+        "phone": "(800) 624-5200",
+        "geo": [
+         32.356151,
+         -106.755149,
+         0
+        ]
        },
        {
         "label": "University",
         "address": "705 E. University Ave., Las Cruces, NM 88005",
-        "phone": "(800) 624-5200"
+        "phone": "(800) 624-5200",
+        "geo": [
+         32.277919,
+         -106.776903,
+         0
+        ]
        }
       ],
       "es": {
@@ -3284,12 +4199,22 @@
        {
         "label": "Amador",
         "address": "277 E. Amador Avenue, Las Cruces, NM 88001",
-        "phone": "(575) 647-7310"
+        "phone": "(575) 647-7310",
+        "geo": [
+         32.307566,
+         -106.776163,
+         0
+        ]
        },
        {
         "label": "Foothills",
         "address": "3790 E. Lohman Ave., Las Cruces, NM 88011",
-        "phone": "(575) 522-9660"
+        "phone": "(575) 522-9660",
+        "geo": [
+         32.31832,
+         -106.736148,
+         0
+        ]
        }
       ],
       "es": {
@@ -3308,7 +4233,12 @@
       "es": {
        "name": "WaFd Bank",
        "group": "BANCO"
-      }
+      },
+      "geo": [
+       32.306531,
+       -106.780719,
+       0
+      ]
      },
      {
       "name": "FirstLight Federal Credit Union",
@@ -3322,17 +4252,32 @@
        {
         "label": "Idaho",
         "address": "522 E. Idaho Ave., Las Cruces, NM 88001",
-        "phone": "(575) 526-4401"
+        "phone": "(575) 526-4401",
+        "geo": [
+         32.297375,
+         -106.770978,
+         0
+        ]
        },
        {
         "label": "Del Rey",
         "address": "3105 Del Rey Blvd., Las Cruces, NM 88012",
-        "phone": "(575) 526-4401"
+        "phone": "(575) 526-4401",
+        "geo": [
+         32.35223,
+         -106.765373,
+         0
+        ]
        },
        {
         "label": "Lohman",
         "address": "3791 E. Lohman Ave., Las Cruces, NM 88011",
-        "phone": "(575) 526-4401"
+        "phone": "(575) 526-4401",
+        "geo": [
+         32.318582,
+         -106.738187,
+         0
+        ]
        }
       ],
       "es": {
@@ -3351,7 +4296,12 @@
       "es": {
        "name": "Axcess Financial Group",
        "category": "BENEFICIOS PARA EMPLEADOS Y PLANES DE RETIRO"
-      }
+      },
+      "geo": [
+       35.103796,
+       -106.571198,
+       0
+      ]
      },
      {
       "name": "Edward Jones – Amy Daniels",
@@ -3364,7 +4314,12 @@
       "es": {
        "name": "Edward Jones – Amy Daniels",
        "category": "ASESOR FINANCIERO"
-      }
+      },
+      "geo": [
+       32.362941,
+       -106.739371,
+       0
+      ]
      },
      {
       "name": "Beasley Mitchell & Co., LLP",
@@ -3377,7 +4332,12 @@
       "es": {
        "name": "Beasley Mitchell & Co., LLP",
        "category": "CONTABILIDAD"
-      }
+      },
+      "geo": [
+       32.304149,
+       -106.777304,
+       0
+      ]
      },
      {
       "name": "Higginbotham",
@@ -3390,7 +4350,12 @@
       "es": {
        "name": "Higginbotham",
        "category": "SEGUROS"
-      }
+      },
+      "geo": [
+       32.324513,
+       -106.735307,
+       0
+      ]
      },
      {
       "name": "Percha Creek Investments LLC",
@@ -3403,7 +4368,12 @@
       "extra": true,
       "es": {
        "category": "INVERSIONES"
-      }
+      },
+      "geo": [
+       32.21,
+       -106.7147,
+       1
+      ]
      }
     ],
     "title_es": "BANCA Y SERVICIOS FINANCIEROS"
@@ -3422,7 +4392,12 @@
       "es": {
        "name": "Union Pacific",
        "category": "FERROCARRIL"
-      }
+      },
+      "geo": [
+       31.775929,
+       -106.461674,
+       0
+      ]
      },
      {
       "name": "Ironhorse Resources",
@@ -3435,7 +4410,12 @@
       "es": {
        "name": "Ironhorse Resources",
        "category": "FERROCARRIL DE VÍA CORTA Y DESARROLLO DE PARQUE FERROVIARIO"
-      }
+      },
+      "geo": [
+       31.8394,
+       -106.6821,
+       1
+      ]
      },
      {
       "name": "MVT Logistics",
@@ -3448,7 +4428,12 @@
       "es": {
        "name": "MVT Logistics",
        "category": "LOGÍSTICA DE TERCEROS"
-      }
+      },
+      "geo": [
+       31.8394,
+       -106.6821,
+       1
+      ]
      },
      {
       "name": "Enterprise Truck Rental",
@@ -3461,7 +4446,12 @@
       "es": {
        "name": "Enterprise Truck Rental",
        "category": "RENTA DE CAMIONES"
-      }
+      },
+      "geo": [
+       32.293122,
+       -106.785737,
+       0
+      ]
      },
      {
       "name": "Admiral Cable, Inc.",
@@ -3474,7 +4464,12 @@
       "es": {
        "name": "Admiral Cable, Inc.",
        "category": "MANUFACTURA"
-      }
+      },
+      "geo": [
+       31.849973,
+       -106.703209,
+       0
+      ]
      },
      {
       "name": "Franklin Mountain Packaging",
@@ -3487,7 +4482,12 @@
       "es": {
        "name": "Franklin Mountain Packaging",
        "category": "FABRICACIÓN DE EMPAQUES"
-      }
+      },
+      "geo": [
+       31.8394,
+       -106.6821,
+       1
+      ]
      },
      {
       "name": "Las Cruces Machine & Manufacturing",
@@ -3500,7 +4500,12 @@
       "es": {
        "name": "Las Cruces Machine & Manufacturing",
        "category": "MANUFACTURA"
-      }
+      },
+      "geo": [
+       32.238613,
+       -106.74342,
+       0
+      ]
      },
      {
       "name": "Cymmetrik Technologies USA Southwest",
@@ -3513,7 +4518,12 @@
       "es": {
        "name": "Cymmetrik Technologies USA Southwest",
        "category": "IMPRESIÓN Y EMPAQUES"
-      }
+      },
+      "geo": [
+       31.864842,
+       -106.695609,
+       0
+      ]
      },
      {
       "name": "W Silver Recycling",
@@ -3526,7 +4536,12 @@
       "es": {
        "name": "W Silver Recycling",
        "category": "RECICLAJE DE METALES"
-      }
+      },
+      "geo": [
+       31.766603,
+       -106.46969,
+       0
+      ]
      }
     ],
     "title_es": "LOGÍSTICA Y MANUFACTURA"
@@ -3597,7 +4612,12 @@
       "es": {
        "name": "Grid United",
        "category": "DESARROLLO DE TRANSMISIÓN ELÉCTRICA"
-      }
+      },
+      "geo": [
+       29.759099,
+       -95.363301,
+       0
+      ]
      }
     ],
     "title_es": "ENERGÍA Y TECNOLOGÍA"
@@ -3620,7 +4640,12 @@
         "phone": "(575) 556-7600",
         "note": "Emergency department open 24/7",
         "note_es": "Sala de emergencias abierta 24/7",
-        "label_es": "Hospital (campus principal)"
+        "label_es": "Hospital (campus principal)",
+        "geo": [
+         32.32388,
+         -106.7263,
+         0
+        ]
        },
        {
         "label": "Emergency Center - North Main",
@@ -3628,7 +4653,12 @@
         "phone": "(575) 526-0080",
         "note": "Freestanding emergency center",
         "note_es": "Centro de emergencias independiente",
-        "label_es": "Centro de Emergencias – North Main"
+        "label_es": "Centro de Emergencias – North Main",
+        "geo": [
+         32.336793,
+         -106.778891,
+         0
+        ]
        },
        {
         "label": "Urgent Care - Lohman",
@@ -3636,7 +4666,12 @@
         "phone": "(575) 525-2700",
         "note": "Daily 9 a.m.–8 p.m.",
         "note_es": "Diario de 9 a.m. a 8 p.m.",
-        "label_es": "Atención Urgente – Lohman"
+        "label_es": "Atención Urgente – Lohman",
+        "geo": [
+         32.324046,
+         -106.72596,
+         0
+        ]
        },
        {
         "label": "Urgent Care - Northrise",
@@ -3644,7 +4679,12 @@
         "phone": "(575) 382-2161",
         "note": "Daily 9 a.m.–8 p.m.",
         "note_es": "Diario de 9 a.m. a 8 p.m.",
-        "label_es": "Atención Urgente – Northrise"
+        "label_es": "Atención Urgente – Northrise",
+        "geo": [
+         32.362538,
+         -106.748878,
+         0
+        ]
        },
        {
         "label": "Urgent Care - Valley",
@@ -3652,7 +4692,12 @@
         "phone": "(575) 526-7777",
         "note": "Daily 9 a.m.–8 p.m.",
         "note_es": "Diario de 9 a.m. a 8 p.m.",
-        "label_es": "Atención Urgente – Valley"
+        "label_es": "Atención Urgente – Valley",
+        "geo": [
+         32.291367,
+         -106.784086,
+         0
+        ]
        },
        {
         "label": "Primary Care - Lohman",
@@ -3660,7 +4705,12 @@
         "phone": "(575) 522-7313",
         "note": "MountainView Medical Group",
         "note_es": "MountainView Medical Group",
-        "label_es": "Atención Primaria – Lohman"
+        "label_es": "Atención Primaria – Lohman",
+        "geo": [
+         32.324302,
+         -106.725431,
+         0
+        ]
        },
        {
         "label": "Family Care - Valley",
@@ -3668,7 +4718,12 @@
         "phone": "(575) 526-6992",
         "note": "MountainView Medical Group",
         "note_es": "MountainView Medical Group",
-        "label_es": "Atención Familiar – Valley"
+        "label_es": "Atención Familiar – Valley",
+        "geo": [
+         32.291367,
+         -106.784086,
+         0
+        ]
        },
        {
         "label": "Family Care - Northrise",
@@ -3676,7 +4731,12 @@
         "phone": "(575) 382-2149",
         "note": "MountainView Medical Group",
         "note_es": "MountainView Medical Group",
-        "label_es": "Atención Familiar – Northrise"
+        "label_es": "Atención Familiar – Northrise",
+        "geo": [
+         32.362538,
+         -106.748878,
+         0
+        ]
        },
        {
         "label": "Orthopedics",
@@ -3684,7 +4744,12 @@
         "phone": "(575) 532-9755",
         "note": "MountainView Medical Group",
         "note_es": "MountainView Medical Group",
-        "label_es": "Ortopedia"
+        "label_es": "Ortopedia",
+        "geo": [
+         32.324046,
+         -106.72596,
+         0
+        ]
        }
       ],
       "es": {
@@ -3703,7 +4768,12 @@
       "es": {
        "name": "Rehabilitation Hospital of Southern NM",
        "group": "HOSPITAL"
-      }
+      },
+      "geo": [
+       32.324611,
+       -106.724745,
+       0
+      ]
      },
      {
       "name": "Matrix Home Care Services of NM",
@@ -3716,7 +4786,12 @@
       "es": {
        "name": "Matrix Home Care Services of NM",
        "category": "CUIDADO EN EL HOGAR"
-      }
+      },
+      "geo": [
+       32.298699,
+       -106.779715,
+       0
+      ]
      },
      {
       "name": "Burrell College of Health Sciences",
@@ -3729,7 +4804,12 @@
       "es": {
        "name": "Burrell College of Health Sciences",
        "category": "COLEGIO DE CIENCIAS DE LA SALUD"
-      }
+      },
+      "geo": [
+       32.27787,
+       -106.737368,
+       0
+      ]
      }
     ],
     "title_es": "ATENCIÓN MÉDICA"
@@ -3748,7 +4828,12 @@
       "es": {
        "name": "KW Consulting",
        "category": "CONSULTORÍA EMPRESARIAL"
-      }
+      },
+      "geo": [
+       35.192805,
+       -106.324759,
+       0
+      ]
      },
      {
       "name": "American Document Services",
@@ -3761,7 +4846,12 @@
       "es": {
        "name": "American Document Services",
        "category": "PROCESAMIENTO DE DOCUMENTOS"
-      }
+      },
+      "geo": [
+       32.305577,
+       -106.804005,
+       0
+      ]
      },
      {
       "name": "Master Imaging",
@@ -3774,7 +4864,12 @@
       "es": {
        "name": "Master Imaging",
        "category": "IMAGEN E IMPRESIÓN"
-      }
+      },
+      "geo": [
+       32.324711,
+       -106.731686,
+       0
+      ]
      },
      {
       "name": "Chisholm’s LLC",
@@ -3787,7 +4882,12 @@
       "es": {
        "name": "Chisholm’s LLC",
        "category": "SERVICIOS EMPRESARIALES"
-      }
+      },
+      "geo": [
+       32.3161,
+       -106.7991,
+       1
+      ]
      }
     ],
     "title_es": "SERVICIOS PROFESIONALES Y EMPRESARIALES"
@@ -3806,7 +4906,12 @@
       "es": {
        "name": "Hotel Encanto de Las Cruces",
        "group": "HOTEL"
-      }
+      },
+      "geo": [
+       32.312725,
+       -106.740426,
+       0
+      ]
      },
      {
       "name": "Courtyard Las Cruces",
@@ -3819,7 +4924,12 @@
       "es": {
        "name": "Courtyard Las Cruces",
        "group": "HOTEL"
-      }
+      },
+      "geo": [
+       32.27843,
+       -106.776117,
+       0
+      ]
      },
      {
       "name": "Staybridge Suites",
@@ -3832,7 +4942,12 @@
       "es": {
        "name": "Staybridge Suites",
        "group": "HOTEL"
-      }
+      },
+      "geo": [
+       32.35234,
+       -106.76281,
+       0
+      ]
      },
      {
       "name": "Hacienda de Mesilla",
@@ -3845,7 +4960,12 @@
       "es": {
        "name": "Hacienda de Mesilla",
        "category": "HOTEL BOUTIQUE"
-      }
+      },
+      "geo": [
+       32.279011,
+       -106.796111,
+       0
+      ]
      },
      {
       "name": "La Posta de Mesilla",
@@ -3858,7 +4978,12 @@
       "es": {
        "name": "La Posta de Mesilla",
        "category": "RESTAURANTE"
-      }
+      },
+      "geo": [
+       32.274211,
+       -106.794415,
+       0
+      ]
      }
     ],
     "title_es": "HOSPITALIDAD"
@@ -3877,7 +5002,12 @@
       "es": {
        "name": "United Way of Southwest New Mexico",
        "category": "SIN FINES DE LUCRO"
-      }
+      },
+      "geo": [
+       32.4182,
+       -106.8201,
+       1
+      ]
      },
      {
       "name": "Tresco, Inc.",
@@ -3890,7 +5020,12 @@
       "es": {
        "name": "Tresco, Inc.",
        "category": "SERVICIOS PARA PERSONAS CON DISCAPACIDAD"
-      }
+      },
+      "geo": [
+       32.30646,
+       -106.804583,
+       0
+      ]
      },
      {
       "name": "Casa de Peregrinos",
@@ -3905,7 +5040,12 @@
         "label": "Las Cruces (Central Pantry)",
         "address": "999 W. Amador Ave. Suite F, Las Cruces, NM 88005",
         "phone": "(575) 523-5542",
-        "label_es": "Las Cruces (despensa central)"
+        "label_es": "Las Cruces (despensa central)",
+        "geo": [
+         32.304428,
+         -106.789068,
+         0
+        ]
        },
        {
         "label": "Hatch Pantry",
@@ -3913,7 +5053,12 @@
         "phone": "(575) 267-7805",
         "note": "Wed & Fri 3–6 p.m.",
         "note_es": "mié y vie de 3 a 6 p.m.",
-        "label_es": "Despensa de Hatch"
+        "label_es": "Despensa de Hatch",
+        "geo": [
+         32.66764,
+         -107.151671,
+         0
+        ]
        }
       ],
       "es": {
@@ -3934,7 +5079,12 @@
         "label": "Main Office - Las Cruces",
         "address": "1320 S. Solano Dr., Las Cruces, NM 88001",
         "phone": "(575) 522-4004",
-        "label_es": "Oficina principal – Las Cruces"
+        "label_es": "Oficina principal – Las Cruces",
+        "geo": [
+         32.298998,
+         -106.762075,
+         0
+        ]
        },
        {
         "label": "La Vida Project (Youth Center)",
@@ -3942,7 +5092,12 @@
         "phone": "(575) 522-4004",
         "note": "Youth Success Center",
         "note_es": "Centro de Éxito Juvenil",
-        "label_es": "Proyecto La Vida (Centro Juvenil)"
+        "label_es": "Proyecto La Vida (Centro Juvenil)",
+        "geo": [
+         32.30927,
+         -106.778556,
+         0
+        ]
        },
        {
         "label": "Juntos Project (Family Center)",
@@ -3950,7 +5105,12 @@
         "phone": "(575) 339-1055",
         "note": "Family Success Center",
         "note_es": "Centro de Éxito Familiar",
-        "label_es": "Proyecto Juntos (Centro Familiar)"
+        "label_es": "Proyecto Juntos (Centro Familiar)",
+        "geo": [
+         32.308504,
+         -106.771529,
+         0
+        ]
        }
       ],
       "es": {
@@ -3969,7 +5129,12 @@
       "es": {
        "name": "Doña Ana County Farm & Livestock Bureau",
        "category": "ASOCIACIÓN AGRÍCOLA"
-      }
+      },
+      "geo": [
+       32.4182,
+       -106.8201,
+       1
+      ]
      },
      {
       "name": "New Mexico State University",
@@ -3982,7 +5147,12 @@
       "extra": true,
       "es": {
        "category": "UNIVERSIDAD"
-      }
+      },
+      "geo": [
+       32.2738,
+       -106.7472,
+       1
+      ]
      },
      {
       "name": "The Borderplex Bi-National Alliance",
@@ -3995,7 +5165,12 @@
       "extra": true,
       "es": {
        "category": "DESARROLLO ECONÓMICO REGIONAL"
-      }
+      },
+      "geo": [
+       31.759102,
+       -106.488691,
+       0
+      ]
      }
     ],
     "title_es": "ORGANIZACIONES COMUNITARIAS Y SIN FINES DE LUCRO"

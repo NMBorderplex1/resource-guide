@@ -6,6 +6,7 @@ A searchable, bilingual (English / Español) web version of the printed *NM Bord
 
 - Search by name, service or keyword (works in English and Spanish); five section tabs
 - **Locations in** chips (Las Cruces, Anthony, Sunland Park, Hatch, Mesilla, …); organizations with several county locations list every one, and the nearest match is highlighted
+- **Closest to you**: visitors can press *Use my location* or type a ZIP code and see listings sorted by straight-line distance (the nearest branch of multi-location organizations is shown first). A visitor's location stays in their browser; nothing is sent anywhere. Listings without a street address are not part of the distance view.
 - EN / ES toggle, tap-to-call and tap-for-directions links, photo section banners with parallax
 - Deep links, e.g. `#sec=incentives&near=anthony&q=bank&lang=es`
 - Scoped styles (everything lives under `.mv-widget`) so the host page is not affected
@@ -21,7 +22,7 @@ One-time setup:
 3. In Divi, add a **Code module** with:
 
 ```html
-<iframe id="mv-guide" src="https://nmborderplex1.github.io/resource-guide/?theme=light&pdfEn=PDF_URL_ENGLISH&pdfEs=PDF_URL_SPANISH"
+<iframe id="mv-guide" allow="geolocation" src="https://nmborderplex1.github.io/resource-guide/?theme=light&pdfEn=PDF_URL_ENGLISH&pdfEs=PDF_URL_SPANISH"
         style="width:100%;height:900px;border:0" loading="lazy" title="Business Resource Guide"></iframe>
 <script>
 /* the widget reports its height so the frame fits on every screen size */
@@ -33,6 +34,8 @@ window.addEventListener('message', function (e) {
 });
 </script>
 ```
+
+`allow="geolocation"` is required for the *Use my location* button to work inside the iframe (the ZIP code box works either way).
 
 The width follows the Divi column. The height is set automatically by the small script (900 px is only the starting height before the widget loads); without the script the frame stays at 900 px, which can cut off the bottom on phones.
 
@@ -88,7 +91,9 @@ Pipeline (`build.py all`):
 1. `extract_from_pdf.py` / `extract_es.py` parse the PDFs by font size and family (the print layout has no semantic tags, but its styling is consistent: 11.2 pt bold = entry name, 10.1 pt = description, 9.4/9.0 pt = address and phone, 8.6 pt bold = kicker, 15.8 pt = subsection, and so on). Spanish is aligned to English entry-for-entry by position.
 2. `rebuild_from_pdf.py` adds the Industry-Specific Incentives list (not parseable from the PDF's wrapped layout) and cleans extraction artifacts such as phone extensions that land in URL fields.
 3. `apply_locations.py` merges the multi-location research in `data/multiloc/`.
-4. `build_bilingual.py` attaches the Spanish text; `build_widget.py` writes `dist/`.
+4. `build_bilingual.py` attaches the Spanish text.
+5. `geocode.py` adds map coordinates to every address (U.S. Census geocoder, with OpenStreetMap as a fallback; PO boxes and unmatched addresses use the centre of their ZIP code and are shown as approximate, e.g. "~2.1 mi"). Results are cached in `data/geocodes.json`, so the network is only used for new or changed addresses. `data/zips.json` (ZIP code centres for Doña Ana County and El Paso, from `scripts/build_zips.py`) powers the ZIP code box.
+6. `build_widget.py` writes `dist/` and `docs/`.
 
 If the printed guide changes, re-run `build.py all` against the new PDFs and review the diff of `data/widget_data.json` before publishing. PDFs and other large source files are intentionally not stored in this repository (see `.gitignore`).
 

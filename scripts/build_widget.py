@@ -25,6 +25,7 @@ for i in range(1, 6):
 
 data = json.load(open(os.path.join(ROOT, 'data', 'widget_data.json'), encoding='utf-8'))
 payload = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
+html = html.replace('__ZIPS_JSON__', json.dumps(json.load(open(os.path.join(ROOT, 'data', 'zips.json'), encoding='utf-8')), ensure_ascii=False, separators=(',', ':')))
 head, tail = html.split('__DATA_JSON__')
 out = head + payload + tail
 assert not re.findall(r'__[A-Z0-9_]+__', out), 'unreplaced placeholder'
