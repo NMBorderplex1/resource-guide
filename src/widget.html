@@ -143,12 +143,15 @@
 .mv-cta-btn{ display:inline-flex; align-items:center; background:#fff; color:var(--burg) !important; font:700 12.5px var(--font); border-radius:999px; padding:8px 18px; transition:transform .15s, box-shadow .15s; }
 .mv-cta-btn:hover{ transform:translateY(-1px); box-shadow:0 6px 16px rgba(0,0,0,.28); }
 .mv-cta-phone{ color:#fff !important; font:600 13px var(--font); border-bottom:1px solid rgba(255,255,255,.5); }
-.mv-footer{ margin-top:10px; padding-top:9px; border-top:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; }
-.mv-footer-mark{ display:flex; align-items:center; gap:9px; }
-.mv-footer-logo-chip{ background:#fff; border-radius:5px; padding:4px 6px; flex:none; line-height:0; border:1px solid var(--line); }
-.mv-footer-logo-chip img{ display:block; height:20px; width:auto; }
-.mv-footer-text{ font-size:12px; color:var(--gray); }
-.mv-footer-mark:hover .mv-footer-text{ text-decoration:underline; }
+.mv-footer{ margin-top:12px; padding-top:12px; border-top:1px solid var(--line); display:flex; align-items:center; gap:12px 14px; flex-wrap:wrap; }
+.mv-footer-logo-chip{ background:#fff; border-radius:6px; padding:5px 8px; flex:none; line-height:0; border:1px solid var(--line); }
+.mv-footer-logo-chip img{ display:block; height:24px; width:auto; }
+.mv-footer-info{ flex:1 1 320px; min-width:0; }
+.mv-widget .mv-footer-by{ font-size:12px; color:var(--gray); }
+.mv-widget .mv-footer-by strong{ color:var(--ink); font-weight:600; }
+.mv-widget .mv-footer-contact{ margin-top:2px; font-size:11.5px; color:var(--gray); line-height:1.6; }
+.mv-footer-contact a{ color:var(--gray); font-weight:500; }
+.mv-footer-contact a:hover{ color:var(--burg-text); text-decoration:underline; }
 
 .mv-reveal{ opacity:0; transform:translateY(14px); }
 .mv-reveal.mv-in{ opacity:1; transform:none; transition:opacity .5s ease, transform .5s ease; }
@@ -220,10 +223,11 @@
     </div>
 
     <div class="mv-footer">
-      <a class="mv-footer-mark" href="https://mveda.com" target="_blank" rel="noopener">
-        <div class="mv-footer-logo-chip"><img src="data:image/png;base64,__MV_B64__" alt="MVEDA"></div>
-        <span class="mv-footer-text">Mesilla Valley Economic Development Alliance · mveda.com</span>
-      </a>
+      <a class="mv-footer-logo-chip" href="https://mveda.com" target="_blank" rel="noopener" aria-label="MVEDA"><img src="data:image/png;base64,__MV_B64__" alt="MVEDA"></a>
+      <div class="mv-footer-info">
+        <p class="mv-footer-by"><span id="mv-produced"></span> <strong>Mesilla Valley Economic Development Alliance (MVEDA)</strong></p>
+        <p class="mv-footer-contact">1501 S. Don Roser, Las Cruces, NM 88011 · <a id="mv-footer-phone" href="tel:+15755252852">(575) 525-2852</a> · <a href="tel:+18005236833">1-800-523-6833</a> · <a href="https://mveda.com" target="_blank" rel="noopener">mveda.com</a></p>
+      </div>
     </div>
   </div>
 </div>
@@ -273,7 +277,7 @@ const STR = {
     locs:n=>`${n} locations`, cta:'Let MVEDA run a customized incentives analysis for your project.',
     ctaNote:'MVEDA works with companies that create economic-base jobs, including, but not limited to, manufacturing, logistics, aerospace, technology, energy and agribusiness.',
     ctaBtn:'Talk to MVEDA',
-    pdf:'Download the PDF guide', maps:'Open in Maps'
+    pdf:'Download the PDF guide', maps:'Open in Maps', produced:'Produced by'
   },
   es: {
     title:'Guía de Recursos Empresariales — Edición Interactiva',
@@ -285,7 +289,7 @@ const STR = {
     locs:n=>`${n} ubicaciones`, cta:'Permita que MVEDA realice un análisis de incentivos personalizado para su proyecto.',
     ctaNote:'MVEDA trabaja con empresas que generan empleos de base económica, incluidos, entre otros, manufactura, logística, aeroespacial, tecnología, energía y agronegocios.',
     ctaBtn:'Hable con MVEDA',
-    pdf:'Descargar la guía en PDF', maps:'Abrir en Mapas'
+    pdf:'Descargar la guía en PDF', maps:'Abrir en Mapas', produced:'Elaborado por'
   }
 };
 
@@ -377,6 +381,8 @@ function renderStatic(){
   qEl.placeholder = t.search;
   $('mv-count-label').textContent = t.resources;
   $('mv-cta-text').textContent = t.cta;
+  $('mv-produced').textContent = t.produced;
+  const fp = $('mv-footer-phone'); fp.textContent = CONFIG.phone; fp.href = telHref(CONFIG.phone);
   $('mv-cta-note').textContent = t.ctaNote;
   const btn = $('mv-cta-btn'); btn.textContent = t.ctaBtn; btn.href = CONFIG.contactUrl;
   btn.className = 'mv-cta-btn' + (CONFIG.ctaClass ? ' ' + CONFIG.ctaClass : '');
