@@ -77,6 +77,11 @@
 .mv-near-label svg{ width:13px; height:13px; }
 .mv-chip{ padding:4px 11px; font-size:11px; background:transparent; }
 .mv-chip[aria-pressed="true"]{ background:var(--gold); color:#251c0a; border-color:var(--gold); }
+.mv-more{ flex:none; font:600 11px var(--font); padding:5px 10px; border:1.5px solid var(--line); border-radius:999px; background:transparent; color:var(--gray); cursor:pointer; }
+.mv-more.mv-on{ background:var(--gold); color:#251c0a; border-color:var(--gold); }
+.mv-more:focus-visible{ outline:2px solid var(--burg-text); outline-offset:2px; }
+.mv-widget .mv-empty p{ margin:0 0 12px; }
+.mv-empty-actions{ display:flex; gap:8px; justify-content:center; flex-wrap:wrap; }
 
 .mv-meta-row{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin:0 0 5px; font-size:12px; color:var(--gray); }
 .mv-meta-row strong{ color:var(--ink); font-weight:700; font-variant-numeric:tabular-nums; }
@@ -269,7 +274,8 @@ const STR = {
     title:'Business Resource Guide — Interactive Edition',
     sub:'The same Business Resource Guide published in print — search it, filter it, and get straight to the office, program, or partner you need.',
     search:'Search by name, service, or keyword…', all:'All', resources:'resources', allCats:'All categories',
-    nearLabel:'Locations in', nearAll:'All Doña Ana County',
+    nearLabel:'Locations in', nearAll:'All Doña Ana County', more:'More communities', showAll:'Show all of Doña Ana County',
+    emptyNear:c=>`No offices are located in ${c} yet. The resources in this guide serve the whole county; the closest listings are in:`,
     nearNote:c=>`Showing offices and locations in ${c}. Programs and incentives that aren’t tied to one place are hidden — clear the filter to see them.`,
     empty:'No matches. Try a different search term or category.',
     locs:n=>`${n} locations`, cta:'Let MVEDA run a customized incentives analysis for your project.',
@@ -281,7 +287,8 @@ const STR = {
     title:'Guía de Recursos Empresariales — Edición Interactiva',
     sub:'La misma Guía de Recursos Empresariales publicada en versión impresa: búsquela, fíltrela y llegue directamente a la oficina, programa o socio que necesita.',
     search:'Buscar por nombre, servicio o palabra clave…', all:'Todo', resources:'recursos', allCats:'Todas las categorías',
-    nearLabel:'Ubicaciones en', nearAll:'Todo el condado de Doña Ana',
+    nearLabel:'Ubicaciones en', nearAll:'Todo el condado de Doña Ana', more:'Más comunidades', showAll:'Ver todo el condado de Doña Ana',
+    emptyNear:c=>`Aún no hay oficinas ubicadas en ${c}. Los recursos de esta guía atienden a todo el condado; las ubicaciones más cercanas están en:`,
     nearNote:c=>`Mostrando oficinas y ubicaciones en ${c}. Los programas e incentivos que no dependen de un lugar se ocultan; quite el filtro para verlos.`,
     empty:'Sin resultados. Pruebe con otro término o categoría.',
     locs:n=>`${n} ubicaciones`, cta:'Permita que MVEDA realice un análisis de incentivos personalizado para su proyecto.',
@@ -321,7 +328,7 @@ const iconLink = '<svg viewBox="0 0 24 24" fill="none"><path d="M10 14a4 4 0 0 0
 const chev = '<svg class="mv-chev" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
 /* ---- community (city) index, parsed from addresses ---- */
-const COUNTY = ['Las Cruces','Mesilla','Anthony','Chaparral','Sunland Park','Santa Teresa','Hatch','Doña Ana','Vado','Berino','Organ','Radium Springs','La Union','Mesquite','Rincon','Garfield','Salem','Tortugas','Butterfield','La Mesa'];
+const COUNTY = ['Las Cruces','Mesilla','Mesilla Park','Anthony','Chaparral','Sunland Park','Santa Teresa','Hatch','Doña Ana','Vado','Berino','Organ','Radium Springs','La Union','Chamberino','Mesquite','Rincon','Garfield','Salem','Tortugas','Butterfield','La Mesa','San Miguel','Santo Tomas','Leasburg','Fairacres'];
 function citiesOf(address){
   const out = [];
   String(address || '').split(/\s{2,}|\n/).forEach(chunk => {
@@ -340,6 +347,9 @@ DATA.forEach(h1 => h1.subsections.forEach(h2 => h2.entries.forEach(e => { e._cit
 const cityCounts = {};
 DATA.forEach(h1 => h1.subsections.forEach(h2 => h2.entries.forEach(e => e._cities.forEach(c => cityCounts[c] = (cityCounts[c] || 0) + 1))));
 const NEAR = COUNTY.filter(c => cityCounts[c] >= 2).sort((a, b) => a === 'Las Cruces' ? -1 : b === 'Las Cruces' ? 1 : cityCounts[b] - cityCounts[a]);
+const MORE = COUNTY.filter(c => !NEAR.includes(c)).sort((a, b) => a.localeCompare(b));
+/* nearest towns that do have listings, shown when someone picks a community with none (review with staff) */
+const NEARBY = {'Vado':['Anthony','Las Cruces'], 'Chamberino':['Anthony','Sunland Park'], 'La Union':['Anthony','Sunland Park'], 'Berino':['Anthony','Las Cruces'], 'Mesquite':['Las Cruces','Anthony'], 'Santo Tomas':['Las Cruces','Mesilla'], 'San Miguel':['Las Cruces','Anthony'], 'La Mesa':['Mesilla','Las Cruces'], 'Doña Ana':['Las Cruces'], 'Radium Springs':['Las Cruces','Hatch'], 'Leasburg':['Las Cruces','Hatch'], 'Fairacres':['Las Cruces','Mesilla'], 'Organ':['Las Cruces'], 'Butterfield':['Las Cruces'], 'Tortugas':['Las Cruces'], 'Rincon':['Hatch','Las Cruces'], 'Garfield':['Hatch'], 'Salem':['Hatch','Las Cruces']};
 
 function textMatch(e, q){
   if(!q) return true;
@@ -357,7 +367,7 @@ function readHash(){
   let touched = false;
   if(p.has('lang')){ state.lang = p.get('lang') === 'es' ? 'es' : 'en'; touched = true; }
   if(p.has('sec')){ const i = DATA.findIndex(h => slugOf(h) === p.get('sec')); state.sec = i >= 0 ? String(i) : 'all'; touched = true; }
-  if(p.has('near')){ const c = NEAR.find(x => x.toLowerCase() === p.get('near').toLowerCase()); state.near = c || ''; touched = true; }
+  if(p.has('near')){ const c = COUNTY.find(x => x.toLowerCase() === p.get('near').toLowerCase()); state.near = c || ''; touched = true; }
   if(p.has('q')){ state.q = p.get('q') || ''; touched = true; }
   return touched;
 }
@@ -406,8 +416,11 @@ function renderNear(){
   const t = T();
   nearEl.innerHTML = `<span class="mv-near-label">${iconPin}${esc(t.nearLabel)}</span>`
     + `<button class="mv-chip" type="button" data-near="" aria-pressed="${!state.near}">${esc(t.nearAll)}</button>`
-    + NEAR.map(c => `<button class="mv-chip" type="button" data-near="${esc(c)}" aria-pressed="${state.near === c}">${esc(c)}</button>`).join('');
+    + NEAR.map(c => `<button class="mv-chip" type="button" data-near="${esc(c)}" aria-pressed="${state.near === c}">${esc(c)}</button>`).join('')
+    + (MORE.length ? `<select class="mv-more${MORE.includes(state.near) ? ' mv-on' : ''}" id="mv-more" aria-label="${esc(t.more)}"><option value="">${esc(t.more)}</option>${MORE.map(c => `<option value="${esc(c)}"${state.near === c ? ' selected' : ''}>${esc(c)}</option>`).join('')}</select>` : '');
   nearEl.querySelectorAll('.mv-chip').forEach(b => b.addEventListener('click', () => { state.near = b.dataset.near; update(true); }));
+  const moreSel = $('mv-more');
+  if(moreSel) moreSel.addEventListener('change', () => { state.near = moreSel.value; update(true); });
   const note = $('mv-near-note');
   note.hidden = !state.near;
   if(state.near) note.textContent = t.nearNote(state.near);
@@ -473,6 +486,18 @@ function updateParallax(){
 }
 results.addEventListener('scroll', () => { if(!reduced && !ticking){ ticking = true; requestAnimationFrame(updateParallax); } }, {passive:true});
 
+function emptyHtml(){
+  const t = T();
+  const inNear = state.near ? DATA.reduce((n, h1) => n + h1.subsections.reduce((m, h2) => m + h2.entries.filter(e => e._cities.has(state.near)).length, 0), 0) : 1;
+  if(state.near && !inNear){
+    const alt = (NEARBY[state.near] || ['Las Cruces']).filter(c => cityCounts[c]);
+    return `<div class="mv-empty"><p>${esc(t.emptyNear(state.near))}</p><div class="mv-empty-actions">`
+      + alt.map(c => `<button class="mv-chip" type="button" data-near="${esc(c)}">${esc(c)} (${cityCounts[c]})</button>`).join('')
+      + `<button class="mv-chip" type="button" data-near="">${esc(t.showAll)}</button></div></div>`;
+  }
+  return `<div class="mv-empty">${esc(t.empty)}</div>`;
+}
+
 function renderResults(animate){
   const t = T();
   const reveal = animate && !reduced && !!revealObserver;
@@ -507,7 +532,8 @@ function renderResults(animate){
     });
     html += `</section>`;
   });
-  results.innerHTML = shown ? html : `<div class="mv-empty">${esc(t.empty)}</div>`;
+  results.innerHTML = shown ? html : emptyHtml();
+  results.querySelectorAll('.mv-empty .mv-chip').forEach(b => b.addEventListener('click', () => { state.near = b.dataset.near; update(true); }));
   $('mv-count').textContent = shown;
   $('mv-scope').textContent = state.sec === 'all' ? t.allCats : h1Title(DATA[+state.sec]);
 
