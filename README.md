@@ -84,3 +84,7 @@ If the printed guide changes, re-run `build.py all` against the new PDFs and rev
 ## Data notes
 
 The data comes from a printed publication that is reviewed by MVEDA staff; entries can be out of date between editions. Contact details were spot-checked against each organization's own website in October 2026.
+
+## Copyright
+
+(c) 2026 Mesilla Valley Economic Development Alliance (MVEDA). All rights reserved. This repository is visible for hosting and maintaining the interactive guide only; see [LICENSE](LICENSE). Logos and names belong to their owners.
